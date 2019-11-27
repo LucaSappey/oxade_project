@@ -1,0 +1,138 @@
+{% extends 'base_vitrine.html' %}
+{% load staticfiles %}
+
+{% block seo %}
+<meta name="Description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:title" content="Oxade | Digitalisation">
+<title>Oxade | Digitalisation</title>
+
+<link rel="stylesheet" type="text/css" href="{% static 'vitrine/css/offres.css' %}">
+<script src="https://kit.fontawesome.com/b7aa201f58.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet"> 
+
+{% endblock %}
+
+{% block content %}
+
+<section class="hero-wrap hero-wrap-2 fond-defense">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row no-gutters slider-text align-items-center justify-content-center">
+			<div class="col-md-9 ftco-animate text-center">
+				<h1 class="mb-2 bread">Digitalisation</h1>
+				<p class="breadcrumbs">
+					<span class="mr-2">
+						<a aria-label="Offres"href="{% url 'index_vitrine' %}#offres">Offres<i class="fas fa-chevron-right"></i></a>
+					</span>
+					<span>Digitalisation<i class="fas fa-chevron-right"></i></span>
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="ftco-section ftco-no-pb" >
+	<div class="container">
+		<div class="row d-flex">
+			<div class="col-md-5 order-md-last wrap-about align-items-stretch">
+				<div class="wrap-about-border ftco-animate">
+					<picture>
+						<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_digital.webp' %}">
+						<source type="image/png" srcset="{% static 'vitrine/img/logo_digital.png' %}">
+						<img src="{% static 'vitrine/img/logo_digital.png' %}" alt="logo_digital" class="img_offres_secteurs"> 
+					</picture>
+					 
+					<div class="text">
+						<h3>Notre vision et notre ambition</h3>
+						<p>
+							Les nouvelles technologies, l’évolution des usages et comportements et les nouveaux modèles sous-jacents provoquent des ruptures : les champs concurrentiels évoluent, la vitesse et l’expérience client deviennent des facteurs clés de performance et la transformation, qu’on l’appelle digitale ou non, est devenue une nécessité.
+						</p>
+						<p>
+							Elle suscite encore néanmoins beaucoup d’interrogations. 
+						</p>
+						<p>
+							<a aria-label="Contactez-nous"href="{% url 'contact' %}" class="btn btn-primary py-3 px-4">Contactez-nous</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-7 wrap-about pr-md-4 ftco-animate">
+				<h2 class="mb-4">Mise en place de plusieurs leviers</h2>
+				<p>
+					La digitalisation de notre économie amène les entreprises et organisations à repenser leurs stratégies tant internes qu’externes. Les gains pour l’entreprise peuvent s’avérer nombreux, mais cette modernisation implique de réorganiser celle-ci en profondeur et repenser la gestion de l’information et des compétences.
+				</p>
+				<div class="row mt-5">
+					<div class="col-lg-6">
+						<div class="services text-center">
+							<div class="icon mt-2 d-flex justify-content-center align-items-center">
+								<picture>
+									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_acquisition.webp' %}">
+									<source type="image/png" srcset="{% static 'vitrine/img/logo_acquisition.png' %}">
+									<img src="{% static 'vitrine/img/logo_acquisition.png' %}" alt="logo_acquisition" style="    width: 354px;margin-top: -89px;margin-bottom: -143px;">
+								</picture>
+								
+							</div>
+							<div class="text media-body">
+								<h3>Acquisition</h3>
+								<p>
+									Traitement & publication de l'information
+								</p>
+							</div>
+						</div>
+						<div class="services text-center">
+							<div class="icon mt-2 d-flex justify-content-center align-items-center">
+								<picture>
+									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_interactions.webp' %}">
+									<source type="image/png" srcset="{% static 'vitrine/img/logo_interactions.png' %}">
+									<img src="{% static 'vitrine/img/logo_interactions.png' %}" alt="logo_interactions" style="width: 354px;margin-top: -124px;margin-bottom: -102px;">
+								</picture>
+								
+							</div>
+							<div class="text media-body">
+								<h3>Intéractions</h3>
+								<p>
+									Simplification des interactions avec vos clients
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="services text-center">
+							<div class="icon mt-2 d-flex justify-content-center align-items-center">
+								<picture>
+									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_optimisation.webp' %}">
+									<source type="image/png" srcset="{% static 'vitrine/img/logo_optimisation.png' %}">
+									<img src="{% static 'vitrine/img/logo_optimisation.png' %}" alt="logo_optimisation" style="    width: 119px;margin-top: -12px;margin-bottom: -37px;">
+								</picture>
+								
+							</div>
+							<div class="text media-body">
+								<h3>Optimisation</h3>
+								<p>
+									De l'experience client sur tout le parcours
+								</p>
+							</div>
+						</div>
+						<div class="services text-center">
+							<div class="icon mt-2 d-flex justify-content-center align-items-center">
+								<picture>
+									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_personnalisation.webp' %}">
+									<source type="image/png" srcset="{% static 'vitrine/img/logo_personnalisation.png' %}">
+									<img src="{% static 'vitrine/img/logo_personnalisation.png' %}" alt="logo_personnalisation" style="width: 126px;margin-top: -21px;margin-bottom: -20px;">
+								</picture>
+								
+							</div>
+							<div class="text media-body">
+								<h3>Personnalisation</h3>
+								<p>
+									De vos offres et de tout le cyle de vente
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+{% endblock %}

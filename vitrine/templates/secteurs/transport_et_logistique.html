@@ -1,0 +1,93 @@
+{% extends 'base_vitrine.html' %}
+{% load staticfiles %}
+
+{% block seo %}
+<meta name="Description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:title" content="Oxade | Transport & logistique">
+<title>Oxade | Transport & logistique</title>
+
+<link rel="stylesheet" type="text/css" href="{% static 'vitrine/css/secteurs.css' %}">
+<script src="https://kit.fontawesome.com/b7aa201f58.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet"> 
+{% endblock %}
+
+{% block content %}
+
+<!-- Accompagnement depuis de très nombreuses années des acteurs de la mobilité, des infrastructures, du fret et de la logistique au travers d’approches adaptées et innovantes. -->
+		<section class="hero-wrap hero-wrap-2 fond-defense">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row no-gutters slider-text align-items-center justify-content-center">
+					<div class="col-md-9 ftco-animate text-center">
+						<h1 class="mb-2 bread">Transport & logistique</h1>
+						<p class="breadcrumbs">
+							<span class="mr-2">
+								<a aria-label="Secteurs" href="{% url 'index_vitrine' %}#secteurs">Secteurs<i class="fas fa-chevron-right"></i></a>
+							</span>
+							<span>Transport & logistique<i class="fas fa-chevron-right"></i></span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="ftco-section ftco-no-pb">
+			<div class="container">
+				<div class="row d-flex">
+					<div class="col-md-7 wrap-about pr-md-4 ftco-animate">
+						<h2 class="mb-4">Vos enjeux</h2>
+						<p>
+							Le secteur des transports et de la logistique connaît une révolution conduisant ses acteurs à relever d’importants défis et à innover dans leurs modèles économiques. Cela concerne tant les opérateurs de mobilité, que les gestionnaires d’infrastructures, transporteurs, logisticiens, institutions publiques, ou encore les pôles d’échanges. </br></br>
+							
+							
+							La multi-modalité et l’interopérabilité apparaissent comme des enjeux essentiels pour la satisfaction client. Les nouvelles technologies offrent la possibilité de redéfinir une relation privilégiée. Le développement de la téléphonie et de la mobilité entrainent un besoin d’information en temps réel et nécessitent des données fiabilisées. </br></br>
+
+							Le marché se reconfigure progressivement avec l’arrivée de nouveaux acteurs et des opérateurs. Ces derniers tendent à se positionner sur l’ensemble des modes de transport. Ainsi ils recherchent la plus grande intégration possible pour répondre aux attentes des usagers et clients, sans perdre en traçabilité.</br></br>
+
+							Le secteur fait face à un triple enjeu en termes de ressources humaines. Premièrement, il s’agit d’une part d’un monde doté de personnels nombreux, certains peu qualifiés mais dans le même temps dotés de compétences rares. D’autre part d’un domaine où l’attractivité, le développement professionnel ou encore l’essor de nouveaux métiers (gestion de la donnée…) restent au cœur des préoccupations. Enfin c'est un secteur où les personnels sont amenés à offrir aux clients et usagers une relation de service de plus en plus performante et incarnée, au travers d’une réponse personnalisée et adaptée à la multiplicité des besoins et attentes de leurs interlocuteurs.</br> 
+						</p>
+
+
+					</div>
+					<div class="col-md-5 order-md-last wrap-about align-items-stretch">
+						<div class="wrap-about-border ftco-animate">
+							<picture>
+								<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_logistique.webp' %}">
+								<source type="image/png" srcset="{% static 'vitrine/img/logo_logistique.png' %}">
+								<img src="{% static 'vitrine/img/logo_logistique.png' %}" alt="logo_logistique" class="img_offres_secteurs" style="    width: calc(100%);">
+							</picture>
+							
+							<div class="text">
+								<h3>Notre vision et notre ambition</h3>
+								<p>
+									Oxade Consulting accompagne depuis plusieurs années les différentes typologies d’acteurs -autorités organisatrices de transports, exploitants, gestionnaires d’infrastructure, pouvoirs publics- du Transport dans la conception et la mise en œuvre de systèmes d’information intégrant les différents enjeux métiers.
+								</p>
+								<p>
+									<a aria-label="Contactez-nous" href="{% url 'contact' %}" class="btn btn-primary py-3 px-4">Contactez-nous</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="ftco-counter" style="padding-bottom: 0">
+	<div class="container">
+		<div class="row justify-content-center mb-5 pb-2 d-flex">
+			<div class="col-md-6 align-items-stretch d-flex">
+				<div class="img img-video d-flex align-items-center fond-defense">
+					<div class="video justify-content-center">
+						<a href="https://www.youtube.com/watch?v=BnrDJq1V4bw" class="icon-video popup-vimeo d-flex justify-content-center align-items-center"><i class="fas fa-play-circle play_button"></i></a></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 heading-section ftco-animate pl-lg-5 pt-md-0 pt-5 fadeInUp ftco-animated">
+				<h2 class="mb-4">Lorem ipsum dolor sit amet </h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur odio quam, sollicitudin at molestie ut, luctus ac enim. Suspendisse egestas lacinia dolor a sollicitudin. Donec efficitur, felis ac scelerisque semper, massa lorem facilisis lacus, eget faucibus sapien diam ut ex. Donec quis mattis odio, in fringilla elit.Ut accumsan felis a est fringilla hendrerit. Mauris ornare elit ac diam sagittis faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur odio quam, sollicitudin at molestie ut, luctus ac enim. 
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+{% endblock %}

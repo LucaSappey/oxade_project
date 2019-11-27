@@ -1,0 +1,111 @@
+{% extends 'base_vitrine.html' %}
+{% load staticfiles %}
+
+{% block seo %}
+<meta name="Description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:title" content="Oxade | Banque ">
+<title>Oxade | Banque </title>
+
+<link rel="stylesheet" type="text/css" href="{% static 'vitrine/css/secteurs.css' %}">
+<script src="https://kit.fontawesome.com/b7aa201f58.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet"> 	
+{% endblock %}
+
+{% block content %}
+
+<style type="text/css">
+	.img_offres_secteurs{
+	width: 275px; 
+	margin-left: auto ;
+	margin-right: auto;
+	margin-bottom: 59px;
+	margin-top: 33px;
+	display: block;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.img_offres_secteurs{
+	width: 222px; 
+	}
+}
+
+</style>
+
+		<section class="hero-wrap hero-wrap-2 fond-defense">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row no-gutters slider-text align-items-center justify-content-center">
+					<div class="col-md-9 ftco-animate text-center">
+						<h1 class="mb-2 bread">Banque</h1>
+						<p class="breadcrumbs">
+							<span class="mr-2">
+								<a aria-label="Secteurs" href="{% url 'index_vitrine' %}#secteurs">Secteurs<i class="fas fa-chevron-right"></i></a>
+							</span>
+							<span>Banque<i class="fas fa-chevron-right"></i></span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="ftco-section ftco-no-pb">
+			<div class="container">
+				<div class="row d-flex">
+					<div class="col-md-7 wrap-about pr-md-4 ftco-animate">
+						<h2 class="mb-4">Vos enjeux</h2>
+						<p>
+							À l'heure actuelle, outre le Brexit, le secteur bancaire français est confronté à trois défis majeurs. </br></br>
+
+							En premier lieu, un édifice réglementaire qui tend à fortement s’enrichir. Par ailleurs, le secteur doit s'adapter à l’accélération des transformations portées par les technologies numériques qui viennent profondément réinventer les parcours client et la mise en musique des processus internes des établissements bancaires. Enfin, ses pratiques managériales s’inscrivent dans un environnement RH caractérisé par un renouvellement des générations et un cadre d’intervention particulièrement normé. </br></br>
+
+							Organisation des marchés, connaissance et information des clients, maîtrise des risques, protection des données personnelles, distribution de l’assurance mais aussi rémunération des produits d’investissement… Les nombreux enjeux de conformité sont à la source de multiples et nouvelles réglementations bancaires. Parmi elles : Bâle III, IFRS 9, ANACREDIT, MIF2, PRIIPs, IDD, RGPD, DSP2, Sapin II. À l'instar de celle en cours des autorités de contrôle européennes, elles sont couplées à diverses réformes.</br> </br>
+
+							L’intelligence artificielle se met également au service de la banque. Elle le fait, par exemple, par l'intermédiaire de robots arbitres en banque privée. L’année 2018 est celle de l’avènement de la blockchain, technologie considérée à court terme comme une opportunité par les banques. Le secteur souhaite en effet s’en servir pour accélérer et sécuriser certains processus. C'est par exemple le cas du transfert, du stockage, des échanges et de la gestion d’actifs financiers.</br></br>
+						</p>
+
+
+					</div>
+					<div class="col-md-5 order-md-last wrap-about align-items-stretch">
+						<div class="wrap-about-border ftco-animate">
+							<picture>
+								<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_banque.webp' %}">
+								<source type="image/png" srcset="{% static 'vitrine/img/logo_banque.png' %}">
+								<img src="{% static 'vitrine/img/logo_banque.png' %}" alt="logo_banque" class="img_offres_secteurs">
+							</picture>
+							
+							<div class="text">
+								<h3>Notre vision et notre ambition</h3>
+								<p>
+									Dans le même temps, la plus grande volatilité des marchés, l’écrêtement, l’essor des fintechs, poussent le secteur à évoluer vers plus d’agilité mais aussi de proactivité. Par ailleurs, les postures et pratiques managériales, le fonctionnement en équipe ou en mode projet sont autant d’enjeux que les banques doivent relever dès maintenant.
+								</p>
+								<p>
+									<a aria-label="Contactez-nous" href="{% url 'contact' %}" class="btn btn-primary py-3 px-4">Contactez-nous</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+ 
+<section class="ftco-counter" style="padding-bottom: 0">
+	<div class="container">
+		<div class="row justify-content-center mb-5 pb-2 d-flex">
+			<div class="col-md-6 align-items-stretch d-flex">
+				<div class="img img-video d-flex align-items-center fond-defense">
+					<div class="video justify-content-center">
+						<a href="https://www.youtube.com/watch?v=BnrDJq1V4bw" class="icon-video popup-vimeo d-flex justify-content-center align-items-center"><i class="fas fa-play-circle play_button"></i></a></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 heading-section ftco-animate pl-lg-5 pt-md-0 pt-5 fadeInUp ftco-animated">
+				<h2 class="mb-4">Lorem ipsum dolor sit amet </h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur odio quam, sollicitudin at molestie ut, luctus ac enim. Suspendisse egestas lacinia dolor a sollicitudin. Donec efficitur, felis ac scelerisque semper, massa lorem facilisis lacus, eget faucibus sapien diam ut ex. Donec quis mattis odio, in fringilla elit.Ut accumsan felis a est fringilla hendrerit. Mauris ornare elit ac diam sagittis faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur odio quam, sollicitudin at molestie ut, luctus ac enim. 
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+{% endblock %}

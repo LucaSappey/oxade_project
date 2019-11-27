@@ -1,0 +1,42 @@
+
+a
+{
+text-decoration:none}
+
+@font-face
+{
+	font-family:spinnaker;
+	src:url(../fonts/spinnaker.woff2);
+font-display:swap}
+
+@font-face
+{
+	font-family:helvetica;
+	src:url(../fonts/Helvetica.woff);
+font-display:swap}
+
+@font-face
+{
+	font-family:Lulo_Clean_W01_One_Bold;
+	src:url('../fonts/Lulo Clean W01 One Bold.woff2');
+font-display:swap}
+
+@font-face
+{
+	font-family:Montserrat;
+	src:url(../fonts/montserrat-v14-latin-regular.woff2);
+font-display:swap}
+
+@font-face
+{
+	font-family:Poppins;
+	src:url(../fonts/poppins-v8-latin-regular.woff2);
+font-display:swap}
+
+
+.container
+{
+	width:98%;
+	margin-right:auto;
+margin-left:auto}
+

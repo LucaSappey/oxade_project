@@ -1,0 +1,94 @@
+{% extends 'base_vitrine.html' %}
+{% load staticfiles %}
+
+{% block seo %}
+<meta name="Description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:title" content="Oxade | Télécommunications">
+<title>Oxade | Télécommunications</title>
+
+<link rel="stylesheet" type="text/css" href="{% static 'vitrine/css/secteurs.css' %}">
+<script src="https://kit.fontawesome.com/b7aa201f58.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet"> 
+{% endblock %}
+
+{% block content %}
+
+
+<!-- Accompagnement des acteurs du secteur des télécommunications dans leur transformation humaine et opérationnelle. Les consultants du cabinet interviennent sur les évolutions des compétences, modes de fonctionnement et métiers des opérateurs, en particulier de l'opérateur historique. En effet, cela constitue en soi un enjeu stratégique. -->
+		<section class="hero-wrap hero-wrap-2 fond-defense">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row no-gutters slider-text align-items-center justify-content-center">
+					<div class="col-md-9 ftco-animate text-center">
+						<h1 class="mb-2 bread">Télécommunications</h1>
+						<p class="breadcrumbs">
+							<span class="mr-2">
+								<a aria-label="Secteurs" href="{% url 'index_vitrine' %}#secteurs">Secteurs<i class="fas fa-chevron-right"></i></a>
+							</span>
+							<span>Télécommunications<i class="fas fa-chevron-right"></i></span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="ftco-section ftco-no-pb">
+			<div class="container">
+				<div class="row d-flex">
+					<div class="col-md-7 wrap-about pr-md-4 ftco-animate">
+						<h2 class="mb-4">Vos enjeux</h2>
+						<p>
+							Les opérateurs de télécommunications traditionnels sont à la croisée des chemins. D’une part, ils ont vu des nouveaux services OTT développer de nouveaux marchés lucratifs grâce à leurs réseaux sans que ceux-ci ne partagent leurs avantages économiques. </br></br> 
+							
+							
+							D’autre part, le coût d’entretien de ces réseaux sera prochainement multiplié en raison du déploiement de la nouvelle norme 5G et de la prise en charge de l’Internet des objets. De plus en plus, les acteurs du secteur des télécoms cherchent à développer de nouvelles sources de revenus dans le domaine encore en devenir des applications et services logiciels. </br></br> 
+
+							Les réseaux grand public font face à des problématiques de montée en débit et de couverture. Au même temps, l’émergence de nouveaux marchés dans l’Internet des objets crée l’opportunité de constitution de réseaux télécoms de bas débit aux couverture plus universelles et à l’empreinte géographique mondiale. Il est indéniable que cela constitue peut-être un relai de croissance pour des opérateurs de point hauts hertziens terrestres ou satellites.</br> </br> 
+
+							Les technologies big data de collecte, de stockage et d’analyse des données ouvrent en effet le champ à de nouvelles opportunités. Par exemple, l'utilisation des données issues du réseaux, des connexions à des plateformes mais aussi des objets connectés.</br>
+						</p>
+
+
+					</div>
+					<div class="col-md-5 order-md-last wrap-about align-items-stretch">
+						<div class="wrap-about-border ftco-animate">
+							<picture>
+								<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_telecom.webp' %}">
+								<source type="image/png" srcset="{% static 'vitrine/img/logo_telecom.png' %}">
+								<img src="{% static 'vitrine/img/logo_telecom.png' %}" alt="logo_telecom" class="img_offres_secteurs">
+							</picture>
+							
+							<div class="text">
+								<h3>Notre vision et notre ambition</h3>
+								<p>
+									Création de nouveaux groupes audiovisuels, diversification des usages et des supports, multiplication des sources de revenus, dématérialisation et protection des contenus sont autant de challenges pour nos clients dans un contexte concurrentiel fort et incertain.
+								</p>
+								<p>
+									<a aria-label="Contactez-nous" href="{% url 'contact' %}" class="btn btn-primary py-3 px-4">Contactez-nous</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="ftco-counter" style="padding-bottom: 0">
+	<div class="container">
+		<div class="row justify-content-center mb-5 pb-2 d-flex">
+			<div class="col-md-6 align-items-stretch d-flex">
+				<div class="img img-video d-flex align-items-center fond-defense">
+					<div class="video justify-content-center">
+						<a href="https://www.youtube.com/watch?v=BnrDJq1V4bw" class="icon-video popup-vimeo d-flex justify-content-center align-items-center"><i class="fas fa-play-circle play_button"></i></a></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 heading-section ftco-animate pl-lg-5 pt-md-0 pt-5 fadeInUp ftco-animated">
+				<h2 class="mb-4">Lorem ipsum dolor sit amet </h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur odio quam, sollicitudin at molestie ut, luctus ac enim. Suspendisse egestas lacinia dolor a sollicitudin. Donec efficitur, felis ac scelerisque semper, massa lorem facilisis lacus, eget faucibus sapien diam ut ex. Donec quis mattis odio, in fringilla elit.Ut accumsan felis a est fringilla hendrerit. Mauris ornare elit ac diam sagittis faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur odio quam, sollicitudin at molestie ut, luctus ac enim. 
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+{% endblock %}

@@ -1,0 +1,109 @@
+{% extends 'base_vitrine.html' %}
+{% load staticfiles %}
+
+{% block seo %}
+<meta name="Description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:title" content="Oxade | Energie">
+<title>Oxade | Energie</title>
+
+<link rel="stylesheet" type="text/css" href="{% static 'vitrine/css/secteurs.css' %}">
+<script src="https://kit.fontawesome.com/b7aa201f58.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet"> 	
+{% endblock %}
+
+{% block content %}
+
+<style type="text/css">
+	.img_offres_secteurs_energie{
+	width: 252px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: block;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.img_offres_secteurs_energie{
+	width: 222px; 
+	}
+}
+
+</style>
+<!--Oxade Consulting développe des solutions innovantes pour accompagner les transformations majeures des grands acteurs français et européens du secteur de l'énergie. Nos équipes les accompagnent dans les évolutions stratégiques et réglementaires mais aussi dans la transformation des organisations.  -->
+		<section class="hero-wrap hero-wrap-2 fond-defense">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row no-gutters slider-text align-items-center justify-content-center">
+					<div class="col-md-9 ftco-animate text-center">
+						<h1 class="mb-2 bread">Energie</h1>
+						<p class="breadcrumbs">
+							<span class="mr-2">
+								<a aria-label="Secteurs" href="{% url 'index_vitrine' %}#secteurs">Secteurs<i class="fas fa-chevron-right"></i></a>
+							</span>
+							<span>Energie<i class="fas fa-chevron-right"></i></span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="ftco-section ftco-no-pb">
+			<div class="container">
+				<div class="row d-flex">
+					<div class="col-md-7 wrap-about pr-md-4 ftco-animate">
+						<h2 class="mb-4">Vos enjeux</h2>
+						<p>
+							Les prix bas du pétrole ont limité les opérations d’exploration et de production du secteur pétrolier et gazier impactant ainsi les revenus des producteurs traditionnels. </br></br>
+
+							L’intérêt se tourne de plus en plus vers les sources d’énergie renouvelables comme l’éolien et le solaire. Dans le même temps, les investissements dans le nucléaire augmentent partout dans le monde. Ils concernent aussi bien les nouvelles installations que le marché potentiel du démantèlement. Pendant ce temps, la transformation numérique révolutionne toute la chaîne de valeur énergétique et met au défi les acteurs d’améliorer leurs performances et de générer de nouvelles sources de revenus.</br></br>
+
+							La question du financement et de la stratégie industrielle pour développer les énergies renouvelables est plus que jamais d’actualité. Leur coût est encore nettement supérieur à celui des énergies fossiles ou nucléaire. Compte tenu des besoins de prolongation, voire de renouvellement du parc nucléaire, la question du mix énergétique se pose plus que jamais.</br></br>
+
+
+							La sécurité d’approvisionnement est au cœur des débats pour les gestionnaires de réseau européens. En effet, de l’optimisation des interconnexions électriques tend à assurer un meilleur équilibrage. De même, elle assure le développement du stockage de gaz pour limiter le risque de pénurie.
+						</p>
+
+
+					</div>
+					<div class="col-md-5 order-md-last wrap-about align-items-stretch">
+						<div class="wrap-about-border ftco-animate">
+							<picture>
+								<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_energie.webp' %}">
+								<source type="image/png" srcset="{% static 'vitrine/img/logo_energie.png' %}">
+								<img src="{% static 'vitrine/img/logo_energie.png' %}" alt="logo_energie" class="img_offres_secteurs">
+							</picture>
+							
+							<div class="text">
+								<h3>Notre vision et notre ambition</h3>
+								<p>
+									La fin des tarifs réglementés va accélérer l’ouverture à la concurrence de la fourniture d’électricité, et plus rapidement de gaz. De la même façon, l’arrivée de Linky et Gazpar va porter de nouvelles offres tarifaires. Elle va également entraîner une évolution des besoins et des comportements des consommateurs.
+								</p>
+								<p>
+									<a aria-label="Contactez-nous" href="{% url 'contact' %}" class="btn btn-primary py-3 px-4">Contactez-nous</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="ftco-counter" style="padding-bottom: 0">
+	<div class="container">
+		<div class="row justify-content-center mb-5 pb-2 d-flex">
+			<div class="col-md-6 align-items-stretch d-flex">
+				<div class="img img-video d-flex align-items-center fond-defense">
+					<div class="video justify-content-center">
+						<a href="https://www.youtube.com/watch?v=BnrDJq1V4bw" class="icon-video popup-vimeo d-flex justify-content-center align-items-center"><i class="fas fa-play-circle play_button"></i></a></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 heading-section ftco-animate pl-lg-5 pt-md-0 pt-5 fadeInUp ftco-animated">
+				<h2 class="mb-4">Lorem ipsum dolor sit amet </h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur odio quam, sollicitudin at molestie ut, luctus ac enim. Suspendisse egestas lacinia dolor a sollicitudin. Donec efficitur, felis ac scelerisque semper, massa lorem facilisis lacus, eget faucibus sapien diam ut ex. Donec quis mattis odio, in fringilla elit.Ut accumsan felis a est fringilla hendrerit. Mauris ornare elit ac diam sagittis faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur odio quam, sollicitudin at molestie ut, luctus ac enim. 
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+{% endblock %}

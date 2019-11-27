@@ -1,0 +1,470 @@
+{% extends 'base_vitrine.html' %} 
+{% load staticfiles %}
+
+{% block seo %}
+<meta name="Description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:title" content="Oxade | Oxade Consulting">
+<title>OXADE Consulting - Conseil stratégique et opérationnel en Systèmes d'Information</title>
+
+<link rel="stylesheet" type="text/css" href="{% static 'vitrine/css/accueil.css' %}">
+<script src="https://kit.fontawesome.com/b7aa201f58.js" crossorigin="anonymous"></script>
+{% endblock %}
+
+{% block link %}
+{% endblock %}
+
+{% block content %}
+
+<style>
+@media (max-width: 991.98px){
+	.owl-carousel.home-slider .slider-item .slider-text h2{
+		font-size: 40px !important;
+	}
+}
+.owl-carousel.home-slider .slider-item .slider-text h2{
+	font-size: 60px;
+	color: #fff;
+	line-height: 1.2;
+	font-weight: 900;
+}
+
+@media screen and (max-width: 991.98px){
+	.owl-carousel{
+		display:none;
+	}
+	.carousel_tel{
+		display:block!important;
+	}
+}
+
+@media (max-width: 991.98px){
+#marg-t-acceuil-carrousel {
+    margin-top: 0px!important;
+}
+}
+
+@media screen and (max-width: 767px){
+	.textes_carousel{
+    text-align: center;
+    align-items: center;
+    margin-left: 0!important;
+    width: 100%!important;
+	}
+}
+
+@media screen and (max-width: 459px){
+	.sous_titre {
+    font-size: 11px!important;
+	}
+	.titre_accueil_tel {
+	    font-size: 32px!important;
+	}
+
+}
+
+.carousel_tel{
+	display:none;
+}
+
+.img_accueil{
+	width: 100%;
+    height: 615px;
+    object-fit: cover;
+    position: inherit;
+    filter: brightness(0.7);
+    z-index: 1;
+}
+
+.sous_titre{
+    font-size:14px;
+	font-weight:700;
+	text-transform:uppercase;
+}
+
+.textes_carousel{
+	position: absolute;
+	color: white;
+    height: 615px;
+    width: 92%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 8%;
+    z-index: 2;
+
+}
+
+.titre_accueil_tel{
+	font-size: 41px;
+    color: #fff;
+    line-height: 1.2;
+    font-weight: 900;
+    width: 80%;
+}
+
+/*.sous_titre {
+    font-size: 10px;
+}
+.titre_accueil_tel {
+    font-size: 26px;
+}
+</style>
+
+<section id="accueil-carrousel-tel" class="home-slider owl-carousel">
+	<div class="slider-item fond-webp">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
+				<div class="col-md-7 ftco-animate">
+					<span class="subheading">Le cœur de métier OXADE Consulting</span>
+					<h1 class="mb-4">Des services ciblés sur des missions de conseil stratégique</h1>
+					<p>
+						<a aria-label="Nos offres" href="#offres" class="btn btn-primary px-4 py-3 mt-3">Nos offres</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="slider-item fond-webp-2">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
+				<div class="col-md-7 ftco-animate">
+					<span class="subheading">Domaines fonctionnels</span>
+					<h2 class="mb-4 titre_accueil">Une maîtrise des grandes fonctions de l'Entreprise</h2>
+					<p>
+						<a aria-label="Nos secteurs" href="#secteurs" class="btn btn-primary px-4 py-3 mt-3">Nos secteurs</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="carousel_tel"> 
+
+	<div class="textes_carousel">
+		<span class="sous_titre">Le cœur de métier OXADE Consulting</span>
+		<h2 class="mb-4 titre_accueil_tel">Des services ciblés sur des missions de conseil stratégique</h2>
+		<p>
+			<a aria-label="Nos secteurs" href="#offres"  class="btn btn-primary px-4 py-3 mt-3">Nos offres</a>
+		</p>
+
+	</div>
+	
+	<picture>
+			<source type="image/webp" srcset="{% static 'vitrine/img/webp/fond_defense.webp' %}">
+			<source type="image/png" srcset="{% static 'vitrine/img/fond_defense.png' %}">
+			<img class="img_accueil" alt="fond_defense_tel" src ="{% static 'vitrine/img/fond_defense.png' %}">
+	</picture>
+	
+</section>
+
+<section id="marg-t-acceuil-carrousel" class="ftco-section">
+	<div class="container">
+		<div class="row d-flex">
+			<div class="col-md-12 wrap-about pr-md-4 ftco-animate">
+				<h2 id="secteurs" class="mb-4 titre_secteurs_index">Nos secteurs d'activités</h2>
+                <p class="titre_secteurs_index">
+                    OXADE Consulting se positionne en tant qu'Expert des Systèmes d'Information, en osmose avec l'Expertise Métier maîtrisée par les Clients. Cela grâce à un accompagnement des entreprises dans la construction ou la convergence de leur Système d'Information et de leur Système d'Information Décisionnel.
+                </p>
+				<div class="row mt-5">
+					<div class="col-lg-4">
+						<a aria-label="Banque" href="{% url 'banque' %}" class="services text-center">
+							<div class="icon mt-2 d-flex justify-content-center align-items-center">
+								<picture>
+									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_banque.webp' %}">
+									<source type="image/png" srcset="{% static 'vitrine/img/logo_banque.png' %}">
+									<img class="logo_banque" alt="logo-banque" src="{% static 'vitrine/img/logo_banque.png' %}">
+								</picture>
+							</div>
+							<div class="text media-body">
+								<h3>Banque</h3>
+								<p class="color_grey">
+									Dans un contexte où l’univers financier doit faire face à des bouleversements technologiques et culturels, nous vous apportons expérience, expertise et discernement
+								</p>
+							</div>
+						</a>
+						<a aria-label="Assurance" href="{% url 'assurance' %}" class="services text-center">
+							<div class="icon mt-2 d-flex justify-content-center align-items-center">
+								<picture>
+									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_assurance.webp' %}">
+									<source type="image/png" srcset="{% static 'vitrine/img/logo_assurance.png' %}">
+									<img style="width:47px; margin-bottom: 27px;" alt="logo-assurance"src="{% static 'vitrine/img/logo_assurance.png' %}">
+								</picture>
+							</div>
+							<div class="text media-body">
+								<h3>Assurance</h3>
+								<p class="color_grey">
+									Nous accompagnons les plus grands acteurs du secteur sur leurs enjeux de transformation. Notre conseil vous fait bénéficier des retours d'expériences de nos équipes
+								</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4">
+						<a aria-label="Public" href="{% url 'secteur_public' %}" class="services text-center">
+							<div class="icon mt-2 d-flex justify-content-center align-items-center">
+								<picture>
+									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_public.webp' %}">
+									<source type="image/png" srcset="{% static 'vitrine/img/logo_public.png' %}">
+									<img style="width:66px; margin-bottom: 9px;" alt="logo-public" src="{% static 'vitrine/img/logo_public.png' %}">
+								</picture>
+							</div>
+							<div class="text media-body">
+								<h3>Secteur public</h3>
+								<p class="color_grey">
+									Nos professionnels sont en capacité de mobiliser toutes les expertises conseil en management et conseil financier qui permettent d’appréhender les évolutions du secteur
+								</p>
+							</div>
+						</a>
+						<a aria-label="Energie" href="{% url 'energie' %}" class="services text-center">
+							<div class="icon mt-2 d-flex justify-content-center align-items-center">
+								<picture>
+									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_energie.webp' %}">
+									<source type="image/png" srcset="{% static 'vitrine/img/logo_energie.png' %}">
+									<img style="width:73px; margin-bottom: 9px;" alt="logo-energie" src="{% static 'vitrine/img/logo_energie.png' %}">
+								</picture>
+							</div>
+							<div class="text media-body">
+								<h3>Energie</h3>
+								<p class="color_grey">
+									Solutions innovantes pour accompagner les transformations majeures des grands acteurs français et européens du secteur de l'énergie, accompagnement dans les évolutions stratégique
+								</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4">
+						<a aria-label="Logistique" href="{% url 'transport_et_logistique' %}" class="services text-center">
+							<div class="icon mt-2 d-flex justify-content-center align-items-center">
+								<picture>
+									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_logistique.webp' %}">
+									<source type="image/png" srcset="{% static 'vitrine/img/logo_logistique.png' %}">
+									<img style="width:134px; margin-bottom: 7px;" alt="logo-logistique" src="{% static 'vitrine/img/logo_logistique.png' %}">
+								</picture>
+							</div>
+							<div class="text media-body">
+								<h3>Transport & logistique</h3>
+								<p class="color_grey">
+									Accompagnement depuis de très nombreuses années des acteurs de la mobilité, des infrastructures, du fret et de la logistique au travers d’approches adaptées et innovantes
+								</p>
+							</div>
+						</a>
+						<a aria-label="Telecom" href="{% url 'telecommunications' %}" class="services text-center">
+							<div class="icon mt-2 d-flex justify-content-center align-items-center">
+								<picture>
+									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_telecom.webp' %}">
+									<source type="image/png" srcset="{% static 'vitrine/img/logo_telecom.png' %}">
+									<img style="width:110px; margin-bottom: 7px;" alt="logo-telecom" src="{% static 'vitrine/img/logo_telecom.png' %}">
+								</picture>
+							</div>
+							<div class="text media-body">
+								<h3 >Télécommunications</h3>
+								<p class="color_grey">
+									Accompagnement des acteurs dans leur transformation humaine et opérationnelle. Les consultants interviennent sur les évolutions des compétences et métiers des opérateurs
+								</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="ftco-intro ftco-no-pb img fond-webp">
+	<div class="container">
+		<div class="row justify-content-center mb-5">
+			<div class="col-md-10 text-center heading-section heading-section-white ftco-animate">
+				<h2 class="mb-0">Nos chiffres clés</h2>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="ftco-counter" id="section-counter">
+	<div class="container">
+		<div class="row d-md-flex align-items-center justify-content-center">
+			<div class="wrapper">
+				<div class="row d-md-flex align-items-center">
+					{% for nombre in chiffre %}
+					<div class="col-md d-flex justify-content-center counter-wrap ftco-animate" style="text-align: center;">
+						<div class="block-18">
+							<div class="icon">
+								<span class="flaticon-doctor"></span>
+							</div>
+							<div class="text">
+								<strong class="number" data-number="{{ nombre.nombre }}">0</strong>
+								<span>{{ nombre.nom }}</span>
+							</div>
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="ftco-section">
+	<div class="container">
+		<div class="row justify-content-center mb-5 pb-2">
+			<div class="col-md-8 text-center heading-section ftco-animate">
+				<h2 id="offres" class="mb-4">Nos offres</h2>
+				<p>
+					Le cœur de métier d'OXADE Consulting et le savoir-faire de nos Consultants autour des problématiques de Systèmes d'Information, se décline sur plusieurs facettes
+				</p>
+			</div>
+		</div>
+		<div class="row no-gutters">
+			<a aria-label="Conduite du changement" href="{% url 'conduite_du_changement' %}" class="col-lg-4 d-flex test">
+				<div class="services-2 noborder-left text-center ftco-animate">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_conduite.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_conduite.png' %}">
+							<img style="width: 93px;margin-bottom: 28px;margin-top: -11px;" alt="logo-conduite" src="{% static 'vitrine/img/logo_conduite.png' %}">
+						</picture>
+					</div>
+					<div class="text media-body">
+						<h3>Conduite du changement</h3>
+						<p class="color_grey">
+							Bien gérée, elle peut occasionner une réduction des coûts, une amélioration de la qualité et un accroissement de la réactivité.
+						</p>
+					</div>
+				</div>
+			</a>
+			<a aria-label="Fusions et acquisitions" href="{% url 'fusions_et_acquisitions' %}" class="col-lg-4 d-flex test">
+				<div class="services-2 text-center ftco-animate">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_fusions.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_fusions.png' %}">
+							<img style="width: 111px; margin-bottom: 15px;" alt="logo-fusions" src="{% static 'vitrine/img/logo_fusions.png' %}">
+						</picture>
+					</div>
+					<div class="text media-body">
+						<h3>Fusions et acquisitions</h3>
+						<p class="color_grey">
+							Les opérations de Fusions & Acquisitions (F&A) sont longtemps restées l’apanage du monde de la Stratégie et de la Finance.
+						</p>
+					</div>
+				</div>
+			</a>
+			<a aria-label="Transformation" href="{% url 'transformation' %}" class="col-lg-4 d-flex test">
+				<div class="services-2 text-center ftco-animate">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_transformation.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_transformation.png' %}">
+							<img style="width: 111px; margin-bottom: 17px;" alt="logo-transformation" src="{% static 'vitrine/img/logo_transformation.png' %}">
+						</picture>
+					</div>
+					<div class="text media-body">
+						<h3>Transformation</h3>
+						<p class="color_grey">
+							Nous appuyons les directions projets et les instances dirigeantes pour faciliter le suivi de l’avancement et la prise de décisions.
+						</p>
+					</div>
+				</div>
+			</a>
+			<a aria-label="Sécurité" href="{% url 'securite' %}" class="col-lg-4 d-flex test">
+				<div class="services-2 noborder-left noborder-bottom text-center ftco-animate">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_securite.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_securite.png' %}">
+							<img style="width: 158px;margin-bottom: 7px;margin-top: -1px;" alt="logo-securite" src="{% static 'vitrine/img/logo_securite.png' %}">
+						</picture>
+					</div>
+					<div class="text media-body">
+						<h3>Sécurité</h3>
+						<p class="color_grey">
+							Découvrez comment nous avons réussi à simplifier la sécurité des accès au système d’information de votre établissement.
+						</p>
+					</div>
+				</div>
+			</a>
+			<a aria-label="Réglementaire" href="{% url 'reglementaire' %}" class="col-lg-4 d-flex test">
+				<div class="services-2 text-center noborder-bottom ftco-animate">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_reglementaire.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_reglementaire.png' %}">
+							<img style="width: 89px;margin-bottom: 4px;margin-top: 0px;" alt="logo-reglementaire" src="{% static 'vitrine/img/logo_reglementaire.png' %}">
+						</picture>
+					</div>
+					<div class="text media-body">
+						<h3>Réglementaire</h3>
+						<p class="color_grey">
+							En amont des projets et lors du cadrage, jusqu’à la mise en oeuvre SI et des reportings réglementaires, Oxade couvre l’ensemble du spectre de la réglementation des marchés financiers.
+						</p>
+					</div>
+				</div>
+			</a>
+			<a aria-label="Expérience client" href="{% url 'experience_client' %}" class="col-lg-4 d-flex test">
+				<div class="services-2 text-center noborder-bottom ftco-animate">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_experience-client.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_experience-client.png' %}">
+							<img style="width: 169px;margin-bottom: -3px;margin-top: -7px;" alt="logo-experience-client" src="{% static 'vitrine/img/logo_experience-client.png' %}">
+						</picture>
+					</div>
+					<div class="text media-body">
+						<h3>Expérience client</h3>
+						<p class="color_grey">
+							Intelligence stratégique et connaissance approfondie de ses clients les facteurs clés de la réussite des entreprises.
+						</p>
+					</div>
+				</div>
+			</a>
+			<a aria-label="Gestion de projets" href="{% url 'gestion_de_projets' %}" class="col-lg-4 d-flex test">
+				<div class="services-2 noborder-left noborder-bottom text-center ftco-animate">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_projets.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_projets.png' %}">
+							<img style="width: 101px;margin-bottom: 19px;margin-top: -16px;" alt="logo-projets" src="{% static 'vitrine/img/logo_projets.png' %}">
+						</picture>
+					</div>
+					<div class="text media-body">
+						<h3>Gestion de projets</h3>
+						<p class="color_grey">
+							Elle consiste à appliquer les méthodes, techniques, et outils de gestion spécifiques aux différentes étapes du projet, de l'évaluation de l'opportunité jusqu'à l'achèvement du projet.
+						</p>
+					</div>
+				</div>
+			</a>
+			<a aria-label="Digitaliation" href="{% url 'digitalisation' %}" class="col-lg-4 d-flex test">
+				<div class="services-2 text-center noborder-bottom ftco-animate">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_digital.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_digital.png' %}">
+							<img style="width: 116px;margin-bottom: -4px;margin-top: -35px;" alt="logo-digital" src="{% static 'vitrine/img/logo_digital.png' %}">
+						</picture>
+					</div>
+					<div class="text media-body">
+						<h3>Digitaliation</h3>
+						<p class="color_grey">
+							 Les entreprises du secteur financier mettent en œuvre les changements exigés par les nouvelles réglementations. Elles s’efforcent en même temps de réagir face à la croissance de la numérisation.
+						</p>
+					</div>
+				</div>
+			</a>
+			<a aria-label="En savoir plus" href="{% url 'contact' %}" class="col-lg-4 d-flex test">
+				<div class="services-2 text-center noborder-bottom ftco-animate">
+					<div style="margin-top: 118px;" class="text media-body">
+						<h3>En savoir plus</h3>
+					</div>
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_fleche.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_fleche.png' %}">
+							<img style="width: 52px;margin-bottom: 4px;margin-top: 0px;" alt="logo-fleche" src="{% static 'vitrine/img/logo_fleche.png' %}">
+						</picture>
+					</div>
+				</div>
+			</a>
+		</div>
+	</div>
+</section>
+{% endblock %}

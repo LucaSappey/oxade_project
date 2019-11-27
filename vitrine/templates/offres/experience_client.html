@@ -1,0 +1,140 @@
+{% extends 'base_vitrine.html' %}
+{% load staticfiles %}
+
+{% block seo %}
+<meta name="Description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:title" content="Oxade | Experience client">
+<title>Oxade | Experience client</title>
+
+<link rel="stylesheet" type="text/css" href="{% static 'vitrine/css/offres.css' %}">
+<script src="https://kit.fontawesome.com/b7aa201f58.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet"> 
+
+{% endblock %}
+
+{% block content %}
+
+
+
+
+<section class="hero-wrap hero-wrap-2 fond-defense">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row no-gutters slider-text align-items-center justify-content-center">
+			<div class="col-md-9 ftco-animate text-center">
+				<h1 class="mb-2 bread">Expérience client</h1>
+				<p class="breadcrumbs">
+					<span class="mr-2">
+						<a aria-label="Offres" href="{% url 'index_vitrine' %}#offres">Offres<i class="fas fa-chevron-right"></i></a>
+					</span>
+					<span>Expérience client <i class="fas fa-chevron-right"></i></span>
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="ftco-section ftco-no-pb">
+	<div class="container">
+		<div class="row d-flex">
+			<div class="col-md-5 order-md-last wrap-about align-items-stretch">
+				<div class="wrap-about-border ftco-animate">
+					<picture>
+						<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_experience-client.webp' %}">
+						<source type="image/png" srcset="{% static 'vitrine/img/logo_experience-client.png' %}">
+						<img src="{% static 'vitrine/img/logo_experience-client.png' %}" alt="experience-client" class="img_offres_secteurs"> 
+					</picture>
+					
+					<div class="text">
+						<h3>Notre vision et notre ambition</h3>
+						<p>
+							Placer le « client au cœur » a été l’ambition de nombreux plans stratégiques ces derniers temps.
+						</p>
+						<p>
+							Les domaines de mise en œuvre sont relativement larges et vont de la vision stratégique même, à la culture d’entreprise, en passant par les modèles opérationnels, les outils, les urbanisations système, … et, in fine les parcours client. 
+						</p>
+						<p>
+							<a aria-label="Contactez-nous" href="{% url 'contact' %}" class="btn btn-primary py-3 px-4">Contactez-nous</a>
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-7 wrap-about pr-md-4 ftco-animate">
+				<h2 class="mb-4">Nos réalisations</h2>
+				<p>
+					Nous sommes convaincus qu’un projet réussi est un projet qui place l’utilisateur au cœur de la réflexion. Pour garantir l’adoption de nouveaux services ou d’applications, il est indispensable d’offrir aux utilisateurs finaux une expérience fluide, simple et sans erreur. 
+				</p>
+				<div class="row mt-5">
+					<div class="col-lg-6">
+						<div class="services text-center">
+							<div class="icon mt-2 d-flex justify-content-center align-items-center">
+								<picture>
+									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_personas.webp' %}">
+									<source type="image/png" srcset="{% static 'vitrine/img/logo_personas.png' %}">
+									<img src="{% static 'vitrine/img/logo_personas.png' %}" alt="logo_personas" style="width: 144px;margin-top: -12px;margin-bottom: -34px;"> 
+								</picture>
+								
+							</div>
+							<div class="text media-body">
+								<h3>Personas</h3>
+								<p>
+									Imagination du panel de parcours utilisateurs à gérer
+								</p>
+							</div>
+						</div>
+						<div class="services text-center">
+							<div class="icon mt-2 d-flex justify-content-center align-items-center">
+								<picture>
+									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_maquette.webp' %}">
+									<source type="image/png" srcset="{% static 'vitrine/img/logo_maquette.png' %}">
+									<img src="{% static 'vitrine/img/logo_maquette.png' %}" alt="logo_maquette" style="width: 135px;margin-top: -23px;margin-bottom: -34px;">
+								</picture>
+							</div>
+							<div class="text media-body">
+								<h3>Maquette</h3>
+								<p>
+									Conception agile des maquettes d’interface
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="services text-center">
+							<div class="icon mt-2 d-flex justify-content-center align-items-center">
+								<picture>
+									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_prototypage.webp' %}">
+									<source type="image/png" srcset="{% static 'vitrine/img/logo_prototypage.png' %}">
+									<img src="{% static 'vitrine/img/logo_prototypage.png' %}" alt="logo_prototypage" style="width: 119px;margin-top: -18px;margin-bottom: -29px;">
+								</picture>
+								
+							</div>
+							<div class="text media-body">
+								<h3>Prototypage</h3>
+								<p>
+									Intégration des possibilités d’interactions
+								</p>
+							</div>
+						</div>
+						<div class="services text-center">
+							<div class="icon mt-2 d-flex justify-content-center align-items-center">
+								<picture>
+									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_architecture.webp' %}">
+									<source type="image/png" srcset="{% static 'vitrine/img/logo_architecture.png' %}">
+									<img src="{% static 'vitrine/img/logo_architecture.png' %}" alt="logo_architecture" style="width: 126px;margin-top: -18px;margin-bottom: -29px;">
+								</picture>
+								
+							</div>
+							<div class="text media-body">
+								<h3>Architecture</h3>
+								<p>
+									Prise en compte du choix des éléments à afficher.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+{% endblock %}

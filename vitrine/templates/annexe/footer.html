@@ -1,0 +1,126 @@
+{% load staticfiles %}
+
+{% block seo %}
+<link rel="stylesheet" type="text/css" href="{% static 'vitrine/css/footer.css' %}">
+{% endblock %}
+
+{% block content %}
+<footer class="ftco-footer ftco-bg-dark ftco-section">
+			<div class="container">
+				<div class="row mb-5">
+					<div class="col-md-6 col-lg-3 t-a-c">
+						<div class="ftco-footer-widget mb-5">
+							<h2 class="ftco-heading-2">Une question ?</h2>
+							<div class="block-23 mb-3">
+								<ul>
+									<li class="ml-mr">
+										<i class="fas fa-map-marker-alt icones_footer"></i>
+										<span class="text">10, rue Notre-Dame de Lorette - 75009 PARIS</span>
+									</li>
+									<li class="ml-mr">
+										<a aria-label="téléphone" href="tel:+33142829938">
+											<i class="fas fa-phone-alt icones_footer"></i> 
+											<span class="text">01 42 82 99 38 </span>
+										</a>
+									</li>
+									<li class="ml-mr">
+										<a aria-label="email" href="mailto:oxade@oxade.com" style="cursor: pointer;">
+											<i class="fas fa-envelope icones_footer"></i> 
+											<span class="text"><span class="__cf_email__" data-cfemail="a9c0c7cfc6e9d0c6dcdbcdc6c4c8c0c787cac6c4"><!--[email&#160;protected]--> oxade@oxade.com</span></span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3">
+						<div class="ftco-footer-widget mb-5">
+							<h2 class="ftco-heading-2 t-a-c">Événement récent</h2>
+							<div class="block-21 mb-4 d-flex js-se flex-center">
+								<a aria-label="Événements récents" class="blog-img mr-4 flex-center-img" style="margin-top: auto;margin-bottom: auto;height: 67px;width: 100px;">
+									<img style="width: 100px;" alt="discours" src="{{ evenement.img.url }}">
+								</a>
+								<div class="text" style="max-width: 300px;">
+									<h3 class="heading"><a aria-label="evenements" href="{% url 'evenements' %}">
+									{{ evenement.titre }}</a></h3>
+									<div class="meta">
+										<i class="fas fa-calendar-alt"></i>
+										<div>
+											<a aria-label="evenements" href="#"> {{ evenement.date|date:"d M Y" }}</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 t-a-c">
+						<div class="ftco-footer-widget mb-5 ml-md-4">
+							<h2 class="ftco-heading-2">Pages</h2>
+							<ul class="list-unstyled">
+								<li>
+									<a aria-label="Accueil" href="{% url 'index_vitrine' %}">Accueil</a>
+								</li>
+								<li>
+									<a aria-label="Secteurs" href="{% url 'index_vitrine' %}#secteurs">Secteurs</a>
+								</li>
+								<li>
+									<a aria-label="Offres" href="{% url 'index_vitrine' %}#offres">Offres</a>
+								</li>
+								<li>
+									<a aria-label="Événementiel" href="{% url 'evenements' %}">Événementiel</a>
+								</li>
+								<li>
+									<a aria-label="Contact" href="{% url 'contact' %}">Contact</a>
+								</li>
+								<li>
+									<a aria-label="Mentions légales" href="{% url 'mentions_legales' %}">Mentions légales</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-3 t-a-c">
+						<div class="ftco-footer-widget mb-5">
+							<h2 class="ftco-heading-2">Abonnez-vous !</h2>
+							<form id="form_abonnement" action="#" class="subscribe-form" method="POST"> {% csrf_token %}
+								<div class="form-group">
+									<label for="mail" style="opacity: 0">A</label>
+									<input type="email" id="mail" name="mail" class="form-control mb-2 text-center" placeholder="Entrer votre e-mail" autocomplete="off" required="" style="margin-top: -20px">
+									<label for="mail2" style="opacity: 0">Z</label>
+									<input type="submit" id="sv" name="sv" class="form-control submit px-3" style="margin-top: -25px;">
+								</div>
+							</form>
+						</div>
+						<div class="ftco-footer-widget mb-5">
+							<h2 class="ftco-heading-2 mb-0">Nos réseaux sociaux</h2>
+							<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+								<li class="ftco-animate">
+									<a aria-label="twitter" href="#"><i class="fab fa-twitter reseaux"></i></a>
+								</li>
+								<li class="ftco-animate">
+									<a aria-label="facebook" href="#"><i class="fab fa-facebook-f reseaux" style="margin-left: 12px;"></i></a>
+								</li>
+								<li class="ftco-animate">
+									<a aria-label="instagram" href="#"><i class="fab fa-instagram reseaux"></i></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<p>
+							&copy;Copyright 
+							
+							<script type="e0d04e41b890f86bba8f9763-text/javascript">
+								document.write(new Date().getFullYear());
+							</script>
+							 Oxade. Tous droits réservés. 
+							<!--<i class="icon-heart" aria-hidden="true"></i>
+							 by 
+							<a href="https://colorlib.com" target="_blank">Colorlib</a>-->
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+{% endblock %}

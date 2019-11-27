@@ -1,0 +1,203 @@
+
+{% extends 'base_vitrine.html' %}
+{% load staticfiles %}
+
+{% block seo %}
+<meta name="Description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:title" content="Oxade | Nous rejoindre ">
+<title>Oxade | Nous rejoindre </title>
+
+<link rel="stylesheet" type="text/css" href="{% static 'vitrine/css/contact.css' %}">
+<script src="https://kit.fontawesome.com/b7aa201f58.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+
+<section class="hero-wrap hero-wrap-2 fond-nous-rejoindre">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row no-gutters slider-text align-items-center justify-content-center">
+			<div class="col-md-9 ftco-animate text-center">
+				<h1 class="mb-2 bread">Nous rejoindre </h1>
+				<p class="breadcrumbs">
+					<span class="mr-2">
+						<a href="{% url 'index_vitrine' %}">Accueil <i class="fas fa-chevron-right"></i></a>
+					</span>
+					<span>Nous rejoindre <i class="fas fa-chevron-right"></i></span>
+				</p> 
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<style type="text/css">
+
+#conteneur
+{
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 767.98px){
+.element{
+	display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.div-b2-2{
+	width: 100%;
+    max-width: 601px;
+    height: 100%;
+    padding: 25px;
+}
+
+}
+
+
+@media (max-width: 767.98px){
+.ftco-counter .img-video {
+    height: 300px;
+    margin-bottom: 20px;
+}
+.element{
+	display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.div-b2-2{
+	width: 100%;
+    max-width: 601px;
+    height: 100%;
+}
+
+.draganddrop{
+	padding-top: 45px;
+    padding-left: 30px;
+    padding-bottom: 70px;
+}
+
+
+.block-9 h2 {
+    margin-bottom: 0px!important;
+}
+</style>
+
+<section class="ftco-section ftco-counter" style="padding-bottom: 0">
+	<div class="container">
+		<div class="row justify-content-center mb-5 pb-2 d-flex">
+			<div class="col-md-6 align-items-stretch d-flex">
+				<div class="img img-video d-flex align-items-center fond-defense">
+					<div class="video justify-content-center">
+						<a href="https://www.youtube.com/watch?v=BnrDJq1V4bw" class="icon-video popup-vimeo d-flex justify-content-center align-items-center"><i class="fas fa-play-circle play_button"></i></a></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 heading-section ftco-animate pl-lg-5 pt-md-0 pt-5 fadeInUp ftco-animated">
+				<h2 class="mb-4">Lorem ipsum dolor sit amet </h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur odio quam, sollicitudin at molestie ut, luctus ac enim. Suspendisse egestas lacinia dolor a sollicitudin. Donec efficitur, felis ac scelerisque semper, massa lorem facilisis lacus, eget faucibus sapien diam ut ex. Donec quis mattis odio, in fringilla elit.Ut accumsan felis a est fringilla hendrerit. Mauris ornare elit ac diam sagittis faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur odio quam, sollicitudin at molestie ut, luctus ac enim. 
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class=" contact-section padding_section">
+	<div class="container">
+		<h2 class="text-center">Bienvenue ! Merci de proposer votre candidature.</h2>
+		<div class="row block-9 justify-content-center mb-5" id="conteneur">
+				<form action="" method="POST" style="display: contents;"> {% csrf_token %}
+				    <div class="element">
+				    	<div class="div-b2-2">
+				    	<div class="bg-light p-5 contact-form">
+									<h2 class="text-center">Informations générales</h2>
+									<div class="form-group cases">
+										<label for="Nom" style="opacity: 0;">A</label>
+										<input id="Nom" name="nom" type="text" class="form-control" placeholder="Nom & Prénom*" required="">
+									</div>
+									<div class="form-group cases">
+										<label for="Email" style="opacity: 0;">A</label>
+										<input id="Email" name="email" type="email" class="form-control" placeholder="Email*" required="">
+									</div>
+									<div class="form-group cases">
+										<label for="tel" style="opacity: 0;">A</label>
+										<input id="tel" name="tel" type="tel" class="form-control" placeholder="Téléphone" required="">
+									</div>
+									
+								</div>
+							</div>
+				    </div>
+				    <div class="element">
+				    	<div class="div-b2-2">
+				    	<div class="bg-light p-5 contact-form">
+									<h2 class="text-center" style="margin-bottom: 0px;">CV / Lettre de motivation</h2>
+									<div class="form-group cases" style="margin-top: 69px;">	
+										<label for="cv" style="opacity: 1;">Déposer son CV</label>	
+										<input style="padding-top: 32px;padding-left: 30px;padding-bottom: 58px;" type="file" id="cv" name="cv" accept="image/png, image/jpeg" class="form-control draganddrop">										
+									</div>
+									<div class="form-group cases">	
+										<label for="lettre" style="opacity: 1;">Déposer sa lettre de motivation</label>	
+										<input style="padding-top: 32px;padding-left: 30px;padding-bottom: 58px;" type="file" id="lettre" name="lettre" accept="image/png, image/jpeg" class="form-control draganddrop">										
+									</div>
+								</div>
+							</div>
+				    </div>
+				    <div class="form-group button_send" style="width: 95%">
+						<label for="boutton" style="opacity: 0;">A</label>
+						<input id="boutton" type="submit" value="Envoyer" name="envoyer" class="btn btn-primary py-3 px-5" style="border-radius: 4px!important;width: 100%">
+					</div>
+				</form>
+		</div>
+	</div>
+</section>
+
+
+<section class="ftco-section contact-section padding_section" style="padding-top: 0">
+	<div class="container">
+		<div class="row d-flex mb-5 contact-info justify-content-center">
+			<div class="col-md-8">
+				<div class="row mb-5">
+					<div class="col-md-4 text-center py-4">
+						<div class="icon">
+							<i class="fas fa-map-marked"></i>
+						</div>
+						<p>
+							<span>Adresse :</span>
+							 10, rue Notre-Dame de Lorette - 75009 PARIS
+						</p>
+					</div>
+					<div class="col-md-4 text-center border-height py-4">
+						<div class="icon">
+							<i class="fas fa-phone-alt"></i>
+						</div>
+						<p>
+							<span>Téléphone :</span>
+							<span><a href="tel:+33142829938">01 42 82 99 38</a></span>
+						</p>
+					</div>
+					<div class="col-md-4 text-center py-4">
+						<div class="icon">
+							<i class="fas fa-paper-plane"></i>
+						</div>
+						<p>
+							<span>Mail :</span>
+							<a href="mailto:oxade@oxade.com">oxade@oxade.com</span></a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<iframe title="map" class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.9894897199592!2d2.3364049159123588!3d48.87747690731623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e476bc08471%3A0x95324380f110831a!2s10%20Rue%20Notre%20Dame%20de%20Lorette%2C%2075009%20Paris!5e0!3m2!1sfr!2sfr!4v1574074933088!5m2!1sfr!2sfr" width="1500" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+
+
+
+{% endblock %}

@@ -1,0 +1,110 @@
+{% extends 'base_vitrine.html' %}
+{% load staticfiles %}
+
+{% block seo %}
+<meta name="Description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:title" content="Oxade | Assurance ">
+<title>Oxade | Assurance </title>
+
+<link rel="stylesheet" type="text/css" href="{% static 'vitrine/css/secteurs.css' %}">
+<script src="https://kit.fontawesome.com/b7aa201f58.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet"> 
+{% endblock %}
+
+{% block content %}
+
+<style type="text/css">
+	.img_offres_secteurs_assurance{
+	width: 145px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 45px;
+    margin-top: 25px;
+    display: block;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.img_offres_secteurs_assurance{
+	width: 132px; 
+	}
+}
+
+</style>
+
+<!--  Nous accompagnons les plus grands acteurs du secteur de l'assurance sur leurs enjeux de transformation. Notre conseil vous fait bénéficier des retours d'expériences de nos équipes mais aussi de nos missions sur des problématiques similaires. Pour chacun de ces enjeux, nous bénéficions d'expérience.-->
+		<section class="hero-wrap hero-wrap-2 fond-defense">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row no-gutters slider-text align-items-center justify-content-center">
+					<div class="col-md-9 ftco-animate text-center">
+						<h1 class="mb-2 bread">Assurance</h1>
+						<p class="breadcrumbs">
+							<span class="mr-2">
+								<a aria-label="Secteurs" href="{% url 'index_vitrine' %}#secteurs">Secteurs<i class="fas fa-chevron-right"></i></a>
+							</span>
+							<span>Assurance<i class="fas fa-chevron-right"></i></span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="ftco-section ftco-no-pb" >
+			<div class="container">
+				<div class="row d-flex">
+					<div class="col-md-7 wrap-about pr-md-4 ftco-animate">
+						<h2 class="mb-4">Vos enjeux</h2>
+						<p>
+							A l'heure actuelle, et probablement plus que jamais, de nombreux facteurs de transformation impactent le secteur de l'assurance. De toute évidence, Internet en a été l'un des principaux éléments déclencheurs dans le courant des années 90.</br></br>
+							
+							Le secteur de l’assurance doit aujourd’hui affronter un environnement en mutation dans un contexte économique et financier qui se complexifie. Les évolutions réglementaires et fiscales, la recrudescence de sinistres catastrophiques, la contraction des marges et la concurrence nécessitent des modifications profondes que vos entités doivent appréhender. De la même manière, la globalisation du marché, l'évolution des demandes et l'émergence de nouveaux besoins ou de nouvelles technologies sont autant de défis pour les acteurs de l'assurance. </br></br>
+
+							Le client, qu’il soit particulier, professionnel ou entreprise, est plus informé, plus outillé et donc beaucoup plus exigeant. En un mot, il accorde une importance particulière à la valeur ajoutée délivrée. Cette exigence se porte sur le conseil, les services proposés, le traitement de ses demandes, la qualité de la relation, sans oublier les modalités d’achat ou de gestion de ses contrats.</br> </br>
+
+							Enfin, les business modèles des sous-jacents de l’assurance (les objets de risques) sont eux-mêmes en pleine révolution avec la voiture autonome, le bâtiment intelligent, les NBIC dans l’univers de la santé. Ces évolutions peuvent bouleverser le business model de l’assurance.</br></br>
+						</p>
+
+
+					</div>
+					<div class="col-md-5 order-md-last wrap-about align-items-stretch">
+						<div class="wrap-about-border ftco-animate">
+							<picture>
+								<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_assurance.webp' %}">
+								<source type="image/png" srcset="{% static 'vitrine/img/logo_assurance.png' %}">
+								<img src="{% static 'vitrine/img/logo_assurance.png' %}" alt="logo_assurance" class="img_offres_secteurs">
+							</picture>
+							
+							<div class="text">
+								<h3>Notre vision et notre ambition</h3>
+								<p>
+									Dans le même temps, la plus grande volatilité des marchés, l’écrêtement, l’essor des fintechs, poussent le secteur à évoluer vers plus d’agilité mais aussi de proactivité. Par ailleurs, les postures et pratiques managériales, le fonctionnement en équipe ou en mode projet sont autant d’enjeux que les banques doivent relever dès maintenant.
+								</p>
+								<p>
+									<a aria-label="Contactez-nous" href="{% url 'contact' %}" class="btn btn-primary py-3 px-4">Contactez-nous</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class=" ftco-counter" style="padding-bottom: 0">
+	<div class="container">
+		<div class="row justify-content-center mb-5 pb-2 d-flex">
+			<div class="col-md-6 align-items-stretch d-flex">
+				<div class="img img-video d-flex align-items-center fond-defense">
+					<div class="video justify-content-center">
+						<a href="https://www.youtube.com/watch?v=BnrDJq1V4bw" class="icon-video popup-vimeo d-flex justify-content-center align-items-center"><i class="fas fa-play-circle play_button"></i></a></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 heading-section ftco-animate pl-lg-5 pt-md-0 pt-5 fadeInUp ftco-animated">
+				<h2 class="mb-4">Lorem ipsum dolor sit amet </h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur odio quam, sollicitudin at molestie ut, luctus ac enim. Suspendisse egestas lacinia dolor a sollicitudin. Donec efficitur, felis ac scelerisque semper, massa lorem facilisis lacus, eget faucibus sapien diam ut ex. Donec quis mattis odio, in fringilla elit.Ut accumsan felis a est fringilla hendrerit. Mauris ornare elit ac diam sagittis faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur odio quam, sollicitudin at molestie ut, luctus ac enim. 
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+{% endblock %}

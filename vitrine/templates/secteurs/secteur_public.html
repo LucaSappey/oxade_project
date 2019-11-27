@@ -1,0 +1,106 @@
+{% extends 'base_vitrine.html' %}
+{% load staticfiles %}
+
+{% block seo %}
+<meta name="Description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:title" content="Oxade | Secteur public">
+<title>Oxade | Secteur public</title>
+
+<link rel="stylesheet" type="text/css" href="{% static 'vitrine/css/secteurs.css' %}">
+<script src="https://kit.fontawesome.com/b7aa201f58.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet"> 	
+{% endblock %}
+
+{% block content %}
+
+<style type="text/css">
+	.img_offres_secteurs_public{
+    width: 165px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 43px;
+    margin-top: 33px;
+    display: block;
+	}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.img_offres_secteurs_public{
+		width: 152px; 
+	}
+}
+</style>
+<!--Nos professionnels du Secteur Public sont en capacité de mobiliser toutes les expertises en audit, conseil en management, en systèmes d’information et conseil financier qui permettent d’appréhender les grandes évolutions du secteur   -->
+		<section class="hero-wrap hero-wrap-2 fond-defense">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row no-gutters slider-text align-items-center justify-content-center">
+					<div class="col-md-9 ftco-animate text-center">
+						<h1 class="mb-2 bread">Secteur public</h1>
+						<p class="breadcrumbs">
+							<span class="mr-2">
+								<a aria-label="Secteurs" href="{% url 'index_vitrine' %}#secteurs">Secteurs<i class="fas fa-chevron-right"></i></a>
+							</span>
+							<span>Secteur public<i class="fas fa-chevron-right"></i></span>
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="ftco-section ftco-no-pb" >
+			<div class="container">
+				<div class="row d-flex">
+					<div class="col-md-7 wrap-about pr-md-4 ftco-animate">
+						<h2 class="mb-4">Vos enjeux</h2>
+						<p>
+							Exigence de performance et de transparence, qualité de service et de la relation usager, préparation de l’avenir, enchaînement ininterrompu de réformes, le secteur public en France est pris dans une dynamique de transformation permanente qui met chaque jour au défi les organisations, les agents et le management des entités publiques. </br></br>
+
+							Les organismes publics veulent accélérer les réformes. Des réformes gérées dans un temps limité, avec des résultats tangibles et un retour sur investissement. Les citoyens attendent un accès facile aux informations du gouvernement et une communication plus aisée avec les institutions publiques. </br></br>
+
+							Cela exige une transformation qui peut s’inspirer du secteur privé pour améliorer les processus et les systèmes informatiques. L’innovation dans la mise en œuvre, s’appuyant sur les leviers managériaux et numériques permettront ainsi de produire des améliorations durables centrées sur la rentabilité, l’efficacité et l’expérience client.</br>
+						</p>
+
+
+					</div>
+					<div class="col-md-5 order-md-last wrap-about align-items-stretch">
+						<div class="wrap-about-border ftco-animate">
+							<picture>
+								<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_public.webp' %}">
+								<source type="image/png" srcset="{% static 'vitrine/img/logo_public.png' %}">
+								<img src="{% static 'vitrine/img/logo_public.png' %}" alt="logo_public" class="img_offres_secteurs">
+							</picture>
+							
+							<div class="text">
+								<h3>Notre vision et notre ambition</h3>
+								<p>
+									Après le lancement en 2007 de la Révision générale des politiques publiques, la modernisation de l’action publique s’accélère, portée par le SGMAP (secrétariat général pour la modernisation de l’action publique). Cette transition numérique monte en puissance avec l’unification du système d’information de l’État autour de la DISIC (direction interministérielle des systèmes d’information), la création d’un administrateur général des données publiques.
+								</p>
+								<p>
+									<a aria-label="Contactez-nous" href="{% url 'contact' %}" class="btn btn-primary py-3 px-4">Contactez-nous</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="ftco-counter" style="padding-bottom: 0">
+	<div class="container">
+		<div class="row justify-content-center mb-5 pb-2 d-flex">
+			<div class="col-md-6 align-items-stretch d-flex">
+				<div class="img img-video d-flex align-items-center fond-defense">
+					<div class="video justify-content-center">
+						<a href="https://www.youtube.com/watch?v=BnrDJq1V4bw" class="icon-video popup-vimeo d-flex justify-content-center align-items-center"><i class="fas fa-play-circle play_button"></i></a></a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 heading-section ftco-animate pl-lg-5 pt-md-0 pt-5 fadeInUp ftco-animated">
+				<h2 class="mb-4">Lorem ipsum dolor sit amet </h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur odio quam, sollicitudin at molestie ut, luctus ac enim. Suspendisse egestas lacinia dolor a sollicitudin. Donec efficitur, felis ac scelerisque semper, massa lorem facilisis lacus, eget faucibus sapien diam ut ex. Donec quis mattis odio, in fringilla elit.Ut accumsan felis a est fringilla hendrerit. Mauris ornare elit ac diam sagittis faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur odio quam, sollicitudin at molestie ut, luctus ac enim. 
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+{% endblock %}

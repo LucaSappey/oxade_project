@@ -1,0 +1,135 @@
+{% extends 'base_vitrine.html' %}
+{% load staticfiles %}
+
+{% block seo %}
+<meta name="Description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:title" content="Oxade | Gestion de projet">
+<title>Oxade | Gestion de projet</title>
+
+<link rel="stylesheet" type="text/css" href="{% static 'vitrine/css/offres.css' %}">
+<script src="https://kit.fontawesome.com/b7aa201f58.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet"> 
+
+{% endblock %}
+
+{% block content %}
+
+<section class="hero-wrap hero-wrap-2 fond-defense">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row no-gutters slider-text align-items-center justify-content-center">
+			<div class="col-md-9 ftco-animate text-center">
+				<h1 class="mb-2 bread">Gestion de projets</h1>
+				<p class="breadcrumbs">
+					<span class="mr-2">
+						<a aria-label="Offres" href="{% url 'index_vitrine' %}#offres">Offres <i class="fas fa-chevron-right"></i></a>
+					</span>
+					<span>Gestion de projets <i class="fas fa-chevron-right"></i></span>
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="ftco-section ftco-no-pb" >
+			<div class="container">
+				<div class="row d-flex">
+					<div class="col-md-5 order-md-last wrap-about align-items-stretch">
+						<div class="wrap-about-border ftco-animate">
+							<picture>
+								<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_projets.webp' %}">
+								<source type="image/png" srcset="{% static 'vitrine/img/logo_projets.png' %}">
+								<img src="{% static 'vitrine/img/logo_projets.png' %}" alt="logo_projets" class="img_offres_secteurs">
+							</picture>
+							<div class="text">
+								<h3>Notre vision et notre ambition</h3>
+								<p>
+									Notre métier nous amène fréquemment à accompagner nos clients dans la mise en conformité suite à des évolutions règlementaires, qu’elles soient européennes (DDA, RGPD, Solvabilité II, LCB/FT, IFRS, PRIIPS, IDD,…) ou françaises (prélèvement à la source, ANI, contrats responsables, ACS, TPG, Loi Hamon, Loi Eckert, Loi Sapin 2, …).
+								</p>
+								<p>
+									<a aria-label="Contactez-nous" href="{% url 'contact' %}" class="btn btn-primary py-3 px-4">Contactez-nous</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 wrap-about pr-md-4 ftco-animate">
+						<h2 class="mb-4">Nos réalisations</h2>
+						<p>
+							Que nous soyons en amont (études d’impacts / cadrage / plan d’actions) ou en aval (assistance à la mise en place des actions identifiées), nos interventions consistent à apporter notre veille sectorielle de ces évolutions, à coordonner les différents acteurs internes impactés et piloter la mise en œuvre afin de sécuriser la mise en conformité de nos clients dans les délais impartis.
+						</p>
+						<div class="row mt-5">
+							<div class="col-lg-6">
+								<div class="services text-center">
+									<div class="icon mt-2 d-flex justify-content-center align-items-center">
+										<picture>
+											<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_assistance.webp' %}">
+											<source type="image/png" srcset="{% static 'vitrine/img/logo_assistance.png' %}">
+											<img src="{% static 'vitrine/img/logo_assistance.png' %}" alt="logo_assistance" style="width: 89px;margin-bottom: 6px;margin-top: -6px;">
+										</picture>
+										
+									</div>
+									<div class="text media-body">
+										<h3>Assistance à Maîtrise d’ouvrage</h3>
+										<p>
+											Assistance à l’expression de besoins, rédaction de cahier des charges
+										</p>
+									</div>
+								</div>
+								<div class="services text-center">
+									<div class="icon mt-2 d-flex justify-content-center align-items-center">
+										<picture>
+											<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_conseil.webp' %}">
+											<source type="image/png" srcset="{% static 'vitrine/img/logo_conseil.png' %}">
+											<img src="{% static 'vitrine/img/logo_conseil.png' %}" alt="logo_conseil" style="width: 119px;margin-top: -18px;margin-bottom: -4px;">
+										</picture>
+										
+									</div>
+									<div class="text media-body">
+										<h3>Conseil SI et en Management des processus</h3>
+										<p>
+											Conduite du changement, référentiel des métiers et des compétences
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="services text-center">
+									<div class="icon mt-2 d-flex justify-content-center align-items-center">
+										<picture>
+											<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_competences.webp' %}">
+											<source type="image/png" srcset="{% static 'vitrine/img/logo_competences.png' %}">
+											<img src="{% static 'vitrine/img/logo_competences.png' %}" alt="logo_communication" style="    width: 141px;margin-top: -30px;margin-bottom: -22px;;">
+										</picture>
+										
+									</div>
+									<div class="text media-body">
+										<h3>Compétences Métiers</h3>
+										<p>
+											Assurance, prévoyance, monétique, gestion actif/passif, éditeur logiciel, marketing, relation client 
+										</p>
+									</div>
+								</div>
+								<div class="services text-center">
+									<div class="icon mt-2 d-flex justify-content-center align-items-center">
+										<picture>
+											<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_management-projets.webp' %}">
+											<source type="image/png" srcset="{% static 'vitrine/img/logo_management-projets.png' %}">
+											<img src="{% static 'vitrine/img/logo_management-projets.png' %}" alt="logo_management-projets" style="    width: 89px;margin-bottom: 10px;margin-top: 5px;">
+										</picture>
+										
+									</div>
+									<div class="text media-body">
+										<h3>Management de projets</h3>
+										<p style="margin-bottom: 75px;">
+											Pilotage de projet, management d’équipes, assistance à la Direction de projet, PMO
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+{% endblock %}

@@ -1,0 +1,49 @@
+{% load staticfiles %}
+{% block seo %}
+<meta name="Description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:title" content="Oxade | Erreur 404">
+<title>Oxade | Erreur 404</title>
+{% endblock %}
+
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<link type="text/css" href="{% static 'vitrine/AOS/aos.css' %}" rel="stylesheet">
+		<link type="text/css" href="{% static 'vitrine/css/base.css' %}"  rel="stylesheet">
+	</head>
+	<style>
+		.closebtn
+		{
+			text-decoration: none;
+			color: #908b8b;
+			position: fixed;
+			top: 0px;
+			left: 0px;
+			font-size: 60px;
+			margin-left: 20px;
+		}
+	</style>
+	<body style="margin: 0;" >
+		<div id="fond CSSPC">
+			<a title="fermer" href="/" class="closebtn">×</a>
+			<div class="CSSPC">
+				<div class="CSSPC" style="justify-content: center;margin: auto auto auto auto;display: flex;transform: translateY(30vh);">
+					<div style="display: flex;position: absolute;">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/o_oxade.webp' %}">
+								<source type="image/png" srcset="{% static 'vitrine/img/o_oxade.png' %}">
+									<img style="width: 206px;" src="{% static 'vitrine/img/o_oxade.png' %}" alt="lgo ebrain">
+								</picture>
+								<h1 style="font-size: 6em;font-family: 'LuloCleanW01-OneBold';margin-top: 32px;">404</h1>
+							</div>
+							<div style="position: relative;margin-top: 190px;">
+								<h2 style="font-size: 1em;font-family: 'LuloCleanW01-OneBold';">Votre page est introuvable</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

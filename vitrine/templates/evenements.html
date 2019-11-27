@@ -1,0 +1,61 @@
+{% extends 'base_vitrine.html' %} 
+{% load staticfiles %} {% load i18n %}
+
+{% block seo %}
+<meta name="Description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:title" content="Oxade | Evenements ">
+<title>Oxade | Evenements </title>
+
+<link rel="stylesheet" href="{% static 'vitrine/css/evenement.css' %}"> <script src="https://kit.fontawesome.com/b7aa201f58.js" crossorigin="anonymous"></script>
+
+{% endblock %}
+
+{% block content %}
+
+<section class="hero-wrap hero-wrap-2 fond_immeuble">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row no-gutters slider-text align-items-center justify-content-center">
+			<div class="col-md-9 ftco-animate text-center fadeInUp ftco-animated">
+				<h1 class="mb-2 bread">{% trans 'Événements' %} </h1>
+				<p class="breadcrumbs">
+					<span class="mr-2">
+						<a href="{% url 'index_vitrine'%}">Accueil <i class="fas fa-chevron-right"></i></a>
+					</span>
+					<span>Événements <i class="fas fa-chevron-right"></i></span>
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<section class="ftco-section bg-light">
+	<div class="container">
+
+		<div class="row">
+			{% for event in events %}
+			<div class="col-md-6 col-lg-4 ftco-animate fadeInUp ftco-animated">
+				<div class="blog-entry">
+					<a class="block-20 d-flex align-items-end" style="background-image: url({{ event.img.url }});">
+						<div class="meta-date text-center p-2">
+							{{event.date|date:"d M Y"}}
+						</div>
+					</a>
+					<div class="text bg-white p-4">
+						<h3 class="heading"><a>{{event.titre}}</a></h3>
+						<p>
+							{{event.texte}}
+						</p>
+					</div>
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+
+
+{% endblock %}

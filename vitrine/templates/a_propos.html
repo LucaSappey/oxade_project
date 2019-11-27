@@ -1,0 +1,93 @@
+{% extends 'base_vitrine.html' %}
+{% load staticfiles %}
+{% block seo %}
+<meta name="Description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:title" content="Oxade | A propos">
+<title>Oxade | A propos</title>
+
+
+<link rel="stylesheet" href="{% static 'vitrine/css/a_propos.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'vitrine/css/accueil.css' %}">
+<script src="https://kit.fontawesome.com/b7aa201f58.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet"> 
+{% endblock %}
+{% block content %}
+
+
+<section class="hero-wrap hero-wrap-2 fond-defense">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row no-gutters slider-text align-items-center justify-content-center">
+			<div class="col-md-9 ftco-animate text-center">
+				<h1 class="mb-2 bread">À propos de nous </h1>
+				<p class="breadcrumbs">
+					<span class="mr-2">
+						<a href="{% url 'index_vitrine' %}">Accueil <i class="fas fa-chevron-right"></i></a>
+					</span>
+					<span>À propos de nous <i class="fas fa-chevron-right"></i></span>
+				</p> 
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<section class="ftco-section ftco-counter">
+	<div class="container">
+		<div class="row justify-content-center mb-5 pb-2 d-flex">
+			
+			<div class="col-md-6 heading-section ftco-animate pl-lg-5 pt-md-0 pt-5 fadeInUp ftco-animated">
+				<h2 class="mb-4">Lorem ipsum dolor sit amet.</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam leo neque, dictum a fringilla a, volutpat eget ligula. Donec mattis auctor dolor a elementum. Vivamus nibh nunc, porttitor non mattis a, vestibulum at arcu. Nulla vulputate ornare feugiat. Nulla in ligula eu purus fermentum rutrum eu eget est. Pellentesque vel efficitur diam.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam leo neque, dictum a fringilla a, volutpat eget ligula. Donec mattis auctor dolor a elementum.
+				</p>
+			</div>
+			<div class="col-md-6 align-items-stretch d-flex">
+				<div class="img img-video d-flex align-items-center fond-defense">
+					<div class="video justify-content-center">
+						<a aria-label="video-youtube" href="https://www.youtube.com/watch?v=BnrDJq1V4bw" class="icon-video popup-vimeo d-flex justify-content-center align-items-center"><i class="fas fa-play-circle play_button"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="ftco-intro ftco-no-pb img fond-webp">
+	<div class="container">
+		<div class="row justify-content-center mb-5">
+			<div class="col-md-10 text-center heading-section heading-section-white ftco-animate">
+				<h2 class="mb-0">Nos chiffres clés</h2>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="ftco-counter" id="section-counter" style="margin-bottom: 7em">
+	<div class="container">
+		<div class="row d-md-flex align-items-center justify-content-center">
+			<div class="wrapper">
+				<div class="row d-md-flex align-items-center">
+					{% for nombre in chiffre %}
+					<div class="col-md d-flex justify-content-center counter-wrap ftco-animate" style="text-align: center;">
+						<div class="block-18">
+							<div class="icon">
+								<span class="flaticon-doctor"></span>
+							</div>
+							<div class="text">
+								<strong class="number" data-number="{{ nombre.nombre }}">0</strong>
+								<span>{{ nombre.nom }}</span>
+							</div>
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,141 @@
+{% extends 'base_vitrine.html' %}
+{% load staticfiles %}
+
+{% block seo %}
+<meta name="Description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:title" content="Oxade | Fusions et acquisitions">
+<title>Oxade | Fusions et acquisitions</title>
+
+<link rel="stylesheet" type="text/css" href="{% static 'vitrine/css/offres.css' %}">
+<script src="https://kit.fontawesome.com/b7aa201f58.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet"> 
+
+{% endblock %}
+
+{% block content %}
+
+
+
+<section class="hero-wrap hero-wrap-2 fond-defense">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row no-gutters slider-text align-items-center justify-content-center">
+			<div class="col-md-9 ftco-animate text-center">
+				<h1 class="mb-2 bread">Fusions et acquisitions</h1>
+				<p class="breadcrumbs">
+					<span class="mr-2">
+						<a aria-label="Offres" href="{% url 'index_vitrine' %}#offres">Offres <i class="fas fa-chevron-right"></i></a>
+					</span>
+					<span>Fusions et acquisitions <i class="fas fa-chevron-right"></i></span>
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="ftco-section ftco-no-pb">
+			<div class="container">
+				<div class="row d-flex">
+					<div class="col-md-5 order-md-last wrap-about align-items-stretch">
+						<div class="wrap-about-border ftco-animate">
+							<picture>
+								<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_fusions.webp' %}">
+								<source type="image/png" srcset="{% static 'vitrine/img/logo_fusions.png' %}">
+								<img src="{% static 'vitrine/img/logo_fusions.png' %}" alt="logo_fusions" class="img_offres_secteurs">
+							</picture>
+							<div class="text">
+								<h3>Notre vision et notre ambition</h3>
+								<p>
+									Comment préparer le processus d'intégration post-acquisition et quels sont les avantages d'une approche globale et mise en place par des professionnels ? 
+								</p>
+								<p>
+									Quelles sont les étapes nécessaires pour retrouver la compétitivité des entreprises et quelles sont les dimensions sur lesquelles il faut travailler, comment et quand le faire dans l'idéal ?
+								</p>
+								<p>
+									<a aria-label="Contactez-nous" href="{% url 'contact' %}" class="btn btn-primary py-3 px-4">Contactez-nous</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 wrap-about pr-md-4 ftco-animate">
+						<h2 class="mb-4">Nous vous montrons la voie</h2>
+						<p>
+							Les activités de restructuration en continu sur le long terme sont toujours plus importantes, en particulier en ces temps d'incertitudes économiques persistantes. Le problème, c'est qu'au sein de l'entreprise, ces activités ne sont pas toujours mises en place de manière systématique, ou ne sont pas suivies rigoureusement. Bien souvent, là où l'entreprise devrait suivre la progression des mesures prises activement, elle se contente de réagir aux événements.
+						</p>
+						<div class="row mt-5">
+							<div class="col-lg-6">
+								<div class="services text-center">
+									<div class="icon mt-2 d-flex justify-content-center align-items-center">
+										<picture>
+											<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_synergie.webp' %}">
+											<source type="image/png" srcset="{% static 'vitrine/img/logo_synergie.png' %}">
+											<img src="{% static 'vitrine/img/logo_synergie.png' %}" alt="logo_synergie" style="    width: 189px;margin-top: -22px;margin-bottom: -16px;">
+										</picture>
+										
+									</div>
+									<div class="text media-body">
+										<h3>Recherche de synergies</h3>
+										<p>
+											De meilleures performances et réduction des coûts
+										</p>
+									</div>
+								</div>
+						
+								<div class="services text-center">
+									<div class="icon mt-2 d-flex justify-content-center align-items-center">
+										<picture>
+											<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_croissance.webp' %}">
+											<source type="image/png" srcset="{% static 'vitrine/img/logo_croissance.png' %}">
+											<img src="{% static 'vitrine/img/logo_croissance.png' %}" alt="logo_croissance" style="width: 90px;margin-top: -3px;margin-bottom: 16px;">
+										</picture>
+										
+									</div>
+									<div class="text media-body">
+										<h3>Accélération de la croissance</h3>
+										<p>
+											Une augmentation de sa part de marché
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="services text-center">
+									<div class="icon mt-2 d-flex justify-content-center align-items-center">
+										<picture>
+											<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_diversification.webp' %}">
+											<source type="image/png" srcset="{% static 'vitrine/img/logo_diversification.png' %}">
+											<img src="{% static 'vitrine/img/logo_diversification.png' %}" alt="logo_diversification" style="width: 129px;margin-bottom: -26px;margin-top: -25px;">
+										</picture>
+										
+									</div>
+									<div class="text media-body">
+										<h3>Diversification </h3>
+										<p>
+											Un meilleur taux de pénétration dans un marché stratégique
+										</p>
+									</div>
+								</div>
+								<div class="services text-center">
+									<div class="icon mt-2 d-flex justify-content-center align-items-center">
+										<picture>
+											<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_diminution.webp' %}">
+											<source type="image/png" srcset="{% static 'vitrine/img/logo_diminution.png' %}">
+											<img src="{% static 'vitrine/img/logo_diminution.png' %}" alt="logo_diminution" style="width: 184px;margin-bottom: -56px;margin-top: -53px;">
+										</picture>
+										
+									</div>
+									<div class="text media-body">
+										<h3>Réduction de nombreux coûts</h3>
+										<p>
+											Un pouvoir de négociation au sein de la chaîne de valeur
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+{% endblock %}
