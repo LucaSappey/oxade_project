@@ -1,3 +1,24 @@
+
+@media (min-width: 768px){
+.blog-entry {
+    margin-bottom: 30px;
+}
+.blog-entry {
+    width: 100%;
+    border: 4px solid #d1ebf9;
+}
+}
+
+.blog-entry .meta-date {
+    display: inline-block;
+    background: #1b9ce3;
+    display: block;
+    color: #fff;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+
 .webp .fond_immeuble
 {
 	background-image: url(../img/webp/fond_immeuble.webp);

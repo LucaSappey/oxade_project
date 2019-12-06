@@ -15,25 +15,206 @@
 
 {% block content %}
 
+<style type="text/css">
+	.container_contact_us{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		border:4px solid #d1ebf9;
+	}
 
+	.text_contact{
+		display: flex;
+	    flex-direction: column;
+	    align-items: flex-start;
+	    justify-content: center;
+	}
+
+	.container_bouton{
+		display: flex;
+	    justify-content: center;
+	    flex-direction: column;
+	    align-items: center;
+	    margin-bottom: 26px;
+	}
+
+	.liste_offres{
+		margin-top: 0;
+	    text-align: left;
+	    margin-bottom: 1rem;
+	    color: grey;
+	}
+
+	.secteurs:hover {
+    background: #1b9ce300;
+	}
+
+	@media screen and (max-width: 991.98px){
+		.container_contact_us {
+		    display: flex;
+		    flex-direction: row;
+		    justify-content: center;
+		    border: 4px solid #d1ebf9;
+		    flex-wrap: wrap;
+		}
+
+		.text_contact {
+		    display: flex;
+		    flex-direction: column;
+		    align-items: center;
+		    justify-content: center;
+		    text-align: center;
+		    padding: 30px;
+		}
+
+		.liste_offres {
+		    margin-left: 11%;
+		}
+	}
+
+</style>
 
 <section class="hero-wrap hero-wrap-2 fond-defense">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-center justify-content-center">
 			<div class="col-md-9 ftco-animate text-center">
-				<h1 class="mb-2 bread">Sécurité</h1>
+				<h1 class="mb-2 bread">Risk management & sécurité de l’information </h1>
 				<p class="breadcrumbs">
 					<span class="mr-2">
 						<a aria-label="Offres" href="{% url 'index_vitrine' %}#offres">Offres <i class="fas fa-chevron-right"></i></a>
 					</span>
-					<span>Sécurité <i class="fas fa-chevron-right"></i></span>
+					<span>Risk management & sécurité de l’information <i class="fas fa-chevron-right"></i></span>
 				</p>
 			</div>
 		</div>
 	</div>
 </section>
-<section class="ftco-section ftco-no-pb">
+
+
+
+<section style="margin-top: 125px;">
+	<div class="container">
+		<div class="row no-gutters">
+			<a aria-label="Conduite du changement" href="{% url 'conduite_du_changement' %}" class="col-lg-6 d-flex test">
+				<div class="services-2 noborder-left text-center ftco-animate secteurs">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_deploiement.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_deploiement.png' %}">
+							<img src="{% static 'vitrine/img/logo_deploiement.png' %}" alt="logo_deploiement" style="width: 89px;"> 
+						</picture>
+					</div>
+					<div class="text media-body" style="display: flex;flex-direction: column;align-items: center;">
+						<h3 style="margin-bottom: 29px; color:#013E5B">Risk Management et gouvernance sécurité</h3>
+						<ul class="liste_offres">
+							<li>Schéma directeur​</li>
+							<li>Cartographie des risques​</li>
+							<li>Tableaux de bords​</li>
+							<li>Sensibilisation</li>
+							<li>Création / animation de filière​</li>
+							<li>Accompagnement à la certification ISO 27001</li>
+							<li>Conformité réglementaire et données à caractère personnel​</li>
+						</ul>
+					</div>
+				</div>
+			</a>
+			<a aria-label="Fusions et acquisitions" href="{% url 'fusions_et_acquisitions' %}" class="col-lg-6 d-flex test">
+				<div class="services-2 text-center ftco-animate secteurs">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_analyse.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_analyse.png' %}">
+							<img src="{% static 'vitrine/img/logo_analyse.png' %}" alt="logo_analyse" style="width: 89px;">  
+						</picture>
+					</div>
+					<div class="text media-body" style="display: flex;flex-direction: column;align-items: center;">
+						
+						<h3 style="margin-bottom: 29px; color:#013E5B">Cybersécurité​</h3>
+						<ul class="liste_offres">
+							<li>Architecture de sécurité et  modèles de protection​</li>
+							<li>Sécurité Cloud / Big Data / Mobilité / BYOD / Smart​</li>
+							<li>Sécurité SI Industriels</li>
+							<li>Audits et test d’intrusion</li>
+							<li>Réponse à incidents et  gestion de crise</li>
+							<li>Surveillance sécurité</li>
+							<li>Externalisation sécurité</li>
+						</ul>
+					</div>
+				</div>
+			</a>
+			<a aria-label="Transformation" href="{% url 'transformation' %}" class="col-lg-6 d-flex test">
+				<div class="services-2 text-center ftco-animate secteurs">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_strategie.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_strategie.png' %}">
+							<img src="{% static 'vitrine/img/logo_strategie.png' %}" alt="logo_strategie" style="width: 89px;"> 
+						</picture>
+					</div>
+					<div class="text media-body">
+						<h3 style="margin-bottom: 29px; color:#013E5B">Continuité d’activité​</h3>
+						<ul class="liste_offres">
+							<li>Analyse d’impacts et identification des scénarios​</li>
+							<li>Construction des plans de continuité utilisateur, métier et SI​</li>
+							<li>Réalisation d’exercices de crise et de tests grandeur nature</li>
+							<li>Accompagnement à la certification ISO 22301​</li>
+						</ul>
+					</div>
+				</div>
+			</a>
+			<a aria-label="Sécurité" href="{% url 'securite' %}" class="col-lg-6 d-flex test">
+				<div class="services-2 noborder-left noborder-bottom text-center ftco-animate secteurs">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_communication.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_communication.png' %}">
+							<img src="{% static 'vitrine/img/logo_communication.png' %}" alt="logo_communication" style="width: 144px;margin-top: -20px; margin-bottom: -28px;"> 
+						</picture>
+					</div>
+					<div class="text media-body">
+						<h3 style="margin-bottom: 29px; color:#013E5B">Identité et confiance numérique</h3>
+						<ul class="liste_offres">
+							<li>Gestion des identités et des droits d’accès collaborateurs / clients​</li>
+							<li>Authentification et biométrie​</li>
+							<li>Services de confiance numérique (signature  électronique, chiffrement…)​</li>
+							<li>Fédération des identités​</li>
+						</ul>
+					</div>
+				</div>
+			</a>
+		</div>
+	</div>
+</section>
+
+
+<section style="margin-top: 125px;margin-bottom: 125px;">
+	<div class="container">
+		<div class="container_contact_us">
+			<div class="container_bouton">
+				<picture>
+					<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_securite.webp' %}">
+					<source type="image/png" srcset="{% static 'vitrine/img/logo_securite.png' %}">
+					<img style="width: 351px;" src="{% static 'vitrine/img/logo_securite.png' %}" alt="logo_securite" class="img_offres_secteurs">
+				</picture>
+				<p>
+					<a aria-label="Contactez-nous" href="{% url 'contact' %}" class="btn btn-primary py-3 px-4">Contactez-nous</a>
+				</p>
+			</div>
+			
+			<div class="text_contact">
+				<h3>Notre vision et notre ambition</h3>
+				<p>
+					Le monde change rapidement et les organisations doivent changer pour libérer leur plein potentiel.
+				</p>
+				<p>
+					Pourtant, les recherches montrent que la plupart des efforts pour changer fondamentalement la trajectoire d'une organisation échouent. La gamme d'offres de transformation d'Oxade aide les clients à inverser les obstacles afin d'obtenir des résultats extraordinaires pour leur entreprise.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- <section class="ftco-section ftco-no-pb">
 			<div class="container">
 				<div class="row d-flex">
 					<div class="col-md-5 order-md-last wrap-about align-items-stretch">
@@ -137,5 +318,5 @@
 				</div>
 			</div>
 		</section>
-
+ -->
 {% endblock %}

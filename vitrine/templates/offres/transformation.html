@@ -15,49 +15,226 @@
 
 {% block content %}
 
+<style type="text/css">
+	.container_contact_us{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		border:4px solid #d1ebf9;
+	}
 
+	.text_contact{
+		display: flex;
+	    flex-direction: column;
+	    align-items: flex-start;
+	    justify-content: center;
+	}
+
+	.container_bouton{
+		display: flex;
+	    justify-content: center;
+	    flex-direction: column;
+	    align-items: center;
+	    margin-bottom: 26px;
+	}
+
+	.liste_offres{
+		margin-top: 0;
+	    text-align: left;
+	    margin-bottom: 1rem;
+	    color: grey;
+	}
+
+	.secteurs:hover {
+    background: #1b9ce300;
+	}
+
+	@media screen and (max-width: 991.98px){
+		.container_contact_us {
+		    display: flex;
+		    flex-direction: row;
+		    justify-content: center;
+		    border: 4px solid #d1ebf9;
+		    flex-wrap: wrap;
+		}
+
+		.text_contact {
+		    display: flex;
+		    flex-direction: column;
+		    align-items: center;
+		    justify-content: center;
+		    text-align: center;
+		    padding: 30px;
+		}
+
+		.liste_offres {
+		    margin-left: 11%;
+		}
+	}
+
+</style>
 
 <section class="hero-wrap hero-wrap-2 fond-defense">
 	<div class="overlay"></div>
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-center justify-content-center">
 			<div class="col-md-9 ftco-animate text-center">
-				<h1 class="mb-2 bread">Transformation</h1>
+				<h1 class="mb-2 bread">Transformation </h1>
 				<p class="breadcrumbs">
 					<span class="mr-2">
-						<a aria-label="Offres" href="{% url 'index_vitrine' %}#offres">Offres<i class="fas fa-chevron-right"></i></a>
+						<a aria-label="Offres" href="{% url 'index_vitrine' %}#offres">Offres <i class="fas fa-chevron-right"></i></a>
 					</span>
-					<span>Transformation<i class="fas fa-chevron-right"></i></span>
+					<span>Transformation <i class="fas fa-chevron-right"></i></span>
 				</p>
 			</div>
 		</div>
 	</div>
 </section>
-<section class="ftco-section ftco-no-pb">
+
+
+
+
+
+<section style="margin-top: 125px;">
 	<div class="container">
-		<div class="row d-flex">
-			<div class="col-md-5 order-md-last wrap-about align-items-stretch">
-				<div class="wrap-about-border ftco-animate">
-					<picture>
-						<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_transformation.webp' %}">
-						<source type="image/png" srcset="{% static 'vitrine/img/logo_transformation.png' %}">
-						<img src="{% static 'vitrine/img/logo_transformation.png' %}" alt="logo_transformation" class="img_offres_secteurs">
-					</picture>
-					 
-					<div class="text">
-						<h3>Notre vision et notre ambition</h3>
-						<p>
-							Le monde change rapidement et les organisations doivent changer pour libérer leur plein potentiel.
-						</p>
-						<p>
-							Pourtant, les recherches montrent que la plupart des efforts pour changer fondamentalement la trajectoire d'une organisation échouent. La gamme d'offres de transformation d'Oxade aide les clients à inverser les obstacles afin d'obtenir des résultats extraordinaires pour leur entreprise.
-						</p>
-						<p>
-							<a aria-label="Contactez-nous" href="{% url 'contact' %}" class="btn btn-primary py-3 px-4">Contactez-nous</a>
-						</p>
+		<div class="row no-gutters">
+			<a aria-label="Conduite du changement" href="{% url 'conduite_du_changement' %}" class="col-lg-4 d-flex test">
+				<div class="services-2 noborder-left text-center ftco-animate secteurs">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_deploiement.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_deploiement.png' %}">
+							<img src="{% static 'vitrine/img/logo_deploiement.png' %}" alt="logo_deploiement" style="width: 89px;"> 
+						</picture>
+					</div>
+					<div class="text media-body" style="display: flex;flex-direction: column;align-items: center;">
+						<h3 style="margin-bottom: 29px; color:#013E5B">Risques et Conformité</h3>
+						<ul class="liste_offres">
+							<li>Risques et contrôle interne​</li>
+							<li>Conformité règlementaire (promo de l’éthique, dispositif de lutte​ </li>
+							<li>Contre le blanchiment des capitaux et le financement du terrorisme)​</li>
+							<li>Continuité d’activité et gestion de crise​</li>
+							<li>Adaptation des offres et des processus</li>
+						</ul>
 					</div>
 				</div>
+			</a>
+			<a aria-label="Fusions et acquisitions" href="{% url 'fusions_et_acquisitions' %}" class="col-lg-4 d-flex test">
+				<div class="services-2 text-center ftco-animate secteurs">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_analyse.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_analyse.png' %}">
+							<img src="{% static 'vitrine/img/logo_analyse.png' %}" alt="logo_analyse" style="width: 89px;">  
+						</picture>
+					</div>
+					<div class="text media-body" style="display: flex;flex-direction: column;align-items: center;">
+						
+						<h3 style="margin-bottom: 29px; color:#013E5B">Distribution et Relation Client</h3>
+						<ul class="liste_offres">
+							<li>Transformation et performance de la distribution</li>
+							<li>Digital Banking </li>
+							<li>Acteurs  :  Concentration du marché / Nouveaux entrants</li>
+							<li>Parcours et expérience client​</li>
+							<li>CRM (processus et outils)</li>
+							<li>Innovation et nouveaux canaux​</li>
+							<li>Agence de demain​</li>
+						</ul>
+					</div>
+				</div>
+			</a>
+			<a aria-label="Transformation" href="{% url 'transformation' %}" class="col-lg-4 d-flex test">
+				<div class="services-2 text-center ftco-animate secteurs">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_strategie.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_strategie.png' %}">
+							<img src="{% static 'vitrine/img/logo_strategie.png' %}" alt="logo_strategie" style="width: 89px;"> 
+						</picture>
+					</div>
+					<div class="text media-body" style="display: flex;flex-direction: column;align-items: center;">
+						<h3 style="margin-bottom: 29px; color:#013E5B">Organisation et Processus​</h3>
+						<ul class="liste_offres">
+							<li>Performance et digitalisation des processus</li>
+							<li>Refonte et agilité des organisations </li>
+							<li>Dimensionnement et trajectoire métier​</li>
+							<li>Benchmark sur l’allocation des ressources et des dépenses</li>
+						</ul>
+					</div>
+				</div>
+			</a>
+			<a aria-label="Sécurité" href="{% url 'securite' %}" class="col-lg-6 d-flex test">
+				<div class="services-2 noborder-left noborder-bottom text-center ftco-animate secteurs">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_communication.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_communication.png' %}">
+							<img src="{% static 'vitrine/img/logo_communication.png' %}" alt="logo_communication" style="width: 144px;margin-top: -20px; margin-bottom: -28px;"> 
+						</picture>
+					</div>
+					<div class="text media-body" style="display: flex;flex-direction: column;align-items: center;">
+						<h3 style="margin-bottom: 29px; color:#013E5B">Data et Connaissance client​</h3>
+						<ul class="liste_offres">
+							<li>Vision client 360°</li>
+							<li>Structuration de la filière data </li>
+							<li>Design de l’architecture fonctionnelle data / Data analysis​</li>
+						</ul>
+					</div>
+				</div>
+			</a>
+			<a aria-label="Réglementaire" href="{% url 'reglementaire' %}" class="col-lg-6 d-flex test">
+				<div class="services-2 text-center noborder-bottom ftco-animate secteurs">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_croissance.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_croissance.png' %}">
+							<img src="{% static 'vitrine/img/logo_croissance.png' %}" alt="logo_croissance" style="    width: 74px;margin-top: 14px;margin-bottom: 22px;">
+						</picture>
+					</div>
+					<div class="text media-body" style="display: flex;flex-direction: column;align-items: center;">
+						<h3 style="margin-bottom: 29px; color:#013E5B">Lab. Digital et Innovation & Agilité</h3>
+						<ul class="liste_offres">
+							<li>Structuration des Labs</li>
+							<li>Coach agile et accompagnement projet</li>
+							<li>Démarche Innovation</li>
+						</ul>
+					</div>
+				</div>
+			</a>
+		</div>
+	</div>
+</section>
+
+
+<section style="margin-top: 125px;margin-bottom: 125px;">
+	<div class="container">
+		<div class="container_contact_us">
+			<div class="container_bouton">
+				<picture>
+					<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_transformation.webp' %}">
+					<source type="image/png" srcset="{% static 'vitrine/img/logo_transformation.png' %}">
+					<img src="{% static 'vitrine/img/logo_transformation.png' %}" alt="logo_transformation" class="img_offres_secteurs">
+				</picture>
+				<p>
+					<a aria-label="Contactez-nous" href="{% url 'contact' %}" class="btn btn-primary py-3 px-4">Contactez-nous</a>
+				</p>
 			</div>
+			
+			<div class="text_contact">
+				<h3>Notre vision et notre ambition</h3>
+				<p>
+					Le monde change rapidement et les organisations doivent changer pour libérer leur plein potentiel.
+				</p>
+				<p>
+					Pourtant, les recherches montrent que la plupart des efforts pour changer fondamentalement la trajectoire d'une organisation échouent. La gamme d'offres de transformation d'Oxade aide les clients à inverser les obstacles afin d'obtenir des résultats extraordinaires pour leur entreprise.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- <section class="ftco-section ftco-no-pb">
+	<div class="container">
+		<div class="row d-flex">
 			<div class="col-md-7 wrap-about pr-md-4 ftco-animate">
 				<h2 class="mb-4">Domaines d’intervention</h2>
 				<p>
@@ -138,4 +315,6 @@
 		</div>
 	</div>
 </section>
+ -->
+
 {% endblock %}

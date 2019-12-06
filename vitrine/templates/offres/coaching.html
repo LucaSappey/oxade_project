@@ -1,0 +1,330 @@
+{% extends 'base_vitrine.html' %}
+{% load staticfiles %}
+
+{% block seo %}
+<meta name="Description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:title" content="Oxade | Sécurité">
+<title>Oxade | Sécurité</title>
+
+<link rel="stylesheet" type="text/css" href="{% static 'vitrine/css/offres.css' %}">
+<script src="https://kit.fontawesome.com/b7aa201f58.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet"> 
+
+{% endblock %}
+
+{% block content %}
+
+<style type="text/css">
+	.container_contact_us{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		border:4px solid #d1ebf9;
+	}
+
+	.text_contact{
+		display: flex;
+	    flex-direction: column;
+	    align-items: flex-start;
+	    justify-content: center;
+	}
+
+	.container_bouton{
+		display: flex;
+	    justify-content: center;
+	    flex-direction: column;
+	    align-items: center;
+	    margin-bottom: 26px;
+	}
+
+	.liste_offres{
+		margin-top: 0;
+	    text-align: left;
+	    margin-bottom: 1rem;
+	    color: grey;
+	}
+
+	.secteurs:hover {
+    background: #1b9ce300;
+	}
+
+	@media screen and (max-width: 991.98px){
+		.container_contact_us {
+		    display: flex;
+		    flex-direction: row;
+		    justify-content: center;
+		    border: 4px solid #d1ebf9;
+		    flex-wrap: wrap;
+		}
+
+		.text_contact {
+		    display: flex;
+		    flex-direction: column;
+		    align-items: center;
+		    justify-content: center;
+		    text-align: center;
+		    padding: 30px;
+		}
+
+		.liste_offres {
+		    margin-left: 11%;
+		}
+	}
+
+	.double_listes{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+</style>
+
+<section class="hero-wrap hero-wrap-2 fond-defense">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row no-gutters slider-text align-items-center justify-content-center">
+			<div class="col-md-9 ftco-animate text-center">
+				<h1 class="mb-2 bread">Risk management & sécurité de l’information </h1>
+				<p class="breadcrumbs">
+					<span class="mr-2">
+						<a aria-label="Offres" href="{% url 'index_vitrine' %}#offres">Offres <i class="fas fa-chevron-right"></i></a>
+					</span>
+					<span>Risk management & sécurité de l’information <i class="fas fa-chevron-right"></i></span>
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+<section style="margin-top: 125px;">
+	<div class="container">
+		<div class="row no-gutters">
+			<a aria-label="Conduite du changement" href="{% url 'conduite_du_changement' %}" class="col-lg-6 d-flex test">
+				<div class="services-2 noborder-left text-center ftco-animate secteurs">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_deploiement.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_deploiement.png' %}">
+							<img src="{% static 'vitrine/img/logo_deploiement.png' %}" alt="logo_deploiement" style="width: 89px;"> 
+						</picture>
+					</div>
+					<div class="text media-body" style="display: flex;flex-direction: column;align-items: center;">
+						<h3 style="margin-bottom: 29px; color:#013E5B">Périmètre d’intervention​</h3>
+						<ul class="liste_offres">
+							<li>Fusion / Transformation</li>
+							<li>Création d’entités​</li>
+							<li>Changement de business Model​</li>
+							<li>Prise de fonction​</li>
+							<li>Développeur de talents</li>
+						</ul>
+					</div>
+				</div>
+			</a>
+			<a aria-label="Fusions et acquisitions" href="{% url 'fusions_et_acquisitions' %}" class="col-lg-6 d-flex test">
+				<div class="services-2 text-center ftco-animate secteurs">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_analyse.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_analyse.png' %}">
+							<img src="{% static 'vitrine/img/logo_analyse.png' %}" alt="logo_analyse" style="width: 89px;">  
+						</picture>
+					</div>
+					<div class="text media-body" style="display: flex;flex-direction: column;align-items: center;">
+						
+						<h3 style="margin-bottom: 29px; color:#013E5B">Profils des coachs</h3>
+						<ul class="liste_offres">
+							<li>Anciens membres de direction générale & responsables opérationnels​</li>
+							<li>Coachs spécialisés selon​</li>
+							<li>Méthodes : HBDI ©, MBTI ©, Strong © , 360° ©</li>
+						</ul>
+					</div>
+				</div>
+			</a>
+			<a aria-label="Transformation" href="{% url 'transformation' %}" class="col-lg-6 d-flex test">
+				<div class="services-2 text-center ftco-animate secteurs">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_strategie.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_strategie.png' %}">
+							<img src="{% static 'vitrine/img/logo_strategie.png' %}" alt="logo_strategie" style="width: 89px;"> 
+						</picture>
+					</div>
+					<div class="text media-body" style="display: flex;flex-direction: column;align-items: center;">
+						<h3 style="margin-bottom: 29px; color:#013E5B">Public ciblé​</h3>
+						<ul class="liste_offres">
+							<li>Direction​</li>
+							<li>Managers​</li>
+							<li>Équipes​</li>
+							<li>Organisations​</li>
+						</ul>
+					</div>
+				</div>
+			</a>
+			<a aria-label="Sécurité" href="{% url 'securite' %}" class="col-lg-6 d-flex test">
+				<div class="services-2 noborder-left noborder-bottom text-center ftco-animate secteurs">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_communication.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_communication.png' %}">
+							<img src="{% static 'vitrine/img/logo_communication.png' %}" alt="logo_communication" style="width: 144px;margin-top: -20px; margin-bottom: -28px;"> 
+						</picture>
+					</div>
+					<div class="text media-body">
+						<h3 style="margin-bottom: 29px; color:#013E5B">Connaissance sectorielle </h3>
+						<div class="double_listes">
+							<ul class="liste_offres">
+								<li>Assurance</li>
+								<li>Distribution​</li>
+								<li>Finances</li>
+								<li>Service</li>
+							</ul>
+							<ul class="liste_offres">
+								<li>Industrie​</li>
+								<li>Chimie-pétrochimie</li>
+								<li>Automobile​</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</a>
+		</div>
+	</div>
+</section>
+
+
+<section style="margin-top: 125px;margin-bottom: 125px;">
+	<div class="container">
+		<div class="container_contact_us">
+			<div class="container_bouton">
+				<picture>
+					<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_securite.webp' %}">
+					<source type="image/png" srcset="{% static 'vitrine/img/logo_securite.png' %}">
+					<img style="width: 351px;" src="{% static 'vitrine/img/logo_securite.png' %}" alt="logo_securite" class="img_offres_secteurs">
+				</picture>
+				<p>
+					<a aria-label="Contactez-nous" href="{% url 'contact' %}" class="btn btn-primary py-3 px-4">Contactez-nous</a>
+				</p>
+			</div>
+			
+			<div class="text_contact">
+				<h3>Notre vision et notre ambition</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus felis non aliquam imperdiet.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus felis non aliquam imperdiet. Curabitur id lacus eget lacus dignissim tincidunt eget quis nisi. Aliquam nibh dui, elementum quis lacus in, euismod tincidunt massa.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- <section class="ftco-section ftco-no-pb">
+			<div class="container">
+				<div class="row d-flex">
+					<div class="col-md-5 order-md-last wrap-about align-items-stretch">
+						<div class="wrap-about-border ftco-animate">
+							<picture>
+								<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_securite.webp' %}">
+								<source type="image/png" srcset="{% static 'vitrine/img/logo_securite.png' %}">
+								<img src="{% static 'vitrine/img/logo_securite.png' %}" alt="logo_securite" class="img_offres_secteurs">
+							</picture>
+							
+							<div class="text">
+								<h3>Notre vision et notre ambition</h3>
+								<p>
+									L’intelligence artificielle, l’internet des objets ou la réalité augmentée représentent des leviers de différenciation importants pour les sociétés qui souhaitent innover. Toutefois, chaque révolution a son lot de complexité et la hausse de la cybercriminalité, ces dernières années, en est la preuve.
+								</p>
+								<p>
+									Cette menace couplée à la volatilité des données critiques des sociétés conforte mc²i Groupe dans l’idée que la cybersécurité est une composante utile et nécessaire à tout cycle projet.
+								</p>
+								<p>
+									<a aria-label="Contactez-nous" href="{% url 'contact' %}" class="btn btn-primary py-3 px-4">Contactez-nous</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7 wrap-about pr-md-4 ftco-animate">
+						<h2 class="mb-4">Nos domaines d’intervention</h2>
+						<p>
+							Le domaine de la cybersécurité reste obscur pour le grand public, mais aussi pour grand nombre d’entreprises.Il devient désormais primordial d’acculturer les employés aux risques de cyberattaques et d’inscrire ces démarches dans la conduite du changement de chaque projet afin d’aboutir à une adoption plus large et plus rapide des bonnes pratiques.
+						</p>
+						<div class="row mt-5">
+							<div class="col-lg-6">
+								<div class="services text-center">
+									<div class="icon mt-2 d-flex justify-content-center align-items-center">
+										<picture>
+											<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_solutions.webp' %}">
+											<source type="image/png" srcset="{% static 'vitrine/img/logo_solutions.png' %}">
+											<img src="{% static 'vitrine/img/logo_solutions.png' %}" alt="logo_solutions" style="width: 149px;margin-top: -16px;">
+										</picture>
+										
+									</div>
+									<div class="text media-body">
+										<h3>Mise en place de plans de sécurité</h3>
+										<p>
+											Accompagner ces plans en respectant les normes et directives (PSSI, RGPD, LPM, ANSSI…),
+										</p>
+									</div>
+								</div>
+								<div class="services text-center">
+									<div class="icon mt-2 d-flex justify-content-center align-items-center">
+										<picture>
+											<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_cybersecurite.webp' %}">
+											<source type="image/png" srcset="{% static 'vitrine/img/logo_cybersecurite.png' %}">
+											<img src="{% static 'vitrine/img/logo_cybersecurite.png' %}" alt="logo_cybersecurite" style="width: 139px;margin-top: -16px;margin-bottom: -5px;">
+										</picture>
+										
+									</div>
+									<div class="text media-body">
+										<h3>Des solutions de cybersécurité</h3>
+										<p style="margin-bottom: 45px;">
+											Conseiller à les choisir et les déployer.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6">
+								<div class="services text-center">
+									<div class="icon mt-2 d-flex justify-content-center align-items-center">
+										<picture>
+											<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_referentiel.webp' %}">
+											<source type="image/png" srcset="{% static 'vitrine/img/logo_referentiel.png' %}">
+											<img src="{% static 'vitrine/img/logo_referentiel.png' %}" alt="logo_referentiel" style="width: 144px;margin-top: -32px;margin-bottom: -30px;">
+										</picture>
+										
+									</div>
+									<div class="text media-body">
+										<h3>Mise en place de référentiels de sécurité</h3>
+										<p>
+											Accompagner les RSSI (Responsables Sécurité des Systèmes d’Information) dasn cette mise en place
+										</p>
+									</div>
+								</div>
+								<div class="services text-center">
+									<div class="icon mt-2 d-flex justify-content-center align-items-center">
+										<picture>
+											<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_industriel.webp' %}">
+											<source type="image/png" srcset="{% static 'vitrine/img/logo_industriel.png' %}">
+											<img src="{% static 'vitrine/img/logo_industriel.png' %}" alt="logo_industriel" style="    width: 109px;margin-top: -19px;margin-bottom: 27px;">
+										</picture>
+										
+									</div>
+									<div class="text media-body">
+										<h3>Environnements industriels</h3>
+										<p>
+											Garantir le déploiement de solutions de cybersécurité dans ces environnements
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+ -->
+{% endblock %}

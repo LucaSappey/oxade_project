@@ -60,3 +60,15 @@ class Bdd_chiffre(models.Model):
 	
 	def __str__(self):
 		return self.nom
+
+# class Bdd_nous_rejoindre(models.Model):
+# 	id = models.AutoField(primary_key = True)
+# 	nom = models.CharField(default=' ', max_length=400)
+
+
+# 	class Meta:
+# 		verbose_name = "Candidat"
+# 		ordering = ['id']
+
+# 	def __str__(self):
+# 		return self.nom

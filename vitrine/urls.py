@@ -11,16 +11,26 @@ urlpatterns = [
 
 
     url(r'^contact/', views.contact, name='contact'),
+
+
     url(r'^conduite-du-changement/', views.conduite_du_changement, name='conduite_du_changement'),
     url(r'^evenements/', views.evenements, name='evenements'),
-    url(r'^digitalisation/', views.digitalisation, name='digitalisation'),
+    url(r'^architecture-systemes/', views.architecture, name='architecture'),
+    url(r'^divers1/', views.divers1, name='divers1'),
+    url(r'^divers2/', views.divers2, name='divers2'),
+    url(r'^coaching/', views.coaching, name='coaching'),
+    url(r'^innovation-digitale/', views.digitalisation, name='digitalisation'),
     url(r'^experience-client/', views.experience_client, name='experience_client'),
     url(r'^fusions-et-acquisitions/', views.fusions_et_acquisitions, name='fusions_et_acquisitions'),
     url(r'^gestion-de-projets/', views.gestion_de_projets, name='gestion_de_projets'),
     url(r'^reglementaire/', views.reglementaire, name='reglementaire'),
     url(r'^securite/', views.securite, name='securite'),
     url(r'^transformation/', views.transformation, name='transformation'),
+    url(r'^excellence-operationnelle/', views.excellence_operationnelle, name='excellence_operationnelle'),
+
+
     url(r'^mention-legales/', views.mentions_legales, name='mentions_legales'),
+
 
     url(r'^assurance/', views.assurance, name='assurance'),
     url(r'^banque/', views.banque, name='banque'),
@@ -31,6 +41,9 @@ urlpatterns = [
 
     url(r'^a-propos-de-nous/', views.a_propos, name='a_propos'),
     url(r'^nous-rejoindre/', views.nous_rejoindre, name='nous_rejoindre'),
+
+    url(r'^training/', views.training, name='training'),
+
 
 
 

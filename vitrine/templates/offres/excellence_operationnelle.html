@@ -1,0 +1,200 @@
+{% extends 'base_vitrine.html' %}
+{% load staticfiles %}
+
+{% block seo %}
+<meta name="Description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:description" content="Conseil stratégique et opérationnel en systèmes d'information">
+<meta property="og:title" content="Oxade | Transformation">
+<title>Oxade | Transformation</title>
+
+<link rel="stylesheet" type="text/css" href="{% static 'vitrine/css/offres.css' %}">
+<script src="https://kit.fontawesome.com/b7aa201f58.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap" rel="stylesheet"> 
+
+{% endblock %}
+
+{% block content %}
+
+<style type="text/css">
+	.container_contact_us{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		border:4px solid #d1ebf9;
+	}
+
+	.text_contact{
+		display: flex;
+	    flex-direction: column;
+	    align-items: flex-start;
+	    justify-content: center;
+	}
+
+	.container_bouton{
+		display: flex;
+	    justify-content: center;
+	    flex-direction: column;
+	    align-items: center;
+	    margin-bottom: 26px;
+	}
+
+	.liste_offres{
+		margin-top: 0;
+	    text-align: left;
+	    margin-bottom: 1rem;
+	    color: grey;
+	}
+
+	.secteurs:hover {
+    background: #1b9ce300;
+	}
+
+	.img_offres_secteurs_excellence{
+		width: 180px;
+		margin: 64px;
+	}
+
+
+	@media screen and (max-width: 991.98px){
+		.container_contact_us {
+		    display: flex;
+		    flex-direction: row;
+		    justify-content: center;
+		    border: 4px solid #d1ebf9;
+		    flex-wrap: wrap;
+		}
+
+		.text_contact {
+		    display: flex;
+		    flex-direction: column;
+		    align-items: center;
+		    justify-content: center;
+		    text-align: center;
+		    padding: 30px;
+		}
+
+		.liste_offres {
+		    margin-left: 11%;
+		}
+	}
+</style>
+
+<section class="hero-wrap hero-wrap-2 fond-defense">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row no-gutters slider-text align-items-center justify-content-center">
+			<div class="col-md-9 ftco-animate text-center">
+				<h1 class="mb-2 bread">Excellence opérationnelle </h1>
+				<p class="breadcrumbs">
+					<span class="mr-2">
+						<a aria-label="Offres" href="{% url 'index_vitrine' %}#offres">Offres <i class="fas fa-chevron-right"></i></a>
+					</span>
+					<span>Excellence opérationnelle <i class="fas fa-chevron-right"></i></span>
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+<section style="margin-top: 125px;">
+	<div class="container">
+		<div class="row no-gutters">
+			
+			<a aria-label="Sécurité" href="{% url 'securite' %}" class="col-lg-6 d-flex test">
+				<div class="services-2 noborder-left noborder-bottom text-center ftco-animate secteurs">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_communication.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_communication.png' %}">
+							<img src="{% static 'vitrine/img/logo_communication.png' %}" alt="logo_communication" style="width: 144px;margin-top: -20px; margin-bottom: -28px;"> 
+						</picture>
+					</div>
+					<div class="text media-body" style="display: flex;flex-direction: column;align-items: center;">
+						<h3 style="margin-bottom: 29px; color:#013E5B">Stratégie SI et sourcing</h3>
+						<ul class="liste_offres">
+							<li>Transformation et organisation de  la fonction SI</li>
+							<li>Développement de l’agilité avec  le 4 speed IT​</li>
+							<li>Pilotage de la performance avec  le Data Driven Management</li>
+							<li>Accélération de l’innovation avec  le Talent & Sourcing Management​</li>
+						</ul>
+					</div>
+				</div>
+			</a>
+			<a aria-label="Réglementaire" href="{% url 'reglementaire' %}" class="col-lg-6 d-flex test">
+				<div class="services-2 text-center noborder-bottom ftco-animate secteurs">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_croissance.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_croissance.png' %}">
+							<img src="{% static 'vitrine/img/logo_croissance.png' %}" alt="logo_croissance" style="    width: 74px;margin-top: 14px;margin-bottom: 22px;">
+						</picture>
+					</div>
+					<div class="text media-body" style="display: flex;flex-direction: column;align-items: center;">
+						<h3 style="margin-bottom: 29px; color:#013E5B">Ressources Humaines et changement​</h3>
+						<ul class="liste_offres">
+							<li>Optimisation de l’efficacité  opérationnelle​</li>
+							<li>Accompagnement de l’entreprise  dans la révolution digitale​</li>
+							<li>Amélioration de la gestion  collective et individuelle des  ressources​</li>
+							<li>Pilotage du changement et des  transformations​</li>
+							<li>SI RH</li>
+						</ul>
+					</div>
+				</div>
+			</a>
+			<a aria-label="Conduite du changement" href="{% url 'conduite_du_changement' %}" class="col-lg-12 d-flex test">
+				<div class="services-2 noborder-left text-center ftco-animate secteurs">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_deploiement.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_deploiement.png' %}">
+							<img src="{% static 'vitrine/img/logo_deploiement.png' %}" alt="logo_deploiement" style="width: 89px;"> 
+						</picture>
+					</div>
+					<div class="text media-body" style="display: flex;flex-direction: column;align-items: center;">
+						<h3 style="margin-bottom: 29px; color:#013E5B">Finance et pilotage économique​</h3>
+						<ul class="liste_offres">
+							<li>Modèle de Maturité & Excellence  Opérationnelle de la fonction Finance</li>
+							<li>Modélisation et pilotage économique​</li>
+							<li>Pilotage des flux financiers et trésorerie​</li>
+							<li>Corporate finance et marchés de capitaux</li>
+						</ul>
+					</div>
+				</div>
+			</a>
+		</div>
+	</div>
+</section>
+
+
+<section style="margin-top: 125px;margin-bottom: 125px;">
+	<div class="container">
+		<div class="container_contact_us">
+			<div class="container_bouton">
+				<picture>
+					<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_excellence.webp' %}">
+					<source type="image/png" srcset="{% static 'vitrine/img/logo_excellence.png' %}">
+					<img src="{% static 'vitrine/img/logo_excellence.png' %}" alt="logo_excellence" class="img_offres_secteurs_excellence">
+				</picture>
+				<p>
+					<a aria-label="Contactez-nous" href="{% url 'contact' %}" class="btn btn-primary py-3 px-4">Contactez-nous</a>
+				</p>
+			</div>
+			
+			<div class="text_contact">
+				<h3>Notre vision et notre ambition</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus felis non aliquam imperdiet.
+				</p>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus felis non aliquam imperdiet. Curabitur id lacus eget lacus dignissim tincidunt eget quis nisi. Aliquam nibh dui, elementum quis lacus in, euismod tincidunt massa.
+				</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+{% endblock %}

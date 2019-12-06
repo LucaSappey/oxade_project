@@ -29,6 +29,20 @@
 	width: 132px; 
 	}
 }
+.services:hover {
+    background: #1b9ce300;
+}
+
+.middle{
+	margin-top: 141px;
+}
+
+@media screen and (max-width: 991.98px) {
+	.middle{
+	margin-top: 0px!important;
+}
+}
+
 
 </style>
 
@@ -54,6 +68,14 @@
 				<div class="row d-flex">
 					<div class="col-md-7 wrap-about pr-md-4 ftco-animate">
 						<h2 class="mb-4">Vos enjeux</h2>
+						<p>Un marché soumis à de multiples transformations :​</p>
+						<ul>
+							<li>Digital	 :  Mobile / Multicanal / Big data / Objets connectés</li>
+							<li>Comportement  :  Volatilité des consommateurs / Exigence, prix et qualité de service / Nouvelles attentes sociales </li>
+							<li>Acteurs  :  Concentration du marché / Nouveaux entrants</li>
+							<li>Socio-économique​  :   Vieillissement démographique / Crise durable / Pression structurelle des organismes publics (CNAV-CNAM) / Taux bas</li>
+							<li>Réglementaire  :  ANI / Contrats responsables / DSN / Loi Eckert / Solvabilité II / Loi Hamon</li>
+						</ul>
 						<p>
 							A l'heure actuelle, et probablement plus que jamais, de nombreux facteurs de transformation impactent le secteur de l'assurance. De toute évidence, Internet en a été l'un des principaux éléments déclencheurs dans le courant des années 90.</br></br>
 							
@@ -88,7 +110,86 @@
 				</div>
 			</div>
 		</section>
-		<section class=" ftco-counter" style="padding-bottom: 0">
+
+<section class="ftco-section ftco-no-pb" style="padding-top: 0px;">
+	<div class="container">
+		<div class="row d-flex">
+			<div class="col-md-12 wrap-about pr-md-4 ftco-animate">
+				<div class="row mt-5">
+					<div class="col-lg-4">
+						<div class="services text-center">
+							<div class="icon mt-2 d-flex justify-content-center align-items-center">
+								<picture>
+									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_management.webp' %}">
+									<source type="image/png" srcset="{% static 'vitrine/img/logo_management.png' %}">
+									<img src="{% static 'vitrine/img/logo_management.png' %}" alt="logo_management" style="width: 65px;margin-bottom: 18px;"> 
+								</picture>
+							</div>
+							<div class="text media-body">
+								<h3 style="margin-bottom: 27px;">Accroître la connaissance client et valoriser la donnée</h3>
+							</div>
+						</div>
+						<div class="services text-center">
+							<div class="icon mt-2 d-flex justify-content-center align-items-center">
+								<picture>
+									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_rouages.webp' %}">
+									<source type="image/png" srcset="{% static 'vitrine/img/logo_rouages.png' %}">
+									<img src="{% static 'vitrine/img/logo_rouages.png' %}" alt="logo_rouages" style="width: 65px;margin-bottom: 18px;"> 
+								</picture>
+							</div>
+							<div class="text media-body">
+
+								<h3 style="margin-bottom: 27px;">Améliorer l’expérience client et repenser le modèle distributif (agence…)​</h3>
+
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 middle" >
+						<div class="services text-center">
+							<div class="icon mt-2 d-flex justify-content-center align-items-center">
+								<picture>
+									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_cadenat.webp' %}">
+									<source type="image/png" srcset="{% static 'vitrine/img/logo_cadenat.png' %}">
+									<img src="{% static 'vitrine/img/logo_cadenat.png' %}" alt="logo_cadenat" style="width: 65px;margin-bottom: 18px;"> 
+								</picture>
+							</div>
+							<div class="text media-body">
+								<h3 style="margin-bottom: 27px;">Accroître la performance des organisations et digitaliser les processus​</h3>
+							</div>
+						</div>
+					</div>
+				<div class="col-lg-4">
+					<div class="services text-center">
+							<div class="icon mt-2 d-flex justify-content-center align-items-center">
+								<picture>
+									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_marche.webp' %}">
+									<source type="image/png" srcset="{% static 'vitrine/img/logo_marche.png' %}">
+									<img src="{% static 'vitrine/img/logo_marche.png' %}" alt="logo_marche" style="width: 65px;margin-bottom: 18px;"> 
+								</picture>
+							</div>
+							<div class="text media-body">
+								<h3 style="margin-bottom: 27px;">Maîtriser les risques et faire des évolutions réglementaires des opportunités​</h3>
+							</div>
+						</div>
+						<div class="services text-center">
+							<div class="icon mt-2 d-flex justify-content-center align-items-center">
+								<picture>
+									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_fiole.webp' %}">
+									<source type="image/png" srcset="{% static 'vitrine/img/logo_fiole.png' %}">
+									<img src="{% static 'vitrine/img/logo_fiole.png' %}" alt="logo_fiole" style="width: 65px;margin-bottom: 18px;"> 
+								</picture>
+							</div>
+							<div class="text media-body">
+								<h3 style="margin-bottom: 27px;">Favoriser l’innovation, l’expérimentation et les cycles courts​</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>	
+<!-- <section class=" ftco-counter" style="padding-bottom: 0">
 	<div class="container">
 		<div class="row justify-content-center mb-5 pb-2 d-flex">
 			<div class="col-md-6 align-items-stretch d-flex">
@@ -106,5 +207,5 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 {% endblock %}

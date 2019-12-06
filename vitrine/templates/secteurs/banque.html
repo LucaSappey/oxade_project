@@ -4,8 +4,8 @@
 {% block seo %}
 <meta name="Description" content="Conseil stratégique et opérationnel en systèmes d'information">
 <meta property="og:description" content="Conseil stratégique et opérationnel en systèmes d'information">
-<meta property="og:title" content="Oxade | Banque ">
-<title>Oxade | Banque </title>
+<meta property="og:title" content="Oxade | Banque de détail ">
+<title>Oxade | Banque de détail </title>
 
 <link rel="stylesheet" type="text/css" href="{% static 'vitrine/css/secteurs.css' %}">
 <script src="https://kit.fontawesome.com/b7aa201f58.js" crossorigin="anonymous"></script>
@@ -15,7 +15,7 @@
 {% block content %}
 
 <style type="text/css">
-	.img_offres_secteurs{
+.img_offres_secteurs{
 	width: 275px; 
 	margin-left: auto ;
 	margin-right: auto;
@@ -29,26 +29,39 @@
 	width: 222px; 
 	}
 }
+.services:hover {
+    background: #1b9ce300;
+}
+
+.middle{
+	margin-top: 361px;
+}
+
+@media screen and (max-width: 991.98px) {
+	.middle{
+	margin-top: 0px!important;
+}
+}
 
 </style>
 
-		<section class="hero-wrap hero-wrap-2 fond-defense">
+		<section class="hero-wrap hero-wrap-2 fond-defense"> 
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row no-gutters slider-text align-items-center justify-content-center">
 					<div class="col-md-9 ftco-animate text-center">
-						<h1 class="mb-2 bread">Banque</h1>
+						<h1 class="mb-2 bread">Banque de détail </h1>
 						<p class="breadcrumbs">
 							<span class="mr-2">
-								<a aria-label="Secteurs" href="{% url 'index_vitrine' %}#secteurs">Secteurs<i class="fas fa-chevron-right"></i></a>
+								<a aria-label="Secteurs" href="{% url 'index_vitrine' %}#secteurs">Secteurs <i class="fas fa-chevron-right"></i></a>
 							</span>
-							<span>Banque<i class="fas fa-chevron-right"></i></span>
+							<span>Banque de détail <i class="fas fa-chevron-right"></i></span>
 						</p>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="ftco-section ftco-no-pb">
+		<section class="ftco-section ftco-no-pb" style="padding-bottom: 48px;">
 			<div class="container">
 				<div class="row d-flex">
 					<div class="col-md-7 wrap-about pr-md-4 ftco-animate">
@@ -87,9 +100,166 @@
 				</div>
 			</div>
 		</section>
+<section class="ftco-section ftco-no-pb" style="padding-top: 0px;">
+	<div class="container">
+		<div class="row d-flex">
+			<div class="col-md-12 wrap-about pr-md-4 ftco-animate">
+				<div class="row mt-5">
+					<div class="col-lg-4">
+						<div class="services text-center">
+							<div class="icon mt-2 d-flex justify-content-center align-items-center">
+								<picture>
+									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_management.webp' %}">
+									<source type="image/png" srcset="{% static 'vitrine/img/logo_management.png' %}">
+									<img src="{% static 'vitrine/img/logo_management.png' %}" alt="logo_management" style="width: 65px;margin-bottom: 18px;"> 
+								</picture>
+							</div>
+							<div class="text media-body">
+								<h3 style="margin-bottom: 27px;">Management et Performance des Processus​</h3>
+								<p>
+									Cartographie des processus 
+								</p>
+								<p>
+									Mise en place de dispositif de management par les processus
+								</p>
+								<p>
+									Optimisation et refonte de processus et de filières
+								</p>
+								<p>
+									Démarches Lean 6 Sigma​
+								</p>
+								<p>
+									Système d’engagements Client
+								</p>
 
+							</div>
+						</div>
+						<div class="services text-center">
+							<div class="icon mt-2 d-flex justify-content-center align-items-center">
+								<picture>
+									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_rouages.webp' %}">
+									<source type="image/png" srcset="{% static 'vitrine/img/logo_rouages.png' %}">
+									<img src="{% static 'vitrine/img/logo_rouages.png' %}" alt="logo_rouages" style="width: 65px;margin-bottom: 18px;"> 
+								</picture>
+							</div>
+							<div class="text media-body">
+
+								<h3 style="margin-bottom: 27px;">Efficacité Opérationnelle​</h3>
+								<p>
+									Refonte de structures​ 
+								</p>
+								<p>
+									Évolution d’organigramme siège​
+								</p>
+								<p>
+									Réalisation de projet de mutualisation
+								</p>
+								<p>
+									Benchmark sur la performance des activités ​
+								</p>
+								<p>
+									Benchmark sur les dépenses de fonctionnement​
+								</p>
+								<p>
+									Accompagnement de chantier d’économie​
+								</p>
+
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 middle" >
+						<div class="services text-center">
+							<div class="icon mt-2 d-flex justify-content-center align-items-center">
+								<picture>
+									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_cadenat.webp' %}">
+									<source type="image/png" srcset="{% static 'vitrine/img/logo_cadenat.png' %}">
+									<img src="{% static 'vitrine/img/logo_cadenat.png' %}" alt="logo_cadenat" style="width: 65px;margin-bottom: 18px;"> 
+								</picture>
+							</div>
+							<div class="text media-body">
+								<h3 style="margin-bottom: 27px;">Formation​</h3>
+								<p>
+									Stratégie de distribution multicanal​ 
+								</p>
+								<p>
+									Management de projet​
+								</p>
+								<p>
+									Processus​
+								</p>
+								<p>
+									Accompagnement du changement​ ​
+								</p>
+							</div>
+						</div>
+					</div>
+				<div class="col-lg-4">
+					<div class="services text-center">
+							<div class="icon mt-2 d-flex justify-content-center align-items-center">
+								<picture>
+									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_marche.webp' %}">
+									<source type="image/png" srcset="{% static 'vitrine/img/logo_marche.png' %}">
+									<img src="{% static 'vitrine/img/logo_marche.png' %}" alt="logo_marche" style="width: 65px;margin-bottom: 18px;"> 
+								</picture>
+							</div>
+							<div class="text media-body">
+								<h3 style="margin-bottom: 27px;">Distribution et Efficacité de la Relation Client</h3>
+								<p>
+									Stratégie de distribution multicanal​ 
+								</p>
+								<p>
+									Maillage du réseau d’agences​
+								</p>
+								<p>
+									Métiers commerciaux​
+								</p>
+								<p>
+									Parcours client ​
+								</p>
+								<p>
+									Benchmark sur la performance commerciale
+								</p>
+								<p>
+									 Allégement des charges administratives en agence
+								</p>
+
+							</div>
+						</div>
+						<div class="services text-center">
+							<div class="icon mt-2 d-flex justify-content-center align-items-center">
+								<picture>
+									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_fiole.webp' %}">
+									<source type="image/png" srcset="{% static 'vitrine/img/logo_fiole.png' %}">
+									<img src="{% static 'vitrine/img/logo_fiole.png' %}" alt="logo_fiole" style="width: 65px;margin-bottom: 18px;"> 
+								</picture>
+							</div>
+							<div class="text media-body">
+								<h3 style="margin-bottom: 27px;">Accompagnement​ Projet​</h3>
+								<p>
+									Construction de méthodologie projet​
+								</p>
+								<p>
+									Assistance au pilotage et à la réalisation de grands projets​
+								</p>
+								<p>
+									Accompagnement du changement
+								</p>
+								<p>
+									Définition et cadrage de projets complexes​
+								</p>
+								<p>
+									Direction opérationnelle de projets
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
  
-<section class="ftco-counter" style="padding-bottom: 0">
+<!-- <section class="ftco-counter" style="padding-bottom: 93px;padding-top: 55px;">
 	<div class="container">
 		<div class="row justify-content-center mb-5 pb-2 d-flex">
 			<div class="col-md-6 align-items-stretch d-flex">
@@ -107,5 +277,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
+
+
 {% endblock %}
