@@ -108,8 +108,6 @@ def contact(request):
 	template = 'contact.html'
 	return render(request,template,context)
 
-
-
 def conduite_du_changement(request):
 
 	evenement = Bdd_evenement.objects.all().reverse()[0]
@@ -160,8 +158,6 @@ def coaching(request):
 	context = locals()
 	template = 'offres/coaching.html'
 	return render(request,template,context)
-
-
 
 def evenements(request):
 
