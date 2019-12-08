@@ -186,12 +186,31 @@
 								</p>
 							</div>
 						</a>
+						<a aria-label="Logistique" href="#" class="services text-center">
+							<div class="icon mt-2 d-flex justify-content-center align-items-center">
+								<picture>
+									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_logistique.webp' %}">
+									<source type="image/png" srcset="{% static 'vitrine/img/logo_logistique.png' %}">
+									<img style="width: 164px;margin-bottom: 0px;" alt="logo-logistique" src="{% static 'vitrine/img/logo_logistique.png' %}">
+								</picture>
+							</div>
+							<div class="text media-body">
+								<h3>Transport & logistique</h3>
+								<p class="color_grey">
+									Accompagnement depuis de très nombreuses années des acteurs de la mobilité, des infrastructures, du fret et de la logistique au travers d’approches adaptées et innovantes
+								</p>
+							</div>
+						</a>
+						
+					</div>
+					<div class="col-lg-4">
+						
 						<a aria-label="Assurance" href="{% url 'assurance' %}" class="services text-center">
 							<div class="icon mt-2 d-flex justify-content-center align-items-center">
 								<picture>
 									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_assurance.webp' %}">
 									<source type="image/png" srcset="{% static 'vitrine/img/logo_assurance.png' %}">
-									<img style="width:47px; margin-bottom: 27px;" alt="logo-assurance"src="{% static 'vitrine/img/logo_assurance.png' %}">
+									<img style="width:47px; margin-bottom: 20px;" alt="logo-assurance"src="{% static 'vitrine/img/logo_assurance.png' %}">
 								</picture>
 							</div>
 							<div class="text media-body">
@@ -201,9 +220,25 @@
 								</p>
 							</div>
 						</a>
+						<a aria-label="Energie" href="#" class="services text-center">
+							<div class="icon mt-2 d-flex justify-content-center align-items-center">
+								<picture>
+									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_energie.webp' %}">
+									<source type="image/png" srcset="{% static 'vitrine/img/logo_energie.png' %}">
+									<img style="width:81px; margin-bottom: -3px;" alt="logo-energie" src="{% static 'vitrine/img/logo_energie.png' %}">
+								</picture>
+							</div>
+							<div class="text media-body">
+								<h3>Energie</h3>
+								<p class="color_grey">
+									Solutions innovantes pour accompagner les transformations majeures des grands acteurs français et européens du secteur de l'énergie, accompagnement dans les évolutions stratégique
+								</p>
+							</div>
+						</a>
 					</div>
 					<div class="col-lg-4">
-						<a aria-label="Public" href="{% url 'secteur_public' %}" class="services text-center">
+						
+						<a aria-label="Public" href="#" class="services text-center">
 							<div class="icon mt-2 d-flex justify-content-center align-items-center">
 								<picture>
 									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_public.webp' %}">
@@ -218,39 +253,7 @@
 								</p>
 							</div>
 						</a>
-						<a aria-label="Energie" href="{% url 'energie' %}" class="services text-center">
-							<div class="icon mt-2 d-flex justify-content-center align-items-center">
-								<picture>
-									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_energie.webp' %}">
-									<source type="image/png" srcset="{% static 'vitrine/img/logo_energie.png' %}">
-									<img style="width:73px; margin-bottom: 9px;" alt="logo-energie" src="{% static 'vitrine/img/logo_energie.png' %}">
-								</picture>
-							</div>
-							<div class="text media-body">
-								<h3>Energie</h3>
-								<p class="color_grey">
-									Solutions innovantes pour accompagner les transformations majeures des grands acteurs français et européens du secteur de l'énergie, accompagnement dans les évolutions stratégique
-								</p>
-							</div>
-						</a>
-					</div>
-					<div class="col-lg-4">
-						<a aria-label="Logistique" href="{% url 'transport_et_logistique' %}" class="services text-center">
-							<div class="icon mt-2 d-flex justify-content-center align-items-center">
-								<picture>
-									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_logistique.webp' %}">
-									<source type="image/png" srcset="{% static 'vitrine/img/logo_logistique.png' %}">
-									<img style="width:134px; margin-bottom: 7px;" alt="logo-logistique" src="{% static 'vitrine/img/logo_logistique.png' %}">
-								</picture>
-							</div>
-							<div class="text media-body">
-								<h3>Transport & logistique</h3>
-								<p class="color_grey">
-									Accompagnement depuis de très nombreuses années des acteurs de la mobilité, des infrastructures, du fret et de la logistique au travers d’approches adaptées et innovantes
-								</p>
-							</div>
-						</a>
-						<a aria-label="Telecom" href="{% url 'telecommunications' %}" class="services text-center">
+						<a aria-label="Telecom" href="#" class="services text-center">
 							<div class="icon mt-2 d-flex justify-content-center align-items-center">
 								<picture>
 									<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_telecom.webp' %}">
@@ -314,40 +317,7 @@
 			</div>
 		</div>
 		<div class="row no-gutters">
-			<a aria-label="Conduite du changement" href="{% url 'conduite_du_changement' %}" class="col-lg-4 d-flex test">
-				<div class="services-2 noborder-left text-center ftco-animate">
-					<div class="icon mt-2 d-flex justify-content-center align-items-center">
-						<picture>
-							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_conduite.webp' %}">
-							<source type="image/png" srcset="{% static 'vitrine/img/logo_conduite.png' %}">
-							<img style="width: 93px;margin-bottom: 28px;margin-top: -11px;" alt="logo-conduite" src="{% static 'vitrine/img/logo_conduite.png' %}">
-						</picture>
-					</div>
-					<div class="text media-body">
-						<h3>Conduite du changement</h3>
-						<p class="color_grey">
-							Bien gérée, elle peut occasionner une réduction des coûts, une amélioration de la qualité et un accroissement de la réactivité.
-						</p>
-					</div>
-				</div>
-			</a>
-			<a aria-label="Fusions et acquisitions" href="{% url 'fusions_et_acquisitions' %}" class="col-lg-4 d-flex test">
-				<div class="services-2 text-center ftco-animate">
-					<div class="icon mt-2 d-flex justify-content-center align-items-center">
-						<picture>
-							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_fusions.webp' %}">
-							<source type="image/png" srcset="{% static 'vitrine/img/logo_fusions.png' %}">
-							<img style="width: 111px; margin-bottom: 15px;" alt="logo-fusions" src="{% static 'vitrine/img/logo_fusions.png' %}">
-						</picture>
-					</div>
-					<div class="text media-body">
-						<h3>Fusions et acquisitions</h3>
-						<p class="color_grey">
-							Les opérations de Fusions & Acquisitions (F&A) sont longtemps restées l’apanage du monde de la Stratégie et de la Finance.
-						</p>
-					</div>
-				</div>
-			</a>
+			
 			<a aria-label="Transformation" href="{% url 'transformation' %}" class="col-lg-4 d-flex test">
 				<div class="services-2 text-center ftco-animate">
 					<div class="icon mt-2 d-flex justify-content-center align-items-center">
@@ -365,6 +335,40 @@
 					</div>
 				</div>
 			</a>
+			<a aria-label="Coaching" href="{% url 'coaching' %}" class="col-lg-4 d-flex test">
+				<div class="services-2 text-center ftco-animate">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_coaching.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_coaching.png' %}">
+							<img style="width: 154px;margin-bottom: -3px;margin-top: -7px;" alt="logo-coaching" src="{% static 'vitrine/img/logo_coaching.png' %}">
+						</picture>
+					</div>
+					<div class="text media-body">
+						<h3>Coaching</h3>
+						<p class="color_grey">
+							Nous proposons un processus d’accompagnement et de facilitation qui vise à vous permettre de trouver vous-même la solution à une problématique professionnelle opérationnelle ou managériale
+						</p>
+					</div>
+				</div>
+			</a>
+			<a aria-label="Coaching" href="{% url 'excellence_operationnelle' %}" class="col-lg-4 d-flex test">
+				<div class="services-2 text-center ftco-animate">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_excellence.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_excellence.png' %}">
+							<img style="width: 85px;margin-bottom: 3px;margin-top: -3px;" alt="logo-excellence" src="{% static 'vitrine/img/logo_excellence.png' %}">
+						</picture>
+					</div>
+					<div class="text media-body">
+						<h3>Excellence opérationnelle</h3>
+						<p class="color_grey">
+							Levier puissant de compétitivité pour les entreprises, et ce d’autant plus qu’elles évoluent dans un environnement extrêmement concurrentiel
+						</p>
+					</div>
+				</div>
+			</a>
 			<a aria-label="Sécurité" href="{% url 'securite' %}" class="col-lg-4 d-flex test">
 				<div class="services-2 noborder-left noborder-bottom text-center ftco-animate">
 					<div class="icon mt-2 d-flex justify-content-center align-items-center">
@@ -375,9 +379,111 @@
 						</picture>
 					</div>
 					<div class="text media-body">
-						<h3>Sécurité</h3>
+						<h3>Risk management & sécurité de l’information</h3>
 						<p class="color_grey">
 							Découvrez comment nous avons réussi à simplifier la sécurité des accès au système d’information de votre établissement.
+						</p>
+					</div>
+				</div>
+			</a>
+			<a aria-label="Digitaliation" href="{% url 'digitalisation' %}" class="col-lg-4 d-flex test">
+				<div class="services-2 text-center noborder-bottom ftco-animate">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_digital.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_digital.png' %}">
+							<img style="width: 116px;margin-bottom: -14px;margin-top: -18px;" alt="logo-digital" src="{% static 'vitrine/img/logo_digital.png' %}">
+						</picture>
+					</div>
+					<div class="text media-body">
+						<h3>Innovation digital</h3>
+						<p class="color_grey">
+							 Les entreprises du secteur financier mettent en œuvre les changements exigés par les nouvelles réglementations. Elles s’efforcent en même temps de réagir face à la croissance de la numérisation.
+						</p>
+					</div>
+				</div>
+			</a>
+			<a aria-label="Digitaliation" href="{% url 'architecture' %}" class="col-lg-4 d-flex test">
+				<div class="services-2 text-center noborder-bottom ftco-animate">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_conduite.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_conduite.png' %}">
+							<img style="width: 93px;margin-bottom: 17px;margin-top: 4px;" alt="logo-conduite" src="{% static 'vitrine/img/logo_conduite.png' %}">
+						</picture>
+					</div>
+					<div class="text media-body">
+						<h3>Architecture des systèmes d'information</h3>
+						<p class="color_grey">
+							À l'interface de nombreux métiers de l'entreprise, nous conçevons et organisons l'ensemble des serveurs, des systèmes d'exploitation, des ordinateurs, des logiciels, etc. Afin de les adapter aux besoins des utilisateurs
+						</p>
+					</div>
+				</div>
+			</a>
+			<a aria-label="Digitaliation" href="{% url 'divers1' %}" class="col-lg-4 d-flex test">
+				<div class="services-2 text-center noborder-bottom ftco-animate">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_projets.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_projets.png' %}">
+							<img style="width: 93px;margin-bottom: 17px;margin-top: 4px;" alt="logo-projets" src="{% static 'vitrine/img/logo_projets.png' %}">
+						</picture>
+					</div>
+					<div class="text media-body">
+						<h3>Divers 1</h3>
+						<p class="color_grey">
+							L’accélération des transformations de l’environnement économique et financier des entreprises est impactant en termes de réglementations, de renforcement de la concurrence et de pression des marchés
+						</p>
+					</div>
+				</div>
+			</a>
+			<a aria-label="Digitaliation" href="{% url 'divers2' %}" class="col-lg-4 d-flex test">
+				<div class="services-2 text-center noborder-bottom ftco-animate">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_divers2.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_divers2.png' %}">
+							<img style="width: 93px;margin-bottom: 8px;margin-top: -6px;" alt="logo-divers2" src="{% static 'vitrine/img/logo_divers2.png' %}">
+						</picture>
+					</div>
+					<div class="text media-body">
+						<h3>Divers 2</h3>
+						<p class="color_grey">
+							Amélioration de la qualité des processus de production des produits et donc la qualité des produits en visant à réduire la variabilité d’un processus pour tendre vers le zéro défaut
+						</p>
+					</div>
+				</div>
+			</a>
+			<!-- <a aria-label="Fusions et acquisitions" href="{% url 'fusions_et_acquisitions' %}" class="col-lg-4 d-flex test">
+				<div class="services-2 text-center ftco-animate">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_fusions.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_fusions.png' %}">
+							<img style="width: 111px; margin-bottom: 15px;" alt="logo-fusions" src="{% static 'vitrine/img/logo_fusions.png' %}">
+						</picture>
+					</div>
+					<div class="text media-body">
+						<h3>Fusions et acquisitions</h3>
+						<p class="color_grey">
+							Les opérations de Fusions & Acquisitions (F&A) sont longtemps restées l’apanage du monde de la Stratégie et de la Finance.
+						</p>
+					</div>
+				</div>
+			</a> -->
+			<!-- <a aria-label="Conduite du changement" href="{% url 'conduite_du_changement' %}" class="col-lg-4 d-flex test">
+				<div class="services-2 noborder-left text-center ftco-animate">
+					<div class="icon mt-2 d-flex justify-content-center align-items-center">
+						<picture>
+							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_conduite.webp' %}">
+							<source type="image/png" srcset="{% static 'vitrine/img/logo_conduite.png' %}">
+							<img style="width: 93px;margin-bottom: 28px;margin-top: -11px;" alt="logo-conduite" src="{% static 'vitrine/img/logo_conduite.png' %}">
+						</picture>
+					</div>
+					<div class="text media-body">
+						<h3>Conduite du changement</h3>
+						<p class="color_grey">
+							Bien gérée, elle peut occasionner une réduction des coûts, une amélioration de la qualité et un accroissement de la réactivité.
 						</p>
 					</div>
 				</div>
@@ -428,28 +534,11 @@
 					<div class="text media-body">
 						<h3>Gestion de projets</h3>
 						<p class="color_grey">
-							Elle consiste à appliquer les méthodes, techniques, et outils de gestion spécifiques aux différentes étapes du projet, de l'évaluation de l'opportunité jusqu'à l'achèvement du projet.
+							Elle consiste à appliquer les méthodes, techniques, et outils de gestion spécifiques aux différentes étapes du projet, de l'évaluation de l'opportunité jusqu'à l'achèvement du projet
 						</p>
 					</div>
 				</div>
-			</a>
-			<a aria-label="Digitaliation" href="{% url 'digitalisation' %}" class="col-lg-4 d-flex test">
-				<div class="services-2 text-center noborder-bottom ftco-animate">
-					<div class="icon mt-2 d-flex justify-content-center align-items-center">
-						<picture>
-							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_digital.webp' %}">
-							<source type="image/png" srcset="{% static 'vitrine/img/logo_digital.png' %}">
-							<img style="width: 116px;margin-bottom: -4px;margin-top: -35px;" alt="logo-digital" src="{% static 'vitrine/img/logo_digital.png' %}">
-						</picture>
-					</div>
-					<div class="text media-body">
-						<h3>Digitaliation</h3>
-						<p class="color_grey">
-							 Les entreprises du secteur financier mettent en œuvre les changements exigés par les nouvelles réglementations. Elles s’efforcent en même temps de réagir face à la croissance de la numérisation.
-						</p>
-					</div>
-				</div>
-			</a>
+			</a> -->
 			<a aria-label="En savoir plus" href="{% url 'contact' %}" class="col-lg-4 d-flex test">
 				<div class="services-2 text-center noborder-bottom ftco-animate">
 					<div style="margin-top: 118px;" class="text media-body">

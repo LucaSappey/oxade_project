@@ -636,10 +636,12 @@ h3 {
 .owl-carousel.home-slider .slider-item {
 	background-size:cover;
 	background-repeat:no-repeat;
-	background-position:top center;
+	background-position:center;
 	height:600px;
 	position:relative;
-	z-index:0
+	z-index:0;
+    background-attachment: scroll;
+}
 }
 @media(max-width:1199.98px){.owl-carousel.home-slider .slider-item {
 	background-position:center center!important
@@ -977,16 +979,16 @@ transition:all .3s ease
 }
 }
 .webp .fond-webp {
-	background-image:url(../img/webp/fond_defense.webp)
+	background-image:url(../img/webp/fond_pont1.webp)
 }
 .no-webp .fond-webp {
-	background-image:url(../img/fond_defense.png)
+	background-image:url(../img/fond_pont1.png)
 }
 .webp .fond-webp-2 {
-	background-image:url(../img/webp/fond_immeuble.webp)
+	background-image:url(../img/webp/fond_reunion.webp)
 }
 .no-webp .fond-webp-2 {
-	background-image:url(../img/fond_immeuble.png)
+	background-image:url(../img/fond_reunion.png)
 }
 .owl-carousel,
 .owl-carousel .owl-item {

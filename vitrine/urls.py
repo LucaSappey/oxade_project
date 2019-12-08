@@ -32,17 +32,15 @@ urlpatterns = [
     url(r'^mention-legales/', views.mentions_legales, name='mentions_legales'),
 
 
-    url(r'^assurance/', views.assurance, name='assurance'),
     url(r'^banque/', views.banque, name='banque'),
-    url(r'^telecommunications/', views.telecommunications, name='telecommunications'),
-    url(r'^secteur-public/', views.secteur_public, name='secteur_public'),
-    url(r'^transport_et_logistique/', views.transport_et_logistique, name='transport_et_logistique'),
-    url(r'^energie/', views.energie, name='energie'),
+    url(r'^assurance/', views.assurance, name='assurance'),
+    # url(r'^telecommunications/', views.telecommunications, name='telecommunications'),
+    # url(r'^secteur-public/', views.secteur_public, name='secteur_public'),
+    # url(r'^transport_et_logistique/', views.transport_et_logistique, name='transport_et_logistique'),
+    # url(r'^energie/', views.energie, name='energie'),
 
     url(r'^a-propos-de-nous/', views.a_propos, name='a_propos'),
     url(r'^nous-rejoindre/', views.nous_rejoindre, name='nous_rejoindre'),
-
-    url(r'^training/', views.training, name='training'),
 
 
 

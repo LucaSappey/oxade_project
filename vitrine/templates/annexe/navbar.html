@@ -43,16 +43,26 @@
     height: 50px;
 }
 
-.icon{
+.icon_nav{
   display: none;
 }
 
+.logo_oxade{
+    width: 156px;
+    position: absolute;
+    margin-top: 6px;
+}
+
+.icon_respon{
+    list-style-type: none;
+  }
 @media screen and (max-width: 991.98px){
-  .all_nav.container li:not(:first-child){
+
+  .all_nav :not(:first-child){
     display:none;
   }
-  .icon{
-    display: block;
+  .icon_nav{
+    display: block!important;
     float: right;
     font-size: 28px;
   }
@@ -61,22 +71,32 @@
     display: none!important;
   }
 
-  .all_nav.container.responsive li:not(:first-child){
-    display: flex!important;
+  .container.responsive{
+    display: flex;
     flex-direction: column-reverse;
+    justify-content: flex-start;
     align-items: flex-start;
+    list-style-type: none;
   }
 
   .links{
     float: none;
     padding: 0px;
   }
+
+  .logo_oxade{
+    position: unset;
+  }
+
+  nav{
+    margin-bottom: 22px;
+  }
 }
 </style>
 <nav>
-  
+  <div class="icon_respon container"><a href="javascript:void(0);" class="icon_nav" onclick="responsive_nav()"><i class="fa fa-bars"></i></a></div>
   <ul class="all_nav container" id="navbar">
-    <li><a href="javascript:void(0);" class="icon" onclick="responsive_nav()"><i class="fa fa-bars"></i></a></li>
+    
     <li class="links langues"><form  action="{% url 'set_language' %}" method="post" class="searchform order-lg-last links_a">
       {% csrf_token %}
     <input name="next" type="hidden" value="{{ request.get_full_path|slice:'3:' }}" />
@@ -133,7 +153,7 @@
       </div>
     </form>
           </li>
-    <li class="links"><a href="{% url 'a_propos' %}" class="nav-link pl-0 links_a" style="margin-left: 9px;">{% trans 'À propos de nous' %}</a></li>
+    <li class="links"><a href="{% url 'a_propos' %}" class="nav-link pl-0 links_a" style="margin-left: 17px;">{% trans 'À propos de nous' %}</a></li>
     <li class="nav-item item-navbar-dropdown links" id="myDropdown2">
           <a aria-label="Secteurs" class="nav-link links_a" onclick="display_secteurs()" onmouseover="debug()" style="cursor: pointer;">{% trans 'Secteurs' %} 
             <picture>
@@ -144,14 +164,14 @@
           </a>
           <div class="dropdown-content_tel dropdown_content_secteur">
               <a aria-label="Banque" href="{% url 'banque' %}">{% trans 'Banque' %}</a>
-              <a aria-label="Secteur public" href="{% url 'secteur_public' %}">{% trans 'Secteur public' %}</a>
-              <a aria-label="Transport & logistique" href="{% url 'transport_et_logistique' %}">{% trans 'Transport & logistique' %}</a>
               <a aria-label="Assurance" href="{% url 'assurance' %}">{% trans 'Assurance' %}</a>
-              <a aria-label="Energie" href="{% url 'energie' %}">{% trans 'Energie' %}</a>
-              <a aria-label="Télécommunications" href="{% url 'telecommunications' %}">{% trans 'Télécommunications' %}</a>
+              <a aria-label="Secteur public" href="#">{% trans 'Secteur public' %}</a>
+              <a aria-label="Transport & logistique" href="#">{% trans 'Transport & logistique' %}</a>
+              <a aria-label="Energie" href="#">{% trans 'Energie' %}</a>
+              <a aria-label="Télécommunications" href="#">{% trans 'Télécommunications' %}</a>
           </div>
 
-          <div class="nav_sub_menu dropdown-content dropdown_content_secteur">
+          <div class="nav_sub_menu dropdown-content dropdown_content_secteur" style="margin-top: 4px;">
             <div class="div_sub_menu">
               <div class="part_sub_menu1">
                 <div class="sub_menu_content">
@@ -264,7 +284,7 @@
               <a aria-label="Gestion de projets" href="{% url 'gestion_de_projets' %}">{% trans 'Gestion de projets' %}</a>
               <a aria-label="Digitalisation" href="{% url 'digitalisation' %}">{% trans 'Digitalisation' %}</a>
               </div>
-          <div class="nav_sub_menu dropdown-content dropdown_content_offres">
+          <div class="nav_sub_menu dropdown-content dropdown_content_offres" style="margin-top: 4px;">
             <div class="div_sub_menu">
               <div class="part_sub_menu1">
                 <div class="sub_menu_content">
@@ -272,7 +292,7 @@
                   <ul class="nav_sub_menu_list">
                     <li class="nav_sub_menu_list_item professionnel" onmouseover="myFunction3()"><a aria-label="Transformation" href="{% url 'transformation' %}">{% trans 'Transformation' %}</a></li>
                     <li class="nav_sub_menu_list_item professionnel" onmouseover="myFunction6()"><a aria-label="Coaching" href="{% url 'coaching' %}">Coaching</a></li>
-                    <li class="nav_sub_menu_list_item professionnel" onmouseover="#"><a aria-label="Excellence opérationnelle" href="{% url 'excellence_operationnelle' %}">Excellence opérationnelle</a></li>
+                    <li class="nav_sub_menu_list_item professionnel" onmouseover="myFunction7()"><a aria-label="Excellence opérationnelle" href="{% url 'excellence_operationnelle' %}">Excellence opérationnelle</a></li>
                     <li class="nav_sub_menu_list_item professionnel" onmouseover="myFunction4()"><a aria-label="Risk management & sécurité de l’information" href="{% url 'securite' %}">Risk management & sécurité de l’information</a></li>
                     <li  class="nav_sub_menu_list_item professionnel" onmouseover="myFunction8()"><a aria-label="Innovation digitale" href="{% url 'digitalisation' %}">Innovation digitale</a></li>
                     <!-- <li href="{% url 'conduite_du_changement' %}" class="nav_sub_menu_list_item particulier green" onmouseover="myFunction1()"><a aria-label="Conduite du changement" href="{% url 'conduite_du_changement' %}">{% trans 'Conduite du changement' %}</a></li> -->
@@ -289,7 +309,7 @@
               <div class="part_sub_menu2 part_sub_menu2_a show" id="a">
                 <div style="width: 50%;">
                   <h2 class="titre_sub_menu_a"><!-- {% trans 'Conduite du changement' %} -->Architecture des systèmes d’information​</h2>
-                  <p style="margin-left: 68px; margin-top: 21px;"><!-- {% trans 'Bien gérée, elle peut occasionner une réduction des coûts, une amélioration de la qualité et un accroissement de la réactivité.' %} -->Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus felis non aliquam imperdiet. Curabitur id lacus eget lacus dignissim tincidunt eget quis nisi. Aliquam nibh dui, elementum quis lacus in, euismod tincidunt massa.</p>
+                  <p style="margin-left: 68px; margin-top: 21px;"><!-- {% trans 'Bien gérée, elle peut occasionner une réduction des coûts, une amélioration de la qualité et un accroissement de la réactivité.' %} -->À l'interface de nombreux métiers de l'entreprise, nous conçevons et organisons l'ensemble des serveurs, des systèmes d'exploitation, des ordinateurs, des logiciels, etc. Afin de les adapter aux besoins des utilisateurs</p>
                 </div>
                 <div style="text-align: center; margin-right: 50px;">
                   <picture>
@@ -303,13 +323,13 @@
                   <div class="part_sub_menu2 part_sub_menu2_b" id="b">
                     <div style="width: 50%;">
                       <h2 class="titre_sub_menu_a"><!-- {% trans 'Fusions et acquisitions' %} -->Divers 1</h2>
-                      <p style="margin-left: 68px; margin-top: 21px;"><!-- {% trans 'Les opérations de Fusions & Acquisitions (F&A) sont longtemps restées l’apanage du monde de la Stratégie et de la Finance.' %} -->Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus felis non aliquam imperdiet. Curabitur id lacus eget lacus dignissim tincidunt eget quis nisi. Aliquam nibh dui, elementum quis lacus in, euismod tincidunt massa.</p>
+                      <p style="margin-left: 68px; margin-top: 21px;"><!-- {% trans 'Les opérations de Fusions & Acquisitions (F&A) sont longtemps restées l’apanage du monde de la Stratégie et de la Finance.' %} -->L’accélération des transformations de l’environnement économique et financier des entreprises est impactant en termes de réglementations, de renforcement de la concurrence et de pression des marchés</p>
                 </div>
                 <div style="text-align: center; margin-right: 50px;">
                   <picture>
-                    <source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_fusions.webp' %}">
-                    <source type="image/png" srcset="{% static 'vitrine/img/logo_fusions.png' %}">
-                    <img class="pc-particulier" style="width: 318px;" src="{% static 'vitrine/img/logo_fusions.png' %}" alt="logo_conduite-du-changement">
+                    <source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_projets.webp' %}">
+                    <source type="image/png" srcset="{% static 'vitrine/img/logo_projets.png' %}">
+                    <img class="pc-particulier" style="width: 222px;margin-top: 115px;margin-left: 99px;" src="{% static 'vitrine/img/logo_projets.png' %}" alt="logo_conduite-du-changement">
                   </picture>
                 </div>
               </div>
@@ -345,13 +365,13 @@
                   <div class="part_sub_menu2 part_sub_menu2_e" id="e">
                     <div style="width: 50%;">
                       <h2 class="titre_sub_menu_a"><!-- {% trans 'Réglementaire' %} -->Divers 2</h2>
-                      <p style="margin-left: 68px; margin-top: 21px;"><!-- {% trans 'En amont des projets et lors du cadrage, jusqu’à la mise en oeuvre SI et des reportings réglementaires, Oxade couvre l’ensemble du spectre de la réglementation des marchés financiers.' %} -->Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus felis non aliquam imperdiet. Curabitur id lacus eget lacus dignissim tincidunt eget quis nisi. Aliquam nibh dui, elementum quis lacus in, euismod tincidunt massa.</p>
+                      <p style="margin-left: 68px; margin-top: 21px;"><!-- {% trans 'En amont des projets et lors du cadrage, jusqu’à la mise en oeuvre SI et des reportings réglementaires, Oxade couvre l’ensemble du spectre de la réglementation des marchés financiers.' %} -->Amélioration de la qualité des processus de production des produits et donc la qualité des produits en visant à réduire la variabilité d’un processus pour tendre vers le zéro défaut</p>
                 </div>
                 <div style="text-align: center; margin-right: 50px;">
                   <picture>
-                    <source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_reglementaire.webp' %}">
-                    <source type="image/png" srcset="{% static 'vitrine/img/logo_reglementaire.png' %}">
-                    <img class="pc-particulier" style="width: 228px; margin-left: 136px;" src="{% static 'vitrine/img/logo_reglementaire.png' %}" alt="logo_conduite-du-changement">
+                    <source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_divers2.webp' %}">
+                    <source type="image/png" srcset="{% static 'vitrine/img/logo_divers2.png' %}">
+                    <img class="pc-particulier" style="width: 228px; margin-left: 136px;" src="{% static 'vitrine/img/logo_divers2.png' %}" alt="logo_divers2">
                   </picture>
                 </div>
 
@@ -359,33 +379,33 @@
                   <div class="part_sub_menu2 part_sub_menu2_f" id="f">
                     <div style="width: 50%;">
                       <h2 class="titre_sub_menu_a"><!-- {% trans 'Expérience client' %} -->Coaching</h2>
-                      <p style="margin-left: 68px; margin-top: 21px;"><!-- {% trans 'Intelligence stratégique, excellence opérationnelle et connaissance approfondie de ses clients sont aujourd’hui les facteurs clés de la réussite des entreprises gagnantes.' %} -->Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus felis non aliquam imperdiet. Curabitur id lacus eget lacus dignissim tincidunt eget quis nisi. Aliquam nibh dui, elementum quis lacus in, euismod tincidunt massa.</p>
+                      <p style="margin-left: 68px; margin-top: 21px;"><!-- {% trans 'Intelligence stratégique, excellence opérationnelle et connaissance approfondie de ses clients sont aujourd’hui les facteurs clés de la réussite des entreprises gagnantes.' %} -->Nous proposons un processus d’accompagnement et de facilitation qui vise à vous permettre de trouver vous-même la solution à une problématique professionnelle opérationnelle ou managériale tout en travaillant sur votre épanouissement personnel</p>
                 </div>
                 <div style="text-align: center; margin-right: 50px;">
                   <picture>
-                    <source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_experience-client.webp' %}">
-                    <source type="image/png" srcset="{% static 'vitrine/img/logo_experience-client.png' %}">
-                    <img class="pc-particulier" style="width: 400px;margin-top: 81px;margin-left: 16px;" src="{% static 'vitrine/img/logo_experience-client.png' %}" alt="logo_experience-client">
+                    <source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_coaching.webp' %}">
+                    <source type="image/png" srcset="{% static 'vitrine/img/logo_coaching.png' %}">
+                    <img class="pc-particulier" style="width: 400px;margin-top: 81px;margin-left: 16px;" src="{% static 'vitrine/img/logo_coaching.png' %}" alt="logo_coaching">
                   </picture>
 
                     </div>
                   </div>
                   <div class="part_sub_menu2 part_sub_menu2_g" id="g">
                     <div style="width: 50%;">
-                      <h2 class="titre_sub_menu_a">{% trans 'Gestion de projets' %}</h2>
-                      <p style="margin-left: 68px; margin-top: 21px;">{% trans 'Elle consiste à appliquer les méthodes, techniques, et outils de gestion spécifiques aux différentes étapes du projet, de l\'évaluation de l\'opportunité jusqu\'à l\'achèvement du projet.' %}</p>
+                      <h2 class="titre_sub_menu_a"><!-- {% trans 'Gestion de projets' %} -->Excellence opérationnelle</h2>
+                      <p style="margin-left: 68px; margin-top: 21px;"><!-- {% trans 'Elle consiste à appliquer les méthodes, techniques, et outils de gestion spécifiques aux différentes étapes du projet, de l\'évaluation de l\'opportunité jusqu\'à l\'achèvement du projet.' %} -->Levier puissant de compétitivité pour les entreprises, et ce d’autant plus qu’elles évoluent dans un environnement extrêmement concurrentiel</p>
                 </div>
                 <div style="text-align: center; margin-right: 50px;">
                   <picture>
-                    <source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_projets.webp' %}">
-                    <source type="image/png" srcset="{% static 'vitrine/img/logo_projets.png' %}">
-                    <img class="pc-particulier" style="width: 222px;margin-top: 115px;margin-left: 99px;" src="{% static 'vitrine/img/logo_projets.png' %}" alt="logo_conduite-du-changement">
+                    <source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_excellence.webp' %}">
+                    <source type="image/png" srcset="{% static 'vitrine/img/logo_excellence.png' %}">
+                    <img class="pc-particulier" style="width: 222px;margin-top: 115px;margin-left: 99px;" src="{% static 'vitrine/img/logo_excellence.png' %}" alt="logo_excellence">
                   </picture>
                 </div>
                   </div>
                   <div class="part_sub_menu2 part_sub_menu2_h" id="h">
                     <div style="width: 50%;">
-                      <h2 class="titre_sub_menu_a">Innovation digitale.
+                      <h2 class="titre_sub_menu_a">Innovation digitale
 
                       </h2>
                       <p style="margin-left: 68px; margin-top: 21px;">{% trans 'Les entreprises du secteur financier mettent en œuvre les changements exigés par les nouvelles réglementations. Elles s’efforcent en même temps de réagir face à la croissance de la numérisation.' %}</p>
@@ -405,7 +425,7 @@
                     <picture>
                       <source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_oxade.webp' %}">
                         <source type="image/png" srcset="{% static 'vitrine/img/logo_oxade.png' %}">
-                      <img alt="bandeau-oxade-consulting"src="{% static 'vitrine/img/logo_oxade.png' %}" style="    width: 156px;position: absolute;margin-top: 6px;">
+                      <img alt="bandeau-oxade-consulting"src="{% static 'vitrine/img/logo_oxade.png' %}" class="logo_oxade">
                     </picture>                   
                   </a>
                 </li>
@@ -425,13 +445,13 @@
 //   b[1].className = "nav_sub_menu dropdown-content dropdown_content_secteur";
 //   if (x.className === "navbar-nav mr-auto") {
 //     x.className += " responsive";
-//     document.getElementById("mt1").className = "icon mt1";
+//     document.getElementById("mt1").className = "icon_nav mt1";
 //     document.getElementById("drapeau").className = "drapeau2";
 //     document.getElementById("mt2").className = "mt2";
 //     document.getElementById("mt3").className = "logo_oxade_tel mt2";
 //   } else {
 //     x.className = "navbar-nav mr-auto";
-//     document.getElementById("mt1").className = "icon";
+//     document.getElementById("mt1").className = "icon_nav";
 //     document.getElementById("drapeau").className = "drapeau";
 //     document.getElementById("mt2").className = "";
 //     document.getElementById("mt3").className = "logo_oxade_tel";
@@ -455,7 +475,7 @@ function responsive_nav(){
   var x = document.getElementById("navbar");
 
   if (x.className === "all_nav container"){
-    x.className += " responsive";
+    x.className = "container responsive";
   }
   else{
     x.className = "all_nav container";

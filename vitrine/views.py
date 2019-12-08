@@ -39,38 +39,6 @@ from django.utils.encoding import force_text
 # from .forms import infos_nous_rejoindre, cv_lettre
 
 
-def training(request):
-
-	evenement = Bdd_evenement.objects.all().reverse()[0]
-	chiffre = Bdd_chiffre.objects.all()
-	form1 = infos_nous_rejoindre()
-	form2 = cv_lettre()
-
-	if(request.method == 'POST'):
-		form1 = infos_nous_rejoindre(request.POST)
-		form2 = cv_lettre(request.POST)
-		if form1.is_valid() and form2.is_valid():
-
-			nom = form1.cleaned_data['nom']
-			email = form1.cleaned_data['email']
-			print(nom, email)
-
-	if request.POST.get("sv"):
-		Bdd_mail.objects.create(mail=request.POST.get("mail"))
-
-
-
-
-	context = locals()
-	template = 'training.html'
-	return render(request,template,context)
-
-
-
-
-
-
-
 
 def index_vitrine(request):
 
