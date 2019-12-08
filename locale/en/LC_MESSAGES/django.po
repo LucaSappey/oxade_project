@@ -89,6 +89,17 @@ msgstr "Digitaliation"
 msgid "En savoir plus"
 msgstr "Learn more"
 
+
+#: vitrine/templates/annexe/navbar.html:188
+msgid ""
+"Nous appuyons les directions projets et les instances dirigeantes pour "
+"faciliter le suivi de l’avancement et la prise de décisions."
+msgstr ""
+"We support project directorates and governing bodies to facilitate the "
+"monitoring of progress and decision-making."
+
+
+
 #: vitrine/templates/annexe/navbar.html:160
 msgid ""
 "Bien gérée, elle peut occasionner une réduction des coûts, une amélioration "
@@ -105,13 +116,7 @@ msgstr ""
 "Mergers & Acquisitions (M & A) operations have long been the preserve of the "
 "world of Strategy and Finance."
 
-#: vitrine/templates/annexe/navbar.html:188
-msgid ""
-"Nous appuyons les directions projets et les instances dirigeantes pour "
-"faciliter le suivi de l’avancement et la prise de décisions."
-msgstr ""
-"We support project directorates and governing bodies to facilitate the "
-"monitoring of progress and decision-making."
+
 
 #: vitrine/templates/annexe/navbar.html:202
 msgid ""

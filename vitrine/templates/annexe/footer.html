@@ -101,14 +101,8 @@
 							<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
 								{% for reseau in reseaux %}
 									<li class="ftco-animate">
-										<a aria-label="{{ reseau.nom }}" href="{{ reseau.lien }}">{{ reseau.logo }}</a>
+										<a aria-label="{{ reseau.nom }}" href="{{ reseau.lien }}"><i class="fab fa-{{ reseau.nom }} reseaux"></i></a>
 									</li>
-									<!-- <li class="ftco-animate">
-										<a aria-label="facebook" href="#"><i class="fab fa-facebook-f reseaux" style="margin-left: 12px;"></i></a>
-									</li>
-									<li class="ftco-animate">
-										<a aria-label="instagram" href="#"><i class="fab fa-instagram reseaux"></i></a>
-									</li> -->
 								{% endfor %}
 							</ul>
 						</div>

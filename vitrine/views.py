@@ -42,7 +42,7 @@ from django.utils.encoding import force_text
 
 def index_vitrine(request):
 
-	reseaux = Bdd_evenement.objects.all()
+	reseaux = Bdd_reseaux.objects.all()
 	evenement = Bdd_evenement.objects.all().reverse()[0]
 	chiffre = Bdd_chiffre.objects.all()
 
