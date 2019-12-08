@@ -99,15 +99,17 @@
 						<div class="ftco-footer-widget mb-5">
 							<h2 class="ftco-heading-2 mb-0">Nos réseaux sociaux</h2>
 							<ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
-								<li class="ftco-animate">
-									<a aria-label="twitter" href="#"><i class="fab fa-twitter reseaux"></i></a>
-								</li>
-								<li class="ftco-animate">
-									<a aria-label="facebook" href="#"><i class="fab fa-facebook-f reseaux" style="margin-left: 12px;"></i></a>
-								</li>
-								<li class="ftco-animate">
-									<a aria-label="instagram" href="#"><i class="fab fa-instagram reseaux"></i></a>
-								</li>
+								{% for reseau in reseaux %}
+									<li class="ftco-animate">
+										<a aria-label="{{ reseau.nom }}" href="{{ reseau.lien }}">{{ reseau.logo }}</a>
+									</li>
+									<!-- <li class="ftco-animate">
+										<a aria-label="facebook" href="#"><i class="fab fa-facebook-f reseaux" style="margin-left: 12px;"></i></a>
+									</li>
+									<li class="ftco-animate">
+										<a aria-label="instagram" href="#"><i class="fab fa-instagram reseaux"></i></a>
+									</li> -->
+								{% endfor %}
 							</ul>
 						</div>
 					</div>

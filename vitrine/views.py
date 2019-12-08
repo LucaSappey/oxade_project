@@ -42,6 +42,7 @@ from django.utils.encoding import force_text
 
 def index_vitrine(request):
 
+	reseaux = Bdd_evenement.objects.all()
 	evenement = Bdd_evenement.objects.all().reverse()[0]
 	chiffre = Bdd_chiffre.objects.all()
 
@@ -76,16 +77,6 @@ def contact(request):
 	template = 'contact.html'
 	return render(request,template,context)
 
-def conduite_du_changement(request):
-
-	evenement = Bdd_evenement.objects.all().reverse()[0]
-
-	if request.POST.get("sv"):
-		Bdd_mail.objects.create(mail=request.POST.get("mail"))
-
-	context = locals()
-	template = 'offres/conduite_du_changement.html'
-	return render(request,template,context)
 
 def architecture(request):
 	evenement = Bdd_evenement.objects.all().reverse()[0]
@@ -151,49 +142,6 @@ def digitalisation(request):
 	template = 'offres/digitalisation.html'
 	return render(request,template,context)
 
-def experience_client(request):
-
-	evenement = Bdd_evenement.objects.all().reverse()[0]
-
-	if request.POST.get("sv"):
-		Bdd_mail.objects.create(mail=request.POST.get("mail"))
-
-	context = locals()
-	template = 'offres/experience_client.html'
-	return render(request,template,context)
-
-def fusions_et_acquisitions(request):
-
-	evenement = Bdd_evenement.objects.all().reverse()[0]
-
-	if request.POST.get("sv"):
-		Bdd_mail.objects.create(mail=request.POST.get("mail"))
-
-	context = locals()
-	template = 'offres/fusions_et_acquisitions.html'
-	return render(request,template,context)
-
-def gestion_de_projets(request):
-
-	evenement = Bdd_evenement.objects.all().reverse()[0]
-
-	if request.POST.get("sv"):
-		Bdd_mail.objects.create(mail=request.POST.get("mail"))
-
-	context = locals()
-	template = 'offres/gestion_de_projets.html'
-	return render(request,template,context)
-
-def reglementaire(request):
-
-	evenement = Bdd_evenement.objects.all().reverse()[0]
-
-	if request.POST.get("sv"):
-		Bdd_mail.objects.create(mail=request.POST.get("mail"))
-
-	context = locals()
-	template = 'offres/reglementaire.html'
-	return render(request,template,context)
 
 def securite(request):
 

@@ -35,6 +35,20 @@ class Bdd_evenement(models.Model):
 	def __str__(self):
 		return self.titre
 
+class Bdd_reseaux(models.Model):
+
+	id = models.AutoField(primary_key = True)
+	nom = models.CharField(default=' ',max_length=400)
+	lien = models.CharField(default=' ',max_length=400)
+	logo = models.CharField(default=' ',max_length=400)
+	
+	class Meta:
+		verbose_name = "Réseaux lien"
+		ordering = ['id']
+	
+	def __str__(self):
+		return self.nom
+
 class Bdd_mail(models.Model):
 
 	id = models.AutoField(primary_key = True)

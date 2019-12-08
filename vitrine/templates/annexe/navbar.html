@@ -56,18 +56,32 @@
 .icon_respon{
     list-style-type: none;
   }
+.dropdown-content_tel {
+    display: none;
+    position: unset;
+    background-color: #fff;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.display-block {
+    display: flex!important;
+    flex-direction: column;
+    margin-left: 55px;
+}
 @media screen and (max-width: 991.98px){
 
-  .all_nav :not(:first-child){
+  .all_nav li:not(:last-child){
     display:none;
   }
   .icon_nav{
     display: block!important;
     float: right;
-    font-size: 28px;
+    font-size: 32px;
+    margin-top: 6px;
   }
 
-  .dropdown-content_tel, .dropdown-content{
+  .dropdown-content{
     display: none!important;
   }
 
@@ -88,13 +102,24 @@
     position: unset;
   }
 
-  nav{
-    margin-bottom: 22px;
-  }
+  .links_a {
+  text-align: left;
+
+}
+@media (min-width: 576px) and (max-width: 768px){
+    nav .container {
+        max-width: 710px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    nav .container {
+        max-width: 900px;
+    }
 }
 </style>
 <nav>
-  <div class="icon_respon container"><a href="javascript:void(0);" class="icon_nav" onclick="responsive_nav()"><i class="fa fa-bars"></i></a></div>
+  <div class="icon_respon container" style="position: absolute;"><a href="javascript:void(0);" class="icon_nav" onclick="responsive_nav()"><i class="fa fa-bars"></i></a></div>
   <ul class="all_nav container" id="navbar">
     
     <li class="links langues"><form  action="{% url 'set_language' %}" method="post" class="searchform order-lg-last links_a">
@@ -276,13 +301,13 @@
           </a>
             <div class="dropdown-content_tel dropdown_content_offres">
               <a aria-label="Transformation" href="{% url 'transformation' %}">{% trans 'Transformation' %}</a>
-              <a aria-label="Conduite du changement" href="{% url 'conduite_du_changement' %}">{% trans 'Conduite du changement' %}</a>
-              <a aria-label="Fusions et acquisitions" href="{% url 'fusions_et_acquisitions' %}">{% trans 'Fusions et acquisitions' %}</a>             
-              <a aria-label="Sécurité" href="{% url 'securite' %}">{% trans 'Sécurité' %}</a>
-              <a aria-label="Réglementaire" href="{% url 'reglementaire' %}">{% trans 'Réglementaire' %}</a>
-              <a aria-label="Expérience client" href="{% url 'experience_client' %}">{% trans 'Expérience client' %}</a>
-              <a aria-label="Gestion de projets" href="{% url 'gestion_de_projets' %}">{% trans 'Gestion de projets' %}</a>
-              <a aria-label="Digitalisation" href="{% url 'digitalisation' %}">{% trans 'Digitalisation' %}</a>
+              <a aria-label="Coaching" href="{% url 'coaching' %}">Coaching</a>
+              <a aria-label="Excellence opérationnelle" href="{% url 'excellence_operationnelle' %}">Excellence opérationnelle</a>            
+              <a aria-label="Risk management & sécurité de l’information" href="{% url 'securite' %}">Risk management & sécurité de l’information</a>
+              <a aria-label="Innovation digitale" href="{% url 'digitalisation' %}">Innovation digitale</a>
+              <a aria-label="Architecture des systèmes d’information​" href="{% url 'architecture' %}">Architecture des systèmes d’information​</a>
+              <a aria-label="Divers 1" href="{% url 'divers1' %}">Divers 1</a>
+              <a aria-label="Divers 2" href="{% url 'divers2' %}">Divers 2</a>
               </div>
           <div class="nav_sub_menu dropdown-content dropdown_content_offres" style="margin-top: 4px;">
             <div class="div_sub_menu">
@@ -295,14 +320,9 @@
                     <li class="nav_sub_menu_list_item professionnel" onmouseover="myFunction7()"><a aria-label="Excellence opérationnelle" href="{% url 'excellence_operationnelle' %}">Excellence opérationnelle</a></li>
                     <li class="nav_sub_menu_list_item professionnel" onmouseover="myFunction4()"><a aria-label="Risk management & sécurité de l’information" href="{% url 'securite' %}">Risk management & sécurité de l’information</a></li>
                     <li  class="nav_sub_menu_list_item professionnel" onmouseover="myFunction8()"><a aria-label="Innovation digitale" href="{% url 'digitalisation' %}">Innovation digitale</a></li>
-                    <!-- <li href="{% url 'conduite_du_changement' %}" class="nav_sub_menu_list_item particulier green" onmouseover="myFunction1()"><a aria-label="Conduite du changement" href="{% url 'conduite_du_changement' %}">{% trans 'Conduite du changement' %}</a></li> -->
                     <li  class="nav_sub_menu_list_item particulier green" onmouseover="myFunction1()"><a aria-label="Architecture des systèmes d’information​" href="{% url 'architecture' %}">Architecture des systèmes d’information​</a></li>
-                    <!-- <li class="nav_sub_menu_list_item professionnel" onmouseover="myFunction2()"><a aria-label="Fusions et acquisitions" href="{% url 'fusions_et_acquisitions' %}">{% trans 'Fusions et acquisitions' %}</a></li> --> 
-                    <li class="nav_sub_menu_list_item professionnel" onmouseover="myFunction2()"><a aria-label="Divers 1" href="{% url 'divers1' %}">Divers 1</a></li>                 
-                    <!-- <li class="nav_sub_menu_list_item professionnel" onmouseover="myFunction5()"><a aria-label="Réglementaire" href="{% url 'reglementaire' %}">{% trans 'Réglementaire' %}</a></li> -->
-                    <li style="margin-bottom: 24px;" class="nav_sub_menu_list_item professionnel" onmouseover="myFunction5()"><a aria-label="Divers 2" href="{% url 'divers2' %}">Divers 2</a></li>
-                    <!-- <li class="nav_sub_menu_list_item professionnel" onmouseover="myFunction6()"><a aria-label="Expérience client" href="{% url 'experience_client' %}">{% trans 'Expérience client' %}</a></li>
-                    <li  class="nav_sub_menu_list_item professionnel" onmouseover="myFunction7()"><a aria-label="Gestion de projets" href="{% url 'gestion_de_projets' %}">{% trans 'Gestion de projets' %}</a></li>  -->
+                    <li class="nav_sub_menu_list_item professionnel" onmouseover="myFunction2()"><a aria-label="Divers 1" href="{% url 'divers1' %}">Divers 1</a></li>                                    
+                    <li style="margin-bottom: 24px;" class="nav_sub_menu_list_item professionnel" onmouseover="myFunction5()"><a aria-label="Divers 2" href="{% url 'divers2' %}">Divers 2</a></li>                   
                   </ul>
                 </div>
               </div>
@@ -322,8 +342,8 @@
 
                   <div class="part_sub_menu2 part_sub_menu2_b" id="b">
                     <div style="width: 50%;">
-                      <h2 class="titre_sub_menu_a"><!-- {% trans 'Fusions et acquisitions' %} -->Divers 1</h2>
-                      <p style="margin-left: 68px; margin-top: 21px;"><!-- {% trans 'Les opérations de Fusions & Acquisitions (F&A) sont longtemps restées l’apanage du monde de la Stratégie et de la Finance.' %} -->L’accélération des transformations de l’environnement économique et financier des entreprises est impactant en termes de réglementations, de renforcement de la concurrence et de pression des marchés</p>
+                      <h2 class="titre_sub_menu_a">Divers 1</h2>
+                      <p style="margin-left: 68px; margin-top: 21px;">L’accélération des transformations de l’environnement économique et financier des entreprises est impactant en termes de réglementations, de renforcement de la concurrence et de pression des marchés</p>
                 </div>
                 <div style="text-align: center; margin-right: 50px;">
                   <picture>

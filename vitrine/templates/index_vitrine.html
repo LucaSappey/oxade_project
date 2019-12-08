@@ -17,11 +17,13 @@
 {% block content %}
 
 <style>
+
 @media (max-width: 991.98px){
 	.owl-carousel.home-slider .slider-item .slider-text h2{
 		font-size: 40px !important;
 	}
 }
+
 .owl-carousel.home-slider .slider-item .slider-text h2{
 	font-size: 60px;
 	color: #fff;
@@ -29,9 +31,10 @@
 	font-weight: 900;
 }
 
+
 @media screen and (max-width: 991.98px){
 	.owl-carousel{
-		display:none;
+		display:none!important;
 	}
 	.carousel_tel{
 		display:block!important;
@@ -39,17 +42,17 @@
 }
 
 @media (max-width: 991.98px){
-#marg-t-acceuil-carrousel {
-    margin-top: 0px!important;
-}
+	#marg-t-acceuil-carrousel {
+	    margin-top: 0px!important;
+	}
 }
 
 @media screen and (max-width: 767px){
 	.textes_carousel{
-    text-align: center;
-    align-items: center;
-    margin-left: 0!important;
-    width: 100%!important;
+	    text-align: center;
+	    align-items: center;
+	    margin-left: 0!important;
+	    width: 100%!important;
 	}
 }
 
@@ -60,7 +63,6 @@
 	.titre_accueil_tel {
 	    font-size: 32px!important;
 	}
-
 }
 
 .carousel_tel{
@@ -92,7 +94,6 @@
     justify-content: center;
     margin-left: 8%;
     z-index: 2;
-
 }
 
 .titre_accueil_tel{
@@ -109,6 +110,8 @@
 .titre_accueil_tel {
     font-size: 26px;
 }
+*/
+
 </style>
 
 <section id="accueil-carrousel-tel" class="home-slider owl-carousel">
@@ -154,9 +157,9 @@
 	</div>
 	
 	<picture>
-			<source type="image/webp" srcset="{% static 'vitrine/img/webp/fond_defense.webp' %}">
-			<source type="image/png" srcset="{% static 'vitrine/img/fond_defense.png' %}">
-			<img class="img_accueil" alt="fond_defense_tel" src ="{% static 'vitrine/img/fond_defense.png' %}">
+			<source type="image/webp" srcset="{% static 'vitrine/img/webp/fond_pont1.webp' %}">
+			<source type="image/png" srcset="{% static 'vitrine/img/fond_pont1.png' %}">
+			<img class="img_accueil" alt="fond_pont1_tel" src ="{% static 'vitrine/img/fond_pont1.png' %}">
 	</picture>
 	
 </section>
@@ -454,91 +457,6 @@
 					</div>
 				</div>
 			</a>
-			<!-- <a aria-label="Fusions et acquisitions" href="{% url 'fusions_et_acquisitions' %}" class="col-lg-4 d-flex test">
-				<div class="services-2 text-center ftco-animate">
-					<div class="icon mt-2 d-flex justify-content-center align-items-center">
-						<picture>
-							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_fusions.webp' %}">
-							<source type="image/png" srcset="{% static 'vitrine/img/logo_fusions.png' %}">
-							<img style="width: 111px; margin-bottom: 15px;" alt="logo-fusions" src="{% static 'vitrine/img/logo_fusions.png' %}">
-						</picture>
-					</div>
-					<div class="text media-body">
-						<h3>Fusions et acquisitions</h3>
-						<p class="color_grey">
-							Les opérations de Fusions & Acquisitions (F&A) sont longtemps restées l’apanage du monde de la Stratégie et de la Finance.
-						</p>
-					</div>
-				</div>
-			</a> -->
-			<!-- <a aria-label="Conduite du changement" href="{% url 'conduite_du_changement' %}" class="col-lg-4 d-flex test">
-				<div class="services-2 noborder-left text-center ftco-animate">
-					<div class="icon mt-2 d-flex justify-content-center align-items-center">
-						<picture>
-							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_conduite.webp' %}">
-							<source type="image/png" srcset="{% static 'vitrine/img/logo_conduite.png' %}">
-							<img style="width: 93px;margin-bottom: 28px;margin-top: -11px;" alt="logo-conduite" src="{% static 'vitrine/img/logo_conduite.png' %}">
-						</picture>
-					</div>
-					<div class="text media-body">
-						<h3>Conduite du changement</h3>
-						<p class="color_grey">
-							Bien gérée, elle peut occasionner une réduction des coûts, une amélioration de la qualité et un accroissement de la réactivité.
-						</p>
-					</div>
-				</div>
-			</a>
-			<a aria-label="Réglementaire" href="{% url 'reglementaire' %}" class="col-lg-4 d-flex test">
-				<div class="services-2 text-center noborder-bottom ftco-animate">
-					<div class="icon mt-2 d-flex justify-content-center align-items-center">
-						<picture>
-							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_reglementaire.webp' %}">
-							<source type="image/png" srcset="{% static 'vitrine/img/logo_reglementaire.png' %}">
-							<img style="width: 89px;margin-bottom: 4px;margin-top: 0px;" alt="logo-reglementaire" src="{% static 'vitrine/img/logo_reglementaire.png' %}">
-						</picture>
-					</div>
-					<div class="text media-body">
-						<h3>Réglementaire</h3>
-						<p class="color_grey">
-							En amont des projets et lors du cadrage, jusqu’à la mise en oeuvre SI et des reportings réglementaires, Oxade couvre l’ensemble du spectre de la réglementation des marchés financiers.
-						</p>
-					</div>
-				</div>
-			</a>
-			<a aria-label="Expérience client" href="{% url 'experience_client' %}" class="col-lg-4 d-flex test">
-				<div class="services-2 text-center noborder-bottom ftco-animate">
-					<div class="icon mt-2 d-flex justify-content-center align-items-center">
-						<picture>
-							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_experience-client.webp' %}">
-							<source type="image/png" srcset="{% static 'vitrine/img/logo_experience-client.png' %}">
-							<img style="width: 169px;margin-bottom: -3px;margin-top: -7px;" alt="logo-experience-client" src="{% static 'vitrine/img/logo_experience-client.png' %}">
-						</picture>
-					</div>
-					<div class="text media-body">
-						<h3>Expérience client</h3>
-						<p class="color_grey">
-							Intelligence stratégique et connaissance approfondie de ses clients les facteurs clés de la réussite des entreprises.
-						</p>
-					</div>
-				</div>
-			</a>
-			<a aria-label="Gestion de projets" href="{% url 'gestion_de_projets' %}" class="col-lg-4 d-flex test">
-				<div class="services-2 noborder-left noborder-bottom text-center ftco-animate">
-					<div class="icon mt-2 d-flex justify-content-center align-items-center">
-						<picture>
-							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_projets.webp' %}">
-							<source type="image/png" srcset="{% static 'vitrine/img/logo_projets.png' %}">
-							<img style="width: 101px;margin-bottom: 19px;margin-top: -16px;" alt="logo-projets" src="{% static 'vitrine/img/logo_projets.png' %}">
-						</picture>
-					</div>
-					<div class="text media-body">
-						<h3>Gestion de projets</h3>
-						<p class="color_grey">
-							Elle consiste à appliquer les méthodes, techniques, et outils de gestion spécifiques aux différentes étapes du projet, de l'évaluation de l'opportunité jusqu'à l'achèvement du projet
-						</p>
-					</div>
-				</div>
-			</a> -->
 			<a aria-label="En savoir plus" href="{% url 'contact' %}" class="col-lg-4 d-flex test">
 				<div class="services-2 text-center noborder-bottom ftco-animate">
 					<div style="margin-top: 118px;" class="text media-body">
