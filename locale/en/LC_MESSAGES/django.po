@@ -340,7 +340,7 @@ msgstr ""
 
 #: vitrine/templates/index_vitrine.html:138
 msgid "Une maîtrise des grandes fonctions de l"
-msgstr ""
+msgstr "Test"
 
 #: vitrine/templates/index_vitrine.html:140
 #, fuzzy

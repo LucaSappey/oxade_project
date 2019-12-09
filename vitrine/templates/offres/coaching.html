@@ -85,12 +85,12 @@
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-center justify-content-center">
 			<div class="col-md-9 ftco-animate text-center">
-				<h1 class="mb-2 bread">Coaching </h1>
+				<h1 class="mb-2 bread">{% trans 'Coaching' %} </h1>
 				<p class="breadcrumbs">
 					<span class="mr-2">
-						<a aria-label="Offres" href="{% url 'index_vitrine' %}#offres">Offres <i class="fas fa-chevron-right"></i></a>
+						<a aria-label="Offres" href="{% url 'index_vitrine' %}#offres">{% trans 'Offres' %} <i class="fas fa-chevron-right"></i></a>
 					</span>
-					<span>Coaching <i class="fas fa-chevron-right"></i></span>
+					<span>{% trans 'Coaching' %} <i class="fas fa-chevron-right"></i></span>
 				</p>
 			</div>
 		</div>
@@ -112,13 +112,13 @@
 						</picture>
 					</div>
 					<div class="text media-body" style="display: flex;flex-direction: column;align-items: center;">
-						<h3 style="margin-bottom: 29px; color:#013E5B">Périmètre d’intervention​</h3>
+						<h3 style="margin-bottom: 29px; color:#013E5B">{% trans 'Périmètre d’intervention​' %}</h3>
 						<ul class="liste_offres">
-							<li>Fusion / Transformation</li>
-							<li>Création d’entités​</li>
-							<li>Changement de business Model​</li>
-							<li>Prise de fonction​</li>
-							<li>Développeur de talents</li>
+							<li>{% trans 'Fusion / Transformation' %}</li>
+							<li>{% trans 'Création d’entités​' %}</li>
+							<li>{% trans 'Changement de business Model​' %}</li>
+							<li>{% trans 'Prise de fonction​' %}</li>
+							<li>{% trans 'Développeur de talents' %}</li>
 						</ul>
 					</div>
 				</div>
@@ -134,11 +134,11 @@
 					</div>
 					<div class="text media-body" style="display: flex;flex-direction: column;align-items: center;">
 						
-						<h3 style="margin-bottom: 29px; color:#013E5B">Profils des coachs</h3>
+						<h3 style="margin-bottom: 29px; color:#013E5B">{% trans 'Profils des coachs' %}</h3>
 						<ul class="liste_offres">
-							<li>Anciens membres de direction générale & responsables opérationnels​</li>
-							<li>Coachs spécialisés selon​</li>
-							<li>Méthodes : HBDI ©, MBTI ©, Strong © , 360° ©</li>
+							<li>{% trans 'Anciens membres de direction générale & responsables opérationnels​' %}</li>
+							<li>{% trans 'Coachs spécialisés selon​' %}</li>
+							<li>{% trans 'Méthodes : HBDI ©, MBTI ©, Strong © , 360° ©' %}</li>
 						</ul>
 					</div>
 				</div>
@@ -153,12 +153,12 @@
 						</picture>
 					</div>
 					<div class="text media-body" style="display: flex;flex-direction: column;align-items: center;">
-						<h3 style="margin-bottom: 29px; color:#013E5B">Public ciblé​</h3>
+						<h3 style="margin-bottom: 29px; color:#013E5B">{% trans 'Public ciblé​' %}</h3>
 						<ul class="liste_offres">
-							<li>Direction​</li>
-							<li>Managers​</li>
-							<li>Équipes​</li>
-							<li>Organisations​</li>
+							<li>{% trans 'Direction​' %}</li>
+							<li>{% trans 'Managers​' %}</li>
+							<li>{% trans 'Équipes​' %}</li>
+							<li>{% trans 'Organisations​' %}</li>
 						</ul>
 					</div>
 				</div>
@@ -173,18 +173,18 @@
 						</picture>
 					</div>
 					<div class="text media-body">
-						<h3 style="margin-bottom: 29px; color:#013E5B">Connaissance sectorielle </h3>
+						<h3 style="margin-bottom: 29px; color:#013E5B">Connaissance sectorielle{% trans '' %} </h3>
 						<div class="double_listes">
 							<ul class="liste_offres">
-								<li>Assurance</li>
-								<li>Distribution​</li>
-								<li>Finances</li>
-								<li>Service</li>
+								<li>{% trans 'Assurance' %}</li>
+								<li>{% trans 'Distribution​' %}</li>
+								<li>{% trans 'Finances' %}</li>
+								<li>{% trans 'Service' %}</li>
 							</ul>
 							<ul class="liste_offres">
-								<li>Industrie​</li>
-								<li>Chimie-pétrochimie</li>
-								<li>Automobile​</li>
+								<li>{% trans 'Industrie​' %}</li>
+								<li>{% trans 'Chimie-pétrochimie' %}</li>
+								<li>{% trans 'Automobile​' %}</li>
 							</ul>
 						</div>
 					</div>
@@ -205,14 +205,14 @@
 					<img style="width: 351px;" src="{% static 'vitrine/img/logo_coaching.png' %}" alt="logo_coaching" class="img_offres_secteurs">
 				</picture>
 				<p>
-					<a aria-label="Contactez-nous" href="{% url 'contact' %}" class="btn btn-primary py-3 px-4">Contactez-nous</a>
+					<a aria-label="Contactez-nous" href="{% url 'contact' %}" class="btn btn-primary py-3 px-4">{% trans 'Contactez-nous' %}</a>
 				</p>
 			</div>
 			
 			<div class="text_contact">
-				<h3>Notre vision et notre ambition</h3>
+				<h3>{% trans 'Notre vision et notre ambition' %}</h3>
 				<p>
-					Nous proposons un processus d’accompagnement et de facilitation qui vise à vous permettre de trouver vous-même la solution à une problématique professionnelle opérationnelle ou managériale tout en travaillant sur votre épanouissement personnel
+					{% trans 'Nous proposons un processus d’accompagnement et de facilitation qui vise à vous permettre de trouver vous-même la solution à une problématique professionnelle opérationnelle ou managériale tout en travaillant sur votre épanouissement personnel' %}
 				</p>
 			</div>
 		</div>
