@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-09 03:29+0100\n"
+"POT-Creation-Date: 2019-12-09 04:15+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -41,6 +41,9 @@ msgstr "Sectors"
 
 #: vitrine/templates/annexe/footer.html:67
 #: vitrine/templates/annexe/navbar.html:295
+#: vitrine/templates/offres/architecture.html:89
+#: vitrine/templates/offres/coaching.html:91
+#: vitrine/templates/offres/digitalisation.html:90
 msgid "Offres"
 msgstr "Offers"
 
@@ -88,6 +91,7 @@ msgstr ""
 #: vitrine/templates/annexe/navbar.html:206
 #: vitrine/templates/annexe/navbar.html:256
 #: vitrine/templates/index_vitrine.html:220
+#: vitrine/templates/offres/coaching.html:179
 msgid "Assurance"
 msgstr "Insurance"
 
@@ -211,6 +215,8 @@ msgstr "Transformation"
 #: vitrine/templates/annexe/navbar.html:319
 #: vitrine/templates/annexe/navbar.html:401
 #: vitrine/templates/index_vitrine.html:351
+#: vitrine/templates/offres/coaching.html:88
+#: vitrine/templates/offres/coaching.html:93
 msgid "Coaching"
 msgstr ""
 
@@ -251,12 +257,19 @@ msgstr ""
 
 #: vitrine/templates/annexe/navbar.html:322
 #: vitrine/templates/annexe/navbar.html:428
+#: vitrine/templates/offres/digitalisation.html:87
+#: vitrine/templates/offres/digitalisation.html:92
 msgid "Innovation digitale"
 msgstr ""
 
 #: vitrine/templates/annexe/navbar.html:332
 #: vitrine/templates/index_vitrine.html:421
-msgid "À l"
+#: vitrine/templates/offres/architecture.html:186
+msgid ""
+"À l’interface de nombreux métiers de l’entreprise, nous conçevons et "
+"organisons l’ensemble des serveurs, des systèmes d’exploitation, des "
+"ordinateurs, des logiciels, etc. Afin de les adapter aux besoins des "
+"utilisateurs"
 msgstr ""
 
 #: vitrine/templates/annexe/navbar.html:346
@@ -292,6 +305,7 @@ msgid ""
 msgstr ""
 
 #: vitrine/templates/annexe/navbar.html:402
+#: vitrine/templates/offres/coaching.html:215
 msgid ""
 "Nous proposons un processus d’accompagnement et de facilitation qui vise à "
 "vous permettre de trouver vous-même la solution à une problématique "
@@ -339,7 +353,9 @@ msgid "Domaines fonctionnels"
 msgstr ""
 
 #: vitrine/templates/index_vitrine.html:138
-msgid "Une maîtrise des grandes fonctions de l"
+#, fuzzy
+#| msgid "Une maîtrise des grandes fonctions de l"
+msgid "Une maîtrise des grandes fonctions de l’entreprise"
 msgstr "Test"
 
 #: vitrine/templates/index_vitrine.html:140
@@ -351,11 +367,15 @@ msgstr "Sectors"
 #: vitrine/templates/index_vitrine.html:171
 #, fuzzy
 #| msgid "Secteurs"
-msgid "Nos secteurs d"
+msgid "Nos secteurs d’activités"
 msgstr "Sectors"
 
 #: vitrine/templates/index_vitrine.html:173
-msgid "OXADE Consulting se positionne en tant qu"
+msgid ""
+"OXADE Consulting se positionne en tant qu’expert des systèmes d’information, "
+"en osmose avec l’expertise métier maîtrisée par les clients. Cela grâce à un "
+"accompagnement des entreprises dans la construction ou la convergence de "
+"leur système d’information de leur système d’information décisionnel"
 msgstr ""
 
 #: vitrine/templates/index_vitrine.html:188
@@ -381,14 +401,25 @@ msgstr ""
 #: vitrine/templates/index_vitrine.html:222
 msgid ""
 "Nous accompagnons les plus grands acteurs du secteur sur leurs enjeux de "
-"transformation. Notre conseil vous fait bénéficier des retours d"
+"transformation. Notre conseil vous fait bénéficier des retours d’expériences "
+"de nos équipes"
 msgstr ""
 
 #: vitrine/templates/index_vitrine.html:237
+#, fuzzy
+#| msgid ""
+#| "Oxade Consulting développe des solutions innovantes pour accompagner les "
+#| "transformations majeures des grands acteurs français et européens du "
+#| "secteur de l\\"
 msgid ""
 "Solutions innovantes pour accompagner les transformations majeures des "
-"grands acteurs français et européens du secteur de l"
+"grands acteurs français et européens du secteur de l’énergie, accompagnement "
+"dans les évolutions stratégique"
 msgstr ""
+"Oxade Consulting develops innovative solutions to support the major "
+"transformations of the major French and European players in the energy "
+"sector. Our teams support them in the strategic and regulatory developments "
+"but also in the transformation of organizations"
 
 #: vitrine/templates/index_vitrine.html:255
 #, fuzzy
@@ -428,7 +459,10 @@ msgid "Nos chiffres clés"
 msgstr ""
 
 #: vitrine/templates/index_vitrine.html:318
-msgid "Le cœur de métier d"
+msgid ""
+"Le cœur de métier d’OXADE Consulting et le savoir-faire de nos consultants "
+"autour des problématiques de systèmes d’information, se décline sur "
+"plusieurs facettes"
 msgstr ""
 
 #: vitrine/templates/index_vitrine.html:336
@@ -482,7 +516,304 @@ msgstr ""
 "digitalisation."
 
 #: vitrine/templates/index_vitrine.html:419
-msgid "Architecture des systèmes d"
+#: vitrine/templates/offres/architecture.html:86
+#: vitrine/templates/offres/architecture.html:91
+msgid "Architecture des systèmes d’information"
+msgstr ""
+
+#: vitrine/templates/offres/architecture.html:116
+msgid "Architecture d’entreprise et data​"
+msgstr ""
+
+#: vitrine/templates/offres/architecture.html:118
+msgid "Urbanisation et schémas directeurs SI​"
+msgstr ""
+
+#: vitrine/templates/offres/architecture.html:119
+msgid "Bureaux d’Architectes​"
+msgstr ""
+
+#: vitrine/templates/offres/architecture.html:120
+msgid "Data management : Big data, data gouvernance​"
+msgstr ""
+
+#: vitrine/templates/offres/architecture.html:135
+msgid "Cloud et infrastructure"
+msgstr ""
+
+#: vitrine/templates/offres/architecture.html:137
+msgid "Cloud Privé / Public / Hybride​"
+msgstr ""
+
+#: vitrine/templates/offres/architecture.html:138
+msgid "Hébergement et datacenter​"
+msgstr ""
+
+#: vitrine/templates/offres/architecture.html:139
+msgid "Infrastructure et virtualisation​"
+msgstr ""
+
+#: vitrine/templates/offres/architecture.html:140
+msgid "Agile Delivery​"
+msgstr ""
+
+#: vitrine/templates/offres/architecture.html:155
+msgid "Digital workplace"
+msgstr ""
+
+#: vitrine/templates/offres/architecture.html:157
+msgid "Poste de travail, end-user devices, end-user services​"
+msgstr ""
+
+#: vitrine/templates/offres/architecture.html:158
+msgid "Messagerie et services collaboratifs​"
+msgstr ""
+
+#: vitrine/templates/offres/architecture.html:159
+msgid "Mobilité et objets connectés​"
+msgstr ""
+
+#: vitrine/templates/offres/architecture.html:179
+#: vitrine/templates/offres/coaching.html:208
+msgid "Contactez-nous"
+msgstr ""
+
+#: vitrine/templates/offres/architecture.html:184
+#: vitrine/templates/offres/coaching.html:213
+#: vitrine/templates/offres/digitalisation.html:218
+msgid "Notre vision et notre ambition"
+msgstr ""
+
+#: vitrine/templates/offres/coaching.html:115
+msgid "Périmètre d’intervention​"
+msgstr ""
+
+#: vitrine/templates/offres/coaching.html:117
+#, fuzzy
+#| msgid "Transformation"
+msgid "Fusion / Transformation"
+msgstr "Transformation"
+
+#: vitrine/templates/offres/coaching.html:118
+msgid "Création d’entités​"
+msgstr ""
+
+#: vitrine/templates/offres/coaching.html:119
+msgid "Changement de business Model​"
+msgstr ""
+
+#: vitrine/templates/offres/coaching.html:120
+msgid "Prise de fonction​"
+msgstr ""
+
+#: vitrine/templates/offres/coaching.html:121
+msgid "Développeur de talents"
+msgstr ""
+
+#: vitrine/templates/offres/coaching.html:137
+msgid "Profils des coachs"
+msgstr ""
+
+#: vitrine/templates/offres/coaching.html:139
+msgid "Anciens membres de direction générale & responsables opérationnels​"
+msgstr ""
+
+#: vitrine/templates/offres/coaching.html:140
+msgid "Coachs spécialisés selon​"
+msgstr ""
+
+#: vitrine/templates/offres/coaching.html:141
+msgid "Méthodes : HBDI ©, MBTI ©, Strong © , 360° ©"
+msgstr ""
+
+#: vitrine/templates/offres/coaching.html:156
+msgid "Public ciblé​"
+msgstr ""
+
+#: vitrine/templates/offres/coaching.html:158
+msgid "Direction​"
+msgstr ""
+
+#: vitrine/templates/offres/coaching.html:159
+msgid "Managers​"
+msgstr ""
+
+#: vitrine/templates/offres/coaching.html:160
+msgid "Équipes​"
+msgstr ""
+
+#: vitrine/templates/offres/coaching.html:161
+#, fuzzy
+#| msgid "Digitalisation"
+msgid "Organisations​"
+msgstr "Digitaliation"
+
+#: vitrine/templates/offres/coaching.html:176
+msgid "Connaissance sectorielle"
+msgstr ""
+
+#: vitrine/templates/offres/coaching.html:180
+msgid "Distribution​"
+msgstr ""
+
+#: vitrine/templates/offres/coaching.html:181
+msgid "Finances"
+msgstr ""
+
+#: vitrine/templates/offres/coaching.html:182
+msgid "Service"
+msgstr ""
+
+#: vitrine/templates/offres/coaching.html:185
+msgid "Industrie​"
+msgstr ""
+
+#: vitrine/templates/offres/coaching.html:186
+msgid "Chimie-pétrochimie"
+msgstr ""
+
+#: vitrine/templates/offres/coaching.html:187
+msgid "Automobile​"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:113
+msgid "Connectivité et mobilité​"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:115
+msgid ""
+"Assurer la connectivité des collaborateurs en situation de mobilité : cloud "
+"ready networks, réseaux industriels, réseaux d’objets connectés, mobile "
+"device management​"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:116
+msgid "Améliorer la performance des  directions télécoms​"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:118
+msgid "Performance assessment"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:119
+msgid "Target Operating Model​"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:120
+msgid "Sourcing télécoms​"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:123
+msgid "Centres de relation client​"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:125
+msgid "Sourcing infrastructures et  solutions​"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:126
+msgid "Intégration du multi-canal"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:127
+msgid "Performance des CRC"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:145
+msgid "Digital working​"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:147
+msgid "Faire émerger les usages et pratiques digitales​"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:148
+msgid "Mettre en place, installer et dynamiser l’adoption des outils digitaux​"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:150
+msgid "Dispositifs sociaux et collaboratifs​"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:151
+msgid "Intranets​"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:152
+msgid "Mobilité & apps​"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:155
+msgid "Diffuser la culture digitale​"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:157
+msgid "Formations, sensibilisation, communication​"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:158
+msgid "Nouveaux espaces de travail (flex)​"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:159
+msgid "Gouvernance de la transformation​"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:176
+msgid "Digital customer experience"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:178
+msgid ""
+"Concevoir les interfaces digitales via des  processus agiles et collaboratifs"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:180
+msgid "Ateliers de créativité"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:181
+msgid "Design fonctionnel, ergonomique et  graphique"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:182
+msgid "Maquettage dynamique / démonstrateur​"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:183
+msgid "Tests utilisateurs et focus group​"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:188
+msgid "Interfaces Web / responsive / ergonomie"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:189
+msgid "Objets connectés"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:190
+msgid "Apps mobiles​"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:193
+msgid ""
+"Animer les dispositifs de relation client  digitale de la conception à la "
+"vie courant en passant par la production​"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:220
+msgid ""
+"Le monde change rapidement et les organisations doivent changer pour libérer "
+"leur plein potentiel"
+msgstr ""
+
+#: vitrine/templates/offres/digitalisation.html:223
+msgid ""
+"Pourtant, les recherches montrent que la plupart des efforts pour changer "
+"fondamentalement la trajectoire d’une organisation échouent. La gamme "
+"d’offres de transformation d’Oxade aide les clients à inverser les obstacles "
+"afin d’obtenir des résultats extraordinaires pour leur entreprise"
 msgstr ""
 
 #~ msgid "Télephone"
@@ -511,9 +842,6 @@ msgstr ""
 
 #~ msgid "Gestion de projets"
 #~ msgstr "Project management"
-
-#~ msgid "Digitalisation"
-#~ msgstr "Digitaliation"
 
 #~ msgid ""
 #~ "Bien gérée, elle peut occasionner une réduction des coûts, une "
