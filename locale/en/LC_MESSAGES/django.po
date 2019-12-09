@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-09 04:15+0100\n"
+"POT-Creation-Date: 2019-12-09 05:05+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #: vitrine/templates/annexe/footer.html:13
 msgid "Une question ?"
-msgstr ""
+msgstr "A question ?"
 
 #: vitrine/templates/annexe/footer.html:38
 #, fuzzy
@@ -168,14 +168,24 @@ msgstr ""
 "actors through adapted and innovative approaches"
 
 #: vitrine/templates/annexe/navbar.html:257
+#, fuzzy
+#| msgid ""
+#| "Nous accompagnons les plus grands acteurs du secteur de l'assurance sur "
+#| "leurs enjeux de transformation. Notre conseil vous fait bénéficier des "
+#| "retours d'expériences de nos équipes mais aussi de nos missions sur des "
+#| "problématiques similaires. Pour chacun de ces enjeux, nous bénéficions "
+#| "d'expérience"
 msgid ""
-"Nous accompagnons les plus grands acteurs du secteur de l'assurance sur "
+"Nous accompagnons les plus grands acteurs du secteur de l’assurance sur "
 "leurs enjeux de transformation. Notre conseil vous fait bénéficier des "
-"retours d'expériences de nos équipes mais aussi de nos missions sur des "
+"retours d’expériences de nos équipes mais aussi de nos missions sur des "
 "problématiques similaires. Pour chacun de ces enjeux, nous bénéficions "
 "d'expérience"
 msgstr ""
-"We support the biggest players in the insurance sector on their transformation issues. Our advice makes you benefit from feedback from our teams but also our missions on similar issues. For each of these issues, we benefit from experience"
+"We support the biggest players in the insurance sector on their "
+"transformation issues. Our advice makes you benefit from feedback from our "
+"teams but also our missions on similar issues. For each of these issues, we "
+"benefit from experience"
 
 #: vitrine/templates/annexe/navbar.html:270
 #, fuzzy
@@ -186,7 +196,8 @@ msgstr ""
 msgid ""
 "Oxade Consulting développe des solutions innovantes pour accompagner les "
 "transformations majeures des grands acteurs français et européens du secteur "
-"de l\\"
+"de l’énergie. Nos équipes les accompagnent dans les évolutions stratégiques "
+"et réglementaires mais aussi dans la transformation des organisations"
 msgstr ""
 "Oxade Consulting develops innovative solutions to support the major "
 "transformations of the major French and European players in the energy "
@@ -194,11 +205,18 @@ msgstr ""
 "but also in the transformation of organizations"
 
 #: vitrine/templates/annexe/navbar.html:283
+#, fuzzy
+#| msgid ""
+#| "Accompagnement des acteurs du secteur des télécommunications dans leur "
+#| "transformation humaine et opérationnelle. Les consultants du "
+#| "interviennent sur les évolutions des compétences, modes de fonctionnement "
+#| "et métiers des opérateurs, en particulier de l\\"
 msgid ""
 "Accompagnement des acteurs du secteur des télécommunications dans leur "
 "transformation humaine et opérationnelle. Les consultants du interviennent "
 "sur les évolutions des compétences, modes de fonctionnement et métiers des "
-"opérateurs, en particulier de l\\"
+"opérateurs, en particulier de l’opérateur historique. En effet, cela "
+"constitue en soi un enjeu stratégique"
 msgstr ""
 "Accompanying players in the telecommunications sector in their human and "
 "operational transformation. The consultants work on changes in the skills, "
@@ -271,7 +289,10 @@ msgid ""
 "organisons l’ensemble des serveurs, des systèmes d’exploitation, des "
 "ordinateurs, des logiciels, etc. Afin de les adapter aux besoins des "
 "utilisateurs"
-msgstr "At the interface of many business lines, we design and organize all servers, operating systems, computers, software, etc. In order to adapt them to the needs of users"
+msgstr ""
+"At the interface of many business lines, we design and organize all servers, "
+"operating systems, computers, software, etc. In order to adapt them to the "
+"needs of users"
 
 #: vitrine/templates/annexe/navbar.html:346
 #: vitrine/templates/index_vitrine.html:438
@@ -279,7 +300,10 @@ msgid ""
 "L’accélération des transformations de l’environnement économique et "
 "financier des entreprises est impactant en termes de réglementations, de "
 "renforcement de la concurrence et de pression des marchés"
-msgstr "Accelerating the transformation of the economic and financial environment of companies is impacting in terms of regulations, increased competition and market pressure"
+msgstr ""
+"Accelerating the transformation of the economic and financial environment of "
+"companies is impacting in terms of regulations, increased competition and "
+"market pressure"
 
 #: vitrine/templates/annexe/navbar.html:360
 msgid ""
@@ -303,7 +327,10 @@ msgid ""
 "Amélioration de la qualité des processus de production des produits et donc "
 "la qualité des produits en visant à réduire la variabilité d’un processus "
 "pour tendre vers le zéro défaut"
-msgstr "Improving the quality of product production processes and therefore the quality of products by aiming to reduce the variability of a process to tend towards zero defect"
+msgstr ""
+"Improving the quality of product production processes and therefore the "
+"quality of products by aiming to reduce the variability of a process to tend "
+"towards zero defect"
 
 #: vitrine/templates/annexe/navbar.html:402
 #: vitrine/templates/offres/coaching.html:215
@@ -312,14 +339,19 @@ msgid ""
 "vous permettre de trouver vous-même la solution à une problématique "
 "professionnelle opérationnelle ou managériale tout en travaillant sur votre "
 "épanouissement personnel"
-msgstr "We propose a process of accompaniment and facilitation which aims to allow you to find yourself the solution to an operational or managerial professional problem while working on your personal fulfillment."
+msgstr ""
+"We propose a process of accompaniment and facilitation which aims to allow "
+"you to find yourself the solution to an operational or managerial "
+"professional problem while working on your personal fulfillment."
 
 #: vitrine/templates/annexe/navbar.html:416
 #: vitrine/templates/index_vitrine.html:370
 msgid ""
 "Levier puissant de compétitivité pour les entreprises, et ce d’autant plus "
 "qu’elles évoluent dans un environnement extrêmement concurrentiel"
-msgstr "Levier puissant de compétitivité pour les entreprises, et ce d’autant plus qu’elles évoluent dans un environnement extrêmement concurrentiel"
+msgstr ""
+"Levier puissant de compétitivité pour les entreprises, et ce d’autant plus "
+"qu’elles évoluent dans un environnement extrêmement concurrentiel"
 
 #: vitrine/templates/annexe/navbar.html:431
 msgid ""
@@ -377,7 +409,11 @@ msgid ""
 "en osmose avec l’expertise métier maîtrisée par les clients. Cela grâce à un "
 "accompagnement des entreprises dans la construction ou la convergence de "
 "leur système d’information de leur système d’information décisionnel"
-msgstr "OXADE Consulting is positioning itself as an expert in information systems, in harmony with the business expertise mastered by customers. This is thanks to support companies in the construction or convergence of their information system of their decision-making information system"
+msgstr ""
+"OXADE Consulting is positioning itself as an expert in information systems, "
+"in harmony with the business expertise mastered by customers. This is thanks "
+"to support companies in the construction or convergence of their information "
+"system of their decision-making information system"
 
 #: vitrine/templates/index_vitrine.html:188
 #, fuzzy
@@ -404,7 +440,9 @@ msgid ""
 "Nous accompagnons les plus grands acteurs du secteur sur leurs enjeux de "
 "transformation. Notre conseil vous fait bénéficier des retours d’expériences "
 "de nos équipes"
-msgstr "We support the biggest players in the sector on their transformation issues. Our advice makes you benefit from feedback from our teams"
+msgstr ""
+"We support the biggest players in the sector on their transformation issues. "
+"Our advice makes you benefit from feedback from our teams"
 
 #: vitrine/templates/index_vitrine.html:237
 #, fuzzy
@@ -464,7 +502,9 @@ msgid ""
 "Le cœur de métier d’OXADE Consulting et le savoir-faire de nos consultants "
 "autour des problématiques de systèmes d’information, se décline sur "
 "plusieurs facettes"
-msgstr "The core business of OXADE Consulting and the know-how of our consultants around the problems of information systems, comes in several facets"
+msgstr ""
+"The core business of OXADE Consulting and the know-how of our consultants "
+"around the problems of information systems, comes in several facets"
 
 #: vitrine/templates/index_vitrine.html:336
 #, fuzzy
@@ -483,7 +523,10 @@ msgid ""
 "Nous proposons un processus d’accompagnement et de facilitation qui vise à "
 "vous permettre de trouver vous-même la solution à une problématique "
 "professionnelle opérationnelle ou managériale"
-msgstr "We propose a process of accompaniment and facilitation which aims at allowing you to find yourself the solution to a professional problem operational or managerial"
+msgstr ""
+"We propose a process of accompaniment and facilitation which aims at "
+"allowing you to find yourself the solution to a professional problem "
+"operational or managerial"
 
 #: vitrine/templates/index_vitrine.html:387
 #, fuzzy
@@ -816,6 +859,21 @@ msgid ""
 "d’offres de transformation d’Oxade aide les clients à inverser les obstacles "
 "afin d’obtenir des résultats extraordinaires pour leur entreprise"
 msgstr ""
+
+#, fuzzy
+#~| msgid ""
+#~| "Oxade Consulting développe des solutions innovantes pour accompagner les "
+#~| "transformations majeures des grands acteurs français et européens du "
+#~| "secteur de l\\"
+#~ msgid ""
+#~ "Oxade Consulting développe des solutions innovantes pour accompagner les "
+#~ "transformations majeures des grands acteurs français et européens du "
+#~ "secteur de l\\"
+#~ msgstr ""
+#~ "Oxade Consulting develops innovative solutions to support the major "
+#~ "transformations of the major French and European players in the energy "
+#~ "sector. Our teams support them in the strategic and regulatory "
+#~ "developments but also in the transformation of organizations"
 
 #~ msgid "Télephone"
 #~ msgstr "Phone"
