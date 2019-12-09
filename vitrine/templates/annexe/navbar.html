@@ -188,7 +188,7 @@
             </picture>
           </a>
           <div class="dropdown-content_tel dropdown_content_secteur">
-              <a aria-label="Banque" href="{% url 'banque' %}">Banque de détail</a>
+              <a aria-label="Banque" href="{% url 'banque' %}">{% trans 'Banque de détail' %}</a>
               <a aria-label="Assurance" href="{% url 'assurance' %}">{% trans 'Assurance' %}</a>
               <a aria-label="Secteur public" href="#">{% trans 'Secteur public' %}</a>
               <a aria-label="Transport & logistique" href="#">{% trans 'Transport & logistique' %}</a>
@@ -202,7 +202,7 @@
                 <div class="sub_menu_content">
                   <h2 class="nav_sub_menu_titre">{% trans 'En savoir plus' %}</h2>
                   <ul class="nav_sub_menu_list">
-                    <li class="nav_sub_menu_list_item particulier green" onmouseover="myFunction9()"><a aria-label="Banque" href="{% url 'banque' %}" >Banque de détail</a></li>
+                    <li class="nav_sub_menu_list_item particulier green" onmouseover="myFunction9()"><a aria-label="Banque" href="{% url 'banque' %}" >{% trans 'Banque de détail' %}</a></li>
                     <li class="nav_sub_menu_list_item professionnel" onmouseover="myFunction12()"><a aria-label="Assurance" href="{% url 'assurance' %}">{% trans 'Assurance' %}</a></li>
                     <li class="nav_sub_menu_list_item professionnel" onmouseover="myFunction10()"><a aria-label="Secteur public" href="#">{% trans 'Secteur public' %}</a></li>
                     <li class="nav_sub_menu_list_item professionnel" onmouseover="myFunction11()"><a aria-label="Transport & logistique" href="#">{% trans 'Transport & logistique' %}</a></li>
@@ -213,7 +213,7 @@
               </div>
               <div class="part_sub_menu2 part_sub_menu2_i show" id="i">
                 <div style="width: 50%;">
-                  <h2 class="titre_sub_menu_a">{% trans 'Banque' %}</h2>
+                  <h2 class="titre_sub_menu_a">{% trans 'Banque de détail' %}</h2>
                   <p style="margin-left: 68px; margin-top: 21px;">{% trans 'Dans un contexte ou l’univers financier en général doivent faire face à de profonds bouleversements technologiques et culturels, où la compétition sur les services et les tarifs est de plus en plus féroce, nous vous apportons expérience, expertise et discernement pour vous accompagner dans vos choix stratégiques opérationnels et vos projets de transformation' %}</p>
                 </div>
                 <div style="text-align: center; margin-right: 50px;">
@@ -301,13 +301,13 @@
           </a>
             <div class="dropdown-content_tel dropdown_content_offres">
               <a aria-label="Transformation" href="{% url 'transformation' %}">{% trans 'Transformation' %}</a>
-              <a aria-label="Coaching" href="{% url 'coaching' %}">Coaching</a>
-              <a aria-label="Excellence opérationnelle" href="{% url 'excellence_operationnelle' %}">Excellence opérationnelle</a>            
-              <a aria-label="Risk management & sécurité de l’information" href="{% url 'securite' %}">Risk management & sécurité de l’information</a>
-              <a aria-label="Innovation digitale" href="{% url 'digitalisation' %}">Innovation digitale</a>
-              <a aria-label="Architecture des systèmes d’information​" href="{% url 'architecture' %}">Architecture des systèmes d’information​</a>
-              <a aria-label="Divers 1" href="{% url 'divers1' %}">Divers 1</a>
-              <a aria-label="Divers 2" href="{% url 'divers2' %}">Divers 2</a>
+              <a aria-label="Coaching" href="{% url 'coaching' %}">{% trans 'Coaching' %}</a>
+              <a aria-label="Excellence opérationnelle" href="{% url 'excellence_operationnelle' %}">{% trans 'Excellence opérationnelle' %}</a>            
+              <a aria-label="Risk management & sécurité de l’information" href="{% url 'securite' %}">{% trans 'Risk management & sécurité de l’information' %}</a>
+              <a aria-label="Innovation digitale" href="{% url 'digitalisation' %}">{% trans 'Excellence opérationnelle' %}Innovation digitale</a>
+              <a aria-label="Architecture des systèmes d’information​" href="{% url 'architecture' %}">{% trans 'Architecture des systèmes d’information​' %}</a>
+              <a aria-label="Divers 1" href="{% url 'divers1' %}">{% trans 'Divers 1' %}</a>
+              <a aria-label="Divers 2" href="{% url 'divers2' %}">{% trans 'Divers 2' %}</a>
               </div>
           <div class="nav_sub_menu dropdown-content dropdown_content_offres" style="margin-top: 4px;">
             <div class="div_sub_menu">
@@ -316,20 +316,20 @@
                   <h2 class="nav_sub_menu_titre">{% trans 'En savoir plus' %}</h2>
                   <ul class="nav_sub_menu_list">
                     <li class="nav_sub_menu_list_item professionnel" onmouseover="myFunction3()"><a aria-label="Transformation" href="{% url 'transformation' %}">{% trans 'Transformation' %}</a></li>
-                    <li class="nav_sub_menu_list_item professionnel" onmouseover="myFunction6()"><a aria-label="Coaching" href="{% url 'coaching' %}">Coaching</a></li>
-                    <li class="nav_sub_menu_list_item professionnel" onmouseover="myFunction7()"><a aria-label="Excellence opérationnelle" href="{% url 'excellence_operationnelle' %}">Excellence opérationnelle</a></li>
-                    <li class="nav_sub_menu_list_item professionnel" onmouseover="myFunction4()"><a aria-label="Risk management & sécurité de l’information" href="{% url 'securite' %}">Risk management & sécurité de l’information</a></li>
-                    <li  class="nav_sub_menu_list_item professionnel" onmouseover="myFunction8()"><a aria-label="Innovation digitale" href="{% url 'digitalisation' %}">Innovation digitale</a></li>
-                    <li  class="nav_sub_menu_list_item particulier green" onmouseover="myFunction1()"><a aria-label="Architecture des systèmes d’information​" href="{% url 'architecture' %}">Architecture des systèmes d’information​</a></li>
-                    <li class="nav_sub_menu_list_item professionnel" onmouseover="myFunction2()"><a aria-label="Divers 1" href="{% url 'divers1' %}">Divers 1</a></li>                                    
-                    <li style="margin-bottom: 24px;" class="nav_sub_menu_list_item professionnel" onmouseover="myFunction5()"><a aria-label="Divers 2" href="{% url 'divers2' %}">Divers 2</a></li>                   
+                    <li class="nav_sub_menu_list_item professionnel" onmouseover="myFunction6()"><a aria-label="Coaching" href="{% url 'coaching' %}">{% trans 'Coaching' %}</a></li>
+                    <li class="nav_sub_menu_list_item professionnel" onmouseover="myFunction7()"><a aria-label="Excellence opérationnelle" href="{% url 'excellence_operationnelle' %}">{% trans 'Excellence opérationnelle' %}</a></li>
+                    <li class="nav_sub_menu_list_item professionnel" onmouseover="myFunction4()"><a aria-label="Risk management & sécurité de l’information" href="{% url 'securite' %}">{% trans 'Risk management & sécurité de l’information' %}</a></li>
+                    <li  class="nav_sub_menu_list_item professionnel" onmouseover="myFunction8()"><a aria-label="Innovation digitale" href="{% url 'digitalisation' %}">{% trans 'Innovation digitale' %}</a></li>
+                    <li  class="nav_sub_menu_list_item particulier green" onmouseover="myFunction1()"><a aria-label="Architecture des systèmes d’information​" href="{% url 'architecture' %}">{% trans 'Architecture des systèmes d’information​' %}</a></li>
+                    <li class="nav_sub_menu_list_item professionnel" onmouseover="myFunction2()"><a aria-label="Divers 1" href="{% url 'divers1' %}">{% trans 'Divers 1' %}</a></li>                                    
+                    <li style="margin-bottom: 24px;" class="nav_sub_menu_list_item professionnel" onmouseover="myFunction5()"><a aria-label="Divers 2" href="{% url 'divers2' %}">{% trans 'Divers 2' %}</a></li>                   
                   </ul>
                 </div>
               </div>
               <div class="part_sub_menu2 part_sub_menu2_a show" id="a">
                 <div style="width: 50%;">
-                  <h2 class="titre_sub_menu_a"><!-- {% trans 'Conduite du changement' %} -->Architecture des systèmes d’information​</h2>
-                  <p style="margin-left: 68px; margin-top: 21px;"><!-- {% trans 'Bien gérée, elle peut occasionner une réduction des coûts, une amélioration de la qualité et un accroissement de la réactivité.' %} -->À l'interface de nombreux métiers de l'entreprise, nous conçevons et organisons l'ensemble des serveurs, des systèmes d'exploitation, des ordinateurs, des logiciels, etc. Afin de les adapter aux besoins des utilisateurs</p>
+                  <h2 class="titre_sub_menu_a">{% trans 'Architecture des systèmes d’information​' %}</h2>
+                  <p style="margin-left: 68px; margin-top: 21px;">{% trans 'À l'interface de nombreux métiers de l'entreprise, nous conçevons et organisons l'ensemble des serveurs, des systèmes d'exploitation, des ordinateurs, des logiciels, etc. Afin de les adapter aux besoins des utilisateurs' %}</p>
                 </div>
                 <div style="text-align: center; margin-right: 50px;">
                   <picture>
@@ -342,8 +342,8 @@
 
                   <div class="part_sub_menu2 part_sub_menu2_b" id="b">
                     <div style="width: 50%;">
-                      <h2 class="titre_sub_menu_a">Divers 1</h2>
-                      <p style="margin-left: 68px; margin-top: 21px;">L’accélération des transformations de l’environnement économique et financier des entreprises est impactant en termes de réglementations, de renforcement de la concurrence et de pression des marchés</p>
+                      <h2 class="titre_sub_menu_a">{% trans 'Divers 1' %}</h2>
+                      <p style="margin-left: 68px; margin-top: 21px;">{% trans 'L’accélération des transformations de l’environnement économique et financier des entreprises est impactant en termes de réglementations, de renforcement de la concurrence et de pression des marchés' %}</p>
                 </div>
                 <div style="text-align: center; margin-right: 50px;">
                   <picture>
@@ -370,7 +370,7 @@
 
                   <div class="part_sub_menu2 part_sub_menu2_d" id="d">
                     <div style="width: 50%;">
-                      <h2 class="titre_sub_menu_a">Risk management & sécurité de l’information</h2>
+                      <h2 class="titre_sub_menu_a">{% trans 'Risk management & sécurité de l’information' %}</h2>
                       <p style="margin-left: 68px; margin-top: 21px;">{% trans 'Découvrez comment nous avons réussi à simplifier la sécurité des accès au système d’information de votre établissement.' %}</p>
                 </div>
                 <div style="text-align: center; margin-right: 50px;">
@@ -384,8 +384,8 @@
                   </div>
                   <div class="part_sub_menu2 part_sub_menu2_e" id="e">
                     <div style="width: 50%;">
-                      <h2 class="titre_sub_menu_a"><!-- {% trans 'Réglementaire' %} -->Divers 2</h2>
-                      <p style="margin-left: 68px; margin-top: 21px;"><!-- {% trans 'En amont des projets et lors du cadrage, jusqu’à la mise en oeuvre SI et des reportings réglementaires, Oxade couvre l’ensemble du spectre de la réglementation des marchés financiers.' %} -->Amélioration de la qualité des processus de production des produits et donc la qualité des produits en visant à réduire la variabilité d’un processus pour tendre vers le zéro défaut</p>
+                      <h2 class="titre_sub_menu_a">{% trans 'Divers 2' %}</h2>
+                      <p style="margin-left: 68px; margin-top: 21px;">{% trans 'Amélioration de la qualité des processus de production des produits et donc la qualité des produits en visant à réduire la variabilité d’un processus pour tendre vers le zéro défaut' %}</p>
                 </div>
                 <div style="text-align: center; margin-right: 50px;">
                   <picture>
@@ -398,8 +398,8 @@
                   </div>
                   <div class="part_sub_menu2 part_sub_menu2_f" id="f">
                     <div style="width: 50%;">
-                      <h2 class="titre_sub_menu_a"><!-- {% trans 'Expérience client' %} -->Coaching</h2>
-                      <p style="margin-left: 68px; margin-top: 21px;"><!-- {% trans 'Intelligence stratégique, excellence opérationnelle et connaissance approfondie de ses clients sont aujourd’hui les facteurs clés de la réussite des entreprises gagnantes.' %} -->{% trans 'Nous proposons un processus d’accompagnement et de facilitation qui vise à vous permettre de trouver vous-même la solution à une problématique professionnelle opérationnelle ou managériale tout en travaillant sur votre épanouissement personnel' %}</p>
+                      <h2 class="titre_sub_menu_a">{% trans 'Coaching' %}</h2>
+                      <p style="margin-left: 68px; margin-top: 21px;">{% trans 'Nous proposons un processus d’accompagnement et de facilitation qui vise à vous permettre de trouver vous-même la solution à une problématique professionnelle opérationnelle ou managériale tout en travaillant sur votre épanouissement personnel' %}</p>
                 </div>
                 <div style="text-align: center; margin-right: 50px;">
                   <picture>
@@ -412,8 +412,8 @@
                   </div>
                   <div class="part_sub_menu2 part_sub_menu2_g" id="g">
                     <div style="width: 50%;">
-                      <h2 class="titre_sub_menu_a"><!-- {% trans 'Gestion de projets' %} -->Excellence opérationnelle</h2>
-                      <p style="margin-left: 68px; margin-top: 21px;"><!-- {% trans 'Elle consiste à appliquer les méthodes, techniques, et outils de gestion spécifiques aux différentes étapes du projet, de l\'évaluation de l\'opportunité jusqu\'à l\'achèvement du projet.' %} -->Levier puissant de compétitivité pour les entreprises, et ce d’autant plus qu’elles évoluent dans un environnement extrêmement concurrentiel</p>
+                      <h2 class="titre_sub_menu_a">{% trans 'Excellence opérationnelle' %}</h2>
+                      <p style="margin-left: 68px; margin-top: 21px;">{% trans 'Levier puissant de compétitivité pour les entreprises, et ce d’autant plus qu’elles évoluent dans un environnement extrêmement concurrentiel' %}</p>
                 </div>
                 <div style="text-align: center; margin-right: 50px;">
                   <picture>
@@ -425,7 +425,7 @@
                   </div>
                   <div class="part_sub_menu2 part_sub_menu2_h" id="h">
                     <div style="width: 50%;">
-                      <h2 class="titre_sub_menu_a">Innovation digitale
+                      <h2 class="titre_sub_menu_a">{% trans 'Innovation digitale' %}
 
                       </h2>
                       <p style="margin-left: 68px; margin-top: 21px;">{% trans 'Les entreprises du secteur financier mettent en œuvre les changements exigés par les nouvelles réglementations. Elles s’efforcent en même temps de réagir face à la croissance de la numérisation.' %}</p>
