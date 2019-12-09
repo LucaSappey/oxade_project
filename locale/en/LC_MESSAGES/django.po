@@ -28,7 +28,7 @@ msgstr "Events"
 
 #: vitrine/templates/annexe/footer.html:58
 msgid "Pages"
-msgstr ""
+msgstr "Test"
 
 #: vitrine/templates/annexe/footer.html:61
 msgid "Accueil"
