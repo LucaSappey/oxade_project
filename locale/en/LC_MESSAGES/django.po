@@ -376,8 +376,6 @@ msgstr "Services targeted at strategic consulting missions"
 #: vitrine/templates/index_vitrine.html:126
 #: vitrine/templates/index_vitrine.html:154
 #: vitrine/templates/index_vitrine.html:316
-#, fuzzy
-#| msgid "Offres"
 msgid "Nos offres"
 msgstr "Offers"
 
@@ -386,22 +384,16 @@ msgid "Domaines fonctionnels"
 msgstr "Functional domains"
 
 #: vitrine/templates/index_vitrine.html:138
-#, fuzzy
-#| msgid "Une maîtrise des grandes fonctions de l"
 msgid "Une maîtrise des grandes fonctions de l’entreprise"
 msgstr "A mastery of the main functions of the company"
 
 #: vitrine/templates/index_vitrine.html:140
-#, fuzzy
-#| msgid "Secteurs"
 msgid "Nos secteurs"
 msgstr "Sectors"
 
 #: vitrine/templates/index_vitrine.html:171
-#, fuzzy
-#| msgid "Secteurs"
 msgid "Nos secteurs d’activités"
-msgstr "Sectors"
+msgstr "Our sectors of activity"
 
 #: vitrine/templates/index_vitrine.html:173
 msgid ""
@@ -416,14 +408,6 @@ msgstr ""
 "system of their decision-making information system"
 
 #: vitrine/templates/index_vitrine.html:188
-#, fuzzy
-#| msgid ""
-#| "Dans un contexte ou l’univers financier en général doivent faire face à "
-#| "de profonds bouleversements technologiques et culturels, où la "
-#| "compétition sur les services et les tarifs est de plus en plus féroce, "
-#| "nous vous apportons expérience, expertise et discernement pour vous "
-#| "accompagner dans vos choix stratégiques opérationnels et vos projets de "
-#| "transformation"
 msgid ""
 "Dans un contexte où l’univers financier doit faire face à des "
 "bouleversements technologiques et culturels, nous vous apportons expérience, "
@@ -445,11 +429,6 @@ msgstr ""
 "Our advice makes you benefit from feedback from our teams"
 
 #: vitrine/templates/index_vitrine.html:237
-#, fuzzy
-#| msgid ""
-#| "Oxade Consulting développe des solutions innovantes pour accompagner les "
-#| "transformations majeures des grands acteurs français et européens du "
-#| "secteur de l\\"
 msgid ""
 "Solutions innovantes pour accompagner les transformations majeures des "
 "grands acteurs français et européens du secteur de l’énergie, accompagnement "
@@ -461,12 +440,6 @@ msgstr ""
 "but also in the transformation of organizations"
 
 #: vitrine/templates/index_vitrine.html:255
-#, fuzzy
-#| msgid ""
-#| "Nos professionnels du Secteur Public sont en capacité de mobiliser toutes "
-#| "les expertises en audit, conseil en management, en systèmes d’information "
-#| "et conseil financier qui permettent d’appréhender les grandes évolutions "
-#| "du secteur"
 msgid ""
 "Nos professionnels sont en capacité de mobiliser toutes les expertises "
 "conseil en management et conseil financier qui permettent d’appréhender les "
@@ -477,12 +450,6 @@ msgstr ""
 "financial advice that help to understand the major developments in the sector"
 
 #: vitrine/templates/index_vitrine.html:270
-#, fuzzy
-#| msgid ""
-#| "Accompagnement des acteurs du secteur des télécommunications dans leur "
-#| "transformation humaine et opérationnelle. Les consultants du "
-#| "interviennent sur les évolutions des compétences, modes de fonctionnement "
-#| "et métiers des opérateurs, en particulier de l\\"
 msgid ""
 "Accompagnement des acteurs dans leur transformation humaine et "
 "opérationnelle. Les consultants interviennent sur les évolutions des "
@@ -507,10 +474,6 @@ msgstr ""
 "around the problems of information systems, comes in several facets"
 
 #: vitrine/templates/index_vitrine.html:336
-#, fuzzy
-#| msgid ""
-#| "Nous appuyons les directions projets et les instances dirigeantes pour "
-#| "faciliter le suivi de l’avancement et la prise de décisions."
 msgid ""
 "Nous appuyons les directions projets et les instances dirigeantes pour "
 "faciliter le suivi de l’avancement et la prise de décisions"
@@ -529,10 +492,6 @@ msgstr ""
 "operational or managerial"
 
 #: vitrine/templates/index_vitrine.html:387
-#, fuzzy
-#| msgid ""
-#| "Découvrez comment nous avons réussi à simplifier la sécurité des accès au "
-#| "système d’information de votre établissement."
 msgid ""
 "Découvrez comment nous avons réussi à simplifier la sécurité des accès au "
 "système d’information de votre établissement"
@@ -545,11 +504,6 @@ msgid "Innovation digital"
 msgstr "Digital innovation"
 
 #: vitrine/templates/index_vitrine.html:404
-#, fuzzy
-#| msgid ""
-#| "Les entreprises du secteur financier mettent en œuvre les changements "
-#| "exigés par les nouvelles réglementations. Elles s’efforcent en même temps "
-#| "de réagir face à la croissance de la numérisation."
 msgid ""
 "Les entreprises du secteur financier mettent en œuvre les changements exigés "
 "par les nouvelles réglementations. Elles s’efforcent en même temps de réagir "
