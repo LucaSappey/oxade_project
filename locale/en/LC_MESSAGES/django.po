@@ -28,7 +28,7 @@ msgstr "Events"
 
 #: vitrine/templates/annexe/footer.html:58
 msgid "Pages"
-msgstr "Test"
+msgstr "Pages"
 
 #: vitrine/templates/annexe/footer.html:61
 msgid "Accueil"
@@ -62,30 +62,30 @@ msgstr "Join us"
 
 #: vitrine/templates/annexe/footer.html:79
 msgid "Contact"
-msgstr ""
+msgstr "Contact"
 
 #: vitrine/templates/annexe/footer.html:82
 msgid "Mentions légales"
-msgstr ""
+msgstr "Legal Notice"
 
 #: vitrine/templates/annexe/footer.html:89
 msgid "Abonnez-vous !"
-msgstr ""
+msgstr "Subscribe !"
 
 #: vitrine/templates/annexe/footer.html:100
 msgid "Nos réseaux sociaux"
-msgstr ""
+msgstr "Our social networks"
 
 #: vitrine/templates/annexe/footer.html:119
 msgid "Tous droits réservés"
-msgstr ""
+msgstr "All rights reserved"
 
 #: vitrine/templates/annexe/navbar.html:191
 #: vitrine/templates/annexe/navbar.html:205
 #: vitrine/templates/annexe/navbar.html:216
 #: vitrine/templates/index_vitrine.html:186
 msgid "Banque de détail"
-msgstr ""
+msgstr "Retail bank"
 
 #: vitrine/templates/annexe/navbar.html:192
 #: vitrine/templates/annexe/navbar.html:206
@@ -106,7 +106,7 @@ msgstr "Public sector"
 #: vitrine/templates/annexe/navbar.html:208
 #: vitrine/templates/index_vitrine.html:201
 msgid "Transport & logistique"
-msgstr "Logistic transport"
+msgstr "Logistic & transport"
 
 #: vitrine/templates/annexe/navbar.html:195
 #: vitrine/templates/annexe/navbar.html:209
@@ -175,6 +175,11 @@ msgid ""
 "problématiques similaires. Pour chacun de ces enjeux, nous bénéficions "
 "d'expérience"
 msgstr ""
+"We support the biggest players in the insurance industry on"
+"their challenges of transformation Our advice makes you benefit from"
+"feedback from our teams but also our missions on"
+"Similar problems: for each of these issues, we benefit"
+"Experience"
 
 #: vitrine/templates/annexe/navbar.html:270
 #, fuzzy
