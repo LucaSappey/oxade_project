@@ -175,11 +175,7 @@ msgid ""
 "problématiques similaires. Pour chacun de ces enjeux, nous bénéficions "
 "d'expérience"
 msgstr ""
-"We support the biggest players in the insurance industry on"
-"their challenges of transformation Our advice makes you benefit from"
-"feedback from our teams but also our missions on"
-"Similar problems: for each of these issues, we benefit"
-"Experience"
+"We support the biggest players in the insurance sector on their transformation issues. Our advice makes you benefit from feedback from our teams but also our missions on similar issues. For each of these issues, we benefit from experience"
 
 #: vitrine/templates/annexe/navbar.html:270
 #, fuzzy
