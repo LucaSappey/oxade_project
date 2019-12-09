@@ -219,7 +219,7 @@ msgstr "Transformation"
 #: vitrine/templates/offres/coaching.html:88
 #: vitrine/templates/offres/coaching.html:93
 msgid "Coaching"
-msgstr ""
+msgstr "Coaching"
 
 #: vitrine/templates/annexe/navbar.html:305
 #: vitrine/templates/annexe/navbar.html:307
@@ -227,41 +227,41 @@ msgstr ""
 #: vitrine/templates/annexe/navbar.html:415
 #: vitrine/templates/index_vitrine.html:368
 msgid "Excellence opérationnelle"
-msgstr ""
+msgstr "Operational effectiveness"
 
 #: vitrine/templates/annexe/navbar.html:306
 #: vitrine/templates/annexe/navbar.html:321
 #: vitrine/templates/annexe/navbar.html:373
 #: vitrine/templates/index_vitrine.html:385
 msgid "Risk management & sécurité de l’information"
-msgstr ""
+msgstr "Risk management & information security"
 
 #: vitrine/templates/annexe/navbar.html:308
 #: vitrine/templates/annexe/navbar.html:323
 #: vitrine/templates/annexe/navbar.html:331
 msgid "Architecture des systèmes d’information​"
-msgstr ""
+msgstr "Information systems architecture"
 
 #: vitrine/templates/annexe/navbar.html:309
 #: vitrine/templates/annexe/navbar.html:324
 #: vitrine/templates/annexe/navbar.html:345
 #: vitrine/templates/index_vitrine.html:436
 msgid "Divers 1"
-msgstr ""
+msgstr "Various 1"
 
 #: vitrine/templates/annexe/navbar.html:310
 #: vitrine/templates/annexe/navbar.html:325
 #: vitrine/templates/annexe/navbar.html:387
 #: vitrine/templates/index_vitrine.html:453
 msgid "Divers 2"
-msgstr ""
+msgstr "Various 2"
 
 #: vitrine/templates/annexe/navbar.html:322
 #: vitrine/templates/annexe/navbar.html:428
 #: vitrine/templates/offres/digitalisation.html:87
 #: vitrine/templates/offres/digitalisation.html:92
 msgid "Innovation digitale"
-msgstr ""
+msgstr "Digital innovation"
 
 #: vitrine/templates/annexe/navbar.html:332
 #: vitrine/templates/index_vitrine.html:421
@@ -271,7 +271,7 @@ msgid ""
 "organisons l’ensemble des serveurs, des systèmes d’exploitation, des "
 "ordinateurs, des logiciels, etc. Afin de les adapter aux besoins des "
 "utilisateurs"
-msgstr ""
+msgstr "At the interface of many business lines, we design and organize all servers, operating systems, computers, software, etc. In order to adapt them to the needs of users"
 
 #: vitrine/templates/annexe/navbar.html:346
 #: vitrine/templates/index_vitrine.html:438
@@ -279,7 +279,7 @@ msgid ""
 "L’accélération des transformations de l’environnement économique et "
 "financier des entreprises est impactant en termes de réglementations, de "
 "renforcement de la concurrence et de pression des marchés"
-msgstr ""
+msgstr "Accelerating the transformation of the economic and financial environment of companies is impacting in terms of regulations, increased competition and market pressure"
 
 #: vitrine/templates/annexe/navbar.html:360
 msgid ""
@@ -303,7 +303,7 @@ msgid ""
 "Amélioration de la qualité des processus de production des produits et donc "
 "la qualité des produits en visant à réduire la variabilité d’un processus "
 "pour tendre vers le zéro défaut"
-msgstr ""
+msgstr "Improving the quality of product production processes and therefore the quality of products by aiming to reduce the variability of a process to tend towards zero defect"
 
 #: vitrine/templates/annexe/navbar.html:402
 #: vitrine/templates/offres/coaching.html:215
@@ -312,14 +312,14 @@ msgid ""
 "vous permettre de trouver vous-même la solution à une problématique "
 "professionnelle opérationnelle ou managériale tout en travaillant sur votre "
 "épanouissement personnel"
-msgstr ""
+msgstr "We propose a process of accompaniment and facilitation which aims to allow you to find yourself the solution to an operational or managerial professional problem while working on your personal fulfillment."
 
 #: vitrine/templates/annexe/navbar.html:416
 #: vitrine/templates/index_vitrine.html:370
 msgid ""
 "Levier puissant de compétitivité pour les entreprises, et ce d’autant plus "
 "qu’elles évoluent dans un environnement extrêmement concurrentiel"
-msgstr ""
+msgstr "Levier puissant de compétitivité pour les entreprises, et ce d’autant plus qu’elles évoluent dans un environnement extrêmement concurrentiel"
 
 #: vitrine/templates/annexe/navbar.html:431
 msgid ""
@@ -334,12 +334,12 @@ msgstr ""
 #: vitrine/templates/index_vitrine.html:123
 #: vitrine/templates/index_vitrine.html:151
 msgid "Le cœur de métier OXADE Consulting"
-msgstr ""
+msgstr "The OXADE Consulting core business"
 
 #: vitrine/templates/index_vitrine.html:124
 #: vitrine/templates/index_vitrine.html:152
 msgid "Des services ciblés sur des missions de conseil stratégique"
-msgstr ""
+msgstr "Services targeted at strategic consulting missions"
 
 #: vitrine/templates/index_vitrine.html:126
 #: vitrine/templates/index_vitrine.html:154
@@ -351,13 +351,13 @@ msgstr "Offers"
 
 #: vitrine/templates/index_vitrine.html:137
 msgid "Domaines fonctionnels"
-msgstr ""
+msgstr "Functional domains"
 
 #: vitrine/templates/index_vitrine.html:138
 #, fuzzy
 #| msgid "Une maîtrise des grandes fonctions de l"
 msgid "Une maîtrise des grandes fonctions de l’entreprise"
-msgstr "Test"
+msgstr "A mastery of the main functions of the company"
 
 #: vitrine/templates/index_vitrine.html:140
 #, fuzzy
@@ -377,7 +377,7 @@ msgid ""
 "en osmose avec l’expertise métier maîtrisée par les clients. Cela grâce à un "
 "accompagnement des entreprises dans la construction ou la convergence de "
 "leur système d’information de leur système d’information décisionnel"
-msgstr ""
+msgstr "OXADE Consulting is positioning itself as an expert in information systems, in harmony with the business expertise mastered by customers. This is thanks to support companies in the construction or convergence of their information system of their decision-making information system"
 
 #: vitrine/templates/index_vitrine.html:188
 #, fuzzy
@@ -404,7 +404,7 @@ msgid ""
 "Nous accompagnons les plus grands acteurs du secteur sur leurs enjeux de "
 "transformation. Notre conseil vous fait bénéficier des retours d’expériences "
 "de nos équipes"
-msgstr ""
+msgstr "We support the biggest players in the sector on their transformation issues. Our advice makes you benefit from feedback from our teams"
 
 #: vitrine/templates/index_vitrine.html:237
 #, fuzzy
@@ -457,14 +457,14 @@ msgstr ""
 
 #: vitrine/templates/index_vitrine.html:284
 msgid "Nos chiffres clés"
-msgstr ""
+msgstr "Our key figures"
 
 #: vitrine/templates/index_vitrine.html:318
 msgid ""
 "Le cœur de métier d’OXADE Consulting et le savoir-faire de nos consultants "
 "autour des problématiques de systèmes d’information, se décline sur "
 "plusieurs facettes"
-msgstr ""
+msgstr "The core business of OXADE Consulting and the know-how of our consultants around the problems of information systems, comes in several facets"
 
 #: vitrine/templates/index_vitrine.html:336
 #, fuzzy
@@ -483,7 +483,7 @@ msgid ""
 "Nous proposons un processus d’accompagnement et de facilitation qui vise à "
 "vous permettre de trouver vous-même la solution à une problématique "
 "professionnelle opérationnelle ou managériale"
-msgstr ""
+msgstr "We propose a process of accompaniment and facilitation which aims at allowing you to find yourself the solution to a professional problem operational or managerial"
 
 #: vitrine/templates/index_vitrine.html:387
 #, fuzzy
@@ -499,7 +499,7 @@ msgstr ""
 
 #: vitrine/templates/index_vitrine.html:402
 msgid "Innovation digital"
-msgstr ""
+msgstr "Digital innovation"
 
 #: vitrine/templates/index_vitrine.html:404
 #, fuzzy
@@ -520,7 +520,7 @@ msgstr ""
 #: vitrine/templates/offres/architecture.html:86
 #: vitrine/templates/offres/architecture.html:91
 msgid "Architecture des systèmes d’information"
-msgstr ""
+msgstr "Information systems architecture"
 
 #: vitrine/templates/offres/architecture.html:116
 msgid "Architecture d’entreprise et data​"
