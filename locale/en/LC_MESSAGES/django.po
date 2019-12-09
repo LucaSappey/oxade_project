@@ -3,12 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#: vitrine/templates/index_vitrine.html:126
+#: vitrine/templates/index_vitrine.html:140
+#: vitrine/templates/index_vitrine.html:154
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-20 11:06+0100\n"
+"POT-Creation-Date: 2019-12-09 02:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,199 +20,115 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: vitrine/templates/annexe/navbar.html:38
-msgid "Télephone"
-msgstr "Phone"
+#: vitrine/templates/annexe/footer.html:13
+msgid "Une question ?"
+msgstr ""
 
-#: vitrine/templates/annexe/navbar.html:39
-msgid "01 42 82 99 38"
-msgstr "+33 1 42 82 99 38"
+#: vitrine/templates/annexe/footer.html:38
+#, fuzzy
+#| msgid "Événements"
+msgid "Événement récent"
+msgstr "Events"
 
-#: vitrine/templates/annexe/navbar.html:44
-msgid "Nous contacter"
-msgstr "Contact us"
+#: vitrine/templates/annexe/footer.html:58
+msgid "Pages"
+msgstr ""
 
-#: vitrine/templates/annexe/navbar.html:121
+#: vitrine/templates/annexe/footer.html:61
 msgid "Accueil"
 msgstr "Home"
 
-#: vitrine/templates/annexe/navbar.html:123
-msgid "Offres"
-msgstr "Offers"
-
-#: vitrine/templates/annexe/navbar.html:131
-#: vitrine/templates/annexe/navbar.html:146
-#: vitrine/templates/annexe/navbar.html:159
-msgid "Conduite du changement"
-msgstr "Change management"
-
-#: vitrine/templates/annexe/navbar.html:132
-#: vitrine/templates/annexe/navbar.html:147
-#: vitrine/templates/annexe/navbar.html:173
-msgid "Fusions et acquisitions"
-msgstr "Mergers and Acquisitions"
-
-#: vitrine/templates/annexe/navbar.html:133
-#: vitrine/templates/annexe/navbar.html:148
-#: vitrine/templates/annexe/navbar.html:187
-msgid "Transformation"
-msgstr "Transformation"
-
-#: vitrine/templates/annexe/navbar.html:134
-#: vitrine/templates/annexe/navbar.html:149
-#: vitrine/templates/annexe/navbar.html:201
-msgid "Sécurité"
-msgstr "Security"
-
-#: vitrine/templates/annexe/navbar.html:135
-#: vitrine/templates/annexe/navbar.html:150
-#: vitrine/templates/annexe/navbar.html:215
-msgid "Réglementaire"
-msgstr "Regulation"
-
-#: vitrine/templates/annexe/navbar.html:136
-#: vitrine/templates/annexe/navbar.html:151
-#: vitrine/templates/annexe/navbar.html:229
-msgid "Expérience client"
-msgstr "Client experience"
-
-#: vitrine/templates/annexe/navbar.html:137
-#: vitrine/templates/annexe/navbar.html:152
-#: vitrine/templates/annexe/navbar.html:243
-msgid "Gestion de projets"
-msgstr "Project management"
-
-#: vitrine/templates/annexe/navbar.html:138
-#: vitrine/templates/annexe/navbar.html:153
-msgid "Digitalisation"
-msgstr "Digitaliation"
-
-#: vitrine/templates/annexe/navbar.html:144
-#: vitrine/templates/annexe/navbar.html:289
-msgid "En savoir plus"
-msgstr "Learn more"
-
-
-#: vitrine/templates/annexe/navbar.html:188
-msgid ""
-"Nous appuyons les directions projets et les instances dirigeantes pour "
-"faciliter le suivi de l’avancement et la prise de décisions."
-msgstr ""
-"We support project directorates and governing bodies to facilitate the "
-"monitoring of progress and decision-making."
-
-
-
-#: vitrine/templates/annexe/navbar.html:160
-msgid ""
-"Bien gérée, elle peut occasionner une réduction des coûts, une amélioration "
-"de la qualité et un accroissement de la réactivité."
-msgstr ""
-"Well managed, it can result in cost savings, quality improvement and "
-"increased responsiveness."
-
-#: vitrine/templates/annexe/navbar.html:174
-msgid ""
-"Les opérations de Fusions & Acquisitions (F&A) sont longtemps restées "
-"l’apanage du monde de la Stratégie et de la Finance."
-msgstr ""
-"Mergers & Acquisitions (M & A) operations have long been the preserve of the "
-"world of Strategy and Finance."
-
-
-
-#: vitrine/templates/annexe/navbar.html:202
-msgid ""
-"Découvrez comment nous avons réussi à simplifier la sécurité des accès au "
-"système d’information de votre établissement."
-msgstr ""
-"Find out how we have managed to simplify the security of access to your "
-"institution's information system."
-
-#: vitrine/templates/annexe/navbar.html:216
-msgid ""
-"En amont des projets et lors du cadrage, jusqu’à la mise en oeuvre SI et des "
-"reportings réglementaires, Oxade couvre l’ensemble du spectre de la "
-"réglementation des marchés financiers."
-msgstr ""
-"Prior to the projects and during the framing, until the implementation SI "
-"and regulatory reporting, Oxade covers the entire spectrum of financial "
-"market regulation."
-
-#: vitrine/templates/annexe/navbar.html:230
-msgid ""
-"Intelligence stratégique, excellence opérationnelle et connaissance "
-"approfondie de ses clients sont aujourd’hui les facteurs clés de la réussite "
-"des entreprises gagnantes."
-msgstr ""
-"Strategic intelligence, operational excellence and in-depth knowledge of its "
-"customers are now key factors in the success of winning companies."
-
-#: vitrine/templates/annexe/navbar.html:244
-msgid ""
-"Elle consiste à appliquer les méthodes, techniques, et outils de gestion "
-"spécifiques aux différentes étapes du projet, de l\\"
-msgstr ""
-"It consists in applying the methods, techniques, and management tools "
-"specific to the different stages of the project, from the evaluation of the "
-"opportunity to the completion of the project."
-
-#: vitrine/templates/annexe/navbar.html:256
-#, fuzzy
-#| msgid "Digitalisation"
-msgid "Digitaliation"
-msgstr "Digitaliation"
-
-#: vitrine/templates/annexe/navbar.html:257
-msgid ""
-"Les entreprises du secteur financier mettent en œuvre les changements exigés "
-"par les nouvelles réglementations. Elles s’efforcent en même temps de réagir "
-"face à la croissance de la numérisation."
-msgstr ""
-"Financial sector companies are implementing the changes required by the new "
-"regulations. At the same time, they are trying to react to the growth of "
-"digitalisation."
-
-#: vitrine/templates/annexe/navbar.html:270
+#: vitrine/templates/annexe/footer.html:64
+#: vitrine/templates/annexe/navbar.html:183
 msgid "Secteurs"
 msgstr "Sectors"
 
-#: vitrine/templates/annexe/navbar.html:278
-#: vitrine/templates/annexe/navbar.html:291
-#: vitrine/templates/annexe/navbar.html:302
-msgid "Banque"
-msgstr "Bank"
+#: vitrine/templates/annexe/footer.html:67
+#: vitrine/templates/annexe/navbar.html:295
+msgid "Offres"
+msgstr "Offers"
 
-#: vitrine/templates/annexe/navbar.html:279
-#: vitrine/templates/annexe/navbar.html:292
-#: vitrine/templates/annexe/navbar.html:315
-msgid "Secteur public"
-msgstr "Public sector"
+#: vitrine/templates/annexe/footer.html:70
+#: vitrine/templates/annexe/navbar.html:181
+msgid "À propos de nous"
+msgstr "About us"
 
-#: vitrine/templates/annexe/navbar.html:280
-#: vitrine/templates/annexe/navbar.html:293
-msgid "Transport & logistique"
-msgstr "Logistic transport"
+#: vitrine/templates/annexe/footer.html:73 vitrine/templates/evenements.html:21
+msgid "Événements"
+msgstr "Events"
 
-#: vitrine/templates/annexe/navbar.html:281
-#: vitrine/templates/annexe/navbar.html:294
-#: vitrine/templates/annexe/navbar.html:342
+#: vitrine/templates/annexe/footer.html:76
+msgid "Nous rejoindre"
+msgstr "Join us"
+
+#: vitrine/templates/annexe/footer.html:79
+msgid "Contact"
+msgstr ""
+
+#: vitrine/templates/annexe/footer.html:82
+msgid "Mentions légales"
+msgstr ""
+
+#: vitrine/templates/annexe/footer.html:89
+msgid "Abonnez-vous !"
+msgstr ""
+
+#: vitrine/templates/annexe/footer.html:100
+msgid "Nos réseaux sociaux"
+msgstr ""
+
+#: vitrine/templates/annexe/footer.html:119
+msgid "Tous droits réservés"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:191
+#: vitrine/templates/annexe/navbar.html:205
+#: vitrine/templates/annexe/navbar.html:216
+#: vitrine/templates/index_vitrine.html:186
+msgid "Banque de détail"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:192
+#: vitrine/templates/annexe/navbar.html:206
+#: vitrine/templates/annexe/navbar.html:256
+#: vitrine/templates/index_vitrine.html:220
 msgid "Assurance"
 msgstr "Insurance"
 
-#: vitrine/templates/annexe/navbar.html:282
-#: vitrine/templates/annexe/navbar.html:295
-#: vitrine/templates/annexe/navbar.html:355
+#: vitrine/templates/annexe/navbar.html:193
+#: vitrine/templates/annexe/navbar.html:207
+#: vitrine/templates/annexe/navbar.html:229
+#: vitrine/templates/index_vitrine.html:253
+msgid "Secteur public"
+msgstr "Public sector"
+
+#: vitrine/templates/annexe/navbar.html:194
+#: vitrine/templates/annexe/navbar.html:208
+#: vitrine/templates/index_vitrine.html:201
+msgid "Transport & logistique"
+msgstr "Logistic transport"
+
+#: vitrine/templates/annexe/navbar.html:195
+#: vitrine/templates/annexe/navbar.html:209
+#: vitrine/templates/annexe/navbar.html:269
+#: vitrine/templates/index_vitrine.html:235
 msgid "Energie"
 msgstr "Energy"
 
-#: vitrine/templates/annexe/navbar.html:283
-#: vitrine/templates/annexe/navbar.html:296
-#: vitrine/templates/annexe/navbar.html:368
+#: vitrine/templates/annexe/navbar.html:196
+#: vitrine/templates/annexe/navbar.html:210
+#: vitrine/templates/annexe/navbar.html:282
+#: vitrine/templates/index_vitrine.html:268
 msgid "Télécommunications"
 msgstr "Telecommunications"
 
-#: vitrine/templates/annexe/navbar.html:303
+#: vitrine/templates/annexe/navbar.html:203
+#: vitrine/templates/annexe/navbar.html:316
+#: vitrine/templates/index_vitrine.html:463
+msgid "En savoir plus"
+msgstr "Learn more"
+
+#: vitrine/templates/annexe/navbar.html:217
 msgid ""
 "Dans un contexte ou l’univers financier en général doivent faire face à de "
 "profonds bouleversements technologiques et culturels, où la compétition sur "
@@ -223,7 +142,7 @@ msgstr ""
 "discernment to accompany you in your operational strategic choices and your "
 "transformation projects"
 
-#: vitrine/templates/annexe/navbar.html:316
+#: vitrine/templates/annexe/navbar.html:230
 msgid ""
 "Nos professionnels du Secteur Public sont en capacité de mobiliser toutes "
 "les expertises en audit, conseil en management, en systèmes d’information et "
@@ -234,11 +153,12 @@ msgstr ""
 "expertise in auditing, management consulting, information systems and "
 "financial advice that help to understand the major developments in the sector"
 
-#: vitrine/templates/annexe/navbar.html:329
+#: vitrine/templates/annexe/navbar.html:243
 msgid "Transport et logistique"
 msgstr "Transport and logistics"
 
-#: vitrine/templates/annexe/navbar.html:330
+#: vitrine/templates/annexe/navbar.html:244
+#: vitrine/templates/index_vitrine.html:203
 msgid ""
 "Accompagnement depuis de très nombreuses années des acteurs de la mobilité, "
 "des infrastructures, du fret et de la logistique au travers d’approches "
@@ -247,7 +167,7 @@ msgstr ""
 "Accompanying many years of mobility, infrastructure, freight and logistics "
 "actors through adapted and innovative approaches"
 
-#: vitrine/templates/annexe/navbar.html:343
+#: vitrine/templates/annexe/navbar.html:257
 msgid ""
 "Nous accompagnons les plus grands acteurs du secteur de l'assurance sur "
 "leurs enjeux de transformation. Notre conseil vous fait bénéficier des "
@@ -256,7 +176,7 @@ msgid ""
 "d'expérience"
 msgstr ""
 
-#: vitrine/templates/annexe/navbar.html:356
+#: vitrine/templates/annexe/navbar.html:270
 #, fuzzy
 #| msgid ""
 #| "Oxade Consulting développe des solutions innovantes pour accompagner les "
@@ -265,15 +185,14 @@ msgstr ""
 msgid ""
 "Oxade Consulting développe des solutions innovantes pour accompagner les "
 "transformations majeures des grands acteurs français et européens du secteur "
-"de l\\'énergie. Nos équipes les accompagnent dans les évolutions stratégiques "
-"et réglementaires mais aussi dans la transformation des organisations"
+"de l\\"
 msgstr ""
 "Oxade Consulting develops innovative solutions to support the major "
 "transformations of the major French and European players in the energy "
 "sector. Our teams support them in the strategic and regulatory developments "
 "but also in the transformation of organizations"
 
-#: vitrine/templates/annexe/navbar.html:369
+#: vitrine/templates/annexe/navbar.html:283
 msgid ""
 "Accompagnement des acteurs du secteur des télécommunications dans leur "
 "transformation humaine et opérationnelle. Les consultants du interviennent "
@@ -285,15 +204,356 @@ msgstr ""
 "operating methods and trades of operators, especially the incumbent "
 "operator. Indeed, this in itself constitutes a strategic challenge"
 
-#: vitrine/templates/annexe/navbar.html:380
-#: vitrine/templates/evenements.html:21 vitrine/templates/evenements.html:68
-msgid "Événements"
-msgstr "Events"
+#: vitrine/templates/annexe/navbar.html:303
+#: vitrine/templates/annexe/navbar.html:318
+#: vitrine/templates/annexe/navbar.html:359
+#: vitrine/templates/index_vitrine.html:334
+msgid "Transformation"
+msgstr "Transformation"
 
-#: vitrine/templates/annexe/navbar.html:381
-msgid "À propos de nous"
-msgstr "About us"
+#: vitrine/templates/annexe/navbar.html:304
+#: vitrine/templates/annexe/navbar.html:319
+#: vitrine/templates/annexe/navbar.html:401
+#: vitrine/templates/index_vitrine.html:351
+msgid "Coaching"
+msgstr ""
 
-#: vitrine/templates/annexe/navbar.html:382
-msgid "Nous rejoindre"
-msgstr "Join us"
+#: vitrine/templates/annexe/navbar.html:305
+#: vitrine/templates/annexe/navbar.html:307
+#: vitrine/templates/annexe/navbar.html:320
+#: vitrine/templates/annexe/navbar.html:415
+#: vitrine/templates/index_vitrine.html:368
+msgid "Excellence opérationnelle"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:306
+#: vitrine/templates/annexe/navbar.html:321
+#: vitrine/templates/annexe/navbar.html:373
+#: vitrine/templates/index_vitrine.html:385
+msgid "Risk management & sécurité de l’information"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:308
+#: vitrine/templates/annexe/navbar.html:323
+#: vitrine/templates/annexe/navbar.html:331
+msgid "Architecture des systèmes d’information​"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:309
+#: vitrine/templates/annexe/navbar.html:324
+#: vitrine/templates/annexe/navbar.html:345
+#: vitrine/templates/index_vitrine.html:436
+msgid "Divers 1"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:310
+#: vitrine/templates/annexe/navbar.html:325
+#: vitrine/templates/annexe/navbar.html:387
+#: vitrine/templates/index_vitrine.html:453
+msgid "Divers 2"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:322
+#: vitrine/templates/annexe/navbar.html:428
+msgid "Innovation digitale"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:332
+#: vitrine/templates/index_vitrine.html:421
+msgid "À l"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:346
+#: vitrine/templates/index_vitrine.html:438
+msgid ""
+"L’accélération des transformations de l’environnement économique et "
+"financier des entreprises est impactant en termes de réglementations, de "
+"renforcement de la concurrence et de pression des marchés"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:360
+msgid ""
+"Nous appuyons les directions projets et les instances dirigeantes pour "
+"faciliter le suivi de l’avancement et la prise de décisions."
+msgstr ""
+"We support project directorates and governing bodies to facilitate the "
+"monitoring of progress and decision-making."
+
+#: vitrine/templates/annexe/navbar.html:374
+msgid ""
+"Découvrez comment nous avons réussi à simplifier la sécurité des accès au "
+"système d’information de votre établissement."
+msgstr ""
+"Find out how we have managed to simplify the security of access to your "
+"institution's information system."
+
+#: vitrine/templates/annexe/navbar.html:388
+#: vitrine/templates/index_vitrine.html:455
+msgid ""
+"Amélioration de la qualité des processus de production des produits et donc "
+"la qualité des produits en visant à réduire la variabilité d’un processus "
+"pour tendre vers le zéro défaut"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:402
+msgid ""
+"Nous proposons un processus d’accompagnement et de facilitation qui vise à "
+"vous permettre de trouver vous-même la solution à une problématique "
+"professionnelle opérationnelle ou managériale tout en travaillant sur votre "
+"épanouissement personnel"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:416
+#: vitrine/templates/index_vitrine.html:370
+msgid ""
+"Levier puissant de compétitivité pour les entreprises, et ce d’autant plus "
+"qu’elles évoluent dans un environnement extrêmement concurrentiel"
+msgstr ""
+
+#: vitrine/templates/annexe/navbar.html:431
+msgid ""
+"Les entreprises du secteur financier mettent en œuvre les changements exigés "
+"par les nouvelles réglementations. Elles s’efforcent en même temps de réagir "
+"face à la croissance de la numérisation."
+msgstr ""
+"Financial sector companies are implementing the changes required by the new "
+"regulations. At the same time, they are trying to react to the growth of "
+"digitalisation."
+
+#: vitrine/templates/index_vitrine.html:123
+#: vitrine/templates/index_vitrine.html:151
+msgid "Le cœur de métier OXADE Consulting"
+msgstr ""
+
+#: vitrine/templates/index_vitrine.html:124
+#: vitrine/templates/index_vitrine.html:152
+msgid "Des services ciblés sur des missions de conseil stratégique"
+msgstr ""
+
+#: vitrine/templates/index_vitrine.html:137
+msgid "Domaines fonctionnels"
+msgstr ""
+
+#: vitrine/templates/index_vitrine.html:138
+msgid "Une maîtrise des grandes fonctions de l"
+msgstr ""
+
+#: vitrine/templates/index_vitrine.html:171
+#, fuzzy
+#| msgid "Secteurs"
+msgid "Nos secteurs d"
+msgstr "Sectors"
+
+#: vitrine/templates/index_vitrine.html:173
+msgid "OXADE Consulting se positionne en tant qu"
+msgstr ""
+
+#: vitrine/templates/index_vitrine.html:188
+#, fuzzy
+#| msgid ""
+#| "Dans un contexte ou l’univers financier en général doivent faire face à "
+#| "de profonds bouleversements technologiques et culturels, où la "
+#| "compétition sur les services et les tarifs est de plus en plus féroce, "
+#| "nous vous apportons expérience, expertise et discernement pour vous "
+#| "accompagner dans vos choix stratégiques opérationnels et vos projets de "
+#| "transformation"
+msgid ""
+"Dans un contexte où l’univers financier doit faire face à des "
+"bouleversements technologiques et culturels, nous vous apportons expérience, "
+"expertise et discernement"
+msgstr ""
+"In a context where the financial world in general has to face profound "
+"technological and cultural upheavals, where the competition on services and "
+"tariffs is more and more fierce, we bring you experience, expertise and "
+"discernment to accompany you in your operational strategic choices and your "
+"transformation projects"
+
+#: vitrine/templates/index_vitrine.html:222
+msgid ""
+"Nous accompagnons les plus grands acteurs du secteur sur leurs enjeux de "
+"transformation. Notre conseil vous fait bénéficier des retours d"
+msgstr ""
+
+#: vitrine/templates/index_vitrine.html:237
+msgid ""
+"Solutions innovantes pour accompagner les transformations majeures des "
+"grands acteurs français et européens du secteur de l"
+msgstr ""
+
+#: vitrine/templates/index_vitrine.html:255
+#, fuzzy
+#| msgid ""
+#| "Nos professionnels du Secteur Public sont en capacité de mobiliser toutes "
+#| "les expertises en audit, conseil en management, en systèmes d’information "
+#| "et conseil financier qui permettent d’appréhender les grandes évolutions "
+#| "du secteur"
+msgid ""
+"Nos professionnels sont en capacité de mobiliser toutes les expertises "
+"conseil en management et conseil financier qui permettent d’appréhender les "
+"évolutions du secteur"
+msgstr ""
+"Our professionals in the Public Sector are able to mobilize all the "
+"expertise in auditing, management consulting, information systems and "
+"financial advice that help to understand the major developments in the sector"
+
+#: vitrine/templates/index_vitrine.html:270
+#, fuzzy
+#| msgid ""
+#| "Accompagnement des acteurs du secteur des télécommunications dans leur "
+#| "transformation humaine et opérationnelle. Les consultants du "
+#| "interviennent sur les évolutions des compétences, modes de fonctionnement "
+#| "et métiers des opérateurs, en particulier de l\\"
+msgid ""
+"Accompagnement des acteurs dans leur transformation humaine et "
+"opérationnelle. Les consultants interviennent sur les évolutions des "
+"compétences et métiers des opérateurs"
+msgstr ""
+"Accompanying players in the telecommunications sector in their human and "
+"operational transformation. The consultants work on changes in the skills, "
+"operating methods and trades of operators, especially the incumbent "
+"operator. Indeed, this in itself constitutes a strategic challenge"
+
+#: vitrine/templates/index_vitrine.html:284
+msgid "Nos chiffres clés"
+msgstr ""
+
+#: vitrine/templates/index_vitrine.html:316
+#, fuzzy
+#| msgid "Offres"
+msgid "Nos offres"
+msgstr "Offers"
+
+#: vitrine/templates/index_vitrine.html:318
+msgid "Le cœur de métier d"
+msgstr ""
+
+#: vitrine/templates/index_vitrine.html:336
+#, fuzzy
+#| msgid ""
+#| "Nous appuyons les directions projets et les instances dirigeantes pour "
+#| "faciliter le suivi de l’avancement et la prise de décisions."
+msgid ""
+"Nous appuyons les directions projets et les instances dirigeantes pour "
+"faciliter le suivi de l’avancement et la prise de décisions"
+msgstr ""
+"We support project directorates and governing bodies to facilitate the "
+"monitoring of progress and decision-making."
+
+#: vitrine/templates/index_vitrine.html:353
+msgid ""
+"Nous proposons un processus d’accompagnement et de facilitation qui vise à "
+"vous permettre de trouver vous-même la solution à une problématique "
+"professionnelle opérationnelle ou managériale"
+msgstr ""
+
+#: vitrine/templates/index_vitrine.html:387
+#, fuzzy
+#| msgid ""
+#| "Découvrez comment nous avons réussi à simplifier la sécurité des accès au "
+#| "système d’information de votre établissement."
+msgid ""
+"Découvrez comment nous avons réussi à simplifier la sécurité des accès au "
+"système d’information de votre établissement"
+msgstr ""
+"Find out how we have managed to simplify the security of access to your "
+"institution's information system."
+
+#: vitrine/templates/index_vitrine.html:402
+msgid "Innovation digital"
+msgstr ""
+
+#: vitrine/templates/index_vitrine.html:404
+#, fuzzy
+#| msgid ""
+#| "Les entreprises du secteur financier mettent en œuvre les changements "
+#| "exigés par les nouvelles réglementations. Elles s’efforcent en même temps "
+#| "de réagir face à la croissance de la numérisation."
+msgid ""
+"Les entreprises du secteur financier mettent en œuvre les changements exigés "
+"par les nouvelles réglementations. Elles s’efforcent en même temps de réagir "
+"face à la croissance de la numérisation"
+msgstr ""
+"Financial sector companies are implementing the changes required by the new "
+"regulations. At the same time, they are trying to react to the growth of "
+"digitalisation."
+
+#: vitrine/templates/index_vitrine.html:419
+msgid "Architecture des systèmes d"
+msgstr ""
+
+#~ msgid "Télephone"
+#~ msgstr "Phone"
+
+#~ msgid "01 42 82 99 38"
+#~ msgstr "+33 1 42 82 99 38"
+
+#~ msgid "Nous contacter"
+#~ msgstr "Contact us"
+
+#~ msgid "Conduite du changement"
+#~ msgstr "Change management"
+
+#~ msgid "Fusions et acquisitions"
+#~ msgstr "Mergers and Acquisitions"
+
+#~ msgid "Sécurité"
+#~ msgstr "Security"
+
+#~ msgid "Réglementaire"
+#~ msgstr "Regulation"
+
+#~ msgid "Expérience client"
+#~ msgstr "Client experience"
+
+#~ msgid "Gestion de projets"
+#~ msgstr "Project management"
+
+#~ msgid "Digitalisation"
+#~ msgstr "Digitaliation"
+
+#~ msgid ""
+#~ "Bien gérée, elle peut occasionner une réduction des coûts, une "
+#~ "amélioration de la qualité et un accroissement de la réactivité."
+#~ msgstr ""
+#~ "Well managed, it can result in cost savings, quality improvement and "
+#~ "increased responsiveness."
+
+#~ msgid ""
+#~ "Les opérations de Fusions & Acquisitions (F&A) sont longtemps restées "
+#~ "l’apanage du monde de la Stratégie et de la Finance."
+#~ msgstr ""
+#~ "Mergers & Acquisitions (M & A) operations have long been the preserve of "
+#~ "the world of Strategy and Finance."
+
+#~ msgid ""
+#~ "En amont des projets et lors du cadrage, jusqu’à la mise en oeuvre SI et "
+#~ "des reportings réglementaires, Oxade couvre l’ensemble du spectre de la "
+#~ "réglementation des marchés financiers."
+#~ msgstr ""
+#~ "Prior to the projects and during the framing, until the implementation SI "
+#~ "and regulatory reporting, Oxade covers the entire spectrum of financial "
+#~ "market regulation."
+
+#~ msgid ""
+#~ "Intelligence stratégique, excellence opérationnelle et connaissance "
+#~ "approfondie de ses clients sont aujourd’hui les facteurs clés de la "
+#~ "réussite des entreprises gagnantes."
+#~ msgstr ""
+#~ "Strategic intelligence, operational excellence and in-depth knowledge of "
+#~ "its customers are now key factors in the success of winning companies."
+
+#~ msgid ""
+#~ "Elle consiste à appliquer les méthodes, techniques, et outils de gestion "
+#~ "spécifiques aux différentes étapes du projet, de l\\"
+#~ msgstr ""
+#~ "It consists in applying the methods, techniques, and management tools "
+#~ "specific to the different stages of the project, from the evaluation of "
+#~ "the opportunity to the completion of the project."
+
+#, fuzzy
+#~| msgid "Digitalisation"
+#~ msgid "Digitaliation"
+#~ msgstr "Digitaliation"
+
+#~ msgid "Banque"
+#~ msgstr "Bank"
