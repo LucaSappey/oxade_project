@@ -2,13 +2,12 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-09 03:12+0100\n"
+"POT-Creation-Date: 2019-12-09 03:29+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -327,6 +326,14 @@ msgstr ""
 msgid "Des services ciblés sur des missions de conseil stratégique"
 msgstr ""
 
+#: vitrine/templates/index_vitrine.html:126
+#: vitrine/templates/index_vitrine.html:154
+#: vitrine/templates/index_vitrine.html:316
+#, fuzzy
+#| msgid "Offres"
+msgid "Nos offres"
+msgstr "Offers"
+
 #: vitrine/templates/index_vitrine.html:137
 msgid "Domaines fonctionnels"
 msgstr ""
@@ -334,6 +341,12 @@ msgstr ""
 #: vitrine/templates/index_vitrine.html:138
 msgid "Une maîtrise des grandes fonctions de l"
 msgstr ""
+
+#: vitrine/templates/index_vitrine.html:140
+#, fuzzy
+#| msgid "Secteurs"
+msgid "Nos secteurs"
+msgstr "Sectors"
 
 #: vitrine/templates/index_vitrine.html:171
 #, fuzzy
@@ -413,12 +426,6 @@ msgstr ""
 #: vitrine/templates/index_vitrine.html:284
 msgid "Nos chiffres clés"
 msgstr ""
-
-#: vitrine/templates/index_vitrine.html:316
-#, fuzzy
-#| msgid "Offres"
-msgid "Nos offres"
-msgstr "Offers"
 
 #: vitrine/templates/index_vitrine.html:318
 msgid "Le cœur de métier d"
