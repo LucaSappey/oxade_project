@@ -3,9 +3,6 @@
       .langues_tel a{
     display: block!important;
     }
-      .dropdown_langues a, .navbar-brand img{
-      display: none;
-  }
 }
 .langues_tel a, .langues_tel i{
     display: none;

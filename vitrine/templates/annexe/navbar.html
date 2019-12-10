@@ -131,16 +131,16 @@
             {% get_available_languages as LANGUAGES %}
             {% get_language_info_list for LANGUAGES as languages %}
             {% if LANGUAGE_CODE == 'fr' %}
-                    <a href="/fr{{ request.get_full_path|slice:'3:' }}"
+                    <a
                        lang="fr" aria-label="langue-fr" >
                         <picture>
                   <source type="image/webp" srcset="{% static 'vitrine/img/webp/drapeau_france.webp' %}">
                     <source type="image/png" srcset="{% static 'vitrine/img/drapeau_france.png' %}">
-                  <img alt="logo-français" style="width: 31px; margin-left: 15px;" src="{% static 'vitrine/img/drapeau_france.png' %}">
+                  <img alt="logo-français" style="width: 31px; " src="{% static 'vitrine/img/drapeau_france.png' %}">
                 </picture>
                 <i class="fa fa-caret-down " aria-hidden="true"></i>
                     </a>
-                  <div class="dropdown-content_langues ">
+                  <div class="dropdown-content_langues chang_fr">
                     <a href="/en{{ request.get_full_path|slice:'3:' }}"
                        lang="en" aria-label="langue-en" class="dropbtn ">
                        <picture>
@@ -153,8 +153,7 @@
                    </div>
 
             {% else %}
-                   <a href="/en{{ request.get_full_path|slice:'3:' }}"
-                       lang="en" aria-label="langue-en" class="dropbtn_langues chang_fr">
+                   <a lang="en" aria-label="langue-en" class="dropbtn_langues chang_fr">
                         <picture>
                   <source type="image/webp" srcset="{% static 'vitrine/img/webp/drapeau_anglais.webp' %}">
                     <source type="image/png" srcset="{% static 'vitrine/img/drapeau_anglais.png' %}">

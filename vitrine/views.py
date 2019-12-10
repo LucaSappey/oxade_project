@@ -56,6 +56,7 @@ def index_vitrine(request):
 def contact(request):
 
 	evenement = Bdd_evenement.objects.all().reverse()[0]
+	reseaux = Bdd_reseaux.objects.all()
 
 	if request.POST.get('envoyer'):
 		Nom =  request.POST.get('nom') + " " + request.POST.get('prenom')
@@ -80,6 +81,7 @@ def contact(request):
 
 def architecture(request):
 	evenement = Bdd_evenement.objects.all().reverse()[0]
+	reseaux = Bdd_reseaux.objects.all()
 
 	if request.POST.get("sv"):
 		Bdd_mail.objects.create(mail=request.POST.get("mail"))
@@ -90,6 +92,7 @@ def architecture(request):
 
 def divers1(request):
 	evenement = Bdd_evenement.objects.all().reverse()[0]
+	reseaux = Bdd_reseaux.objects.all()
 
 	if request.POST.get("sv"):
 		Bdd_mail.objects.create(mail=request.POST.get("mail"))
@@ -100,6 +103,7 @@ def divers1(request):
 
 def divers2(request):
 	evenement = Bdd_evenement.objects.all().reverse()[0]
+	reseaux = Bdd_reseaux.objects.all()
 
 	if request.POST.get("sv"):
 		Bdd_mail.objects.create(mail=request.POST.get("mail"))
@@ -110,6 +114,7 @@ def divers2(request):
 
 def coaching(request):
 	evenement = Bdd_evenement.objects.all().reverse()[0]
+	reseaux = Bdd_reseaux.objects.all()
 
 	if request.POST.get("sv"):
 		Bdd_mail.objects.create(mail=request.POST.get("mail"))
@@ -122,6 +127,7 @@ def evenements(request):
 
 	events = Bdd_evenement.objects.all().reverse()
 	evenement = Bdd_evenement.objects.all().reverse()[0]
+	reseaux = Bdd_reseaux.objects.all()
 
 	if request.POST.get("sv"):
 		Bdd_mail.objects.create(mail=request.POST.get("mail"))
@@ -134,6 +140,7 @@ def evenements(request):
 def digitalisation(request):
 
 	evenement = Bdd_evenement.objects.all().reverse()[0]
+	reseaux = Bdd_reseaux.objects.all()
 
 	if request.POST.get("sv"):
 		Bdd_mail.objects.create(mail=request.POST.get("mail"))
@@ -146,6 +153,7 @@ def digitalisation(request):
 def securite(request):
 
 	evenement = Bdd_evenement.objects.all().reverse()[0]
+	reseaux = Bdd_reseaux.objects.all()
 
 	if request.POST.get("sv"):
 		Bdd_mail.objects.create(mail=request.POST.get("mail"))
@@ -157,6 +165,7 @@ def securite(request):
 def transformation(request):
 
 	evenement = Bdd_evenement.objects.all().reverse()[0]
+	reseaux = Bdd_reseaux.objects.all()
 
 	if request.POST.get("sv"):
 		Bdd_mail.objects.create(mail=request.POST.get("mail"))
@@ -168,6 +177,7 @@ def transformation(request):
 def excellence_operationnelle(request):
 
 	evenement = Bdd_evenement.objects.all().reverse()[0]
+	reseaux = Bdd_reseaux.objects.all()
 
 	if request.POST.get("sv"):
 		Bdd_mail.objects.create(mail=request.POST.get("mail"))
@@ -180,6 +190,7 @@ def excellence_operationnelle(request):
 def mentions_legales(request):
 
 	evenement = Bdd_evenement.objects.all().reverse()[0]
+	reseaux = Bdd_reseaux.objects.all()
 
 	if request.POST.get("sv"):
 		Bdd_mail.objects.create(mail=request.POST.get("mail"))
@@ -191,6 +202,7 @@ def mentions_legales(request):
 def banque(request):
 
 	evenement = Bdd_evenement.objects.all().reverse()[0]
+	reseaux = Bdd_reseaux.objects.all()
 
 	if request.POST.get("sv"):
 		Bdd_mail.objects.create(mail=request.POST.get("mail"))
@@ -202,6 +214,7 @@ def banque(request):
 def assurance(request):
 
 	evenement = Bdd_evenement.objects.all().reverse()[0]
+	reseaux = Bdd_reseaux.objects.all()
 
 	if request.POST.get("sv"):
 		Bdd_mail.objects.create(mail=request.POST.get("mail"))
@@ -213,6 +226,7 @@ def assurance(request):
 def energie(request):
 
 	evenement = Bdd_evenement.objects.all().reverse()[0]
+	reseaux = Bdd_reseaux.objects.all()
 
 	if request.POST.get("sv"):
 		Bdd_mail.objects.create(mail=request.POST.get("mail"))
@@ -224,6 +238,7 @@ def energie(request):
 def secteur_public(request):
 
 	evenement = Bdd_evenement.objects.all().reverse()[0]
+	reseaux = Bdd_reseaux.objects.all()
 
 	if request.POST.get("sv"):
 		Bdd_mail.objects.create(mail=request.POST.get("mail"))
@@ -235,6 +250,7 @@ def secteur_public(request):
 def telecommunications(request):
 
 	evenement = Bdd_evenement.objects.all().reverse()[0]
+	reseaux = Bdd_reseaux.objects.all()
 
 	if request.POST.get("sv"):
 		Bdd_mail.objects.create(mail=request.POST.get("mail"))
@@ -246,6 +262,7 @@ def telecommunications(request):
 def transport_et_logistique(request):
 
 	evenement = Bdd_evenement.objects.all().reverse()[0]
+	reseaux = Bdd_reseaux.objects.all()
 
 	if request.POST.get("sv"):
 		Bdd_mail.objects.create(mail=request.POST.get("mail"))
@@ -257,6 +274,7 @@ def transport_et_logistique(request):
 def a_propos(request):
 
 	evenement = Bdd_evenement.objects.all().reverse()[0]
+	reseaux = Bdd_reseaux.objects.all()
 	chiffre = Bdd_chiffre.objects.all()
 
 	if request.POST.get("sv"):
@@ -270,6 +288,7 @@ def a_propos(request):
 def nous_rejoindre(request):
 
 	evenement = Bdd_evenement.objects.all().reverse()[0]
+	reseaux = Bdd_reseaux.objects.all()
 
 	if request.POST.get("sv"):
 		Bdd_mail.objects.create(mail=request.POST.get("mail"))
