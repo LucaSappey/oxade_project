@@ -1,5 +1,5 @@
 {% extends 'base_vitrine.html' %}
-{% load staticfiles %}
+{% load staticfiles %}{% load i18n %}
 
 {% block seo %}
 <meta name="Description" content="Dans le même temps, la plus grande volatilité des marchés, l’écrêtement, l’essor des fintechs, poussent le secteur à évoluer vers plus d’agilité mais aussi de proactivité. Par ailleurs, les postures et pratiques managériales, le fonctionnement en équipe ou en mode projet sont autant d’enjeux que les banques doivent relever dès maintenant">
@@ -49,12 +49,12 @@
 			<div class="container">
 				<div class="row no-gutters slider-text align-items-center justify-content-center">
 					<div class="col-md-9 ftco-animate text-center">
-						<h1 class="mb-2 bread">Banque de détail </h1>
+						<h1 class="mb-2 bread">{% trans 'Banque de détail' %} </h1>
 						<p class="breadcrumbs">
 							<span class="mr-2">
-								<a aria-label="Secteurs" href="{% url 'index_vitrine' %}#secteurs">Secteurs <i class="fas fa-chevron-right"></i></a>
+								<a aria-label="Secteurs" href="{% url 'index_vitrine' %}#secteurs">{% trans 'Secteurs' %} <i class="fas fa-chevron-right"></i></a>
 							</span>
-							<span>Banque de détail <i class="fas fa-chevron-right"></i></span>
+							<span>{% trans 'Banque de détail' %} <i class="fas fa-chevron-right"></i></span>
 						</p>
 					</div>
 				</div>
@@ -64,15 +64,15 @@
 			<div class="container">
 				<div class="row d-flex">
 					<div class="col-md-7 wrap-about pr-md-4 ftco-animate">
-						<h2 class="mb-4">Vos enjeux</h2>
+						<h2 class="mb-4">{% trans 'Vos enjeux' %}</h2>
 						<p>
-							À l'heure actuelle, outre le Brexit, le secteur bancaire français est confronté à trois défis majeurs. </br></br>
+							{% trans 'À l’heure actuelle, outre le Brexit, le secteur bancaire français est confronté à trois défis majeurs.' %}</br></br>
 
-							En premier lieu, un édifice réglementaire qui tend à fortement s’enrichir. Par ailleurs, le secteur doit s'adapter à l’accélération des transformations portées par les technologies numériques qui viennent profondément réinventer les parcours client et la mise en musique des processus internes des établissements bancaires. Enfin, ses pratiques managériales s’inscrivent dans un environnement RH caractérisé par un renouvellement des générations et un cadre d’intervention particulièrement normé. </br></br>
+							{% trans 'En premier lieu, un édifice réglementaire qui tend à fortement s’enrichir. Par ailleurs, le secteur doit s’adapter à l’accélération des transformations portées par les technologies numériques qui viennent profondément réinventer les parcours client et la mise en musique des processus internes des établissements bancaires. Enfin, ses pratiques managériales s’inscrivent dans un environnement RH caractérisé par un renouvellement des générations et un cadre d’intervention particulièrement normé.' %}</br></br>
 
-							Organisation des marchés, connaissance et information des clients, maîtrise des risques, protection des données personnelles, distribution de l’assurance mais aussi rémunération des produits d’investissement… Les nombreux enjeux de conformité sont à la source de multiples et nouvelles réglementations bancaires. Parmi elles : Bâle III, IFRS 9, ANACREDIT, MIF2, PRIIPs, IDD, RGPD, DSP2, Sapin II. À l'instar de celle en cours des autorités de contrôle européennes, elles sont couplées à diverses réformes.</br> </br>
+							{% trans 'Organisation des marchés, connaissance et information des clients, maîtrise des risques, protection des données personnelles, distribution de l’assurance mais aussi rémunération des produits d’investissement… Les nombreux enjeux de conformité sont à la source de multiples et nouvelles réglementations bancaires. Parmi elles : Bâle III, IFRS 9, ANACREDIT, MIF2, PRIIPs, IDD, RGPD, DSP2, Sapin II. À l’instar de celle en cours des autorités de contrôle européennes, elles sont couplées à diverses réformes.' %}</br> </br>
 
-							L’intelligence artificielle se met également au service de la banque. Elle le fait, par exemple, par l'intermédiaire de robots arbitres en banque privée. L’année 2018 est celle de l’avènement de la blockchain, technologie considérée à court terme comme une opportunité par les banques. Le secteur souhaite en effet s’en servir pour accélérer et sécuriser certains processus. C'est par exemple le cas du transfert, du stockage, des échanges et de la gestion d’actifs financiers.</br></br>
+							{% trans 'L’intelligence artificielle se met également au service de la banque. Elle le fait, par exemple, par l’intermédiaire de robots arbitres en banque privée. L’année 2018 est celle de l’avènement de la blockchain, technologie considérée à court terme comme une opportunité par les banques. Le secteur souhaite en effet s’en servir pour accélérer et sécuriser certains processus. C’est par exemple le cas du transfert, du stockage, des échanges et de la gestion d’actifs financiers.' %}</br></br>
 						</p>
 
 
@@ -86,12 +86,12 @@
 							</picture>
 							
 							<div class="text">
-								<h3>Notre vision et notre ambition</h3>
+								<h3>{% trans 'Notre vision et notre ambition' %}</h3>
 								<p>
-									Dans le même temps, la plus grande volatilité des marchés, l’écrêtement, l’essor des fintechs, poussent le secteur à évoluer vers plus d’agilité mais aussi de proactivité. Par ailleurs, les postures et pratiques managériales, le fonctionnement en équipe ou en mode projet sont autant d’enjeux que les banques doivent relever dès maintenant
+									{% trans 'Dans le même temps, la plus grande volatilité des marchés, l’écrêtement, l’essor des fintechs, poussent le secteur à évoluer vers plus d’agilité mais aussi de proactivité. Par ailleurs, les postures et pratiques managériales, le fonctionnement en équipe ou en mode projet sont autant d’enjeux que les banques doivent relever dès maintenant' %}
 								</p>
 								<p>
-									<a aria-label="Contactez-nous" href="{% url 'contact' %}" class="btn btn-primary py-3 px-4">Contactez-nous</a>
+									<a aria-label="Contactez-nous" href="{% url 'contact' %}" class="btn btn-primary py-3 px-4">{% trans 'Contactez-nous' %}</a>
 								</p>
 							</div>
 						</div>
@@ -114,21 +114,21 @@
 								</picture>
 							</div>
 							<div class="text media-body">
-								<h3 style="margin-bottom: 27px;">Management et Performance des Processus​</h3>
+								<h3 style="margin-bottom: 27px;">{% trans 'Management et Performance des Processus​' %}</h3>
 								<p>
-									Cartographie des processus 
+									{% trans 'Cartographie des processus' %} 
 								</p>
 								<p>
-									Mise en place de dispositif de management par les processus
+									{% trans 'Mise en place de dispositif de management par les processus' %}
 								</p>
 								<p>
-									Optimisation et refonte de processus et de filières
+									{% trans 'Optimisation et refonte de processus et de filières' %}
 								</p>
 								<p>
-									Démarches Lean 6 Sigma​
+									{% trans 'Démarches Lean 6 Sigma​' %}
 								</p>
 								<p>
-									Système d’engagements Client
+									{% trans 'Système d’engagements Client' %}
 								</p>
 
 							</div>
@@ -143,24 +143,24 @@
 							</div>
 							<div class="text media-body">
 
-								<h3 style="margin-bottom: 27px;">Efficacité Opérationnelle​</h3>
+								<h3 style="margin-bottom: 27px;">{% trans 'Efficacité Opérationnelle​' %}</h3>
 								<p>
-									Refonte de structures​ 
+									{% trans 'Refonte de structures​' %} 
 								</p>
 								<p>
-									Évolution d’organigramme siège​
+									{% trans 'Évolution d’organigramme siège​' %}
 								</p>
 								<p>
-									Réalisation de projet de mutualisation
+									{% trans 'Réalisation de projet de mutualisation' %}
 								</p>
 								<p>
-									Benchmark sur la performance des activités ​
+									{% trans 'Benchmark sur la performance des activités' %}
 								</p>
 								<p>
-									Benchmark sur les dépenses de fonctionnement​
+									{% trans 'Benchmark sur les dépenses de fonctionnement​' %}
 								</p>
 								<p>
-									Accompagnement de chantier d’économie​
+									{% trans 'Accompagnement de chantier d’économie​' %}
 								</p>
 
 							</div>
@@ -176,18 +176,18 @@
 								</picture>
 							</div>
 							<div class="text media-body">
-								<h3 style="margin-bottom: 27px;">Formation​</h3>
+								<h3 style="margin-bottom: 27px;">{% trans 'Formation​' %}</h3>
 								<p>
-									Stratégie de distribution multicanal​ 
+									{% trans 'Stratégie de distribution multicanal​' %} 
 								</p>
 								<p>
-									Management de projet​
+									{% trans 'Management de projet​' %}
 								</p>
 								<p>
-									Processus​
+									{% trans 'Processus​' %}
 								</p>
 								<p>
-									Accompagnement du changement​ ​
+									{% trans 'Accompagnement du changement​' %} ​
 								</p>
 							</div>
 						</div>
@@ -202,24 +202,24 @@
 								</picture>
 							</div>
 							<div class="text media-body">
-								<h3 style="margin-bottom: 27px;">Distribution et Efficacité de la Relation Client</h3>
+								<h3 style="margin-bottom: 27px;">{% trans 'Distribution et Efficacité de la Relation Client' %}</h3>
 								<p>
-									Stratégie de distribution multicanal​ 
+									{% trans 'Stratégie de distribution multicanal​' %} 
 								</p>
 								<p>
-									Maillage du réseau d’agences​
+									{% trans 'Maillage du réseau d’agences​' %}
 								</p>
 								<p>
-									Métiers commerciaux​
+									{% trans 'Métiers commerciaux​' %}
 								</p>
 								<p>
-									Parcours client ​
+									{% trans 'Parcours client' %}
 								</p>
 								<p>
-									Benchmark sur la performance commerciale
+									{% trans 'Allégement des charges administratives en agence' %}
 								</p>
 								<p>
-									 Allégement des charges administratives en agence
+									{% trans 'Allégement des charges administratives en agence' %}
 								</p>
 
 							</div>
@@ -233,21 +233,21 @@
 								</picture>
 							</div>
 							<div class="text media-body">
-								<h3 style="margin-bottom: 27px;">Accompagnement​ Projet​</h3>
+								<h3 style="margin-bottom: 27px;">{% trans 'Accompagnement​ Projet​' %}</h3>
 								<p>
-									Construction de méthodologie projet​
+									{% trans 'Construction de méthodologie projet​' %}
 								</p>
 								<p>
-									Assistance au pilotage et à la réalisation de grands projets​
+									{% trans 'Accompagnement du changement' %}
 								</p>
 								<p>
-									Accompagnement du changement
+									{% trans 'Accompagnement du changement' %}
 								</p>
 								<p>
-									Définition et cadrage de projets complexes​
+									{% trans 'Définition et cadrage de projets complexes​' %}
 								</p>
 								<p>
-									Direction opérationnelle de projets
+									{% trans 'Direction opérationnelle de projets' %}
 								</p>
 							</div>
 						</div>

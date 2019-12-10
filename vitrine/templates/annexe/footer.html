@@ -90,9 +90,9 @@
 							<form id="form_abonnement" action="#" class="subscribe-form" method="POST"> {% csrf_token %}
 								<div class="form-group">
 									<label for="mail" style="opacity: 0">A</label>
-									<input type="email" id="mail" name="mail" class="form-control mb-2 text-center" placeholder="Entrer votre e-mail" autocomplete="off" required="" style="margin-top: -20px">
+									<input type="email" id="mail" name="mail" class="form-control mb-2 text-center" placeholder="{% trans 'Entrer son mail' %}" autocomplete="off" required="" style="margin-top: -20px">
 									<label for="mail2" style="opacity: 0">Z</label>
-									<input type="submit" id="sv" name="sv" class="form-control submit px-3" style="margin-top: -25px;">
+									<input type="submit" id="sv" name="sv" class="form-control submit px-3" placeholder="{% trans 'Valider' %}" style="margin-top: -25px;">
 								</div>
 							</form>
 						</div>

@@ -21,8 +21,6 @@ msgid "Une question ?"
 msgstr "A question ?"
 
 #: vitrine/templates/annexe/footer.html:38
-#, fuzzy
-#| msgid "Événements"
 msgid "Événement récent"
 msgstr "Events"
 
@@ -168,13 +166,6 @@ msgstr ""
 "actors through adapted and innovative approaches"
 
 #: vitrine/templates/annexe/navbar.html:257
-#, fuzzy
-#| msgid ""
-#| "Nous accompagnons les plus grands acteurs du secteur de l'assurance sur "
-#| "leurs enjeux de transformation. Notre conseil vous fait bénéficier des "
-#| "retours d'expériences de nos équipes mais aussi de nos missions sur des "
-#| "problématiques similaires. Pour chacun de ces enjeux, nous bénéficions "
-#| "d'expérience"
 msgid ""
 "Nous accompagnons les plus grands acteurs du secteur de l’assurance sur "
 "leurs enjeux de transformation. Notre conseil vous fait bénéficier des "
@@ -188,11 +179,6 @@ msgstr ""
 "benefit from experience"
 
 #: vitrine/templates/annexe/navbar.html:270
-#, fuzzy
-#| msgid ""
-#| "Oxade Consulting développe des solutions innovantes pour accompagner les "
-#| "transformations majeures des grands acteurs français et européens du "
-#| "secteur de l\\"
 msgid ""
 "Oxade Consulting développe des solutions innovantes pour accompagner les "
 "transformations majeures des grands acteurs français et européens du secteur "
@@ -205,12 +191,6 @@ msgstr ""
 "but also in the transformation of organizations"
 
 #: vitrine/templates/annexe/navbar.html:283
-#, fuzzy
-#| msgid ""
-#| "Accompagnement des acteurs du secteur des télécommunications dans leur "
-#| "transformation humaine et opérationnelle. Les consultants du "
-#| "interviennent sur les évolutions des compétences, modes de fonctionnement "
-#| "et métiers des opérateurs, en particulier de l\\"
 msgid ""
 "Accompagnement des acteurs du secteur des télécommunications dans leur "
 "transformation humaine et opérationnelle. Les consultants du interviennent "
@@ -417,8 +397,7 @@ msgstr ""
 "In a context where the financial world in general has to face profound "
 "technological and cultural upheavals, where the competition on services and "
 "tariffs is more and more fierce, we bring you experience, expertise and "
-"discernment to accompany you in your operational strategic choices and your "
-"transformation projects"
+"discernment"
 
 #: vitrine/templates/index_vitrine.html:222
 msgid ""
@@ -435,10 +414,7 @@ msgid ""
 "grands acteurs français et européens du secteur de l’énergie, accompagnement "
 "dans les évolutions stratégique"
 msgstr ""
-"Oxade Consulting develops innovative solutions to support the major "
-"transformations of the major French and European players in the energy "
-"sector. Our teams support them in the strategic and regulatory developments "
-"but also in the transformation of organizations"
+"Innovative solutions to support the major transformations of major French and European players in the energy sector, support in strategic evolutions"
 
 #: vitrine/templates/index_vitrine.html:255
 msgid ""
@@ -458,8 +434,7 @@ msgid ""
 msgstr ""
 "Accompanying players in the telecommunications sector in their human and "
 "operational transformation. The consultants work on changes in the skills, "
-"operating methods and trades of operators, especially the incumbent "
-"operator. Indeed, this in itself constitutes a strategic challenge"
+"operating methods and trades of operators"
 
 #: vitrine/templates/index_vitrine.html:284
 msgid "Nos chiffres clés"
@@ -578,8 +553,6 @@ msgid "Périmètre d’intervention​"
 msgstr ""
 
 #: vitrine/templates/offres/coaching.html:117
-#, fuzzy
-#| msgid "Transformation"
 msgid "Fusion / Transformation"
 msgstr "Transformation"
 
@@ -632,8 +605,6 @@ msgid "Équipes​"
 msgstr ""
 
 #: vitrine/templates/offres/coaching.html:161
-#, fuzzy
-#| msgid "Digitalisation"
 msgid "Organisations​"
 msgstr "Digitaliation"
 
@@ -814,11 +785,6 @@ msgstr ""
 #~ "new regulations. At the same time, they are trying to react to the growth "
 #~ "of digitalisation."
 
-#, fuzzy
-#~| msgid ""
-#~| "Oxade Consulting développe des solutions innovantes pour accompagner les "
-#~| "transformations majeures des grands acteurs français et européens du "
-#~| "secteur de l\\"
 #~ msgid ""
 #~ "Oxade Consulting développe des solutions innovantes pour accompagner les "
 #~ "transformations majeures des grands acteurs français et européens du "
@@ -895,8 +861,6 @@ msgstr ""
 #~ "specific to the different stages of the project, from the evaluation of "
 #~ "the opportunity to the completion of the project."
 
-#, fuzzy
-#~| msgid "Digitalisation"
 #~ msgid "Digitaliation"
 #~ msgstr "Digitaliation"
 

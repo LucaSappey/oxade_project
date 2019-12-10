@@ -83,12 +83,12 @@
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-center justify-content-center">
 			<div class="col-md-9 ftco-animate text-center">
-				<h1 class="mb-2 bread">Divers 1 </h1>
+				<h1 class="mb-2 bread">{% trans 'Divers 1' %} </h1>
 				<p class="breadcrumbs">
 					<span class="mr-2">
-						<a aria-label="Offres" href="{% url 'index_vitrine' %}#offres">Offres <i class="fas fa-chevron-right"></i></a>
+						<a aria-label="Offres" href="{% url 'index_vitrine' %}#offres">{% trans 'Offres' %} <i class="fas fa-chevron-right"></i></a>
 					</span>
-					<span>Divers 1 <i class="fas fa-chevron-right"></i></span>
+					<span>{% trans 'Divers 1' %} <i class="fas fa-chevron-right"></i></span>
 				</p>
 			</div>
 		</div>
@@ -113,12 +113,12 @@
 						</picture>
 					</div>
 					<div class="text media-body" style="display: flex;flex-direction: column;align-items: center;">
-						<h3 style="margin-bottom: 29px; color:#013E5B">Finance d’entreprise​</h3>
+						<h3 style="margin-bottom: 29px; color:#013E5B">{% trans 'Finance d’entreprise​' %}</h3>
 						<ul class="liste_offres">
-							<li>Stratégie financière, pilotage de la performance & gestion du bilan​</li>
-							<li>Aide à la prise de décision intégrant une dominante financière : croissance externe, analyse financière de plan stratégique, diversification …</li>
-							<li>Montage de dossiers financiers​</li>
-							<li>Gestion de crise / redressement</li>
+							<li>{% trans 'Stratégie financière, pilotage de la performance & gestion du bilan​' %}</li>
+							<li>{% trans 'Aide à la prise de décision intégrant une dominante financière : croissance externe, analyse financière de plan stratégique, diversification …' %}</li>
+							<li>{% trans 'Montage de dossiers financiers​' %}</li>
+							<li>{% trans 'Gestion de crise / redressement' %}</li>
 						</ul>
 					</div>
 				</div>
@@ -129,21 +129,21 @@
 						<picture>
 							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_croissance.webp' %}">
 							<source type="image/png" srcset="{% static 'vitrine/img/logo_croissance.png' %}">
-							<img src="{% static 'vitrine/img/logo_croissance.png' %}" alt="logo_croissance" style="    width: 74px;margin-top: 14px;margin-bottom: 22px;">
+							<img src="{% static 'vitrine/img/logo_croissance.png' %}" alt="logo_croissance" style="width: 74px;margin-top: 14px;margin-bottom: 22px;">
 						</picture>
 					</div>
 					<div class="text media-body" style="display: flex;flex-direction: column;align-items: center;">
-						<h3 style="margin-bottom: 29px; color:#013E5B">Coaching​</h3>
+						<h3 style="margin-bottom: 29px; color:#013E5B">{% trans 'Coaching​' %}</h3>
 						<ul class="liste_offres">
-							<p>Qui ?</p>
-							<li>Dirigeants et de membres de conseil d’administration </li>
-							<li>Fonctions commerciales</li>
-							<li style="margin-bottom: 15px;">Collaborateurs</li>
-							<p>Périmètre</p>
-							<li>Fusion / Transformation​</li>
-							<li>Création d’entité</li>
-							<li>Changement de business Model​</li>
-							<li>Prise de fonction</li>
+							<p>{% trans 'Qui ?' %}</p>
+							<li>{% trans 'Dirigeants et de membres de conseil d’administration ' %}</li>
+							<li>{% trans 'Fonctions commerciales' %}</li>
+							<li style="margin-bottom: 15px;">{% trans 'Collaborateurs' %}</li>
+							<p>{% trans 'Périmètre' %}</p>
+							<li>{% trans 'Fusion / Transformation​' %}</li>
+							<li>{% trans 'Création d’entité' %}</li>
+							<li>{% trans 'Changement de business Model​' %}</li>
+							<li>{% trans 'Prise de fonction' %}</li>
 						</ul>
 					</div>
 				</div>
@@ -158,11 +158,11 @@
 						</picture>
 					</div>
 					<div class="text media-body" style="display: flex;flex-direction: column;align-items: center;">
-						<h3 style="margin-bottom: 29px; color:#013E5B">Gestion de projets</h3>
+						<h3 style="margin-bottom: 29px; color:#013E5B">{% trans 'Gestion de projets' %}</h3>
 						<ul class="liste_offres">
-							<li>Direction de programmes et de projets​</li>
-							<li>PMO​</li>
-							<li>Gestion de portefeuilles​</li>
+							<li>{% trans 'Direction de programmes et de projets​' %}</li>
+							<li>{% trans 'PMO​' %}</li>
+							<li>{% trans 'Gestion de portefeuilles​' %}</li>
 						</ul>
 					</div>
 				</div>
@@ -182,14 +182,14 @@
 					<img src="{% static 'vitrine/img/logo_projets.png' %}" alt="logo_projets" class="img_offres_secteurs_excellence">
 				</picture>
 				<p>
-					<a aria-label="Contactez-nous" href="{% url 'contact' %}" class="btn btn-primary py-3 px-4">Contactez-nous</a>
+					<a aria-label="Contactez-nous" href="{% url 'contact' %}" class="btn btn-primary py-3 px-4">{% trans 'Contactez-nous' %}</a>
 				</p>
 			</div>
 			
 			<div class="text_contact">
-				<h3>Notre vision et notre ambition</h3>
+				<h3>{% trans 'Notre vision et notre ambition' %}</h3>
 				<p>
-					L’accélération des transformations de l’environnement économique et financier des entreprises est impactant en termes de réglementations, de renforcement de la concurrence et de pression des marchés
+					{% trans 'L’accélération des transformations de l’environnement économique et financier des entreprises est impactant en termes de réglementations, de renforcement de la concurrence et de pression des marchés' %}
 				</p>
 			</div>
 		</div>

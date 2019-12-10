@@ -1,5 +1,5 @@
 {% extends 'base_vitrine.html' %}
-{% load staticfiles %}
+{% load staticfiles %}{% load i18n %}
 {% block seo %}
 <meta name="Description" content="OXADE Consulting se présente comme une société indépendante de tout acteur du marché des systèmes d'information (éditeur, intégrateur, prestataire de service...) et apporte ainsi son objectivité, plus particulièrement dans les projets d'ingénierie à base de progiciels">
 <meta property="og:description" content="OXADE Consulting se présente comme une société indépendante de tout acteur du marché des systèmes d'information (éditeur, intégrateur, prestataire de service...) et apporte ainsi son objectivité, plus particulièrement dans les projets d'ingénierie à base de progiciels">
@@ -19,12 +19,12 @@
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-center justify-content-center">
 			<div class="col-md-9 ftco-animate text-center">
-				<h1 class="mb-2 bread">À propos de nous </h1>
+				<h1 class="mb-2 bread">{% trans 'À propos de nous' %} </h1>
 				<p class="breadcrumbs">
 					<span class="mr-2">
-						<a href="{% url 'index_vitrine' %}">Accueil <i class="fas fa-chevron-right"></i></a>
+						<a href="{% url 'index_vitrine' %}">{% trans 'Accueil' %} <i class="fas fa-chevron-right"></i></a>
 					</span>
-					<span>À propos de nous <i class="fas fa-chevron-right"></i></span>
+					<span>{% trans 'À propos de nous' %} <i class="fas fa-chevron-right"></i></span>
 				</p> 
 			</div>
 		</div>
@@ -38,51 +38,51 @@
 		<div class="row justify-content-center pb-2 d-flex">
 			
 			<div style="margin-top: 13px;" class="col-md-10 heading-section ftco-animate pl-lg-5 pt-md-0 pt-5 fadeInUp ftco-animated">
-				<h2 style="text-align: center;margin-bottom: 105px;">Notre positionnement</h2>
-				<h3 style="margin-bottom: 34px;"> Une société indépendante </h3>
+				<h2 style="text-align: center;margin-bottom: 105px;">{% trans 'Notre positionnement' %}</h2>
+				<h3 style="margin-bottom: 34px;">{% trans ' Une société indépendante' %} </h3>
 				<p>
-					OXADE Consulting tient à indiquer son indépendance totale :
+					{% trans 'OXADE Consulting tient à indiquer son indépendance totale :' %}
 				</p>
 				<ul>
-					<li>OXADE Consulting se présente comme une société indépendante de tout acteur du marché des systèmes d'information (éditeur, intégrateur, prestataire de service...) et apporte ainsi son objectivité, plus particulièrement dans les projets d'ingénierie à base de progiciels.</li>
-					<li>Sur le plan financier, le capital d'OXADE Consulting est entièrement détenu par ses dirigeants.</li>
+					<li>{% trans 'OXADE Consulting se présente comme une société indépendante de tout acteur du marché des systèmes d’information (éditeur, intégrateur, prestataire de service...) et apporte ainsi son objectivité, plus particulièrement dans les projets d’ingénierie à base de progiciels.' %}</li>
+					<li>{% trans 'Sur le plan financier, le capital d’OXADE Consulting est entièrement détenu par ses dirigeants.' %}</li>
 				</ul>
 				<p style="margin-bottom: 58px;">
-					Notre indépendance et notre neutralité sont, avec les profils de nos Consultants, parmi nos points forts quant à la qualité de nos prestations, lorsque nous sommes amenés à comparer différentes propositions.
+					{% trans 'Notre indépendance et notre neutralité sont, avec les profils de nos Consultants, parmi nos points forts quant à la qualité de nos prestations, lorsque nous sommes amenés à comparer différentes propositions.' %}
 				</p>
 
-				<h3 style="margin-bottom: 34px;">Relations Clients</h3>
+				<h3 style="margin-bottom: 34px;">{% trans 'Relations Clients' %}</h3>
 				<p style="margin-bottom: 58px;">
-					Nos relations avec nos clients s'inscrivent dans un véritable « partenariat » d'enrichissement mutuel et de relations saines et transparentes (Accords-cadres, récurrence de nos prestations). Nous nous retrouvons pleinement dans l'étymologie du mot « conseil », qui vient du latin « consilium - consiliaris », ce qui signifie avis donné ou demandé sur ce qu'il convient de faire. L'activité de conseil n'existe que dans une relation Client-Conseil.
+					{% trans 'Nos relations avec nos clients s’inscrivent dans un véritable « partenariat » d’enrichissement mutuel et de relations saines et transparentes (Accords-cadres, récurrence de nos prestations). Nous nous retrouvons pleinement dans l’étymologie du mot « conseil », qui vient du latin « consilium - consiliaris », ce qui signifie avis donné ou demandé sur ce qu’il convient de faire. L’activité de conseil n’existe que dans une relation Client-Conseil.' %}
 				</p>
 
-				<h3 style="margin-bottom: 34px;">Compétences</h3>
+				<h3 style="margin-bottom: 34px;">{% trans 'Compétences' %}</h3>
 				<p style="margin-bottom: 58px;">
-					OXADE Consulting se positionne en tant qu'Expert des Systèmes d'Information, en osmose avec l'Expertise dans vos métiers. De plus, nous savons construire des équipes projet pluridisciplinaires (axe Métier - axe Organisation - axe Système d'Information - axe architecture et solutions informatiques).
+					{% trans 'OXADE Consulting se positionne en tant qu’Expert des Systèmes d’Information, en osmose avec l’Expertise dans vos métiers. De plus, nous savons construire des équipes projet pluridisciplinaires (axe Métier - axe Organisation - axe Système d’Information - axe architecture et solutions informatiques).' %}
 				</p>
-				<h3 style="margin-bottom: 34px;">Pérennité</h3>
+				<h3 style="margin-bottom: 34px;">{% trans 'Pérennité' %}</h3>
 				<p style="margin-bottom: 58px;">
-					OXADE Consulting existe depuis 1993 et peut se targuer d'avoir traversé avec succès des périodes parfois très difficiles pour nos métiers. Sa pérennité est donc établie et ne représente aucun facteur de risque.
+					{% trans 'OXADE Consulting existe depuis 1993 et peut se targuer d’avoir traversé avec succès des périodes parfois très difficiles pour nos métiers. Sa pérennité est donc établie et ne représente aucun facteur de risque.' %}
 				</p>
-				<h3 style="margin-bottom: 34px;">Réactivité</h3>
+				<h3 style="margin-bottom: 34px;">{% trans 'Réactivité' %}</h3>
 				<p style="margin-bottom: 58px;">
-					Sa taille est un atout par la réactivité qui l'accompagne, notamment dans des périodes de fortes fluctuations économiques.
+					{% trans 'Sa taille est un atout par la réactivité qui l’accompagne, notamment dans des périodes de fortes fluctuations économiques.' %}
 				</p>
-				<h3 style="margin-bottom: 34px;">Réseau de partenaires</h3>
+				<h3 style="margin-bottom: 34px;">{% trans 'Réseau de partenaires' %}</h3>
 				<p style="margin-bottom: 58px;">
-					Pour mieux répondre aux besoins de ses clients, OXADE Consulting peut s'appuyer sur un réseau de partenaires.</br></br>
+					{% trans 'Pour mieux répondre aux besoins de ses clients, OXADE Consulting peut s’appuyer sur un réseau de partenaires.' %}</br></br>
 
-					Nous constituons régulièrement des équipes pluridisciplinaires, composées, outre de nos Consultants, d'un panel d'experts permettant de répondre « sur mesure » aux demandes de nos clients : architectes techniques, experts sécurité, juristes, communicants...</br></br>
+					{% trans 'Nous constituons régulièrement des équipes pluridisciplinaires, composées, outre de nos Consultants, d’un panel d’experts permettant de répondre « sur mesure » aux demandes de nos clients : architectes techniques, experts sécurité, juristes, communicants...' %}</br></br>
 
-					Il s'agit d'une pratique bien installée, obéissant à des règles communes issues du constat suivant :</br></br>
+					{% trans 'Il s’agit d’une pratique bien installée, obéissant à des règles communes issues du constat suivant :' %}</br></br>
 
-					La complexité croissante des systèmes, les exigences des utilisateurs, le nombre de plus en plus important d'acteurs, conduisent à ce qu'aucun opérateur, fut-il international, ne puisse en toute circonstance répondre seul aux appels d'offres qui émanent de grands </br></br>donneurs d'ordres.
+					{% trans 'La complexité croissante des systèmes, les exigences des utilisateurs, le nombre de plus en plus important d’acteurs, conduisent à ce qu’aucun opérateur, fut-il international, ne puisse en toute circonstance répondre seul aux appels d’offres qui émanent de grand donneurs d’ordres.' %} </br></br>
 
-					OXADE Consulting a compris depuis de nombreuses années qu'il était nécessaire de s'associer pour répondre au mieux et réussir le projet de ses clients dans des conditions d'association équilibrées en respectant des règles simples de comportement et d'éthique. C'est pourquoi OXADE Consulting a mis en place des partenariats solides, fondés sur une longue expérience et dont les principes sont : transparence, compétence, implication, qualité, durée, équilibre, confiance, non-exclusivité mais périmètres respectifs définis et délimités.</br></br>
+					{% trans 'OXADE Consulting a compris depuis de nombreuses années qu’il était nécessaire de s’associer pour répondre au mieux et réussir le projet de ses clients dans des conditions d’association équilibrées en respectant des règles simples de comportement et d’éthique. C’est pourquoi OXADE Consulting a mis en place des partenariats solides, fondés sur une longue expérience et dont les principes sont : transparence, compétence, implication, qualité, durée, équilibre, confiance, non-exclusivité mais périmètres respectifs définis et délimités.' %}</br></br>
 
-					Cette démarche permet que tous les partenaires, clients inclus, travaillent en synergie et puissent se partager un bénéfice accru : une stratégie de gagnant-gagnant.</br></br>
+					{% trans 'Cette démarche permet que tous les partenaires, clients inclus, travaillent en synergie et puissent se partager un bénéfice accru : une stratégie de gagnant-gagnant.' %}</br></br>
 
-					Dans ces accords, le principe de base primordial est : OXADE Consulting est et reste maître des opérations qui lui sont confiées par ses clients, et assume donc l'entière responsabilité de l'opération et du suivi de la prestation.
+					{% trans 'Dans ces accords, le principe de base primordial est : OXADE Consulting est et reste maître des opérations qui lui sont confiées par ses clients, et assume donc l’entière responsabilité de l’opération et du suivi de la prestation.' %}
 				</p>
 
 			</div>
@@ -100,7 +100,7 @@
 	<div class="container">
 		<div class="row justify-content-center mb-5">
 			<div class="col-md-10 text-center heading-section heading-section-white ftco-animate">
-				<h2 class="mb-0">Nos chiffres clés</h2>
+				<h2 class="mb-0">{% trans 'Nos chiffres clés' %}</h2>
 			</div>
 		</div>
 	</div>

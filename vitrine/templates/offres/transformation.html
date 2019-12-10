@@ -1,11 +1,11 @@
 {% extends 'base_vitrine.html' %}
-{% load staticfiles %}
+{% load staticfiles %}{% load i18n %}
 
 {% block seo %}
-<meta name="Description" content="Le monde change rapidement et les organisations doivent changer pour libérer leur plein potentiel">
-<meta property="og:description" content="Le monde change rapidement et les organisations doivent changer pour libérer leur plein potentiel">
-<meta property="og:title" content="OXADE Consulting | Transformation">
-<title>OXADE Consulting | Transformation</title>
+<meta name="Description" content="{% trans 'Le monde change rapidement et les organisations doivent changer pour libérer leur plein potentiel' %}">
+<meta property="og:description" content="{% trans 'Le monde change rapidement et les organisations doivent changer pour libérer leur plein potentiel' %}">
+<meta property="og:title" content="OXADE Consulting | {% trans 'Transformation' %}">
+<title>OXADE Consulting | {% trans 'Transformation' %}</title>
 
 <link rel="stylesheet" type="text/css" href="{% static 'vitrine/css/offres.css' %}">
 <script src="https://kit.fontawesome.com/b7aa201f58.js" crossorigin="anonymous"></script> 
@@ -77,12 +77,12 @@
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-center justify-content-center">
 			<div class="col-md-9 ftco-animate text-center">
-				<h1 class="mb-2 bread">Transformation </h1>
+				<h1 class="mb-2 bread">{% trans 'Transformation' %} </h1>
 				<p class="breadcrumbs">
 					<span class="mr-2">
-						<a aria-label="Offres" href="{% url 'index_vitrine' %}#offres">Offres <i class="fas fa-chevron-right"></i></a>
+						<a aria-label="Offres" href="{% url 'index_vitrine' %}#offres">{% trans 'Offres' %} <i class="fas fa-chevron-right"></i></a>
 					</span>
-					<span>Transformation <i class="fas fa-chevron-right"></i></span>
+					<span>{% trans 'Transformation' %} <i class="fas fa-chevron-right"></i></span>
 				</p>
 			</div>
 		</div>
@@ -106,13 +106,13 @@
 						</picture>
 					</div>
 					<div class="text media-body" style="display: flex;flex-direction: column;align-items: center;">
-						<h3 style="margin-bottom: 29px; color:#013E5B">Risques et Conformité</h3>
+						<h3 style="margin-bottom: 29px; color:#013E5B">{% trans 'Risques et Conformité' %}</h3>
 						<ul class="liste_offres">
-							<li>Risques et contrôle interne​</li>
-							<li>Conformité règlementaire (promo de l’éthique, dispositif de lutte​ </li>
-							<li>Contre le blanchiment des capitaux et le financement du terrorisme)​</li>
-							<li>Continuité d’activité et gestion de crise​</li>
-							<li>Adaptation des offres et des processus</li>
+							<li>{% trans 'Risques et contrôle interne​' %}</li>
+							<li>{% trans 'Conformité règlementaire (promo de l’éthique, dispositif de lutte​' %}</li>
+							<li>{% trans 'Contre le blanchiment des capitaux et le financement du terrorisme)​' %}</li>
+							<li>{% trans 'Continuité d’activité et gestion de crise​' %}</li>
+							<li>{% trans 'Adaptation des offres et des processus' %}</li>
 						</ul>
 					</div>
 				</div>
@@ -123,20 +123,20 @@
 						<picture>
 							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_analyse.webp' %}">
 							<source type="image/png" srcset="{% static 'vitrine/img/logo_analyse.png' %}">
-							<img src="{% static 'vitrine/img/logo_analyse.png' %}" alt="logo_analyse" style="width: 89px;">  
+							<img src="{% static 'vitrine/img/logo_analyse.png' %}" alt="logo_analyse" style="width: 89px;">
 						</picture>
 					</div>
 					<div class="text media-body" style="display: flex;flex-direction: column;align-items: center;">
 						
-						<h3 style="margin-bottom: 29px; color:#013E5B">Distribution et Relation Client</h3>
+						<h3 style="margin-bottom: 29px; color:#013E5B">{% trans 'Distribution et Relation Client' %}</h3>
 						<ul class="liste_offres">
-							<li>Transformation et performance de la distribution</li>
-							<li>Digital Banking </li>
-							<li>Acteurs  :  Concentration du marché / Nouveaux entrants</li>
-							<li>Parcours et expérience client​</li>
-							<li>CRM (processus et outils)</li>
-							<li>Innovation et nouveaux canaux​</li>
-							<li>Agence de demain​</li>
+							<li>{% trans 'Transformation et performance de la distribution' %}</li>
+							<li>{% trans 'Digital Banking' %}</li>
+							<li>{% trans 'Acteurs : Concentration du marché / Nouveaux entrants' %}</li>
+							<li>{% trans 'Parcours et expérience client​' %}</li>
+							<li>{% trans 'CRM (processus et outils)' %}</li>
+							<li>{% trans 'Innovation et nouveaux canaux​' %}</li>
+							<li>{% trans 'Agence de demain​' %}</li>
 						</ul>
 					</div>
 				</div>
@@ -151,12 +151,12 @@
 						</picture>
 					</div>
 					<div class="text media-body" style="display: flex;flex-direction: column;align-items: center;">
-						<h3 style="margin-bottom: 29px; color:#013E5B">Organisation et Processus​</h3>
+						<h3 style="margin-bottom: 29px; color:#013E5B">{% trans 'Organisation et Processus​' %}</h3>
 						<ul class="liste_offres">
-							<li>Performance et digitalisation des processus</li>
-							<li>Refonte et agilité des organisations </li>
-							<li>Dimensionnement et trajectoire métier​</li>
-							<li>Benchmark sur l’allocation des ressources et des dépenses</li>
+							<li>{% trans 'Performance et digitalisation des processus' %}</li>
+							<li>{% trans 'Refonte et agilité des organisations' %}</li>
+							<li>{% trans 'Dimensionnement et trajectoire métier​' %}</li>
+							<li>{% trans 'Benchmark sur l’allocation des ressources et des dépenses' %}</li>
 						</ul>
 					</div>
 				</div>
@@ -171,11 +171,11 @@
 						</picture>
 					</div>
 					<div class="text media-body" style="display: flex;flex-direction: column;align-items: center;">
-						<h3 style="margin-bottom: 29px; color:#013E5B">Data et Connaissance client​</h3>
+						<h3 style="margin-bottom: 29px; color:#013E5B">{% trans 'Data et Connaissance client​' %}</h3>
 						<ul class="liste_offres">
-							<li>Vision client 360°</li>
-							<li>Structuration de la filière data </li>
-							<li>Design de l’architecture fonctionnelle data / Data analysis​</li>
+							<li>{% trans 'Vision client 360°' %}</li>
+							<li>{% trans 'Structuration de la filière data' %}</li>
+							<li>{% trans 'Design de l’architecture fonctionnelle data / Data analysis​' %}</li>
 						</ul>
 					</div>
 				</div>
@@ -186,15 +186,15 @@
 						<picture>
 							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_croissance.webp' %}">
 							<source type="image/png" srcset="{% static 'vitrine/img/logo_croissance.png' %}">
-							<img src="{% static 'vitrine/img/logo_croissance.png' %}" alt="logo_croissance" style="    width: 74px;margin-top: 14px;margin-bottom: 22px;">
+							<img src="{% static 'vitrine/img/logo_croissance.png' %}" alt="logo_croissance" style="width: 74px;margin-top: 14px;margin-bottom: 22px;">
 						</picture>
 					</div>
 					<div class="text media-body" style="display: flex;flex-direction: column;align-items: center;">
-						<h3 style="margin-bottom: 29px; color:#013E5B">Lab. Digital et Innovation & Agilité</h3>
+						<h3 style="margin-bottom: 29px; color:#013E5B">{% trans 'Lab. Digital et Innovation & Agilité' %}</h3>
 						<ul class="liste_offres">
-							<li>Structuration des Labs</li>
-							<li>Coach agile et accompagnement projet</li>
-							<li>Démarche Innovation</li>
+							<li>{% trans 'Structuration des Labs' %}</li>
+							<li>{% trans 'Coach agile et accompagnement projet' %}</li>
+							<li>{% trans 'Démarche Innovation' %}</li>
 						</ul>
 					</div>
 				</div>
@@ -214,17 +214,17 @@
 					<img src="{% static 'vitrine/img/logo_transformation.png' %}" alt="logo_transformation" class="img_offres_secteurs">
 				</picture>
 				<p>
-					<a aria-label="Contactez-nous" href="{% url 'contact' %}" class="btn btn-primary py-3 px-4">Contactez-nous</a>
+					<a aria-label="Contactez-nous" href="{% url 'contact' %}" class="btn btn-primary py-3 px-4">{% trans 'Contactez-nous' %}</a>
 				</p>
 			</div>
 			
 			<div class="text_contact">
-				<h3>Notre vision et notre ambition</h3>
+				<h3>{% trans 'Notre vision et notre ambition' %}</h3>
 				<p>
-					Le monde change rapidement et les organisations doivent changer pour libérer leur plein potentiel
+					{% trans 'Le monde change rapidement et les organisations doivent changer pour libérer leur plein potentiel' %}
 				</p>
 				<p>
-					Pourtant, les recherches montrent que la plupart des efforts pour changer fondamentalement la trajectoire d'une organisation échouent. La gamme d'offres de transformation d'Oxade aide les clients à inverser les obstacles afin d'obtenir des résultats extraordinaires pour leur entreprise
+					{% trans 'Pourtant, les recherches montrent que la plupart des efforts pour changer fondamentalement la trajectoire d’une organisation échouent. La gamme d’offres de transformation d’Oxade aide les clients à inverser les obstacles afin d’obtenir des résultats extraordinaires pour leur entreprise' %}
 				</p>
 			</div>
 		</div>

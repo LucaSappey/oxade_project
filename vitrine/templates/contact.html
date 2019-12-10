@@ -1,5 +1,5 @@
 {% extends 'base_vitrine.html' %}
-{% load staticfiles %}
+{% load staticfiles %}{% load i18n %}
 
 {% block seo %}
 <meta name="Description" content="Une question ? Contactez-nous">
@@ -18,12 +18,12 @@
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-center justify-content-center">
 			<div class="col-md-9 ftco-animate text-center">
-				<h1 class="mb-2 bread">Contact </h1>
+				<h1 class="mb-2 bread">{% trans 'Contact' %} </h1>
 				<p class="breadcrumbs">
 					<span class="mr-2">
-						<a href="{% url 'index_vitrine' %}">Accueil <i class="fas fa-chevron-right"></i></a>
+						<a href="{% url 'index_vitrine' %}">{% trans 'Accueil' %} <i class="fas fa-chevron-right"></i></a>
 					</span>
-					<span>Contact <i class="fas fa-chevron-right"></i></span>
+					<span>{% trans 'Contact' %} <i class="fas fa-chevron-right"></i></span>
 				</p> 
 			</div>
 		</div>
@@ -39,7 +39,7 @@
 							<i class="fas fa-map-marked"></i>
 						</div>
 						<p>
-							<span>Adresse :</span>
+							<span>{% trans 'Adresse :' %}</span>
 							 10, rue Notre-Dame de Lorette - 75009 PARIS
 						</p>
 					</div>
@@ -48,7 +48,7 @@
 							<i class="fas fa-phone-alt"></i>
 						</div>
 						<p>
-							<span>Téléphone :</span>
+							<span>{% trans 'Téléphone :' %}</span>
 							<span><a href="tel:+33142829938">01 42 82 99 38</a></span>
 						</p>
 					</div>
@@ -57,7 +57,7 @@
 							<i class="fas fa-paper-plane"></i>
 						</div>
 						<p>
-							<span>Mail :</span>
+							<span>{% trans 'Mail :' %}</span>
 							<a href="mailto:oxade@oxade.com">oxade@oxade.com</span></a>
 						</p>
 					</div>
@@ -66,35 +66,35 @@
 		</div>
 		<div class="row block-9 justify-content-center mb-5">
 			<div class="col-md-8 mb-md-5">
-				<h2 class="text-center">Une question ? Contactez-nous :</h2>
+				<h2 class="text-center">{% trans 'Une question ? Contactez-nous :' %}</h2>
 				<form action="#" class="bg-light p-5 contact-form" method="POST"> {% csrf_token %}
 					<div class="form-group cases">
 						<label for="prenom" style="opacity: 0;">A</label>
-						<input id="prenom" name="prenom" type="text" class="form-control" placeholder="Votre prenom" autocomplete="off" required="">
+						<input id="prenom" name="prenom" type="text" class="form-control" placeholder="{% trans 'Votre prenom' %}" autocomplete="off" required="">
 					</div>
 					<div class="form-group cases">
 						<label for="nom" style="opacity: 0;">A</label>
-						<input id="nom" name="nom" type="text" class="form-control" placeholder="Votre nom" autocomplete="off" required="">
+						<input id="nom" name="nom" type="text" class="form-control" placeholder="{% trans 'Votre nom' %}" autocomplete="off" required="">
 					</div>
 					<div class="form-group cases">
 						<label for="tel" style="opacity: 0;">A</label>
-						<input id="tel" name="tel" type="tel" class="form-control" placeholder="Votre téléphone" autocomplete="off" required="">
+						<input id="tel" name="tel" type="tel" class="form-control" placeholder="{% trans 'Votre téléphone' %}" autocomplete="off" required="">
 					</div>
 					<div class="form-group cases">
 						<label for="mail" style="opacity: 0;">A</label>
-						<input id="email" name="mail" type="text" class="form-control" placeholder="Votre Email" autocomplete="off" required="">
+						<input id="email" name="mail" type="text" class="form-control" placeholder="{% trans 'Votre Email' %}" autocomplete="off" required="">
 					</div>
 					<div class="form-group cases">
 						<label for="titre" style="opacity: 0;">A</label>
-						<input id="titre" name="titre" type="text" class="form-control" placeholder="Titre" autocomplete="off" required="">
+						<input id="titre" name="titre" type="text" class="form-control" placeholder="{% trans 'Titre' %}" autocomplete="off" required="">
 					</div>
 					<div class="form-group cases">
 						<label for="message" style="opacity: 0;">A</label>
-						<textarea name="message" name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Message" required=""></textarea>
+						<textarea name="message" name="message" id="message" cols="30" rows="7" class="form-control" placeholder="{% trans 'Message' %}" required=""></textarea>
 					</div>
 					<div class="form-group button_send">
 						<label for="envoyer" style="opacity: 0;">A</label>
-						<input id="envoyer" name="envoyer" type="submit" value="Envoyer" class="btn btn-primary py-3 px-5" style="padding-left: 3rem!important;padding-right: 3rem!important;">
+						<input id="envoyer" name="envoyer" type="submit" value="{% trans 'Envoyer' %}" class="btn btn-primary py-3 px-5" style="padding-left: 3rem!important;padding-right: 3rem!important;">
 					</div>
 				</form>
 			</div>

@@ -83,12 +83,12 @@
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-center justify-content-center">
 			<div class="col-md-9 ftco-animate text-center">
-				<h1 class="mb-2 bread">Divers 2 </h1>
+				<h1 class="mb-2 bread">{% trans 'Divers 2' %} </h1>
 				<p class="breadcrumbs">
 					<span class="mr-2">
-						<a aria-label="Offres" href="{% url 'index_vitrine' %}#offres">Offres <i class="fas fa-chevron-right"></i></a>
+						<a aria-label="Offres" href="{% url 'index_vitrine' %}#offres">{% trans 'Offres' %} <i class="fas fa-chevron-right"></i></a>
 					</span>
-					<span>Divers 2 <i class="fas fa-chevron-right"></i></span>
+					<span>{% trans 'Divers 2' %} <i class="fas fa-chevron-right"></i></span>
 				</p>
 			</div>
 		</div>
@@ -113,9 +113,9 @@
 						</picture>
 					</div>
 					<div class="text media-body" style="display: flex;flex-direction: column;align-items: center;">
-						<h3 style="margin-bottom: 29px; color:#013E5B">Lean – Six Sigma</h3>
+						<h3 style="margin-bottom: 29px; color:#013E5B">{% trans 'Lean – Six Sigma' %}</h3>
 						<ul class="liste_offres">
-							<li>A compléter</li>
+							<li>{% trans 'A compléter' %}</li>
 						</ul>
 					</div>
 				</div>
@@ -126,15 +126,15 @@
 						<picture>
 							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_croissance.webp' %}">
 							<source type="image/png" srcset="{% static 'vitrine/img/logo_croissance.png' %}">
-							<img src="{% static 'vitrine/img/logo_croissance.png' %}" alt="logo_croissance" style="    width: 74px;margin-top: 14px;margin-bottom: 22px;">
+							<img src="{% static 'vitrine/img/logo_croissance.png' %}" alt="logo_croissance" style="width: 74px;margin-top: 14px;margin-bottom: 22px;">
 						</picture>
 					</div>
 					<div class="text media-body" style="display: flex;flex-direction: column;align-items: center;">
-						<h3 style="margin-bottom: 29px; color:#013E5B">Décisionnel​</h3>
+						<h3 style="margin-bottom: 29px; color:#013E5B">{% trans 'Décisionnel​' %}</h3>
 						<ul class="liste_offres">
-							<li>Définition du tableau de bord de COMEX​</li>
-							<li>Pilotage de la performance commerciale d’un réseau de distribution​</li>
-							<li>Élaboration du cahier des charges de SI décisionnel​</li>
+							<li>{% trans 'Définition du tableau de bord de COMEX​' %}/li>
+							<li>{% trans 'Pilotage de la performance commerciale d’un réseau de distribution​' %}</li>
+							<li>{% trans 'Élaboration du cahier des charges de SI décisionnel​' %}</li>
 						</ul>
 					</div>
 				</div>
@@ -154,14 +154,14 @@
 					<img src="{% static 'vitrine/img/logo_divers2.png' %}" alt="logo_divers2" class="img_offres_secteurs_excellence">
 				</picture>
 				<p>
-					<a aria-label="Contactez-nous" href="{% url 'contact' %}" class="btn btn-primary py-3 px-4">Contactez-nous</a>
+					<a aria-label="Contactez-nous" href="{% url 'contact' %}" class="btn btn-primary py-3 px-4">{% trans 'Contactez-nous' %}</a>
 				</p>
 			</div>
 			
 			<div class="text_contact">
-				<h3>Notre vision et notre ambition</h3>
+				<h3>{% trans 'Notre vision et notre ambition' %}</h3>
 				<p>
-					Amélioration de la qualité des processus de production des produits et donc la qualité des produits en visant à réduire la variabilité d’un processus pour tendre vers le zéro défaut
+					{% trans 'Amélioration de la qualité des processus de production des produits et donc la qualité des produits en visant à réduire la variabilité d’un processus pour tendre vers le zéro défaut' %}
 				</p>
 			</div>
 		</div>

@@ -83,12 +83,12 @@
 	<div class="container">
 		<div class="row no-gutters slider-text align-items-center justify-content-center">
 			<div class="col-md-9 ftco-animate text-center">
-				<h1 class="mb-2 bread">Excellence opérationnelle </h1>
+				<h1 class="mb-2 bread">{% trans 'Excellence opérationnelle' %} </h1>
 				<p class="breadcrumbs">
 					<span class="mr-2">
-						<a aria-label="Offres" href="{% url 'index_vitrine' %}#offres">Offres <i class="fas fa-chevron-right"></i></a>
+						<a aria-label="Offres" href="{% url 'index_vitrine' %}#offres">{% trans 'Offres' %} <i class="fas fa-chevron-right"></i></a>
 					</span>
-					<span>Excellence opérationnelle <i class="fas fa-chevron-right"></i></span>
+					<span>{% trans 'Excellence opérationnelle' %} <i class="fas fa-chevron-right"></i></span>
 				</p>
 			</div>
 		</div>
@@ -113,12 +113,12 @@
 						</picture>
 					</div>
 					<div class="text media-body" style="display: flex;flex-direction: column;align-items: center;">
-						<h3 style="margin-bottom: 29px; color:#013E5B">Stratégie SI et sourcing</h3>
+						<h3 style="margin-bottom: 29px; color:#013E5B">{% trans 'Stratégie SI et sourcing' %}</h3>
 						<ul class="liste_offres">
-							<li>Transformation et organisation de la fonction SI</li>
-							<li>Développement de l’agilité avec le 4 speed IT​</li>
-							<li>Pilotage de la performance avec le Data Driven Management</li>
-							<li>Accélération de l’innovation avec le Talent & Sourcing Management​</li>
+							<li>{% trans 'Transformation et organisation de la fonction SI' %}</li>
+							<li>{% trans 'Développement de l’agilité avec le 4 speed IT​' %}</li>
+							<li>{% trans 'Pilotage de la performance avec le Data Driven Management' %}</li>
+							<li>{% trans 'Accélération de l’innovation avec le Talent & Sourcing Management​' %}</li>
 						</ul>
 					</div>
 				</div>
@@ -129,17 +129,17 @@
 						<picture>
 							<source type="image/webp" srcset="{% static 'vitrine/img/webp/logo_croissance.webp' %}">
 							<source type="image/png" srcset="{% static 'vitrine/img/logo_croissance.png' %}">
-							<img src="{% static 'vitrine/img/logo_croissance.png' %}" alt="logo_croissance" style="    width: 74px;margin-top: 14px;margin-bottom: 22px;">
+							<img src="{% static 'vitrine/img/logo_croissance.png' %}" alt="logo_croissance" style="width: 74px;margin-top: 14px;margin-bottom: 22px;">
 						</picture>
 					</div>
 					<div class="text media-body" style="display: flex;flex-direction: column;align-items: center;">
-						<h3 style="margin-bottom: 29px; color:#013E5B">Ressources Humaines et changement​</h3>
+						<h3 style="margin-bottom: 29px; color:#013E5B">{% trans 'Ressources Humaines et changement​' %}</h3>
 						<ul class="liste_offres">
-							<li>Optimisation de l’efficacité opérationnelle​</li>
-							<li>Accompagnement de l’entreprise dans la révolution digitale​</li>
-							<li>Amélioration de la gestion collective et individuelle des ressources​</li>
-							<li>Pilotage du changement et des transformations​</li>
-							<li>SI RH</li>
+							<li>{% trans 'Optimisation de l’efficacité opérationnelle​' %}</li>
+							<li>{% trans 'Accompagnement de l’entreprise dans la révolution digitale​' %}</li>
+							<li>{% trans 'Amélioration de la gestion collective et individuelle des ressources​' %}</li>
+							<li>{% trans 'Pilotage du changement et des transformations​' %}</li>
+							<li>{% trans 'SI RH' %}</li>
 						</ul>
 					</div>
 				</div>
@@ -154,12 +154,12 @@
 						</picture>
 					</div>
 					<div class="text media-body" style="display: flex;flex-direction: column;align-items: center;">
-						<h3 style="margin-bottom: 29px; color:#013E5B">Finance et pilotage économique​</h3>
+						<h3 style="margin-bottom: 29px; color:#013E5B">{% trans 'Finance et pilotage économique​' %}</h3>
 						<ul class="liste_offres">
-							<li>Modèle de Maturité & Excellence Opérationnelle de la fonction Finance</li>
-							<li>Modélisation et pilotage économique​</li>
-							<li>Pilotage des flux financiers et trésorerie​</li>
-							<li>Corporate finance et marchés de capitaux</li>
+							<li>{% trans 'Modèle de Maturité & Excellence Opérationnelle de la fonction Finance' %}</li>
+							<li>{% trans 'Modélisation et pilotage économique​' %}/li>
+							<li>{% trans 'Pilotage des flux financiers et trésorerie​' %}</li>
+							<li>{% trans 'Corporate finance et marchés de capitaux' %}</li>
 						</ul>
 					</div>
 				</div>
@@ -179,17 +179,17 @@
 					<img src="{% static 'vitrine/img/logo_excellence.png' %}" alt="logo_excellence" class="img_offres_secteurs_excellence">
 				</picture>
 				<p>
-					<a aria-label="Contactez-nous" href="{% url 'contact' %}" class="btn btn-primary py-3 px-4">Contactez-nous</a>
+					<a aria-label="Contactez-nous" href="{% url 'contact' %}" class="btn btn-primary py-3 px-4">{% trans 'Contactez-nous' %}</a>
 				</p>
 			</div>
 			
 			<div class="text_contact">
-				<h3>Notre vision et notre ambition</h3>
+				<h3>{% trans 'Notre vision et notre ambition' %}</h3>
 				<p>
-					Levier puissant de compétitivité pour les entreprises, et ce d’autant plus qu’elles évoluent dans un environnement extrêmement concurrentiel
+					{% trans 'Levier puissant de compétitivité pour les entreprises, et ce d’autant plus qu’elles évoluent dans un environnement extrêmement concurrentiel' %}
 				</p>
 				<p>
-					Démarche systématique et méthodique menée dans votre entreprise pour maximiser les performances en matière de productivité, de qualité des produits et de réduction des coûts, et plus généralement de performance
+					{% trans 'Démarche systématique et méthodique menée dans votre entreprise pour maximiser les performances en matière de productivité, de qualité des produits et de réduction des coûts, et plus généralement de performance' %}
 				</p>
 			</div>
 		</div>

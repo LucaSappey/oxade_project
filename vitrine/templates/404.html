@@ -1,4 +1,4 @@
-{% load staticfiles %}
+{% load staticfiles %}{% load i18n %}
 {% block seo %}
 <meta name="Description" content="Votre page est introuvable">
 <meta property="og:description" content="Votre page est introuvable">
@@ -38,7 +38,7 @@
 								<h1 style="font-size: 6em;font-family: 'LuloCleanW01-OneBold';margin-top: 32px;">404</h1>
 							</div>
 							<div style="position: relative;margin-top: 190px;">
-								<h2 style="font-size: 1em;font-family: 'LuloCleanW01-OneBold';">Votre page est introuvable</h2>
+								<h2 style="font-size: 1em;font-family: 'LuloCleanW01-OneBold';">{% trans 'Votre page est introuvable' %}</h2>
 							</div>
 						</div>
 					</div>
