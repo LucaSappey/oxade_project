@@ -18,7 +18,7 @@ msgstr ""
 
 #: vitrine/templates/404.html:41
 msgid "Votre page est introuvable"
-msgstr ""
+msgstr "Your page is not found"
 
 #: vitrine/templates/a_propos.html:22 vitrine/templates/a_propos.html:27
 #: vitrine/templates/annexe/footer.html:70
@@ -34,15 +34,15 @@ msgstr "Home"
 
 #: vitrine/templates/a_propos.html:41
 msgid "Notre positionnement"
-msgstr ""
+msgstr "Our positioning"
 
 #: vitrine/templates/a_propos.html:42
-msgid " Une société indépendante"
-msgstr ""
+msgid "Une société indépendante"
+msgstr "An independent company"
 
 #: vitrine/templates/a_propos.html:44
 msgid "OXADE Consulting tient à indiquer son indépendance totale :"
-msgstr ""
+msgstr "OXADE Consulting wishes to indicate its total independence:"
 
 #: vitrine/templates/a_propos.html:47
 msgid ""
@@ -50,24 +50,24 @@ msgid ""
 "du marché des systèmes d’information (éditeur, intégrateur, prestataire de "
 "service...) et apporte ainsi son objectivité, plus particulièrement dans les "
 "projets d’ingénierie à base de progiciels."
-msgstr ""
+msgstr "OXADE Consulting is presented as a company independent of any player in the information systems market (publisher, integrator, service provider ...) and thus brings its objectivity, especially in engineering projects based on software packages."
 
 #: vitrine/templates/a_propos.html:48
 msgid ""
 "Sur le plan financier, le capital d’OXADE Consulting est entièrement détenu "
 "par ses dirigeants."
-msgstr ""
+msgstr "On the financial level, the capital of OXADE Consulting is entirely owned by its directors."
 
 #: vitrine/templates/a_propos.html:51
 msgid ""
 "Notre indépendance et notre neutralité sont, avec les profils de nos "
 "Consultants, parmi nos points forts quant à la qualité de nos prestations, "
 "lorsque nous sommes amenés à comparer différentes propositions."
-msgstr ""
+msgstr "Our independence and our neutrality are, with the profiles of our Consultants, among our strong points as for the quality of our services, when we are brought to compare different proposals."
 
 #: vitrine/templates/a_propos.html:54
 msgid "Relations Clients"
-msgstr ""
+msgstr "Client relationship"
 
 #: vitrine/templates/a_propos.html:56
 msgid ""
@@ -78,11 +78,11 @@ msgid ""
 "consiliaris », ce qui signifie avis donné ou demandé sur ce qu’il convient "
 "de faire. L’activité de conseil n’existe que dans une relation Client-"
 "Conseil."
-msgstr ""
+msgstr "Our relations with our customers are part of a real "partnership" of mutual enrichment and healthy and transparent relationships (framework agreements, recurring of our services). We find ourselves fully in the etymology of the word "council", which comes from the Latin "consilium - consiliaris", which means notice given or asked about what should be done. The consulting activity exists only in a Client-Consulting relationship."
 
 #: vitrine/templates/a_propos.html:59
 msgid "Compétences"
-msgstr ""
+msgstr "Skills"
 
 #: vitrine/templates/a_propos.html:61
 msgid ""
@@ -90,42 +90,39 @@ msgid ""
 "en osmose avec l’Expertise dans vos métiers. De plus, nous savons construire "
 "des équipes projet pluridisciplinaires (axe Métier - axe Organisation - axe "
 "Système d’Information - axe architecture et solutions informatiques)."
-msgstr ""
-"OXADE Consulting is positioning itself as an expert in information systems, "
-"in harmony with the business expertise mastered by customers. This is thanks "
-"to support companies in the construction or convergence of their information "
-"system of their decision-making information system"
+msgstr "OXADE Consulting is positioning itself as an Expert in Information Systems, in osmosis with Expertise in your trades. Moreover, we know how to build multidisciplinary project teams (Business line - Organization axis - Information System axis - Architecture axis and IT solutions)."
+
 
 #: vitrine/templates/a_propos.html:63
 msgid "Pérennité"
-msgstr ""
+msgstr "Sustainability"
 
 #: vitrine/templates/a_propos.html:65
 msgid ""
 "OXADE Consulting existe depuis 1993 et peut se targuer d’avoir traversé avec "
 "succès des périodes parfois très difficiles pour nos métiers. Sa pérennité "
 "est donc établie et ne représente aucun facteur de risque."
-msgstr ""
+msgstr "OXADE Consulting existe depuis 1993 et peut se targuer d’avoir traversé avec succès des périodes parfois très difficiles pour nos métiers. Sa pérennité est donc établie et ne représente aucun facteur de risque."
 
 #: vitrine/templates/a_propos.html:67
 msgid "Réactivité"
-msgstr ""
+msgstr "Reactivity"
 
 #: vitrine/templates/a_propos.html:69
 msgid ""
 "Sa taille est un atout par la réactivité qui l’accompagne, notamment dans "
 "des périodes de fortes fluctuations économiques."
-msgstr ""
+msgstr "Its size is an asset because of the reactivity that accompanies it, especially in periods of strong economic fluctuations."
 
 #: vitrine/templates/a_propos.html:71
 msgid "Réseau de partenaires"
-msgstr ""
+msgstr "Network of partners"
 
 #: vitrine/templates/a_propos.html:73
 msgid ""
 "Pour mieux répondre aux besoins de ses clients, OXADE Consulting peut "
 "s’appuyer sur un réseau de partenaires."
-msgstr ""
+msgstr "To better meet the needs of its customers, OXADE Consulting can rely on a network of partners."
 
 #: vitrine/templates/a_propos.html:75
 msgid ""
@@ -133,13 +130,13 @@ msgid ""
 "outre de nos Consultants, d’un panel d’experts permettant de répondre « sur "
 "mesure » aux demandes de nos clients : architectes techniques, experts "
 "sécurité, juristes, communicants..."
-msgstr ""
+msgstr "We regularly build multidisciplinary teams, composed, besides our Consultants, of a panel of experts to respond "tailor-made" to the requests of our customers: technical architects, security experts, lawyers, communicators ..."
 
 #: vitrine/templates/a_propos.html:77
 msgid ""
 "Il s’agit d’une pratique bien installée, obéissant à des règles communes "
 "issues du constat suivant :"
-msgstr ""
+msgstr "This is a well established practice, obeying common rules from the following observation:"
 
 #: vitrine/templates/a_propos.html:79
 msgid ""
@@ -147,7 +144,7 @@ msgid ""
 "nombre de plus en plus important d’acteurs, conduisent à ce qu’aucun "
 "opérateur, fut-il international, ne puisse en toute circonstance répondre "
 "seul aux appels d’offres qui émanent de grand donneurs d’ordres."
-msgstr ""
+msgstr "The increasing complexity of the systems, the demands of the users, the increasing number of actors, lead to the fact that no operator, even international, can in all circumstances respond alone to calls for tenders that come from large contractors."
 
 #: vitrine/templates/a_propos.html:81
 msgid ""
@@ -159,14 +156,14 @@ msgid ""
 "dont les principes sont : transparence, compétence, implication, qualité, "
 "durée, équilibre, confiance, non-exclusivité mais périmètres respectifs "
 "définis et délimités."
-msgstr ""
+msgstr "OXADE Consulting has understood for many years that it is necessary to join forces to best meet and succeed the project of its customers in conditions of balanced association by respecting simple rules of behavior and ethics. This is why OXADE Consulting has established solid partnerships, based on long experience and whose principles are: transparency, competence, involvement, quality, duration, balance, trust, non-exclusivity but defined and delimited respective perimeters."
 
 #: vitrine/templates/a_propos.html:83
 msgid ""
 "Cette démarche permet que tous les partenaires, clients inclus, travaillent "
 "en synergie et puissent se partager un bénéfice accru : une stratégie de "
 "gagnant-gagnant."
-msgstr ""
+msgstr "This approach ensures that all partners, including clients, work in synergy and can share an increased profit: a win-win strategy."
 
 #: vitrine/templates/a_propos.html:85
 msgid ""
@@ -174,7 +171,7 @@ msgid ""
 "et reste maître des opérations qui lui sont confiées par ses clients, et "
 "assume donc l’entière responsabilité de l’opération et du suivi de la "
 "prestation."
-msgstr ""
+msgstr "In these agreements, the basic principle is: OXADE Consulting is and remains master of the operations entrusted to it by its customers, and thus assumes full responsibility for the operation and monitoring of the service."
 
 #: vitrine/templates/a_propos.html:103 vitrine/templates/index_vitrine.html:284
 msgid "Nos chiffres clés"
@@ -238,11 +235,11 @@ msgstr "Subscribe !"
 
 #: vitrine/templates/annexe/footer.html:93
 msgid "Entrer son mail"
-msgstr ""
+msgstr "Enter your email"
 
 #: vitrine/templates/annexe/footer.html:95
 msgid "Valider"
-msgstr ""
+msgstr "Validate"
 
 #: vitrine/templates/annexe/footer.html:100
 msgid "Nos réseaux sociaux"
@@ -523,8 +520,7 @@ msgid ""
 "Levier puissant de compétitivité pour les entreprises, et ce d’autant plus "
 "qu’elles évoluent dans un environnement extrêmement concurrentiel"
 msgstr ""
-"Levier puissant de compétitivité pour les entreprises, et ce d’autant plus "
-"qu’elles évoluent dans un environnement extrêmement concurrentiel"
+"Powerful lever of competitiveness for companies, especially as they operate in an extremely competitive environment"
 
 #: vitrine/templates/annexe/navbar.html:431
 #: vitrine/templates/index_vitrine.html:404
@@ -539,55 +535,51 @@ msgstr ""
 
 #: vitrine/templates/base_vitrine.html:56
 msgid "Your browser does not support JavaScript!"
-msgstr ""
+msgstr "Your browser does not support JavaScript!"
 
 #: vitrine/templates/contact.html:42 vitrine/templates/nous_rejoindre.html:166
 msgid "Adresse :"
-msgstr ""
+msgstr "Address :"
 
 #: vitrine/templates/contact.html:51 vitrine/templates/nous_rejoindre.html:175
-#, fuzzy
-#| msgid "Télephone"
 msgid "Téléphone :"
 msgstr "Phone"
 
 #: vitrine/templates/contact.html:60 vitrine/templates/nous_rejoindre.html:184
 msgid "Mail :"
-msgstr ""
+msgstr "Email :"
 
 #: vitrine/templates/contact.html:69
-#, fuzzy
-#| msgid "Une question ?"
 msgid "Une question ? Contactez-nous :"
-msgstr "A question ?"
+msgstr "A question ? Contact us:"
 
 #: vitrine/templates/contact.html:73
 msgid "Votre prenom"
-msgstr ""
+msgstr "Your first name"
 
 #: vitrine/templates/contact.html:77
 msgid "Votre nom"
-msgstr ""
+msgstr "Your name"
 
 #: vitrine/templates/contact.html:81
 msgid "Votre téléphone"
-msgstr ""
+msgstr "Your phone"
 
 #: vitrine/templates/contact.html:85
 msgid "Votre Email"
-msgstr ""
+msgstr "Your email"
 
 #: vitrine/templates/contact.html:89
 msgid "Titre"
-msgstr ""
+msgstr "Title"
 
 #: vitrine/templates/contact.html:93
 msgid "Message"
-msgstr ""
+msgstr "Message"
 
 #: vitrine/templates/contact.html:97 vitrine/templates/nous_rejoindre.html:148
 msgid "Envoyer"
-msgstr ""
+msgstr "Send"
 
 #: vitrine/templates/index_vitrine.html:123
 #: vitrine/templates/index_vitrine.html:151
@@ -639,10 +631,7 @@ msgid ""
 "bouleversements technologiques et culturels, nous vous apportons expérience, "
 "expertise et discernement"
 msgstr ""
-"In a context where the financial world in general has to face profound "
-"technological and cultural upheavals, where the competition on services and "
-"tariffs is more and more fierce, we bring you experience, expertise and "
-"discernment"
+"In a context where the financial world is facing technological and cultural upheavals, we bring you experience, expertise and discernment."
 
 #: vitrine/templates/index_vitrine.html:222
 msgid ""
@@ -668,9 +657,7 @@ msgid ""
 "conseil en management et conseil financier qui permettent d’appréhender les "
 "évolutions du secteur"
 msgstr ""
-"Our professionals in the Public Sector are able to mobilize all the "
-"expertise in auditing, management consulting, information systems and "
-"financial advice that help to understand the major developments in the sector"
+"Our professionals are able to mobilize all the expertise in management consulting and financial advice that help to understand the changes in the sector"
 
 #: vitrine/templates/index_vitrine.html:270
 msgid ""
@@ -730,91 +717,87 @@ msgstr "Information systems architecture"
 
 #: vitrine/templates/nous_rejoindre.html:108
 msgid "Bienvenue ! Merci de proposer votre candidature."
-msgstr ""
+msgstr "Welcome ! Thank you for submitting your application."
 
 #: vitrine/templates/nous_rejoindre.html:114
-#, fuzzy
-#| msgid "Mentions légales"
 msgid "Informations générales"
-msgstr "Legal Notice"
+msgstr "General informations"
 
 #: vitrine/templates/nous_rejoindre.html:117
 msgid "Nom & Prénom*"
-msgstr ""
+msgstr "Last name & First Name*"
 
 #: vitrine/templates/nous_rejoindre.html:121
 msgid "Mail*"
-msgstr ""
+msgstr "Email*"
 
 #: vitrine/templates/nous_rejoindre.html:125
-#, fuzzy
-#| msgid "Télephone"
 msgid "Téléphone"
 msgstr "Phone"
 
 #: vitrine/templates/nous_rejoindre.html:134
 msgid "CV / Lettre de motivation"
-msgstr ""
+msgstr "CV / Letter of motivation"
 
 #: vitrine/templates/nous_rejoindre.html:136
 msgid "Déposer son CV"
-msgstr ""
+msgstr "Submit your CV"
 
 #: vitrine/templates/nous_rejoindre.html:140
 msgid "Déposer sa lettre de motivation"
-msgstr ""
+msgstr "Submit a cover letter"
 
 #: vitrine/templates/offres/architecture.html:116
 msgid "Architecture d’entreprise et data​"
-msgstr ""
+msgstr "Enterprise Architecture and Data"
 
 #: vitrine/templates/offres/architecture.html:118
 msgid "Urbanisation et schémas directeurs SI​"
-msgstr ""
+msgstr "Urbanization and IS Master Plans"
 
 #: vitrine/templates/offres/architecture.html:119
 msgid "Bureaux d’Architectes​"
-msgstr ""
+msgstr "Architects Offices"
 
 #: vitrine/templates/offres/architecture.html:120
 msgid "Data management : Big data, data gouvernance​"
-msgstr ""
+msgstr "Data management : Big data, data gouvernance​"
 
 #: vitrine/templates/offres/architecture.html:135
 msgid "Cloud et infrastructure"
-msgstr ""
+msgstr "Cloud and infrastructure"
 
 #: vitrine/templates/offres/architecture.html:137
 msgid "Cloud Privé / Public / Hybride​"
-msgstr ""
+msgstr "Private Cloud / Public / Hybrid"
 
 #: vitrine/templates/offres/architecture.html:138
 msgid "Hébergement et datacenter​"
-msgstr ""
+msgstr "Hosting and datacenter"
 
 #: vitrine/templates/offres/architecture.html:139
 msgid "Infrastructure et virtualisation​"
-msgstr ""
+msgstr "Infrastructure and virtualization"
 
 #: vitrine/templates/offres/architecture.html:140
 msgid "Agile Delivery​"
-msgstr ""
+msgstr "Agile Delivery​"
 
 #: vitrine/templates/offres/architecture.html:155
 msgid "Digital workplace"
-msgstr ""
+msgstr "Digital workplace"
 
 #: vitrine/templates/offres/architecture.html:157
 msgid "Poste de travail, end-user devices, end-user services​"
-msgstr ""
+msgstr "Workstation, end-user devices, end-user services"
 
 #: vitrine/templates/offres/architecture.html:158
 msgid "Messagerie et services collaboratifs​"
-msgstr ""
+msgstr "Messaging and Collaborative Services"
 
 #: vitrine/templates/offres/architecture.html:159
 msgid "Mobilité et objets connectés​"
-msgstr ""
+msgstr "Mobility and connected objects"
 
 #: vitrine/templates/offres/architecture.html:179
 #: vitrine/templates/offres/coaching.html:208
@@ -826,7 +809,7 @@ msgstr ""
 #: vitrine/templates/secteurs/assurance.html:104
 #: vitrine/templates/secteurs/banque.html:94
 msgid "Contactez-nous"
-msgstr ""
+msgstr "Contact Us"
 
 #: vitrine/templates/offres/architecture.html:184
 #: vitrine/templates/offres/coaching.html:213
@@ -839,11 +822,11 @@ msgstr ""
 #: vitrine/templates/secteurs/assurance.html:99
 #: vitrine/templates/secteurs/banque.html:89
 msgid "Notre vision et notre ambition"
-msgstr ""
+msgstr "Our vision and ambition"
 
 #: vitrine/templates/offres/coaching.html:115
 msgid "Périmètre d’intervention​"
-msgstr ""
+msgstr "Intervention area"
 
 #: vitrine/templates/offres/coaching.html:117
 msgid "Fusion / Transformation"
@@ -851,210 +834,210 @@ msgstr "Transformation"
 
 #: vitrine/templates/offres/coaching.html:118
 msgid "Création d’entités​"
-msgstr ""
+msgstr "Creating entities"
 
 #: vitrine/templates/offres/coaching.html:119
 #: vitrine/templates/offres/divers1.html:145
 msgid "Changement de business Model​"
-msgstr ""
+msgstr "Business Model Change"
 
 #: vitrine/templates/offres/coaching.html:120
 msgid "Prise de fonction​"
-msgstr ""
+msgstr "Taking office"
 
 #: vitrine/templates/offres/coaching.html:121
 msgid "Développeur de talents"
-msgstr ""
+msgstr "Talent developer"
 
 #: vitrine/templates/offres/coaching.html:137
 msgid "Profils des coachs"
-msgstr ""
+msgstr "Coach profiles"
 
 #: vitrine/templates/offres/coaching.html:139
 msgid "Anciens membres de direction générale & responsables opérationnels​"
-msgstr ""
+msgstr "Former members of senior management & operational managers"
 
 #: vitrine/templates/offres/coaching.html:140
 msgid "Coachs spécialisés selon​"
-msgstr ""
+msgstr "Specialized coaches according"
 
 #: vitrine/templates/offres/coaching.html:141
 msgid "Méthodes : HBDI ©, MBTI ©, Strong © , 360° ©"
-msgstr ""
+msgstr "Methods: © HBDI, © MBTI, © Strong, 360° ©"
 
 #: vitrine/templates/offres/coaching.html:156
 msgid "Public ciblé​"
-msgstr ""
+msgstr "Target audience"
 
 #: vitrine/templates/offres/coaching.html:158
 msgid "Direction​"
-msgstr ""
+msgstr "Direction​"
 
 #: vitrine/templates/offres/coaching.html:159
 msgid "Managers​"
-msgstr ""
+msgstr "Managers​"
 
 #: vitrine/templates/offres/coaching.html:160
 msgid "Équipes​"
-msgstr ""
+msgstr "Teams"
 
 #: vitrine/templates/offres/coaching.html:161
 msgid "Organisations​"
-msgstr "Digitaliation"
+msgstr "Organizations"
 
 #: vitrine/templates/offres/coaching.html:176
 msgid "Connaissance sectorielle"
-msgstr ""
+msgstr "Sectorial knowledge"
 
 #: vitrine/templates/offres/coaching.html:180
 msgid "Distribution​"
-msgstr ""
+msgstr "Distribution​"
 
 #: vitrine/templates/offres/coaching.html:181
 msgid "Finances"
-msgstr ""
+msgstr "Finances"
 
 #: vitrine/templates/offres/coaching.html:182
 msgid "Service"
-msgstr ""
+msgstr "Service"
 
 #: vitrine/templates/offres/coaching.html:185
 msgid "Industrie​"
-msgstr ""
+msgstr "Industry"
 
 #: vitrine/templates/offres/coaching.html:186
 msgid "Chimie-pétrochimie"
-msgstr ""
+msgstr "Chemistry and petrochemistry"
 
 #: vitrine/templates/offres/coaching.html:187
 msgid "Automobile​"
-msgstr ""
+msgstr "Automobile"
 
 #: vitrine/templates/offres/digitalisation.html:113
 msgid "Connectivité et mobilité​"
-msgstr ""
+msgstr "Connectivity and mobility"
 
 #: vitrine/templates/offres/digitalisation.html:115
 msgid ""
 "Assurer la connectivité des collaborateurs en situation de mobilité : cloud "
 "ready networks, réseaux industriels, réseaux d’objets connectés, mobile "
 "device management​"
-msgstr ""
+msgstr "Ensuring the connectivity of employees in a mobile situation: cloud ready networks, industrial networks, connected objects networks, mobile device management"
 
 #: vitrine/templates/offres/digitalisation.html:116
 msgid "Améliorer la performance des directions télécoms​"
-msgstr ""
+msgstr "Improve the performance of telecom departments"
 
 #: vitrine/templates/offres/digitalisation.html:118
 msgid "Performance assessment"
-msgstr ""
+msgstr "Performance assessment"
 
 #: vitrine/templates/offres/digitalisation.html:119
 msgid "Target Operating Model​"
-msgstr ""
+msgstr "Target Operating Model​"
 
 #: vitrine/templates/offres/digitalisation.html:120
 msgid "Sourcing télécoms​"
-msgstr ""
+msgstr "Telecom Sourcing"
 
 #: vitrine/templates/offres/digitalisation.html:123
 msgid "Centres de relation client​"
-msgstr ""
+msgstr "Customer Relationship Centers"
 
 #: vitrine/templates/offres/digitalisation.html:125
 msgid "Sourcing infrastructures et solutions​"
-msgstr ""
+msgstr "Sourcing infrastructures and solutions"
 
 #: vitrine/templates/offres/digitalisation.html:126
 msgid "Intégration du multi-canal"
-msgstr ""
+msgstr "Integration of the multi-channel"
 
 #: vitrine/templates/offres/digitalisation.html:127
 msgid "Performance des CRC"
-msgstr ""
+msgstr "CRC performance"
 
 #: vitrine/templates/offres/digitalisation.html:145
 msgid "Digital working​"
-msgstr ""
+msgstr "Digital working​"
 
 #: vitrine/templates/offres/digitalisation.html:147
 msgid "Faire émerger les usages et pratiques digitales​"
-msgstr ""
+msgstr "To bring out the uses and digital practices"
 
 #: vitrine/templates/offres/digitalisation.html:148
 msgid "Mettre en place, installer et dynamiser l’adoption des outils digitaux​"
-msgstr ""
+msgstr "Set up, install and boost the adoption of digital tools"
 
 #: vitrine/templates/offres/digitalisation.html:150
 msgid "Dispositifs sociaux et collaboratifs​"
-msgstr ""
+msgstr "Social and collaborative devices"
 
 #: vitrine/templates/offres/digitalisation.html:151
 msgid "Intranets​"
-msgstr ""
+msgstr "Intranets​"
 
 #: vitrine/templates/offres/digitalisation.html:152
 msgid "Mobilité & apps​"
-msgstr ""
+msgstr "Mobility & apps"
 
 #: vitrine/templates/offres/digitalisation.html:155
 msgid "Diffuser la culture digitale​"
-msgstr ""
+msgstr "Disseminate digital culture"
 
 #: vitrine/templates/offres/digitalisation.html:157
 msgid "Formations, sensibilisation, communication​"
-msgstr ""
+msgstr "Training, awareness, communication"
 
 #: vitrine/templates/offres/digitalisation.html:158
 msgid "Nouveaux espaces de travail (flex)​"
-msgstr ""
+msgstr "New workspaces (flex)"
 
 #: vitrine/templates/offres/digitalisation.html:159
 msgid "Gouvernance de la transformation​"
-msgstr ""
+msgstr "Governance of transformation"
 
 #: vitrine/templates/offres/digitalisation.html:176
 msgid "Digital customer experience"
-msgstr ""
+msgstr "Digital customer experience"
 
 #: vitrine/templates/offres/digitalisation.html:178
 msgid ""
 "Concevoir les interfaces digitales via des processus agiles et collaboratifs"
-msgstr ""
+msgstr "Design digital interfaces via agile and collaborative processes"
 
 #: vitrine/templates/offres/digitalisation.html:180
 msgid "Ateliers de créativité"
-msgstr ""
+msgstr "Creativity workshops"
 
 #: vitrine/templates/offres/digitalisation.html:181
 msgid "Design fonctionnel, ergonomique et graphique"
-msgstr ""
+msgstr "Functional, ergonomic and graphic design"
 
 #: vitrine/templates/offres/digitalisation.html:182
 msgid "Maquettage dynamique / démonstrateur​"
-msgstr ""
+msgstr "Dynamic layout / demonstrator"
 
 #: vitrine/templates/offres/digitalisation.html:183
 msgid "Tests utilisateurs et focus group​"
-msgstr ""
+msgstr "User tests and focus group"
 
 #: vitrine/templates/offres/digitalisation.html:188
 msgid "Interfaces Web / responsive / ergonomie"
-msgstr ""
+msgstr "Web interfaces / responsive / ergonomics"
 
 #: vitrine/templates/offres/digitalisation.html:189
 msgid "Objets connectés"
-msgstr ""
+msgstr "Connected objects"
 
 #: vitrine/templates/offres/digitalisation.html:190
 msgid "Apps mobiles​"
-msgstr ""
+msgstr "Mobile Apps"
 
 #: vitrine/templates/offres/digitalisation.html:193
 msgid ""
 "Animer les dispositifs de relation client digitale de la conception à la vie "
 "courant en passant par la production​"
-msgstr ""
+msgstr "Animate the devices of digital customer relation of the design to the current life while passing by the production"
 
 #: vitrine/templates/offres/digitalisation.html:220
 #: vitrine/templates/offres/transformation.html:5
@@ -1063,7 +1046,7 @@ msgstr ""
 msgid ""
 "Le monde change rapidement et les organisations doivent changer pour libérer "
 "leur plein potentiel"
-msgstr ""
+msgstr "The world is changing rapidly and organizations must change to unlock their full potential"
 
 #: vitrine/templates/offres/digitalisation.html:223
 #: vitrine/templates/offres/transformation.html:227
@@ -1072,69 +1055,65 @@ msgid ""
 "fondamentalement la trajectoire d’une organisation échouent. La gamme "
 "d’offres de transformation d’Oxade aide les clients à inverser les obstacles "
 "afin d’obtenir des résultats extraordinaires pour leur entreprise"
-msgstr ""
+msgstr "Yet research shows that most efforts to fundamentally change the trajectory of an organization fail. Oxade's transformation offer line helps customers reverse barriers to deliver extraordinary business results"
 
 #: vitrine/templates/offres/divers1.html:116
 msgid "Finance d’entreprise​"
-msgstr ""
+msgstr "Corporate Finance"
 
 #: vitrine/templates/offres/divers1.html:118
 msgid "Stratégie financière, pilotage de la performance & gestion du bilan​"
-msgstr ""
+msgstr "Financial strategy, performance management & balance sheet management"
 
 #: vitrine/templates/offres/divers1.html:119
 msgid ""
 "Aide à la prise de décision intégrant une dominante financière : croissance "
 "externe, analyse financière de plan stratégique, diversification …"
-msgstr ""
+msgstr "Decision support integrating a financial dominant: external growth, financial analysis of strategic plan, diversification ..."
 
 #: vitrine/templates/offres/divers1.html:120
 msgid "Montage de dossiers financiers​"
-msgstr ""
+msgstr "Montage of financial files"
 
 #: vitrine/templates/offres/divers1.html:121
 msgid "Gestion de crise / redressement"
-msgstr ""
+msgstr "Crisis management / recovery"
 
 #: vitrine/templates/offres/divers1.html:136
-#, fuzzy
-#| msgid "Coaching"
 msgid "Coaching​"
 msgstr "Coaching"
 
 #: vitrine/templates/offres/divers1.html:138
 msgid "Qui ?"
-msgstr ""
+msgstr "Who ?"
 
 #: vitrine/templates/offres/divers1.html:139
 msgid "Dirigeants et de membres de conseil d’administration "
-msgstr ""
+msgstr "Officers and Board Members"
 
 #: vitrine/templates/offres/divers1.html:140
 msgid "Fonctions commerciales"
-msgstr ""
+msgstr "Commercial functions"
 
 #: vitrine/templates/offres/divers1.html:141
 msgid "Collaborateurs"
-msgstr ""
+msgstr "Collaborators"
 
 #: vitrine/templates/offres/divers1.html:142
 msgid "Périmètre"
-msgstr ""
+msgstr "Perimeter"
 
 #: vitrine/templates/offres/divers1.html:143
-#, fuzzy
-#| msgid "Fusion / Transformation"
 msgid "Fusion / Transformation​"
-msgstr "Transformation"
+msgstr "Fusion / Transformation"
 
 #: vitrine/templates/offres/divers1.html:144
 msgid "Création d’entité"
-msgstr ""
+msgstr "Entity creation"
 
 #: vitrine/templates/offres/divers1.html:146
 msgid "Prise de fonction"
-msgstr ""
+msgstr "Taking office"
 
 #: vitrine/templates/offres/divers1.html:161
 msgid "Gestion de projets"
@@ -1142,372 +1121,354 @@ msgstr "Project management"
 
 #: vitrine/templates/offres/divers1.html:163
 msgid "Direction de programmes et de projets​"
-msgstr ""
+msgstr "Program and Project Management"
 
 #: vitrine/templates/offres/divers1.html:164
 msgid "PMO​"
-msgstr ""
+msgstr "PMO​"
 
 #: vitrine/templates/offres/divers1.html:165
-#, fuzzy
-#| msgid "Gestion de projets"
 msgid "Gestion de portefeuilles​"
-msgstr "Project management"
+msgstr "Portfolio Management"
 
 #: vitrine/templates/offres/divers2.html:116
 msgid "Lean – Six Sigma"
-msgstr ""
+msgstr "Lean - Six Sigma"
 
 #: vitrine/templates/offres/divers2.html:118
 msgid "A compléter"
-msgstr ""
+msgstr "To complete"
 
 #: vitrine/templates/offres/divers2.html:133
 msgid "Décisionnel​"
-msgstr ""
+msgstr "Decision"
 
 #: vitrine/templates/offres/divers2.html:135
 msgid "Définition du tableau de bord de COMEX​"
-msgstr ""
+msgstr "Definition of the COMEX dashboard"
 
 #: vitrine/templates/offres/divers2.html:136
 msgid "Pilotage de la performance commerciale d’un réseau de distribution​"
-msgstr ""
+msgstr "Controlling the commercial performance of a distribution network"
 
 #: vitrine/templates/offres/divers2.html:137
 msgid "Élaboration du cahier des charges de SI décisionnel​"
-msgstr ""
+msgstr "Development of the specifications of the decisional IS"
 
 #: vitrine/templates/offres/excellence_operationnelle.html:116
 msgid "Stratégie SI et sourcing"
-msgstr ""
+msgstr "IT strategy and sourcing"
 
 #: vitrine/templates/offres/excellence_operationnelle.html:118
 msgid "Transformation et organisation de la fonction SI"
-msgstr ""
+msgstr "Transformation and organization of the IS function"
 
 #: vitrine/templates/offres/excellence_operationnelle.html:119
 msgid "Développement de l’agilité avec le 4 speed IT​"
-msgstr ""
+msgstr "Development of agility with 4 speed IT"
 
 #: vitrine/templates/offres/excellence_operationnelle.html:120
 msgid "Pilotage de la performance avec le Data Driven Management"
-msgstr ""
+msgstr "Performance management with Data Driven Management"
 
 #: vitrine/templates/offres/excellence_operationnelle.html:121
 msgid "Accélération de l’innovation avec le Talent & Sourcing Management​"
-msgstr ""
+msgstr "Accelerating Innovation with Talent & Sourcing Management"
 
 #: vitrine/templates/offres/excellence_operationnelle.html:136
 msgid "Ressources Humaines et changement​"
-msgstr ""
+msgstr "Human Resources and Change"
 
 #: vitrine/templates/offres/excellence_operationnelle.html:138
 msgid "Optimisation de l’efficacité opérationnelle​"
-msgstr ""
+msgstr "Optimization of operational efficiency"
 
 #: vitrine/templates/offres/excellence_operationnelle.html:139
 msgid "Accompagnement de l’entreprise dans la révolution digitale​"
-msgstr ""
+msgstr "Accompanying the company in the digital revolution
 
 #: vitrine/templates/offres/excellence_operationnelle.html:140
 msgid "Amélioration de la gestion collective et individuelle des ressources​"
-msgstr ""
+msgstr "Improved collective and individual management of resources"
 
 #: vitrine/templates/offres/excellence_operationnelle.html:141
 msgid "Pilotage du changement et des transformations​"
-msgstr ""
+msgstr "Steering change and transformations"
 
 #: vitrine/templates/offres/excellence_operationnelle.html:142
 msgid "SI RH"
-msgstr ""
+msgstr "IS HR"
 
 #: vitrine/templates/offres/excellence_operationnelle.html:157
 msgid "Finance et pilotage économique​"
-msgstr ""
+msgstr "Finance and economic management"
 
 #: vitrine/templates/offres/excellence_operationnelle.html:159
 msgid "Modèle de Maturité & Excellence Opérationnelle de la fonction Finance"
-msgstr ""
+msgstr "Model of Maturity & Operational Excellence of the Finance function"
 
 #: vitrine/templates/offres/excellence_operationnelle.html:160
 msgid "Modélisation et pilotage économique​"
-msgstr ""
+msgstr "Modeling and economic steering"
 
 #: vitrine/templates/offres/excellence_operationnelle.html:161
 msgid "Pilotage des flux financiers et trésorerie​"
-msgstr ""
+msgstr "Management of financial flows and cash flow"
 
 #: vitrine/templates/offres/excellence_operationnelle.html:162
 msgid "Corporate finance et marchés de capitaux"
-msgstr ""
+msgstr "Corporate finance and capital markets"
 
 #: vitrine/templates/offres/excellence_operationnelle.html:192
 msgid ""
 "Démarche systématique et méthodique menée dans votre entreprise pour "
 "maximiser les performances en matière de productivité, de qualité des "
 "produits et de réduction des coûts, et plus généralement de performance"
-msgstr ""
+msgstr "Systematic and systematic approach in your company to maximize performance in terms of productivity, product quality and cost reduction, and more generally performance"
 
 #: vitrine/templates/offres/securite.html:108
 msgid "Risk Management et gouvernance sécurité"
-msgstr ""
+msgstr "Risk Management and Security Governance"
 
 #: vitrine/templates/offres/securite.html:110
 msgid "Schéma directeur​"
-msgstr ""
+msgstr "Master plan"
 
 #: vitrine/templates/offres/securite.html:111
 msgid "Cartographie des risques​"
-msgstr ""
+msgstr "Risk Mapping"
 
 #: vitrine/templates/offres/securite.html:112
 msgid "Tableaux de bords​"
-msgstr ""
+msgstr "Dashboards"
 
 #: vitrine/templates/offres/securite.html:113
-#, fuzzy
-#| msgid "Digitaliation"
 msgid "Sensibilisation"
-msgstr "Digitaliation"
+msgstr "Sensitization"
 
 #: vitrine/templates/offres/securite.html:114
 msgid "Création / animation de filière​"
-msgstr ""
+msgstr "Creation / animation of die"
 
 #: vitrine/templates/offres/securite.html:115
 msgid "Accompagnement à la certification ISO 27001"
-msgstr ""
+msgstr "Support for ISO 27001 certification"
 
 #: vitrine/templates/offres/securite.html:116
 msgid "Conformité réglementaire et données à caractère personnel​"
-msgstr ""
+msgstr "Regulatory compliance and personal data"
 
 #: vitrine/templates/offres/securite.html:132
-#, fuzzy
-#| msgid "Sécurité"
 msgid "Cybersécurité​"
-msgstr "Security"
+msgstr "Cybersecurity"
 
 #: vitrine/templates/offres/securite.html:134
-#, fuzzy
-#| msgid "Architecture des systèmes d’information​"
 msgid "Architecture de sécurité et modèles de protection​"
-msgstr "Information systems architecture"
+msgstr "Security Architecture and Protection Models"
 
 #: vitrine/templates/offres/securite.html:135
 msgid "Sécurité Cloud / Big Data / Mobilité / BYOD / Smart​"
-msgstr ""
+msgstr "Cloud Security / Big Data / Mobility / BYOD / Smart"
 
 #: vitrine/templates/offres/securite.html:136
 msgid "Sécurité SI Industriels"
-msgstr ""
+msgstr "Industrial Security SI"
 
 #: vitrine/templates/offres/securite.html:137
 msgid "Audits et test d’intrusion"
-msgstr ""
+msgstr "Audits and intrusion test"
 
 #: vitrine/templates/offres/securite.html:138
 msgid "Réponse à incidents et gestion de crise"
-msgstr ""
+msgstr "Incident Response and Crisis Management"
 
 #: vitrine/templates/offres/securite.html:139
-#, fuzzy
-#| msgid "Sécurité"
 msgid "Surveillance sécurité"
-msgstr "Security"
+msgstr "Security surveillance"
 
 #: vitrine/templates/offres/securite.html:140
 msgid "Externalisation sécurité"
-msgstr ""
+msgstr "Outsourcing security"
 
 #: vitrine/templates/offres/securite.html:155
-#, fuzzy
-#| msgid "Nos secteurs d’activités"
 msgid "Continuité d’activité​"
-msgstr "Our sectors of activity"
+msgstr "Business continuity"
 
 #: vitrine/templates/offres/securite.html:157
 msgid "Analyse d’impacts et identification des scénarios​"
-msgstr ""
+msgstr "Impact analysis and scenario identification"
 
 #: vitrine/templates/offres/securite.html:158
 msgid "Construction des plans de continuité utilisateur, métier et SI​"
-msgstr ""
+msgstr "Construction of user continuity plans, business and IS"
 
 #: vitrine/templates/offres/securite.html:159
 msgid "Réalisation d’exercices de crise et de tests grandeur nature"
-msgstr ""
+msgstr "Realization of crisis exercises and life-size tests"
 
 #: vitrine/templates/offres/securite.html:160
 msgid "Accompagnement à la certification ISO 22301​"
-msgstr ""
+msgstr "Accompaniment to ISO 22301 certification"
 
 #: vitrine/templates/offres/securite.html:175
 msgid "Identité et confiance numérique"
-msgstr ""
+msgstr "Identity and digital trust"
 
 #: vitrine/templates/offres/securite.html:177
 msgid "Gestion des identités et des droits d’accès collaborateurs / clients​"
-msgstr ""
+msgstr "Identity management and employee access rights / client "
 
 #: vitrine/templates/offres/securite.html:178
 msgid "Authentification et biométrie​"
-msgstr ""
+msgstr "Authentication and biometrics"
 
 #: vitrine/templates/offres/securite.html:179
 msgid "Services de confiance numérique (signature électronique, chiffrement…)​"
-msgstr ""
+msgstr "Digital trust services (electronic signature, encryption ...)"
 
 #: vitrine/templates/offres/securite.html:180
 msgid "Fédération des identités​"
-msgstr ""
+msgstr "Federation of identities"
 
 #: vitrine/templates/offres/transformation.html:109
 msgid "Risques et Conformité"
-msgstr ""
+msgstr "Risks and Compliance"
 
 #: vitrine/templates/offres/transformation.html:111
 msgid "Risques et contrôle interne​"
-msgstr ""
+msgstr "Risks and internal control"
 
 #: vitrine/templates/offres/transformation.html:112
 msgid "Conformité règlementaire (promo de l’éthique, dispositif de lutte​"
-msgstr ""
+msgstr "Regulatory compliance (promotion of ethics, control system"
 
 #: vitrine/templates/offres/transformation.html:113
 msgid "Contre le blanchiment des capitaux et le financement du terrorisme)​"
-msgstr ""
+msgstr "Against money laundering and terrorist financing)"
 
 #: vitrine/templates/offres/transformation.html:114
 msgid "Continuité d’activité et gestion de crise​"
-msgstr ""
+msgstr "Business continuity and crisis management"
 
 #: vitrine/templates/offres/transformation.html:115
 msgid "Adaptation des offres et des processus"
-msgstr ""
+msgstr "Adaptation of offers and processes"
 
 #: vitrine/templates/offres/transformation.html:131
 msgid "Distribution et Relation Client"
-msgstr ""
+msgstr "Distribution and Customer Relationship"
 
 #: vitrine/templates/offres/transformation.html:133
 msgid "Transformation et performance de la distribution"
-msgstr ""
+msgstr "Transformation and distribution performance"
 
 #: vitrine/templates/offres/transformation.html:134
-#, fuzzy
-#| msgid "Digitaliation"
 msgid "Digital Banking"
-msgstr "Digitaliation"
+msgstr "Digital Banking"
 
 #: vitrine/templates/offres/transformation.html:135
 #: vitrine/templates/secteurs/assurance.html:74
 msgid "Acteurs : Concentration du marché / Nouveaux entrants"
-msgstr ""
+msgstr "Actors: Market Concentration / New Entrants"
 
 #: vitrine/templates/offres/transformation.html:136
-#, fuzzy
-#| msgid "Expérience client"
 msgid "Parcours et expérience client​"
-msgstr "Client experience"
+msgstr "Journey and customer experience"
 
 #: vitrine/templates/offres/transformation.html:137
 msgid "CRM (processus et outils)"
-msgstr ""
+msgstr "CRM (processes and tools)"
 
 #: vitrine/templates/offres/transformation.html:138
 msgid "Innovation et nouveaux canaux​"
-msgstr ""
+msgstr "Innovation and new channels"
 
 #: vitrine/templates/offres/transformation.html:139
 msgid "Agence de demain​"
-msgstr ""
+msgstr "Agency of tomorrow"
 
 #: vitrine/templates/offres/transformation.html:154
-#, fuzzy
-#| msgid "Organisations​"
 msgid "Organisation et Processus​"
-msgstr "Digitaliation"
+msgstr "Organization and Process"
 
 #: vitrine/templates/offres/transformation.html:156
 msgid "Performance et digitalisation des processus"
-msgstr ""
+msgstr "Performance and digitization of processes"
 
 #: vitrine/templates/offres/transformation.html:157
 msgid "Refonte et agilité des organisations"
-msgstr ""
+msgstr "Reorganization and agility of organizations"
 
 #: vitrine/templates/offres/transformation.html:158
 msgid "Dimensionnement et trajectoire métier​"
-msgstr ""
+msgstr "Dimensioning and business trajectory"
 
 #: vitrine/templates/offres/transformation.html:159
 msgid "Benchmark sur l’allocation des ressources et des dépenses"
-msgstr ""
+msgstr "Benchmark on the allocation of resources and expenditures"
 
 #: vitrine/templates/offres/transformation.html:174
 msgid "Data et Connaissance client​"
-msgstr ""
+msgstr "Data and Customer Knowledge"
 
 #: vitrine/templates/offres/transformation.html:176
 msgid "Vision client 360°"
-msgstr ""
+msgstr "360 ° customer vision"
 
 #: vitrine/templates/offres/transformation.html:177
 msgid "Structuration de la filière data"
-msgstr ""
+msgstr "Structuring the data stream"
 
 #: vitrine/templates/offres/transformation.html:178
 msgid "Design de l’architecture fonctionnelle data / Data analysis​"
-msgstr ""
+msgstr "Functional architecture design data / Data analysis"
 
 #: vitrine/templates/offres/transformation.html:193
 msgid "Lab. Digital et Innovation & Agilité"
-msgstr ""
+msgstr "Lab. Digital and Innovation & Agility"
 
 #: vitrine/templates/offres/transformation.html:195
 msgid "Structuration des Labs"
-msgstr ""
+msgstr "Structuring Labs"
 
 #: vitrine/templates/offres/transformation.html:196
 msgid "Coach agile et accompagnement projet"
-msgstr ""
+msgstr "Agile coach and project coach"
 
 #: vitrine/templates/offres/transformation.html:197
 msgid "Démarche Innovation"
-msgstr ""
+msgstr "Innovation approach"
 
 #: vitrine/templates/secteurs/assurance.html:69
 #: vitrine/templates/secteurs/banque.html:67
 msgid "Vos enjeux"
-msgstr ""
+msgstr "Your stakes"
 
 #: vitrine/templates/secteurs/assurance.html:70
 msgid "Un marché soumis à de multiples transformations :​"
-msgstr ""
+msgstr "A market subject to multiple transformations:"
 
 #: vitrine/templates/secteurs/assurance.html:72
-msgid ">Digital\t : Mobile / Multicanal / Big data / Objets connectés"
-msgstr ""
+msgid "Digital : Mobile / Multicanal / Big data / Objets connectés"
+msgstr "Digital : Mobile / Multichannel / Big data / Connected objects"
 
 #: vitrine/templates/secteurs/assurance.html:73
 msgid ""
 "Comportement : Volatilité des consommateurs / Exigence, prix et qualité de "
 "service / Nouvelles attentes sociales"
-msgstr ""
+msgstr "Behavior: Consumer Volatility / Demand, Price and Quality of Service / New Social Expectations"
 
 #: vitrine/templates/secteurs/assurance.html:75
 msgid ""
-"Socio-économique​ : Vieillissement démographique / Crise durable / Pression "
+"Socio-économique​ : Vieillissement démographique / Crise durable / Pression"
 "structurelle des organismes publics (CNAV-CNAM) / Taux bas"
-msgstr ""
+msgstr "Socio-economic: Demographic aging / Sustainable crisis / Structural pressure of public bodies (CNAV-CNAM) / Low rate"
 
 #: vitrine/templates/secteurs/assurance.html:76
 msgid ""
 "Réglementaire : ANI / Contrats responsables / DSN / Loi Eckert / Solvabilité "
 "II / Loi Hamon"
-msgstr ""
+msgstr "Regulatory: ANI / Contracts in charge / DSN / Loi Eckert / Solvency II / Loi Hamon"
 
 #: vitrine/templates/secteurs/assurance.html:79
 msgid ""
@@ -1515,7 +1476,7 @@ msgid ""
 "transformation impactent le secteur de l’assurance. De toute évidence, "
 "Internet en a été l’un des principaux éléments déclencheurs dans le courant "
 "des années 90."
-msgstr ""
+msgstr "At present, and probably more than ever, many transformational factors are impacting the insurance industry. Clearly, the Internet has been one of the main triggers in the 1990s."
 
 #: vitrine/templates/secteurs/assurance.html:81
 msgid ""
@@ -1527,7 +1488,7 @@ msgid ""
 "manière, la globalisation du marché, l’évolution des demandes et l’émergence "
 "de nouveaux besoins ou de nouvelles technologies sont autant de défis pour "
 "les acteurs de l’assurance."
-msgstr ""
+msgstr "The insurance sector must now face a changing environment in an increasingly complex economic and financial context. Regulatory and tax evolutions, the upsurge of catastrophic claims, the contraction of margins and competition require profound changes that your entities must grasp. In the same way, the globalization of the market, the evolution of the demands and the emergence of new needs or new technologies pose challenges for the actors of the insurance."
 
 #: vitrine/templates/secteurs/assurance.html:83
 msgid ""
@@ -1537,7 +1498,7 @@ msgid ""
 "porte sur le conseil, les services proposés, le traitement de ses demandes, "
 "la qualité de la relation, sans oublier les modalités d’achat ou de gestion "
 "de ses contrats."
-msgstr ""
+msgstr "The customer, whether private, professional or business, is more informed, more equipped and therefore much more demanding. In a word, he attaches particular importance to the added value delivered. This requirement applies to advice, the services offered, the processing of its requests, the quality of the relationship, not to mention the terms of purchase or management of its contracts."
 
 #: vitrine/templates/secteurs/assurance.html:85
 msgid ""
@@ -1545,7 +1506,7 @@ msgid ""
 "risques) sont eux-mêmes en pleine révolution avec la voiture autonome, le "
 "bâtiment intelligent, les NBIC dans l’univers de la santé. Ces évolutions "
 "peuvent bouleverser le business model de l’assurance."
-msgstr ""
+msgstr "Finally, the underlying business models of insurance (risk objects) are themselves in the midst of a revolution with the autonomous car, the intelligent building, the NBIC in the health sector. These developments can upset the business model of insurance."
 
 #: vitrine/templates/secteurs/assurance.html:101
 msgid ""
@@ -1554,7 +1515,7 @@ msgid ""
 "retours d’expériences de nos équipes mais aussi de nos missions sur des "
 "problématiques similaires. Pour chacun de ces enjeux, nous bénéficions "
 "d’expérience"
-msgstr ""
+msgstr "We support the biggest players in the insurance sector on their transformation issues. Our advice makes you benefit from feedback from our teams but also our missions on similar issues. For each of these issues, we benefit from experience"
 "We support the biggest players in the insurance sector on their "
 "transformation issues. Our advice makes you benefit from feedback from our "
 "teams but also our missions on similar issues. For each of these issues, we "
@@ -1562,31 +1523,31 @@ msgstr ""
 
 #: vitrine/templates/secteurs/assurance.html:128
 msgid "Accroître la connaissance client et valoriser la donnée"
-msgstr ""
+msgstr "Increase customer knowledge and value the data"
 
 #: vitrine/templates/secteurs/assurance.html:141
 msgid ""
 "Améliorer l’expérience client et repenser le modèle distributif (agence…)​"
-msgstr ""
+msgstr "Improve the customer experience and rethink the distributive model (agency ...)"
 
 #: vitrine/templates/secteurs/assurance.html:156
 msgid "Accroître la performance des organisations et digitaliser les processus​"
-msgstr ""
+msgstr "Increase organizational performance and digitize processes"
 
 #: vitrine/templates/secteurs/assurance.html:170
 msgid ""
 "Maîtriser les risques et faire des évolutions réglementaires des opportunités​"
-msgstr ""
+msgstr "Control risks and make regulatory changes to opportunities"
 
 #: vitrine/templates/secteurs/assurance.html:182
 msgid "Favoriser l’innovation, l’expérimentation et les cycles courts​"
-msgstr ""
+msgstr "Foster innovation, experimentation and short cycles"
 
 #: vitrine/templates/secteurs/banque.html:69
 msgid ""
 "À l’heure actuelle, outre le Brexit, le secteur bancaire français est "
 "confronté à trois défis majeurs."
-msgstr ""
+msgstr "At present, besides Brexit, the French banking sector is facing three major challenges."
 
 #: vitrine/templates/secteurs/banque.html:71
 msgid ""
@@ -1597,7 +1558,7 @@ msgid ""
 "établissements bancaires. Enfin, ses pratiques managériales s’inscrivent "
 "dans un environnement RH caractérisé par un renouvellement des générations "
 "et un cadre d’intervention particulièrement normé."
-msgstr ""
+msgstr "First, a regulatory edifice that tends to grow rich. In addition, the sector must adapt to the acceleration of transformations brought by digital technologies that come to deeply reinvent the customer journey and the setting of the internal processes of banking institutions. Finally, its managerial practices are part of an HR environment characterized by a renewal of generations and a particularly standardized intervention framework."
 
 #: vitrine/templates/secteurs/banque.html:73
 msgid ""
@@ -1608,7 +1569,7 @@ msgid ""
 "réglementations bancaires. Parmi elles : Bâle III, IFRS 9, ANACREDIT, MIF2, "
 "PRIIPs, IDD, RGPD, DSP2, Sapin II. À l’instar de celle en cours des "
 "autorités de contrôle européennes, elles sont couplées à diverses réformes."
-msgstr ""
+msgstr "Market organization, customer knowledge and information, risk management, personal data protection, insurance distribution and investment product remuneration ... The numerous compliance issues are at the source of many new banking regulations. Among them: Basel III, IFRS 9, ANACREDIT, MIF2, PRIIPs, IDD, RGPD, DSP2, Sap II. Like the current one of the European supervisory authorities, they are coupled with various reforms."
 
 #: vitrine/templates/secteurs/banque.html:75
 msgid ""
@@ -1619,7 +1580,7 @@ msgid ""
 "souhaite en effet s’en servir pour accélérer et sécuriser certains "
 "processus. C’est par exemple le cas du transfert, du stockage, des échanges "
 "et de la gestion d’actifs financiers."
-msgstr ""
+msgstr "Artificial intelligence is also serving the bank. It does this, for example, through referee robots in private banking. The year 2018 is the year of the advent of the blockchain, technology considered in the short term as an opportunity by the banks. The sector wants to use it to speed up and secure certain processes. This is for example the case of transfer, storage, exchanges and the management of financial assets."
 
 #: vitrine/templates/secteurs/banque.html:91
 msgid ""
@@ -1628,130 +1589,122 @@ msgid ""
 "aussi de proactivité. Par ailleurs, les postures et pratiques managériales, "
 "le fonctionnement en équipe ou en mode projet sont autant d’enjeux que les "
 "banques doivent relever dès maintenant"
-msgstr ""
+msgstr "At the same time, the greater volatility of the markets, the clipping, the rise of fintechs, push the sector to evolve towards more agility but also of proactivity. In addition, the postures and managerial practices, the team or project mode are all issues that banks must address now."
 
 #: vitrine/templates/secteurs/banque.html:117
 msgid "Management et Performance des Processus​"
-msgstr ""
+msgstr "Management and Process Performance"
 
 #: vitrine/templates/secteurs/banque.html:119
 msgid "Cartographie des processus"
-msgstr ""
+msgstr "Process mapping"
 
 #: vitrine/templates/secteurs/banque.html:122
 msgid "Mise en place de dispositif de management par les processus"
-msgstr ""
+msgstr "Implementation of management system by the processes"
 
 #: vitrine/templates/secteurs/banque.html:125
 msgid "Optimisation et refonte de processus et de filières"
-msgstr ""
+msgstr "Optimization and redesign of processes and sectors"
 
 #: vitrine/templates/secteurs/banque.html:128
 msgid "Démarches Lean 6 Sigma​"
-msgstr ""
+msgstr "Lean 6 Sigma steps"
 
 #: vitrine/templates/secteurs/banque.html:131
 msgid "Système d’engagements Client"
-msgstr ""
+msgstr "Customer Engagement System"
 
 #: vitrine/templates/secteurs/banque.html:146
-#, fuzzy
-#| msgid "Excellence opérationnelle"
 msgid "Efficacité Opérationnelle​"
-msgstr "Operational effectiveness"
+msgstr "Operational Efficiency"
 
 #: vitrine/templates/secteurs/banque.html:148
 msgid "Refonte de structures​"
-msgstr ""
+msgstr "Structural redesign"
 
 #: vitrine/templates/secteurs/banque.html:151
 msgid "Évolution d’organigramme siège​"
-msgstr ""
+msgstr "Evolution of headquarters organization chart"
 
 #: vitrine/templates/secteurs/banque.html:154
 msgid "Réalisation de projet de mutualisation"
-msgstr ""
+msgstr "Realization of mutualisation project"
 
 #: vitrine/templates/secteurs/banque.html:157
 msgid "Benchmark sur la performance des activités"
-msgstr ""
+msgstr "Benchmark on the performance of activities"
 
 #: vitrine/templates/secteurs/banque.html:160
 msgid "Benchmark sur les dépenses de fonctionnement​"
-msgstr ""
+msgstr "Benchmark on operating expenses"
 
 #: vitrine/templates/secteurs/banque.html:163
 msgid "Accompagnement de chantier d’économie​"
-msgstr ""
+msgstr "Accompaniment of construction site economy"
 
 #: vitrine/templates/secteurs/banque.html:179
-#, fuzzy
-#| msgid "Organisations​"
 msgid "Formation​"
-msgstr "Digitaliation"
+msgstr "Training"
 
 #: vitrine/templates/secteurs/banque.html:181
 #: vitrine/templates/secteurs/banque.html:207
 msgid "Stratégie de distribution multicanal​"
-msgstr ""
+msgstr "Multichannel distribution strategy"
 
 #: vitrine/templates/secteurs/banque.html:184
 msgid "Management de projet​"
-msgstr ""
+msgstr "Project Management"
 
 #: vitrine/templates/secteurs/banque.html:187
 msgid "Processus​"
-msgstr ""
+msgstr "Process"
 
 #: vitrine/templates/secteurs/banque.html:190
-#, fuzzy
-#| msgid "Conduite du changement"
 msgid "Accompagnement du changement​"
-msgstr "Change management"
+msgstr "Accompanying change"
 
 #: vitrine/templates/secteurs/banque.html:205
 msgid "Distribution et Efficacité de la Relation Client"
-msgstr ""
+msgstr "Distribution and Effectiveness of Customer Relationship"
 
 #: vitrine/templates/secteurs/banque.html:210
 msgid "Maillage du réseau d’agences​"
-msgstr ""
+msgstr "Mesh of the branch network"
 
 #: vitrine/templates/secteurs/banque.html:213
 msgid "Métiers commerciaux​"
-msgstr ""
+msgstr "Commercial business"
 
 #: vitrine/templates/secteurs/banque.html:216
 msgid "Parcours client"
-msgstr ""
+msgstr "Customer journey"
 
 #: vitrine/templates/secteurs/banque.html:219
 #: vitrine/templates/secteurs/banque.html:222
 msgid "Allégement des charges administratives en agence"
-msgstr ""
+msgstr "Reduction of administrative burdens in the agency"
 
 #: vitrine/templates/secteurs/banque.html:236
 msgid "Accompagnement​ Projet​"
-msgstr ""
+msgstr "Project accompaniment"
 
 #: vitrine/templates/secteurs/banque.html:238
 msgid "Construction de méthodologie projet​"
-msgstr ""
+msgstr "Project methodology construction"
 
 #: vitrine/templates/secteurs/banque.html:241
 #: vitrine/templates/secteurs/banque.html:244
-#, fuzzy
-#| msgid "Conduite du changement"
 msgid "Accompagnement du changement"
-msgstr "Change management"
+msgstr "That which accompanies change"
 
 #: vitrine/templates/secteurs/banque.html:247
 msgid "Définition et cadrage de projets complexes​"
-msgstr ""
+msgstr "Definition and framing of complex projects"
 
 #: vitrine/templates/secteurs/banque.html:250
 msgid "Direction opérationnelle de projets"
-msgstr ""
+msgstr "Operational Direction of Projects"
 
 #~ msgid ""
 #~ "Les entreprises du secteur financier mettent en œuvre les changements "
